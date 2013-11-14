@@ -1,0 +1,128 @@
+/*  
+Theme Name: Almost Spring
+Theme URI: http://beccary.com/goodies/wordpress-themes/
+Description: A two column theme. Light and simple with greens and oranges. 
+Version: 1.3
+Author: Becca Wei
+Author URI: http://beccary.com
+*/
+
+/* Basics and Typography */
+
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+
+pre {
+	font-size: 18px;
+	padding: 10px;
+	margin: 0;
+	width: 700px;
+	font-family: 'Cabin', serif;
+	overflow: auto; /*--If the Code exceeds the width, a scrolling is available--*/
+	overflow-Y: hidden;  /*--Hides vertical scroll created by IE--*/
+}
+
+body {
+
+	font-family: 'Cabin', serif;
+	color: #333;
+	text-align: left;
+	padding: 10px;
+}
+
+p {
+	line-height: 1.5em;
+	margin: 1.2em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 1.2em 0;
+	font-family: 'Lobster', serif;
+	color: #9BBB38;
+	padding: 10px;
+	 
+}
+h1, h2 {
+	font-size: 60px;
+}
+
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #E58712;
+}
+a:visited {
+	color: #B96F17;
+}
+a:hover, a:active {
+	color: #9BBB38;
+}
+
+/* Layout */
+
+#wrapper {
+	margin: 0 auto;
+	width: 750px;
+	background-color: #FFF;
+	text-align: left;
+}
+#header {
+	background-color: #F5F5E7;
+	border-bottom: 10px solid #9BBB38;
+}
+	
+/* Header Styles */
+#header h1 {
+	margin: 0;
+	font-size: 3em;
+}
+		
+
+
+}
+#footer {
+	clear: both;
+	font-size: 0.9em;
+	text-align: right;
+}
+
+/* Footer Styles */
+#footer p {
+	margin: 0;
+	padding: 10;
+	background-color: #E8E8CE; 
+	border-top: 10px solid #9BBB38;
+	font-size: 0.9em;
+	text-align: right;
+}
+
+
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.button:hover {
+	background-color:#dfdfdf;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+	
+

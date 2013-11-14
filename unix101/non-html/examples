@@ -1,0 +1,45 @@
+# Examples:
+* Basic Commands
+
+
+* Concept of Pipes
+ls | cowsay
+fortune | cowsay
+fortune | cowsay > thecow.txt
+
+* Generate 100 Directories, with a for loop
+for i in 1 2 3 4 5
+do
+   echo "Welcome $i times"
+done
+
+for i in {1..100}
+do 
+	echo "Welcome $i times"
+done
+
+for i in {1..100}
+do 
+	mkdir $i
+done
+
+
+* Login to a remote system
+ssh erik
+Show rhythynbox running on laptop. Play music
+Show tunnelling example (utrace.de)
+shutdown the system (with android)
+
+
+* Show cool examples with mail:
+** Send a mail with certain information about the filesystem
+** ls | mail -s "Contents of my home dir" caspar.wrede@gmail.com
+** Use Cowsay
+** ls | cowsay | mail -s "Contents of my home dir" caspar.wrede@gmail.com
+
+
+* Photo Manipulation
+* MP3 Manipulation
+* Text Magic: Tools 
+* Find examples
+

@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+</head><body>
+<h2>Lesson 104<br>
+</h2>
+
+<h3>Concepts we covered</h3>
+
+<ul>
+
+  <li>Commenting out lines in scripts using "#". This also works on the
+shell. Try it: put the hash in front of any command and press enter<br>
+</li>
+  <li>Using the "tar" command to manipulate archives<br>
+  </li>
+  <ul>
+    <li>Create an archive: tar cvzf archive_name.tar.gz dirname/</li>
+    <li>Extract an archive: tar xvf archive_name.tar</li>
+  </ul>
+  <li>Using "gpg" to encrypt and decrypt</li>
+  <ul>
+    <li>Encrypt: gpg -c file</li>
+    <li>Decrypt: gpg file</li>
+  </ul>
+  <li>For Loops</li>
+  <ul>
+    <li>From Wikipedia: "In computer science a for loop is a
+programming language statement which allows code to be repeatedly
+executed. A for loop is classified as an iteration statement. Unlike
+many other kinds of loops, such as the while loop, the for loop is
+often distinguished by an explicit loop counter or loop variable. This
+allows the body of the for loop (the code that is being repeatedly
+executed) to know about the sequencing of each iteration."</li>
+    <li>Example 1 (try it!):</li>
+    <ul>
+      <li>for name in matt caspar paul gerrit<br>
+do<br>
+&nbsp;&nbsp; echo "Hello $name"<br>
+done</li>
+    </ul>
+    <li>Example 2 (try it!)</li>
+    <ul>
+      <li>for temp in $(seq 1 10)<br>
+do<br>
+echo "sending $temp"<br>
+&nbsp;&nbsp; fortune | mail -s "Fortune Mail" matt@troubleshoota.net<br>
+done<br>
+      </li>
+    </ul>
+  </ul>
+</ul>
+
+<h2>Homework</h2>
+
+<ul>
+
+  <li>Create a directory homework104. Make sure it is readable only by
+you.</li>
+  <li>In this directory, create a script called fortune-maker.sh.</li>
+  <ul>
+    <li>&nbsp;The script should use a "for" loop. <br>
+    </li>
+    <li>It should take one argument, telling the script how many
+fortunes to generate.</li>
+    <li>The output should look as follows (in this case the argument was "3")<br>
+</li>
+  </ul>
+</ul>
+
+<pre>-------------------------------------<br>Fortune 1<br>In order to discover who you are, first learn who everybody else is;<br>you're what's left.<br>-------------------------------------<br>Fortune 2<br>Use a pun, go to jail.<br>-------------------------------------<br>Fortune 3<br>I can give you my word, but I know what it's worth and you don't.<br></pre>
+<pre>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; -- Nero Wolfe, "Over My Dead Body"<br></pre>
+<pre></pre>
+
+<ul>
+
+  <li>Remember your backup-homework script from unix101? Of course you
+do! We are going to improve on it now:</li>
+  <ul>
+    <li>Copy the original script to to your "scripts" directory. This
+directory should be in your path (see homework102). In other words, any
+script in this directory can be called without changing into the
+scripts directory. If this is not yet working... fix it! :-)</li>
+    <li>The backup-homework script should work as follows</li>
+    <ul>
+      <li>It should created an archive file in your backup directory
+(e.g. /home/wrede/backups).</li>
+      <li>The archive file should contain all directories in your home
+directory that begin with "homework" (i.e. /home/wrede/homework*)</li>
+      <li>The name of the file should incorporate the current date, for
+example:&nbsp; <span style="font-style: italic;">backup-2012-05-31.tar.gz</span>.
+You did something similar for the 102 homework.<br>
+      </li>
+    </ul>
+  </ul>
+</ul>
+
+<big><big><big><span style="font-weight: bold;">GOOD LUCK!!!</span></big></big></big><br>
+
+</body></html>

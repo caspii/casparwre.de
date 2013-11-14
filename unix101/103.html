@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"></head><body>
+<h2>Lesson 103<br>
+</h2>
+
+<h3>Concepts we covered</h3>
+
+<ul>
+
+  <li>Aliases: these are shortcuts you can define to call often-used
+commands.<br>
+  </li>
+  <ul>
+    <li>For example, let's assume you want to create an alias for
+printing "sausages" <br>
+    </li>
+    <li>Enter the following on the comand line: <span style="font-style: italic;">alias ilike="echo sausages"</span></li>
+    <li>This means that everytime you enter "ilike" the following
+command is carried out instead: "<span style="font-style: italic;">echo
+sausages</span>". Try it!<br>
+    </li>
+  </ul>
+  <li>User permissions: We played around with the chmod command to
+define who can access a file or directory. For example:</li>
+  <ul>
+    <li>chmod a+x <span style="font-style: italic;">filename </span>would
+give everyone ("a" means all) executable permissions<br>
+    </li>
+  </ul>
+  <ul>
+    <li>chmod u-x <span style="font-style: italic;">filename </span>would
+remove executable permissions from the currrently logged in user ("u"
+means user).</li>
+    <li>Here is a tutorial on chmod: <a href="http://catcode.com/teachmod/">http://catcode.com/teachmod/</a>
+Read it up to "chmod shortcuts".<br>
+    </li>
+  </ul>
+  <li>Redirecting text output:</li>
+  <ul>
+    <li>To create a new text file containing the output of a command do the
+following:</li>
+    <ul>
+      <li>Example: to put the output from "ls" into a file called
+"directory.txt" enter this: "ls &gt; directory.txt". Try it!</li>
+    </ul>
+    <li>This will overwrite the contents of the text file each time. To
+attach a text to the end of a file without overwriting it, use
+"&gt;&gt;" instead.</li>
+    <ul>
+      <li>Example: to put the output from running the fortune command
+into "fortunes.txt" three times in a row, enter this: "fortune &gt;&gt;
+fortunes.txt". Do it three times, then check the contents of
+"fortune.txt" with the nano or cat commands.</li>
+    </ul>
+  </ul>
+  <li>Special arguments to scripts:</li>
+  <ul>
+    <li>$1, $2, $3 etc. are special variables when used in a script.
+They are used to access arguments you pass to the script. For example:<br>
+    </li>
+    <ul>
+      <li>A script called fruits.sh is run with 2 arguments: <span style="font-style: italic;">./fruits.sh apples oranges</span></li>
+      <li>Then $1=apples and $2=oranges and can be accessed from within
+the script.</li>
+    </ul>
+    <li>Here is a nice summary (which you need to read to be able to do
+your homework): <a href="http://osr507doc.sco.com/en/OSUserG/_Passing_to_shell_script.html">http://osr507doc.sco.com/en/OSUserG/_Passing_to_shell_script.html</a></li>
+  </ul>
+  <li>The "IF" statement</li>
+  <ul>
+    <li>We created a very simple script that gave an output dependent
+on what was passed as an argument to the script.<br>
+    </li>
+    <li>Take a look at numbers.sh in /home/wrede/unix/unix103. Copy it
+to your homedirectory and play around with it. Especially important is
+the "exit" command in this script.<br>
+    </li>
+    <li>Here is a good tutorial: <a href="http://www.linuxtutorialblog.com/post/tutorial-conditions-in-bash-scripting-if-statements">http://www.linuxtutorialblog.com/post/tutorial-conditions-in-bash-scripting-if-statements</a></li>
+    <li>Read the tutorial up to (but not including) "2. Double Bracket
+Syntax"<br>
+      
+    </li>
+  </ul>
+</ul>
+
+<h2>Homework</h2>
+
+<ul>
+
+  <li>Try out the following aliases by entering them on the command
+line:</li>
+</ul>
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; alias
+la='/bin/ls -lah --color=auto'<br>
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; alias ll='ls
+-lh'<br>
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; alias ls='ls
+--color=auto'<br>
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; alias ..='cd
+..'<br>
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; alias ...='cd
+../..'<br>
+
+<ul>
+
+  <li>Make these aliases permanent by adding them to your bashrc</li>
+  <li>Create a directory called homework103 in your home directory. Use
+chmod to prevent others from accessing it and stealing your homework!
+Yes, this happens. All the time.</li>
+  <li>In your new homework directory create a script called
+"cowmaker.sh" that does the following:</li>
+  <ul>
+    <li>It requires two arguments. If it does not get two arguments the
+script should exit early with an error message.</li>
+    <li>The first argument specifies a filename. The script writes its
+output into this file.</li>
+    <li>The second argument provides a text string which is put into a
+cow and then written to a file whose name is given by the first
+argument. This text must be given in inverted commas, by the way, so
+that the script recognises it as one argument.</li>
+    <li>Example: <br>
+    </li>
+    <ul>
+      <li>Running <span style="font-style: italic;">cowmaker.sh
+outputfile.txt "I love unix almost as much as the baby jesus"</span></li>
+    </ul>
+    <ul>
+      <li>would put the text<span style="font-style: italic;"> "I love
+unix almost as much as the baby jesus" </span>into a text file called
+outputfile.txt</li>
+    </ul>
+  </ul>
+  <li>In your new homework directory create a script called "switch.sh"
+that does the following:</li>
+  <ul>
+    <li>The script is given 2 filenames and renames them so that their
+names are switched. In other words: <span style="font-style: italic;">switch.sh
+file1 file2 </span>would rename file1 to file2 and vice versa. <br>
+    </li>
+    <li>HINT: this is not as easy as it sounds. You will have to work
+with a temporary file. The steps are<br>
+    </li>
+    <ol>
+      <li>rename file1 to temp</li>
+      <li>rename file2 to file1</li>
+      <li>rename temp to file2</li>
+    </ol>
+    <li>The script requires two arguments. If it does not get two
+arguments the script should exit early with an error message. Also, if
+both arguments are the same, the script should exit with a different
+error message.<br>
+    </li>
+  </ul>
+  <li>You script cowmaker is dangerous because it can self destruct: if
+you provided "cowmaker.sh" as the filename then the script would
+overwrite itself with its own output.</li>
+  <ul>
+    <li>Make an improved version of the script called cowmaker2.sh. If
+you provide this script with a filename that already exists, it should
+exit with an error message. <br>
+    </li>
+    <li>You can do this using <span style="font-style: italic;">if [ -a filename ]</span> (read the tutorial given above for more info).</li>
+  </ul>
+</ul>
+<big><big><big><span style="font-weight: bold;">GOOD LUCK</span></big></big></big><br>
+
+</body></html>
