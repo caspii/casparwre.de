@@ -20,15 +20,21 @@ $(document).ready(function(){
 function changeFortune() {
 	clicks++;
 	console.log("clicks=" + clicks );
-	$("#fortune-btn").html("Again &raquo;");
-	$("#fortune").hide();
-	$("#fortune").html(fortunes[clicks]);
-	$("#fortune").fadeIn();
 	
-	if (clicks==fortunes.length) {
-		$("#fortune").html("Enough");
-		$("#fortune-btn").html("Sorry &raquo;");
-		$("#fortune-btn").attr("disabled", true);
-	}	
+	$("#fortune").fadeOut("fast", function() {
+		if (clicks==fortunes.length) {
+			$("#fortune").html("Enough");
+			$("#fortune-btn").html("Sorry &raquo;");
+			$("#fortune-btn").attr("disabled", true);
+			$("#fortune").fadeIn("slow");
+		} else {
+
+			$("#fortune").html(fortunes[clicks]);
+			$("#fortune").fadeIn("slow");
+	   	$("#fortune-btn").html("Again &raquo;");
+		}
+	});
+	
+	
 	
 }
