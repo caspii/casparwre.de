@@ -1,1 +1,1 @@
-rsync -av ./ b3rlin.net:/var/www/casparwre.de/
+rsync -av --exclude='.git/' --exclude='*~' ./ b3rlin.net:/var/www/casparwre.de/
