@@ -24,7 +24,7 @@ function changeFortune() {
 	$("#fortune").fadeOut("fast", function() {
 		if (clicks==fortunes.length) {
 			$("#fortune").html("Enough");
-			$("#fortune-btn").html("Sorry &raquo;");
+			$("#fortune-btn").html("OK &raquo;");
 			$("#fortune-btn").attr("disabled", true);
 			$("#fortune").fadeIn("slow");
 		} else {
