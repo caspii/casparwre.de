@@ -4,7 +4,17 @@
    Author's custom styles
    ========================================================================== */
 
+p {
+	font-size: 18px;
+}
 
+h2 {
+	font-size: 35px;
+}
+
+.navbar-brand {
+	font-size: 30px;
+}
 
 
 
