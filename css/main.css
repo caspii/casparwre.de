@@ -19,7 +19,8 @@ body {
 }
 
 .jumbotron  {
-	background: url('../images/confectionary.png'); 	
+	background: url('../images/confectionary.png');
+	margin-bottom: 0;
 }
 
 .jumbotron h1 {

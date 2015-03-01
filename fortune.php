@@ -1,7 +1,7 @@
 <?php
 	// This function returns an array of fortunes
 	header('Content-Type: application/json');
-  	$noFortunes = 5;	
+  	$noFortunes = 6;	
   	$data = array();
   
   
