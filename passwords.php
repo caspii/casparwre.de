@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Caspar von Wrede</title>
+        <title>Password generator</title>
         <meta name="description" content="Caspar von Wrede, Caspar v. Wrede, Caspar Wrede">
         <meta name="viewport" content="width=device-width">
 
@@ -14,17 +14,15 @@
                 padding-bottom: 20px;
             }
         </style>
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
+        <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="/">Caspar von Wrede</a>
+          <a class="navbar-brand" href="/">Generate new passwords online</a>
         </div>
 
       </div>
@@ -35,10 +33,9 @@
       <div class="container">
         <h1>Password Generator</h1>
         <p>
-        Treat yourself to a sensible password!
-
-		These passwords are automatically generated (server-side using the <b>pwgen</b> command). A new list is creatd each time you 
-		load the page (try pressing F5). You can choose one and use it: I won't know which one you picked!
+        Treat yourself to a sensible password! These suggestions are strong and secure yet easy to remember.<br>
+		    The passwords are automatically generated (server-side using the <b>pwgen</b> command). A new list is created each time you 
+		load the page (try pressing F5). 
         </p>
       </div>
     </div>
