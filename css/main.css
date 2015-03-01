@@ -1,5 +1,3 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -16,6 +14,17 @@ h2 {
 	font-size: 30px;
 }
 
+body {
+ background: url('../images/confectionary.png'); 
+}
+
+.jumbotron  {
+	background: url('../images/confectionary.png'); 	
+}
+
+.jumbotron h1 {
+	font-size: 50px;
+}
 
 
 
