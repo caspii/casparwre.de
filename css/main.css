@@ -27,7 +27,10 @@ body {
 	font-size: 50px;
 }
 
-
+/* For the Android Wallpapers */
+.thumbnail>img, .thumbnail a>img {
+	margin-top: 30px;
+}
 
 
 
