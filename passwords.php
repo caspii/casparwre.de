@@ -32,11 +32,11 @@
     <div class="jumbotron">
       <div class="container">
         <h1>Password Generator</h1>
-        <p>
-        Treat yourself to a sensible password! These suggestions are strong and secure yet easy to remember.<br>
-		    The passwords are automatically generated (server-side using the <b>pwgen</b> command). A new list is created each time you 
-		load the page (try pressing F5). 
-        </p>
+        <ul>
+          <li>Treat yourself to a sensible password! These suggestions are strong and secure yet easy to remember.</li>
+		      <li>The passwords are automatically generated (server-side using the <b>pwgen</b> command). </li>
+          <li>A new list is created each time you load the page (try pressing F5). </li>
+        </ul>
       </div>
     </div>
 
