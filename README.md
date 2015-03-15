@@ -8,3 +8,5 @@ Website was created using
 Server Requirements
 * PHP
 * 'fortune' package must be installed
+
+Simple local HTTP server: `$ python -m SimpleHTTPServer`
