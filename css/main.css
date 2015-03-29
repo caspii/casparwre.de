@@ -24,7 +24,7 @@ body {
 }
 
 .jumbotron h1 {
-	font-size: 50px;
+	font-size: 2.8em;
 }
 
 /* For the Android Wallpapers */
@@ -32,14 +32,15 @@ body {
 	margin-top: 30px;
 }
 
+.navbar-inverse {
+  background-color: rgba(255, 255, 255, 0.61);
+}
 
-
-
-
-
-
-
-
-
-
-
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
