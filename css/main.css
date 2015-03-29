@@ -15,11 +15,11 @@ h2 {
 }
 
 body {
- background: url('../images/confectionary.png'); 
+ background: url('../images/paper.png'); 
 }
 
 .jumbotron  {
-	background: url('../images/confectionary.png');
+	background: url('../images/paper.png');
 	margin-bottom: 0;
 }
 
