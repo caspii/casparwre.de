@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Password generator</title>
-        <meta name="description" content="Caspar von Wrede, Caspar v. Wrede, Caspar Wrede">
+        <meta name="description" content="Simple online password generator">
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -22,7 +22,7 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="/">Caspar von Wrede</a>
+          <a class="navbar-brand" href="/">Password Generator</a>
         </div>
 
       </div>
@@ -35,7 +35,7 @@
         <ul>
           <li>Treat yourself to a sensible password! These suggestions are strong and secure yet easy to remember.</li>
 		      <li>The passwords are automatically generated (server-side using the <b>pwgen</b> command). </li>
-          <li>A new list is created each time you load the page (try pressing F5). </li>
+          <li>A new list of unique suggestions is created each time you load the page (try pressing F5). </li>
         </ul>
       </div>
     </div>
