@@ -3,7 +3,7 @@ var fortunes;
 
 $(document).ready(function(){
 	
-	console.log("hello world!")
+
 	$("#fortune-btn").hide();
 		
 	// Get arrary of fortunes
