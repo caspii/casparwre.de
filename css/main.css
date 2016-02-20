@@ -8,7 +8,6 @@ body {
     margin-bottom: 100px
 }
 
-
 .navbar-brand {
 	font-size: 30px;
 }
@@ -21,16 +20,10 @@ body {
   font-size: 200%;
 }
 
-.jumbotron  {
-
-}
-
-
 /* For the Android Wallpapers */
 .thumbnail>img, .thumbnail a>img {
 	margin-top: 30px;
 }
-
 
 hr {
   border: 0;
