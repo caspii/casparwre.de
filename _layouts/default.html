@@ -21,6 +21,11 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/bower_components/bootstrap/js/collapse.js"></script>
+    {% if page.custom_js %}
+        {% for js_file in page.custom_js %}
+        <script src='/js/{{ js_file }}' type="text/javascript"></script>
+        {% endfor %}
+    {% endif %}
   </head>
   <body>
       <nav class="navbar navbar-default">
