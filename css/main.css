@@ -5,11 +5,17 @@
 body {
 	font-size: 18px;
     background: url('../images/paper.png');
-    margin-bottom: 100px
+    margin-bottom: 100px;
 }
+
+h1, h2, h3 {
+    font-family: 'Josefin Sans', serif;
+}
+
 
 .navbar-brand {
 	font-size: 30px;
+    font-family: 'Josefin Sans', serif;
 }
 
 #adblock-yes {
