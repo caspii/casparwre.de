@@ -18,11 +18,20 @@ html {
 }
 
 body {
-	background: $white;
+    background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
-  background: url('../images/paper.png'); 
+  background: url('../images/paper.png');
 }
+
+#adblock-yes {
+  font-size: 200%;
+}
+
+#adblock-no {
+  font-size: 200%;
+}
+
 
 .container {
   margin: 0 auto;
@@ -47,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
-  
+
   a {
     color: inherit;
     font-weight: 300;
@@ -150,13 +159,6 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
-//
-// .masthead
-//
-
-.wrapper-masthead {
-  margin-bottom: 50px;
-}
 
 .masthead {
   padding: 20px 0;

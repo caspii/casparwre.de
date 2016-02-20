@@ -22,12 +22,12 @@ footer-links:
   facebook: caspar
   flickr:
   github: caspii
-  instagram:
-  linkedin:
+  instagram: caspii
+  linkedin: casparwrede
   pinterest:
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  rss: "" # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: wrede
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: users/1426431/caspii # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: caspii
