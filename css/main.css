@@ -5,11 +5,9 @@
 body {
 	font-size: 18px;
     background: url('../images/paper.png');
+    margin-bottom: 100px
 }
 
-h2 {
-	font-size: 35px;
-}
 
 .navbar-brand {
 	font-size: 30px;
@@ -24,22 +22,15 @@ h2 {
 }
 
 .jumbotron  {
-	background: url('../images/paper.png');
-	margin-bottom: 0;
+
 }
 
-.jumbotron h1 {
-	font-size: 2em;
-}
 
 /* For the Android Wallpapers */
 .thumbnail>img, .thumbnail a>img {
 	margin-top: 30px;
 }
 
-.navbar-inverse {
-  background-color: rgba(255, 255, 255, 0.61);
-}
 
 hr {
   border: 0;
@@ -65,7 +56,6 @@ html {
 }
 
 footer {
-
     background-color: #f5f5f5;
     padding: 20px;
     text-align: center;
