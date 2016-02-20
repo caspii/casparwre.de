@@ -1,0 +1,40 @@
+---
+layout: default
+title: Online password generator
+description: This is my website
+custom_js:
+- password-gen.min.js
+---
+
+<!-- Fortune Jumbotron -->
+<div class="container">
+<div class="jumbotron">
+
+    <h1>Password Generator <i class="fa fa-key"></i></h1>
+    <h2>Treat yourself to a sensible password! These suggestions are strong and secure yet easy to remember.</h2>
+    <p>The passwords are automatically generated in your browser using <a href="https://github.com/bermi/password-generator">this library</a>. </p>
+    <p>A new list of unique suggestions is created each time you load the page (try pressing F5). </p>
+
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3 col-xs-6 pw-ideen1"></div>
+	<div class="col-sm-3 col-xs-6 pw-ideen2"></div>
+    <div class="col-sm-3 col-xs-6 pw-ideen3"></div>
+    <div class="col-sm-3 col-xs-6 pw-ideen4"></div>
+
+  </div>
+  </div> <!-- /container -->
+
+  <script>
+    $(function() {
+      for (var i = 0; i < 10; i++) {
+        $(".pw-ideen1").append("<li class='list-group-item'>" + generatePassword(8, false, /\w/)  +"</li>")
+        $(".pw-ideen2").append("<li class='list-group-item'>" + generatePassword(8, false, /\w/)  +"</li>")
+        $(".pw-ideen3").append("<li class='list-group-item'>" + generatePassword(8, false, /\w/)  +"</li>")
+        $(".pw-ideen4").append("<li class='list-group-item'>" + generatePassword(8, false, /\w/)  +"</li>")
+        }
+    });
+</script>
