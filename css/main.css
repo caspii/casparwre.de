@@ -2,11 +2,9 @@
    Author's custom styles
    ========================================================================== */
 
-
-
 body {
 	font-size: 18px;
-  margin-bottom: 60px;
+    background: url('../images/paper.png');
 }
 
 h2 {
@@ -15,10 +13,6 @@ h2 {
 
 .navbar-brand {
 	font-size: 30px;
-}
-
-body {
- background: url('../images/paper.png');
 }
 
 #adblock-yes {
@@ -61,11 +55,18 @@ html {
   min-height: 100%;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
+.wrapper-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #eee;
+}
+
+footer {
+
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
 }
