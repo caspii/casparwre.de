@@ -53,3 +53,7 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+h1 > a {
+    color: black
+}
