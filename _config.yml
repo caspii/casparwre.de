@@ -30,11 +30,11 @@ baseurl: ""
 #
 
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 permalink: /blog/:title/
 
 # The release of Jekyll Now that you're using
-version: v1.0.0
+version: v3.1.2
 
 # Use the following plug-ins
 gems:
