@@ -2,7 +2,29 @@
 layout: default
 title: Caspar's Website
 description: This is my personal website
+custom_js:
+- typed.custom.js
 ---
+
+<div class="container">
+    <div class="jumbotron">
+        <h2><span class="element"></span></h2>
+    </div>
+</div>
+
+<script>
+  $(function(){
+      $(".element").typed({
+        strings: [  "Welcome to my websiite.^2000",
+                    "Welcome to my webste^700",
+                    "Welcome to my webiste^100",
+                    "Welcome to my webistte^100",
+                    "Welcome to my ^1000thing.^2000",
+                    "Do click a link below.^1000 Thnx!"],
+        typeSpeed: 50
+      });
+  });
+</script>
 
 <div class="container">
     <div class="row">
