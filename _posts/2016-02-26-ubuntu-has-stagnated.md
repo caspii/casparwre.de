@@ -111,7 +111,7 @@ var data = {
 };
 var myLineChart = new Chart(ctx).Bar(data, {
     scaleShowLabels: true,
-    barValueSpacing : 6,
+    barValueSpacing : 2,
     responsive: true
 });
 
