@@ -37,6 +37,8 @@ However, one realistic conclusion in the face of this evidence is that Ubuntu pr
 
 We can only hope that the bet hasn't already been lost.
 
+(By the way, if you'd like me to analyse other mailing lists, let me know)
+
 <script>
 //-----------------
 //--Ubuntu Devel
