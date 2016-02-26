@@ -62,6 +62,7 @@ var data = {
 var myLineChart = new Chart(ctx).Bar(data, {
     scaleShowLabels: true,
     barValueSpacing : 2,
+    responsive: true
 });
 
 //-----------------
@@ -86,6 +87,7 @@ var data = {
 var myLineChart = new Chart(ctx).Bar(data, {
     scaleShowLabels: true,
     barValueSpacing : 2,
+    responsive: true
 });
 
 //-----------------
@@ -110,6 +112,7 @@ var data = {
 var myLineChart = new Chart(ctx).Bar(data, {
     scaleShowLabels: true,
     barValueSpacing : 6,
+    responsive: true
 });
 
 </script>
