@@ -29,11 +29,11 @@ Unfortunately, the picture is also bleak for the desktop mailing list. A spike c
 
 <canvas id="ubuntuDesktop" width="600" height="300"></canvas>
 
-## In summary
+## Serious Trouble?
 
 Of course, there may be other reasons for the decline in mailing list activity. For instance, developers may be using new channels these days.
 
-However, one realistic conclusion in the face of this evidence is that Ubuntu project is in serious trouble. I won't hypothesize in any detail about the causes, bar saying that the push for mobile convergence is a high stakes bet that is most certainly drawing a lot of resources.
+However, one realistic conclusion in the face of this evidence is that the Ubuntu project is in serious trouble. I won't hypothesize in any detail about the causes, bar saying that the push for mobile convergence is a high stakes bet that is most certainly drawing a lot of resources.
 
 We can only hope that the bet hasn't already been lost.
 
