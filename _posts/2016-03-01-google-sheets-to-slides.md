@@ -10,4 +10,4 @@ Anyway, I'm no Donald E. Knuth but recently I wanted to discuss a bunch of user 
 <iframe src="//giphy.com/embed/94iS62lx8CRQA" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/office-gif-us-powerpoint-gifs-94iS62lx8CRQA">via GIPHY</a></p>
 
 
-I was sure that there must be some tool to take rows in a Google Sheet and turn them into a presentation. But I was wrong (or couldn't find it). So I made [Slides2Sheets](http://trsc.github.io/sheets2slides/), a very simple webapp that turns Google Sheets into a presentation. And it didn't take me 8 years either.
+I was sure that there must be some tool to take rows in a Google Sheet and turn them into a presentation. But I was wrong (or couldn't find it). So I made [Sheets2Slides](http://trsc.github.io/sheets2slides/), a very simple webapp that turns Google Sheets into a presentation. And it didn't take me 8 years either.
