@@ -36,12 +36,15 @@ Install this font repo (you can delete it afterwards):
  `git clone git@github.com:powerline/fonts.git`
 
 Run the install script:
+
 ```
 cd fonts
 ./install.sh
 
 ```
+
 Delete the repo:
+
 ```
 cd ..
 rm -fr fonts
