@@ -1,14 +1,16 @@
 ---
 layout: post
-title: A tool to present user stories
+title: z-shell in Ubuntu    
 ---
 
-All the cool kids are using z-shell instead of bash these days. I won't go into the details here, other than saying the following:
+![_config.yml]({{ site.baseurl }}/images/2016-05-zsh.png)
+
+All the cool kids are using z-shell instead of bash these days. I won't go into details here, other than saying:
 
 * zsh has much better tab completion behavior than bash
-* it makes working with git much more pleasant and productive, such as showing the current branch you're in.
+* it makes working with git much more pleasant and productive
 
-Here's what  you need to do to install zsh, install "Oh My zsh" (a prepackaged bunch of themes and addons) and get the fonts working on Ubuntu 16.04
+Here's what you need to do to install zsh, install "Oh My zsh" (a prepackaged bunch of themes and addons) and get the fonts working on Ubuntu 16.04.
 
 ## 1. Install prerequisite packages
 
