@@ -1,3 +1,8 @@
+---
+layout: post
+title: A tool to present user stories
+---
+
 All the cool kids are using z-shell instead of bash these days. I won't go into the details here, other than saying the following:
 
 * zsh has much better tab completion behavior than bash
