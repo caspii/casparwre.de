@@ -12,6 +12,9 @@ h1, h2, h3 {
     font-family: 'Josefin Sans', serif;
 }
 
+img {
+    box-shadow: 6px 6px 10px #888888
+}
 
 .navbar-brand {
 	font-size: 30px;
