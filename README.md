@@ -1,12 +1,7 @@
 Code for casparwre.de
 ============
 
-Website was created using
-* http://www.initializr.com/
-* Theme from http://bootswatch.com/
-
-Server Requirements
-* PHP
-* 'fortune' package must be installed
-
-Simple local HTTP server: `$ python -m SimpleHTTPServer`
+# Installing Jekyll on Ubuntu
+`sudo apt-get install ruby ruby-dev make gcc nodejs`
+`sudo gem install jekyll --no-rdoc --no-ri`
+`sudo gem install github-pages --no-rdoc --no-ri`
