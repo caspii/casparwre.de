@@ -25,7 +25,7 @@ Here's what you need to do to install zsh, install [Oh-My-Zsh](http://ohmyz.sh/)
 `sudo apt install fonts-powerline`
 
 ## 5. Set up a fancy theme
-Open up ~./zshrc and change `ZSH_THEME` variable:
+Open up ~/.zshrc and change `ZSH_THEME` variable:
 
 `ZSH_THEME="agnoster"`
 
