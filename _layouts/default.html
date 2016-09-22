@@ -10,9 +10,7 @@
     <meta name="author" content="{{ site.name }}" />
     <meta name="description" content="{{ page.description }}">
     <!-- meta robots -->
-    {% if page.noindex %}
-       <meta name="robots" content="noindex" />
-    {% endif %}
+    {% if page.metatags %} <meta name="robots" content="{{page.metatags}}">{% endif %}
 
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
