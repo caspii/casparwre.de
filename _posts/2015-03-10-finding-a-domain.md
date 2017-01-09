@@ -2,7 +2,7 @@
 layout: post
 title: Using Python to find a free domain
 ---
-I made a simple Python script to create domain names from building blocks and then check if they are free. Because this script uses the system ``whois`` command, it will (probably) only run on Linux.
+I made a simple Python script to create domain names from building blocks and then check if they are free.
 
 Here's what you need to do.
 
@@ -20,7 +20,7 @@ The python script will take each prefix, combine it with every suffix and then c
 
 * ilovemoney.com
 * iloveymyself.com
- 
+
 
 ## 3. Run the script
 This is the easiest bit.
