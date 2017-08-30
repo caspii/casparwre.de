@@ -3,7 +3,7 @@ layout: post
 title: Quitting Facebook is easy. Here's how.
 ---
 
-Facebook is awful. Here's why:
+Facebook is awful.
 
 1. It chews up a vast amount of your time.
 1. It's watching you on every website you visit, all the time. It's basically a massive surveillance operation. How does it work? In short, using those innocent looking 👍 buttons that are plastered all over the web. Facebook does it to make money and it's working marvellously.
