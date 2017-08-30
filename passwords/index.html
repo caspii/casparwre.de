@@ -27,16 +27,16 @@ custom_js:
 
   </div>
   <br>
-  {% include disqus.html disqus_identifier=page.disqus_identifier %}  
+  {% include disqus.html disqus_identifier=page.disqus_identifier %}
   </div> <!-- /container -->
 
   <script>
     $(function() {
       for (var i = 0; i < 10; i++) {
-        $(".pw-ideen1").append("<li class='list-group-item'>" + generatePassword(10, false, /\w/)  +"</li>")
-        $(".pw-ideen2").append("<li class='list-group-item'>" + generatePassword(10, false, /\w/)  +"</li>")
-        $(".pw-ideen3").append("<li class='list-group-item'>" + generatePassword(10, false, /\w/)  +"</li>")
-        $(".pw-ideen4").append("<li class='list-group-item'>" + generatePassword(10, false, /\w/)  +"</li>")
+        $(".pw-ideen1").append("<li class='list-group-item'>" + generatePassword(15, false, /\w/)  +"</li>")
+        $(".pw-ideen2").append("<li class='list-group-item'>" + generatePassword(15, false, /\w/)  +"</li>")
+        $(".pw-ideen3").append("<li class='list-group-item'>" + generatePassword(15, false, /\w/)  +"</li>")
+        $(".pw-ideen4").append("<li class='list-group-item'>" + generatePassword(15, false, /\w/)  +"</li>")
         }
     });
 </script>
