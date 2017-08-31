@@ -3,7 +3,7 @@ layout: post
 title: Replacing Launchrock with Flask
 ---
 
-![_config.yml]({{ site.baseurl }}/images/2016-09-landing.png)
+!['Lovely landing page'](/images/2016-09-landing.png){:class="img-responsive"}
 
 I've being playing around with Python Flask recently and my first project is a self-hosted replacement for Launchrock. All it does is throw up a landing page and a signup form. Get the code on [GitHub](https://github.com/trsc/flask-landingpage).
 

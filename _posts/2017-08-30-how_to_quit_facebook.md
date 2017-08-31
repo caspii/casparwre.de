@@ -13,7 +13,7 @@ So you want to quit Facebook? It's simple. All you need to do is make Facebook b
 
 Open up Facebook and pick a post from someone you hardly know, or even better, don't know at all. Then click on the little down arrow in the top right of their post. Then click on **unfollow**. This way you'll never see one of their posts again -- and they won't know it 👻.
 
-![_config.yml]({{ site.baseurl }}/images/facebook_unfollow.png)
+!['Facebook Unfollow'](/images/facebook_unfollow.png){:class="img-responsive"}
 
 Do this everytime you open Facebook. It'll get harder to find unfollow candidates, but you'll still be amazed how many there are. People who annoy you, people who bore you, people you don't like, people you'll never see again, ...
 

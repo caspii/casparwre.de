@@ -3,7 +3,7 @@ layout: post
 title: Z-shell in Ubuntu 16.04   
 ---
 
-![_config.yml]({{ site.baseurl }}/images/2016-05-zsh.png)
+!['Beautiful Z-Shell'](/images/2016-05-zsh.png){:class="img-responsive"}
 
 All the cool kids are using z-shell instead of bash these days. I won't go into details here, other than saying:
 
