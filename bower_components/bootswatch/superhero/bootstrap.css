@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
 /*!
- * bootswatch v3.3.6
+ * bootswatch v3.3.7
  * Homepage: http://bootswatch.com
- * Copyright 2012-2015 Thomas Park
+ * Copyright 2012-2016 Thomas Park
  * Licensed under MIT
  * Based on Bootstrap
 */
 /*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -1110,7 +1110,6 @@ a:focus {
   text-decoration: underline;
 }
 a:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -2541,7 +2540,6 @@ select[size] {
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -3033,7 +3031,6 @@ select[multiple].input-lg {
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -6869,6 +6866,10 @@ label,
 .has-warning .form-control-feedback {
   color: #f0ad4e;
 }
+.has-warning .form-control,
+.has-warning .form-control:focus {
+  border: 4px solid #f0ad4e;
+}
 .has-warning .input-group-addon {
   border: none;
 }
@@ -6885,6 +6886,10 @@ label,
 .has-error .form-control-feedback {
   color: #d9534f;
 }
+.has-error .form-control,
+.has-error .form-control:focus {
+  border: 4px solid #d9534f;
+}
 .has-error .input-group-addon {
   border: none;
 }
@@ -6900,6 +6905,10 @@ label,
 .has-success.checkbox-inline label,
 .has-success .form-control-feedback {
   color: #5cb85c;
+}
+.has-success .form-control,
+.has-success .form-control:focus {
+  border: 4px solid #5cb85c;
 }
 .has-success .input-group-addon {
   border: none;

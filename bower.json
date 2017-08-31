@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "bootstrap-social": "~4.12.0",
-    "bootswatch": "~3.3.6+1",
+    "bootswatch": "^3.3.7",
     "typed.js": "^1.1.1"
   }
 }
