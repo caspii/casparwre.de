@@ -6,8 +6,8 @@ title: Quitting Facebook is easy. Here's how.
 Facebook is awful.
 
 1. It chews up a vast amount of your time.
-1. It's watching you on every website you visit, all the time. It's basically a massive surveillance operation. How does it work? In short, using those innocent looking 👍 buttons that are plastered all over the web. Facebook does it to make money and it's working marvellously.
-1. It's bad for you. Yes really. [You can Google it right now](https://www.google.de/search?q=is+facebook+bad+for+you).
+1. It's watching you on every website you visit, all the time. It's basically a massive surveillance operation. How does this work? In short, using those innocent looking 👍 buttons that are plastered all over the web. Facebook makes gazillions of dollars by selling what it knows about you. Read more [here](https://www.lrb.co.uk/v39/n16/john-lanchester/you-are-the-product).
+1. It's bad for your mental health. Yes really. [You can Google it right now](https://www.google.de/search?q=is+facebook+bad+for+you).
 
 So you want to quit Facebook? It's simple. All you need to do is make Facebook boring. Here's how:
 
