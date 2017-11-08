@@ -17,14 +17,14 @@
     <![endif]-->
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/bower_components/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/bower_components/bootswatch/lumen/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/bower_components/bootstrap-social/bootstrap-social.css">
-    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css" />
+    <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/node_modules/bootswatch/dist/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Josefin+Sans:600' >
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans' >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="{{ site.baseurl }}/bower_components/bootstrap/js/collapse.js"></script>
+    <script src="/node_modules/bootstrap/js/collapse.js"></script>
     {% if page.custom_js %}
         {% for js_file in page.custom_js %}
         <script src='/js/{{ js_file }}' type="text/javascript"></script>
