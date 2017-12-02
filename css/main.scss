@@ -1,14 +1,19 @@
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
 
 body {
 	font-size: 18px;
-    
-    margin-bottom: 100px;
+	margin-bottom: 100px;
+}
+
+.jumbotron {
+	background: none;
+
 }
 
 h1, h2, h3 {
+	color: grey;
     font-family: 'Josefin Sans', serif;
 }
 
