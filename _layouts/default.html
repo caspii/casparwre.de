@@ -21,12 +21,12 @@
     <link rel="stylesheet" href="/node_modules/bootswatch/dist/flatly/bootstrap.min.css">
     <link rel="stylesheet" href="/node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
-    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Josefin+Sans:600' >
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Josefin+Sans:700' >
     <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans' >
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="/node_modules/bootstrap/js/transition.js"></script>
-    <script src="/node_modules/bootstrap/js/collapse.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     {% if page.custom_js %}
         {% for js_file in page.custom_js %}
         <script src='/js/{{ js_file }}' type="text/javascript"></script>
@@ -36,27 +36,25 @@
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light rounded">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapse_me" aria-controls="collapse_me" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-header">
-              <a class="navbar-brand" href="/">@wrede</a>
-          </div>
-          <div class="collapse navbar-collapse" id="collapse_me">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="/">About me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/blog">Blog</a>
-              </li>
-            </ul>
-          </div>
-
-        </div>
-      </nav>
-
+      <!-- begin navbar -->
+      <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+        <a class="navbar-brand" href="#">@wrede</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+          <a class="nav-link" href="/">About me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/blog">Blog</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+      <!-- End navbar -->
       {{ content }}
 
     <div class="wrapper-footer">
