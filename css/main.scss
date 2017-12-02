@@ -3,7 +3,7 @@
 ---
 
 body {
-	font-size: 22px;
+	font-size: 140%;
 	margin-bottom: 100px;
 }
 
@@ -13,11 +13,12 @@ body {
 }
 
 h1, h2, h3 {
-	color: grey;
+	// color: grey;
 	font-family: 'Josefin Sans', serif;
 }
 
 .navbar-brand {
+	color: white;
 	font-size: 30px;
   font-family: 'Josefin Sans', serif;
 }
