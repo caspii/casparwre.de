@@ -7,6 +7,4 @@ title: Replacing Launchrock with Flask
 
 I've being playing around with Python Flask recently and my first project is a self-hosted replacement for Launchrock. All it does is throw up a landing page and a signup form. Get the code on [GitHub](https://github.com/trsc/flask-landingpage).
 
-Incidentally, I don't think Launchrock is very good. It failed at a critical moment when launching our new project [HelloBudget.co](http://HelloBudget.co).
-
 My next Flask project will be a web-based scoreboard, or a scorekeeper if you will. Stay tuned!
