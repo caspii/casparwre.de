@@ -8,6 +8,7 @@ metatags: noindex, follow
   {% for post in site.posts %}
     <article class="post">
 
+      <h4 class="text-muted">{{ post.date | date: "%B %e, %Y" }}</h4>
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 
       <div class="entry">
