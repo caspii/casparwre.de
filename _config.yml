@@ -37,7 +37,7 @@ permalink: /blog/:title/
 version: v3.1.2
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
 
 # Exclude these files from your production _site
