@@ -15,7 +15,6 @@ body {
 h1, h2, h3 {
 	color: grey;
 	font-family: 'Josefin Sans', serif;
-	margin-top: 30px;
 }
 
 .navbar-brand {
@@ -24,6 +23,8 @@ h1, h2, h3 {
 }
 
 .card {
+	padding: 10px;
+	margin-bottom: 20px;
 	a {
 		text-decoration: none;
 		color: black;
