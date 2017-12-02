@@ -3,7 +3,7 @@
 ---
 
 body {
-	font-size: 18px;
+	font-size: 22px;
 	margin-bottom: 100px;
 }
 
@@ -14,12 +14,24 @@ body {
 
 h1, h2, h3 {
 	color: grey;
-    font-family: 'Josefin Sans', serif;
+	font-family: 'Josefin Sans', serif;
+	margin-top: 30px;
 }
 
 .navbar-brand {
 	font-size: 30px;
-    font-family: 'Josefin Sans', serif;
+  font-family: 'Josefin Sans', serif;
+}
+
+.card {
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
+	&:hover {
+		background: lighten(#18BC9C,40%);
+	}
 }
 
 #adblock-yes {
