@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quitting Facebook is easy. Here's how.
+title: Leaving Facebook is easy. Here's how.
 ---
 
 Facebook is awful.
