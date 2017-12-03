@@ -22,30 +22,16 @@ h1, h2, h3 {
 
 .navbar-brand {
 	color: white;
-	font-size: 40px;
+	font-size: 30px;
   font-family: 'Josefin Sans', serif;
 }
 
-// .card {
-// 	padding: 10px;
-// 	margin-bottom: 20px;
-// 	a {
-// 		text-decoration: none;
-// 		color: black;
-// 	}
-//
-// 	&:hover {
-// 		background: lighten(#18BC9C,40%);
-// 	}
-// }
-
-#adblock-yes {
-  font-size: 200%;
+.navbar-nav {
+ color: white;
+ font-size: 20px;
+ font-family: 'Josefin Sans', serif;
 }
 
-#adblock-no {
-  font-size: 200%;
-}
 
 /* For the Android Wallpapers */
 .thumbnail>img, .thumbnail a>img {
