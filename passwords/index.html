@@ -8,17 +8,13 @@ custom_js:
 
 <!-- Fortune Jumbotron -->
 <div class="container">
-<div class="jumbotron">
+
 
     <h1>Password Generator <i class="fa fa-key"></i></h1>
-    <h2>Treat yourself to a sensible password!</h2>
+    <h3>Treat yourself to a sensible password!</h3>
     <p> These suggestions are strong and secure yet easy to remember. The passwords are automatically generated in your browser using <a href="https://github.com/bermi/password-generator">this library</a>.
     A new list of unique suggestions is created each time you load the page (try pressing F5). </p>
 
-  </div>
-</div>
-
-<div class="container">
   <div class="row">
     <div class="col-lg-4 col-md-12 pw-ideen1"></div>
   	<div class="col-lg-4 col-md-12 pw-ideen2"></div>
@@ -35,7 +31,7 @@ custom_js:
         $(".pw-ideen1").append("<li class='list-group-item'>" + generatePassword(15, false, /\w/)  +"</li>")
         $(".pw-ideen2").append("<li class='list-group-item'>" + generatePassword(15, false, /\w/)  +"</li>")
         $(".pw-ideen3").append("<li class='list-group-item'>" + generatePassword(15, false, /\w/)  +"</li>")
-        
+
         }
     });
 </script>
