@@ -5,10 +5,6 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
-
-    <meta name="author" content="{{ site.name }}" />
-    <meta name="description" content="{{ page.description }}">
     <!-- meta robots -->
     {% if page.metatags %} <meta name="robots" content="{{page.metatags}}">{% endif %}
 
@@ -33,11 +29,12 @@
         {% endfor %}
     {% endif %}
     <meta name="google-site-verification" content="5hPNIY_cvIoCAkAHJEd0Bzr1N5txJohoz1WS9VKS7Xc" />
+    {% seo %}
   </head>
   <body>
 
       <!-- begin navbar -->
-      <nav class="navbar navbar-expand-sm navbar-light bg-light mb-4">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light mb-4 container">
         <a class="navbar-brand" href="/">@wrede</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
