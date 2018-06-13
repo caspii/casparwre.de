@@ -3,7 +3,9 @@ layout: post
 title: One night in Heaven
 ---
 
-*Peter Stringfellows died last week. Here's what I wrote for the Imperial College student newspaper in 1999 after visiting his eponymous night club. These views are my own, albeit from 20 years ago. The world and I have changed quite a bit since then.*
+Peter Stringfellows died last week. Here's what I wrote for the Imperial College student newspaper in 1999 after visiting his eponymous night club. These views are my own, albeit from 20 years ago. The world and I have changed quite a bit since then.
+
+----
 
 Last night (17th November, 1999) I had the pleasure of spending an evening in Stringfellows, and as a result I think my life has been subtly changed.  I would like to share this experience with you because be you male or female, I refuse to believe that you don’t harbour at least some curiosity for what goes on in London’s most well-known and high-class strip-club.
 
