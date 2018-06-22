@@ -1,4 +1,4 @@
-// Superhero 4.0.0
+// Superhero 4.1.1
 // Bootswatch
 
 //
@@ -58,8 +58,13 @@ $text-muted:                  rgba(255,255,255,.4) !default;
 $table-accent-bg:             rgba($white,.05) !default;
 $table-hover-bg:              rgba($white,.075) !default;
 
-$table-dark-bg:               $gray-200 !default;
+$table-dark-bg:               $light !default;
 $table-dark-border-color:     $gray-200 !default;
+$table-dark-color:            $body-bg !default;
+
+// Forms
+
+$input-group-addon-color:           $gray-400 !default;
 
 // Dropdowns
 
@@ -116,10 +121,6 @@ $popover-bg:                        $gray-200 !default;
 
 $popover-header-bg:                 $table-hover-bg !default;
 
-// Progress bars
-
-$progress-bar-color:                $primary !default;
-
 // List group
 
 $list-group-bg:                     $gray-200 !default;
@@ -136,3 +137,7 @@ $list-group-action-hover-color:     $white !default;
 
 $breadcrumb-divider-color:          $body-color !default;
 $breadcrumb-active-color:           $body-color !default;
+
+// Code
+
+$pre-color:                         inherit !default;

@@ -1,4 +1,4 @@
-// Cosmo 4.0.0
+// Cosmo 4.1.1
 // Bootswatch
 
 //
@@ -37,15 +37,13 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 
+// Options
+
+$enable-rounded: false !default;
+
 // Body
 
 $body-color:    $gray-800 !default;
-
-// Components
-
-$border-radius:          0 !default;
-$border-radius-lg:       0 !default;
-$border-radius-sm:       0 !default;
 
 // Fonts
 
@@ -61,6 +59,10 @@ $navbar-dark-hover-color:           rgba($white,1) !default;
 
 $navbar-light-hover-color:          rgba($black,.9) !default;
 
+// Alerts
+
+$alert-border-width:                0 !default;
+
 // Progress bars
 
-$progress-height:               8px !default;
+$progress-height:               0.5rem !default;

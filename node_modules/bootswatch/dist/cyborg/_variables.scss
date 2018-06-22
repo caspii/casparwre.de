@@ -1,4 +1,4 @@
-// Cyborg 4.0.0
+// Cyborg 4.1.1
 // Bootswatch
 
 //
@@ -66,7 +66,9 @@ $table-border-color:            $gray-700 !default;
 
 $table-head-color:              $white !default;
 
-$table-inverse-color:           $white !default;
+$table-dark-bg:               $gray-500 !default;
+$table-dark-border-color:     darken($gray-500, 7.5%) !default;
+$table-dark-color:            $body-bg !default;
 
 // Buttons
 
@@ -76,7 +78,7 @@ $input-btn-padding-x:       1rem !default;
 
 $input-disabled-bg:              $gray-400 !default;
 
-$input-border-color:			 transparent !default;
+$input-border-color:             transparent !default;
 
 $input-group-addon-bg:           $gray-700 !default;
 
@@ -121,8 +123,6 @@ $jumbotron-bg:                   $gray-700 !default;
 
 // Cards
 
-$card-border-color:        $gray-700 !default;
-$card-cap-bg:              $gray-800 !default;
 $card-bg:                  $gray-700 !default;
 
 // Tooltips
@@ -163,3 +163,7 @@ $breadcrumb-bg:                 $gray-700 !default;
 
 $close-color:                 $white !default;
 $close-text-shadow:           none !default;
+
+// Code
+
+$pre-color:                         inherit !default;

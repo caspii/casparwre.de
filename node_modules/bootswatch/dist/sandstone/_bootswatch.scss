@@ -1,4 +1,4 @@
-// Sandstone 4.0.0
+// Sandstone 4.1.1
 // Bootswatch
 
 
@@ -71,7 +71,6 @@ input,
   @include box-shadow(none);
 
   &:focus {
-    // border-color: $input-border;
     @include box-shadow(none);
   }
 }
@@ -96,6 +95,7 @@ input,
   .nav-link.disabled:focus {
     background-color: $gray-200;
     border-color: $gray-300;
+    color: $nav-link-disabled-color;
   }
 }
 
@@ -152,6 +152,18 @@ input,
     text-decoration: underline;
   }
 
+  &-primary {
+    &, > th, > td {
+      background-color: $primary;
+    }
+  }
+
+  &-secondary {
+    &, > th, > td {
+      background-color: $secondary;
+    }
+  }
+
   &-success {
     &, > th, > td {
       background-color: $success;
@@ -173,6 +185,26 @@ input,
   &-warning {
     &, > th, > td {
       background-color: $warning;
+    }
+  }
+
+  &-dark {
+    &, > th, > td {
+      background-color: $dark;
+    }
+  }
+
+  &-light {
+    &, > th, > td {
+      background-color: $light;
+    }
+  }
+
+  &-light {
+    &,
+    & a:not(.btn),
+    & .alert-link {
+      color: $body-color;
     }
   }
 }

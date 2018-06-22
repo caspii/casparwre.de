@@ -1,4 +1,4 @@
-// Sketchy 4.0.0
+// Sketchy 4.1.1
 // Bootswatch
 
 
@@ -40,10 +40,6 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Neucha|Cabin+Sketch" !d
 .btn {
   border-radius: $border-radius;
   text-decoration: none;
-
-  &-warning {
-    color: $white;
-  }
 }
 
 // Typography ==================================================================
@@ -110,6 +106,17 @@ table {
   }
 }
 
+.table-dark {
+  th,
+  td,
+  &.table-hover .table-active:hover > th,
+  &.table-hover .table-active:hover > td {
+    background-color: $gray-800;
+  }
+  
+}
+
+
 // Forms =======================================================================
 
 input,
@@ -144,9 +151,10 @@ select.form-control {
   &:checked:after {
     content: "x";
     position: absolute;
-    left: 4px;
-    top: -7px;
+    left: -0.64em;
+    top: -0.48em;
     font-size: 1.5rem;
+    line-height: 0.5;
     color: $gray-800;
   }
 
@@ -218,10 +226,6 @@ select.form-control {
 
     &:last-child {
       border-bottom: none;
-    }
-
-    &:hover .list-group-item-heading {
-      color: $white;
     }
   }
 }
@@ -323,9 +327,7 @@ select.form-control {
 // Containers ==================================================================
 
 .card {
-  border-color: transparent;
   border-radius: 5px 5px 5px 5px/25px 25px 25px 5px;
-  overflow: hidden;
 
   &-outline {
     &-primary,
@@ -339,6 +341,11 @@ select.form-control {
 
   &-header {
     border-bottom-width: 2px;
+    border-color: inherit;
+
+    &:first-child {
+      border-radius: 3px 3px 0 0/23px 23px 0 0;
+    }
   }
 
   &-footer {
@@ -394,7 +401,6 @@ pre {
 .close:hover,
 .close:focus,
 .close:active {
-  position: relative;
   opacity: 1;
 
   &:before {

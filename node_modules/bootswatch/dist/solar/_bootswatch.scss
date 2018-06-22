@@ -1,4 +1,4 @@
-// Solar 4.0.0
+// Solar 4.1.1
 // Bootswatch
 
 
@@ -99,28 +99,18 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Source+Sans+Pro" !defau
     text-decoration: underline;
   }
 
-  &-primary {
-    background-color: $primary;
+  @each $color, $value in $theme-colors {
+    &-#{$color} {
+      background-color: $value;
+    }
   }
 
-  &-success {
-    background-color: $success;
-  }
-
-  &-danger {
-    background-color: $danger;
-  }
-
-  &-warning {
-    background-color: $warning;
-  }
-
-  &-info {
-    background-color: $info;
-  }
-
-  &-dark {
-    background-color: $dark;
+  &-light {
+    &,
+    & a:not(.btn),
+    & .alert-link {
+      color: $body-bg;
+    }
   }
 }
 

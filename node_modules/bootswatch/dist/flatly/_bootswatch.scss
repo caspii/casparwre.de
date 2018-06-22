@@ -1,4 +1,4 @@
-// Flatly 4.0.0
+// Flatly 4.1.1
 // Bootswatch
 
 
@@ -9,27 +9,20 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
 
 // Navbar =======================================================================
 
-.bg-dark {
-  background-color: $success !important;
-
-  &.navbar-inverse .navbar-nav .nav-link:focus,
-  &.navbar-inverse .navbar-nav .nav-link:hover {
-    color: $primary !important;
+.bg-primary {
+  .navbar-nav .active > .nav-link {
+    color: $success !important;
   }
 }
 
-.navbar {
-
-  &-brand {
-    margin-right: 2rem;
-  }
-
-  &-nav .nav-item + .nav-item {
-    margin-left: 2rem;
-  }
-
-  &-nav .nav-link {
-    padding-top: 0.5rem;
+.bg-dark {
+  background-color: $success !important;
+  &.navbar-dark .navbar-nav {
+    .nav-link:focus,
+    .nav-link:hover,
+    .active > .nav-link {
+      color: $primary !important;
+    }
   }
 }
 
@@ -121,7 +114,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
 .nav-tabs {
   .nav-link.active,
   .nav-link.active:focus,
-  .nav-link.active:hover, 
+  .nav-link.active:hover,
   .nav-item.open .nav-link,
   .nav-item.open .nav-link:focus,
   .nav-item.open .nav-link:hover {
@@ -165,31 +158,24 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
     text-decoration: underline;
   }
 
-  &-primary {
-    background-color: $primary;
+  @each $color, $value in $theme-colors {
+    &-#{$color} {
+      background-color: $value;
+    }
   }
 
-  &-success {
-    background-color: $success;
-  }
-
-  &-danger {
-    background-color: $danger;
-  }
-
-  &-warning {
-    background-color: $warning;
-  }
-
-  &-info {
-    background-color: $info;
-  }
-
-  &-dark {
-    background-color: $dark;
+  &-light {
+    &,
+    & a,
+    & .alert-link {
+      color: $body-color;
+    }
   }
 }
 
 // Progress bars ===============================================================
 
 // Containers ==================================================================
+.modal .close{
+  color: $black;
+}

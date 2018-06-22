@@ -1,4 +1,4 @@
-// Darkly 4.0.0
+// Darkly 4.1.1
 // Bootswatch
 
 //
@@ -58,10 +58,15 @@ $table-accent-bg:             $gray-800 !default;
 
 $table-border-color:          $gray-700 !default;
 
+$table-dark-bg:               $gray-500 !default;
+$table-dark-border-color:     darken($gray-500, 7.5%) !default;
+$table-dark-color:            $body-bg !default;
+
 // Forms
 
-$input-border-color:					transparent !default;
+$input-border-color:                    transparent !default;
 
+$input-group-addon-color:               $gray-500 !default;
 $input-group-addon-bg:                  $gray-700 !default;
 
 // Dropdowns
@@ -89,6 +94,12 @@ $navbar-padding-y:                  1rem !default;
 
 $navbar-dark-color:                 $white !default;
 $navbar-dark-hover-color:           $success !default;
+
+$navbar-light-color:                rgba($white,.5) !default;
+$navbar-light-hover-color:          $white !default;
+$navbar-light-active-color:         $white !default;
+$navbar-light-disabled-color:       rgba($white,.3) !default;
+$navbar-light-toggler-border-color: rgba($white,.1) !default;
 
 // Pagination
 
@@ -132,8 +143,8 @@ $modal-header-border-color:         $gray-700 !default;
 
 // Progress bars
 
-$progress-height:                   10px !default;
-$progress-font-size:                10px !default;
+$progress-height:                   0.625rem !default;
+$progress-font-size:                0.625rem !default;
 $progress-bg:                       $gray-700 !default;
 
 // List group
@@ -151,3 +162,7 @@ $breadcrumb-bg:                     $gray-700 !default;
 
 $close-color:                       $white !default;
 $close-text-shadow:                 none !default;
+
+// Code
+
+$pre-color:                         inherit !default;
