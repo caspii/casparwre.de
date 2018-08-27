@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Die atemberaubende Beschissenheit von 3D Secure bei der DKB
+lang: de
 ---
 
 Das 3D Secure Verfahren ist eine Frechheit. Es ist peinlich. Es ist absolut grotesk. Es ist ein perfektes Beispiel dafür, wie Deutsche Banken kopfüber und ahnungslos ins Verderben rennen.
