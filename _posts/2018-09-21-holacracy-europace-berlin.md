@@ -3,15 +3,15 @@ layout: post
 title: Why you should work for my employer
 ---
 
-I want to tell you a little about my current employer (a Berlin-based company) and why it’s a truly excellent place to work. I’ve been there for around 1.5 years.
+I want to tell you about my current employer (a Berlin-based company) and why it’s very unusual as well as being an excellent place to work.
 
 <div class='float-right p-3' markdown="1">
 ![Europace and Holacracy](/images/2018-09-europace_aliens.jpg)
 </div>
 
-These opinions are my own and provided of my own volition: I’m not being paid to write this, I was not told to write this, nor is there a gun pointing at my head. Also, I’m writing from the perspective of someone who’s spent their career in the (Berlin) startup world.
+I’ve been there for around 1.5 years. These opinions are my own and provided of my own volition: I’m not being paid to write this, I was not told to write this, nor is there a gun pointing at my head. Also, I’m writing from the perspective of someone who’s spent their career in the (Berlin) startup world.
 
-Let’s begin. Here’s a list of reasons why the company I work for is both very unusual and pretty awesome.
+Let’s begin.
 
 ## Self-organisation and Holacracy
 
@@ -107,6 +107,6 @@ Yes, there are perks but you don’t care about those. You care about having a j
 
 ## Are there any downsides?
 
-Yes. Everything is in german. All the way from the top to the bottom, from the job descriptions, to the meetings, to the method names in the code. 
+Yes. Everything is in german. All the way from the top to the bottom, from the job descriptions, to the meetings, to the method names in the code.
 
 If that doesn’t scare you and you want to find out more, [then click here](https://welcome.europace.de/).
