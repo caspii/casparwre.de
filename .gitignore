@@ -2,3 +2,4 @@
 staging/
 _site
 yarn-error.log
+.DS_Store
