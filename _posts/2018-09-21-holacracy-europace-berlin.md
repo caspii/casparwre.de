@@ -71,7 +71,7 @@ You should only work overtime at any company if
 
 Startups tend to ignore this too often. Recently a developer told me that during an interview at a well-known Berlin fintech they were told: “You’ll be paid for 40 hours work a week, but we expect you to work 60 hours”. He did not go and work for them.
 
-At my company people work 8 hrs a day and then go home to their family. Most employees have kids. There is a never a problem if you have to change your schedule on account of family issues, planned or unplanned. Parental leave is welcomed.
+At my company people work 8 hrs a day and then go home to their family. Most employees have kids. There is never a problem if you have to change your schedule on account of family issues, planned or unplanned. Parental leave is welcomed.
 
 <div class='float-right p-3' markdown="1">
 ![Europace and Empathy](/images/2018-09-europace_empathy.jpg)
