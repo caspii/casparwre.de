@@ -11,7 +11,7 @@ If you choose to use my Service, then you agree to the collection and use of inf
 
 ## Information Collection and Use
 
-For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information, including but not limited to IP address, device model. The information that I request will be retained on your device and is not collected by me in any way.
+For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information, including but not limited to IP address, device model. 
 
 The app does use third party services that may collect information used to identify you.
 
