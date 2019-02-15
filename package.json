@@ -1,10 +1,8 @@
 {
   "dependencies": {
-    "bootstrap": "^3.3.7",
     "bootstrap-social": "^5.1.1",
-    "bootswatch": "^4.1.1",
-    "fontawesome": "^4.7.2",
-    "jquery": "^3.3.1"
+    "bootswatch": "^4.3.1",
+    "fontawesome": "^4.7.2"
   },
   "engines": {
     "yarn": ">= 1.0.0"
