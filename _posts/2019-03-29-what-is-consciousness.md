@@ -1,12 +1,14 @@
 ---
 layout: post
-title: What is consciousness?
+title: A simple theory of consciousness
 ---
-Here is a text I originally [posted on Quora](https://www.quora.com/What-is-consciousness/answer/Caspar-Wrede).
+This is a text I originally [posted on Quora](https://www.quora.com/What-is-consciousness/answer/Caspar-Wrede).
 
-This theory is my own and is not based on any emperical evidence at all. If you find it marginally interesting then it has fulfilled its purpose.
+This theory is my own and is not based on any scientific process or emperical evidence at all. If you find it marginally interesting then it has fulfilled its purpose.
 
 ----
+
+## What is consciousness?
 
 Consciousness is an essential tool for human social interaction. It arises as a result of living in societies of individuals with complex motives.
 
