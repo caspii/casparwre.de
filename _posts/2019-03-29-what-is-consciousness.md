@@ -2,9 +2,7 @@
 layout: post
 title: A simple theory of consciousness
 ---
-This is a text I originally [posted on Quora](https://www.quora.com/What-is-consciousness/answer/Caspar-Wrede).
-
-This theory is my own and is not based on any scientific process or emperical evidence at all. If you find it marginally interesting then it has fulfilled its purpose.
+This is a text I originally [posted on Quora](https://www.quora.com/What-is-consciousness/answer/Caspar-Wrede). If you find it marginally interesting then it has fulfilled its purpose.
 
 ----
 
@@ -18,7 +16,7 @@ Due to limiting factors (e.g. time available) individuals can only be sociable w
 
 ## What is Latin good for?
 
-There are a number of mechanisms by which measuring and signaling happens, but let's look at one in particular: sending deliberately complex messages to test whether the receiver can process them correctly. A contrived example would be posting an online dating profile in, say, Latin. Maybe this is the reason why ~~Williamn Rees Mogg reproduced six times~~ language became so complex: during the course of evolution humans invented ever more grammar and synonyms to test whether their counterparts can understand them.
+There are a number of mechanisms by which measuring and signaling happens, but let's look at one in particular: sending deliberately complex messages to test whether the receiver can process them correctly. A contrived example would be posting an online dating profile in, say, Latin. Maybe this is the reason why ~~William Rees Mogg reproduced six times~~ language became so complex: during the course of evolution humans invented ever more grammar and synonyms to test whether their counterparts can understand them.
 
 Anyway, if language is just one obfuscated channel via which humans send signals, emotions are another. Just think how subtle and time-consuming it can be be to read the emotions of another individual, especially an intelligent one who may have different motives than you.
 
@@ -32,8 +30,8 @@ But an essential part is missing from Bob's model of the social world: _himself!
 
 There are several reasons why this explanation is attractive:
 
-1) It implies that we do not have direct access to our own motives. Instead, we use the tool of consciousness to find out what we feel and why. We are not in control of our emotions directly. We cannot decide what we feel. Instead, we act in a way that we hope will have a positive impact on our emotions. And this is how we deal with others too. We use consciousness to manage others and to manage ourselves.
+1. It implies that we do not have direct access to our own motives. Instead, we use the tool of consciousness to find out what we feel and why. We are not in control of our emotions directly. We cannot decide what we feel. Instead, we act in a way that we hope will have a positive impact on our emotions. And this is how we deal with others too. We use consciousness to manage others and to manage ourselves.
+2. Conscious thought is very similar to talking to another individual. We are capable of holding conversations with ourselves in our heads just as we would with a real person. It implies that communicating with others is very similar to thinking.
+3. What better way of training the tool of consciousness, improving it and, indeed, learning to use it than using it on ourselves.
 
-2) Conscious thought is very similar to talking to another individual. We are capable of holding conversations with ourselves in our heads just as we would with a real person. It implies that communicating with others is very similar to thinking.
-
-3) What better way of training the tool of consciousness, improving it and, indeed, learning to use it than using it on ourselves.
+Did that make sense? Should I be clearer somewhere? Let me know.
