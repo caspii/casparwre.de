@@ -3,7 +3,9 @@ layout: post
 title: How to quit Facebook gracefully
 ---
 
-Facebook is really really awful.
+## Facebook is really really awful.
+
+I really hate Facebook.
 
 1. It chews up too much time.
 1. It's watching you on every website you visit, all the time. It's basically a massive surveillance operation. How does this work? In short, using those innocent looking 👍 buttons that are plastered all over the web. You don't even need to interact with them. Facebook makes gazillions of dollars by giving advertises access to you based on what Facebook knows about you. Read more [here](https://www.lrb.co.uk/v39/n16/john-lanchester/you-are-the-product).

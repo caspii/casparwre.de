@@ -5,7 +5,7 @@ title: Lessons from a carpet salesman
 
 !['Carpet selling'](/images/2018-06-carpets.jpeg){:class="img-responsive"}
 
-
+### How to make a carpet
 Last week I had a sales experience I will never forget. It began like this:
 
 “You are about to receive some very important insights into an ancient industry. Please let me have your undivided attention.”
@@ -26,6 +26,8 @@ We admired some very valuable carpets. Some had over a million knots per square 
 
 As Fullmoon completed the presentation — which was probably as carefully choreographed as an international diamond heist — more men filled the room and started hovering around us. More carpet sellers.
 
+
+### How to sell a carpet
 “Which carpet do you like best?” One of them asked me. He was pleasant and didn’t seem pushy so I pointed vaguely at a carpet.
 
 “Aha, excellent choice. Let me show you some more in this style. Please follow me.”
@@ -45,5 +47,7 @@ The amazing thing was, I had actually begun toying with the idea of buying this 
 I put on a decisive expression and gently informed him that I did not want to buy a carpet. I repeated it before he could reply. Then I bowed, thanked him for his time, and left. I hurried through halls draped with treasure (carpets), peeked into even greater halls and corridors and finally found the exit.
 
 Outside, the bedraggled survivors of our group were assembling. Quite a few of them admitted that they had had bought carpets. They said as if they were admitting to a crime.
+
+### Survival
 
 It occurred to me that not only was the art of carpet making handed down from generation to generation, but that the same was true for the art of carpet selling. Our little unsuspecting group was currently being drawn into a sales machine that had been perfected for hundreds of years. We had all built up a healthy immunity to western style advertising, TV, magazines, internet banners, but we were completely helpless in the face of this ancient art.
