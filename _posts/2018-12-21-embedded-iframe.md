@@ -22,7 +22,7 @@ Here's what an embedded scoreboard looks like:
 
 <iframe height="420px" width="100%"
  scrolling="no"
-src="https://keepthescore.co/game/3SdSIAy3s_s1r?minimal=True"
+src="https://keepthescore.co/view/3SdSIAy3s_s1r?minimal=True"
 style="border:none;">
 </iframe>
 
