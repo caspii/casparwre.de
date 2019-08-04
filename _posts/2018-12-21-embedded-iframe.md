@@ -12,7 +12,7 @@ Now add the following (example) code to your page:
 ```html
 <iframe height="420px" width="100%"
  scrolling="no"
- src="https://keepthescore.co/game/3SdSIAy3s_s1r?minimal=True"
+ src="https://keepthescore.co/game/3SdSIAy3s_s1r/?minimal=True"
  style="border:none;">
 </iframe>
 ```
@@ -22,7 +22,7 @@ Here's what an embedded scoreboard looks like:
 
 <iframe height="420px" width="100%"
  scrolling="no"
-src="https://keepthescore.co/game/3SdSIAy3s_s1r?minimal=True"
+src="https://keepthescore.co/game/3SdSIAy3s_s1r/?minimal=True"
 style="border:none;">
 </iframe>
 
@@ -30,7 +30,7 @@ And here's an embedded leaderboard:
 
 <iframe height="300px" width="100%"
  scrolling="no"
-src="https://keepthescore.co/view/3SdSIAy3s_s1r?minimal=True"
+src="https://keepthescore.co/view/3SdSIAy3s_s1r/?minimal=True"
 style="border:none;">
 </iframe>
 
