@@ -1,10 +1,7 @@
 ---
 layout: page
-title: Britain believes in a fairy-tale version of its history [DRAFT]
+title: Britain believes in a fairy-tale version of its history
 lang: en
----
----
-### ⚠️Please don't share (yet).
 ---
 
 This is going to be a rant, so buckle up.
@@ -25,7 +22,7 @@ In my experience there is a distinct difference in the emotional baggage attache
 
 Some reasons that occur to me are:
 In WW1 it was much harder to identify the morally superior side. WW1 was a bar fight which European nations stumbled into with no idea what lay in store. In WW2 the villain was easy to identify.
-WW1 cost the british twice as many lives as WW2.
+WW1 cost the British twice as many lives as WW2.
 
 I think another reason is that Britain believes things about WW2 which are inaccurate or just plain wrong and that there are big gaps in the narrative. Let’s take a look.
 
@@ -33,7 +30,7 @@ Before I continue I’ll briefly take off my ranting cap and state the following
 
 ## Britain did not win the war
 
-Saying Britain won the war is like saying Ringo Starr had a hit with Hey Jude. Britain did win the war -- as a team effort. The elephant in the room is that the lion’s share of the fighting and dying was done by Soviet Russia.
+Saying Britain won the war is like saying Ringo Starr had a hit with Hey Jude. Britain did win the war -- but as a team effort. The elephant in the room is that the lion’s share of the fighting and dying was done by Soviet Russia.
 
 The USSR lost a staggering 24 million people in the struggle against Nazi Germany whilst Britain lost less than half a million. There is a misconception in Britain and the USA that WW2 happened mostly on the Western Front. It didn't. The largest theatre of war by a very large margin was the Eastern Front, where Nazi Germany battled Soviet Russia. The Eastern Front by itself would have been the largest war in history, larger than World War 1.
 
