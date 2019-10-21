@@ -3,3 +3,5 @@ staging/
 _site
 yarn-error.log
 .DS_Store
+.jekyll-cache
+node_modules
