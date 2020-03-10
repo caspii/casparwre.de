@@ -5,14 +5,14 @@ title: How to embed an online scoreboard using an iframe
 
 This is a post demonstrating how to embed a scoreboard or leaderboard using an iframe for [Keepthescore.co](https://keepthescore.co). What's quite nice is that it will update automatically without the page reloading.
 
-First of all you need to go over to <a href="https://keepthescore.co/">keepthescore.co</a> and create your scoreboard. You can do this without registering or providing an email address. Pretty cool, no?. Then grab the URL using the "Publish" button and add `?minimal=True` to the end of it.
+First of all you need to go over to [Keepthescore.co](https://keepthescore.co) and create your scoreboard. You can do this without registering or providing an email address. Pretty cool, no?. Then grab the URL using the "Publish" button.
 
 Now add the following (example) code to your page:
 
 ```html
 <iframe height="420px" width="100%"
  scrolling="no"
- src="http://keepthescore.co/board/3SdSIAy3s_s1r/?minimal=True"
+ src="http://keepthescore.co/board/3SdSIAy3s_s1r/"
  style="border:none;">
 </iframe>
 ```
@@ -22,7 +22,7 @@ Here's what an embedded scoreboard looks like:
 
 <iframe height="420px" width="100%"
  scrolling="no"
-src="https://keepthescore.co/board/3SdSIAy3s_s1r/?minimal=True"
+src="https://keepthescore.co/board/3SdSIAy3s_s1r/"
 style="border:none;">
 </iframe>
 
@@ -30,7 +30,7 @@ And here's an embedded leaderboard:
 
 <iframe height="300px" width="100%"
  scrolling="no"
-src="https://keepthescore.co/view/3SdSIAy3s_s1r/?minimal=True"
+src="https://keepthescore.co/view/3SdSIAy3s_s1r/"
 style="border:none;">
 </iframe>
 
