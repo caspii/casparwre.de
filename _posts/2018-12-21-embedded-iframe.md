@@ -12,7 +12,7 @@ Now add the following (example) code to your page:
 ```html
 <iframe height="420px" width="100%"
  scrolling="no"
- src="http://keepthescore.co/board/3SdSIAy3s_s1r/"
+ src="https://keepthescore.co/board/3SdSIAy3s_s1r/"
  style="border:none;">
 </iframe>
 ```
