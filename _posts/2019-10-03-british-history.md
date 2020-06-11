@@ -22,11 +22,10 @@ In my experience there is a distinct difference in the emotional baggage attache
 
 Some reasons that occur to me are:
 In WW1 it was much harder to identify the morally superior side. WW1 was a bar fight which European nations stumbled into with no idea what lay in store. In WW2 the villain was easy to identify.
-WW1 cost the British twice as many lives as WW2.
 
-I think another reason is that Britain believes things about WW2 which are inaccurate or just plain wrong and that there are big gaps in the narrative. Let’s take a look.
+I think another reason is that Britain believes things about WW2 which are inaccurate or just plain wrong and that there are big gaps in the narrative.
 
-Before I continue I’ll briefly take off my ranting cap and state the following: Firstly: the defeat of Nazi Germany was an unambiguously good thing. Secondly: the people of Britain made gigantic sacrifices and went to  superhuman lengths to realise that defeat. Thirdly: as a third-rate armchair theoriser I will never ever ever ever grasp the visceral experience of war or genocide. Unless it happens to me.
+Before I continue I’ll briefly take off my ranting cap and state the following: Firstly: the defeat of Nazi Germany was an unambiguously good thing. Secondly: the people of Britain made gigantic sacrifices and went to  superhuman lengths to realise that defeat. Thirdly: as a third-rate armchair theoriser I will never ever ever ever grasp the visceral experience of war or genocide.
 
 ## Britain did not win the war
 
@@ -94,13 +93,11 @@ Another jarring anachronism is the fact that war and heroism are so intertwined 
 
 I propose an alternative narrative: D-Day involved one bunch of poor bastards, young kids swept up in political circumstances utterly beyond their control, killing another bunch of poor bastards. Let’s call this the “horror narrative”.
 
-What if our aim is to do everything we can to reduce the likelihood of future war? Surely that is our aim, no? I firmly believe that a narrative of horror reduces the chance of war, whilst a narrative of heroism does the opposite. I’ll concede that once you have a war, talk of heroism may possibly have some utility, but before we get there, lets try everything -- everything!-- to prevent it.
+What if our aim is to do everything we can to reduce the likelihood of future war? Surely that is our aim? I firmly believe that a narrative of horror reduces the chance of war, whilst a narrative of heroism does the opposite. I’ll concede that once you have a war, talk of heroism may possibly have some utility, but before we get to having a war, lets try everything -- everything!-- to prevent it.
 
-A celebrated event in WW2 were the “Dam Buster” Raids, a gold-plated example of war-time heroism - mainly due to the eponymous 1950s film. The WW2  Dam Buster Raids killed 1400 people, many of them Russian Prisoners of war. That doesn't make the achievements of the pilots any less remarkable or impressive. Their experience was harrowing and the success of their mission was hard-fought and deserved, but their heroism caused death on a massive scale.
+Heroism in war is not something to aspire to. Heroism means people died. In war that may be necessary, but it shouldn't be celebrated. I’m not saying that we should forget, quite the opposite! What I’m saying is don't celebrate the deaths of human beings. I really think it is that simple. And for God's sake, stop putting up statues.
 
-Isn’t it time to concede that heroism in war is not something to aspire to? Heroism means people died. In war that may be necessary, but it shouldn't be celebrated. I’m not saying that we should forget, quite the opposite! What I’m saying is don't celebrate the deaths of human beings. I really think it is that simple.
-
-By the way, speaking of heros, 65 years ago, Alan Turing (41) killed himself. He had played a pivotal role in WWII by cracking German enigma codes, thus saving millions of lives. In thanks the British state chemically castrated him for being gay. Now they put him on a bank note, but I wonder how many people know the truth about his tragic end.
+By the way, speaking of heroes, 65 years ago, Alan Turing (41) killed himself. He had played a pivotal role in WWII by cracking German enigma codes, thus saving millions of lives. In thanks the British state chemically castrated him for being gay. Now they put him on a bank note, but I wonder how many people know the truth about his tragic end.
 
 ## Can I be proud of my country?
 
@@ -108,17 +105,17 @@ Should you be proud of your country’s history? Should the British, the French,
 
 How about being proud of the fact that you were born on the 9th March? That you were born at noon? That you were born in a leap year? It doesn’t make sense to be proud of those things,  because you had no part in them.
 
-Be proud if you were part or will be part of a struggle. Be proud if you experience persecution, inequality, discrimination. Be even more proud if you take a stand to fix these problems. But don’t be proud of the particular bit of rock that you were born on, because you had nothing to do with it.
+Be proud if you were are part of a struggle. Be proud if you experience persecution, inequality, discrimination. Be even more proud if you take a stand to fix these problems. But don’t be proud of the particular bit of rock that you were born on, because you had nothing to do with it.
 
 But what if I want to be proud of my country, because I feel a strong sense of national identity?
 
 OK, fine. But then own your country’s history. Own all of it. Don’t hold aloft the gold nuggets whilst pushing a mound of poo under the carpet. Don’t hold aloft the gold nuggets and not even be aware that you’re standing in a mound of poo. Also, take a close look at the gold nuggets and ensure that they are actually not just gold-plated poo.
 
-Britain is part of a continent that is drenched in blood. In fact, it’s the most blood-drenched continent of all. That is not something to be proud of at all. Most of that blood was shed because some people were so very proud of the particular bit of rock they were born on.
+Britain is part of a continent that is drenched in blood. In fact, it’s the most blood-drenched continent of all.
 
-How can we prevent more bloodshed? Here are some ideas (none of them my own):
-* Examine and tell the truth, however uncomfortable it may be. Don’t believe in a fairy tale.
-* Immerse yourself in the horror of war, not the glory, for that too is a fairy tale.
+How can we prevent more bloodshed? Here are some ideas:
+* Examine and tell the truth, however uncomfortable it may be.
+* Immerse yourself in the horror of war, not the glory.
 * Bind countries together with economic treaties.
 
 Actually, we already did that last thing. It’s the European Union and it has been a fantastic success: everyone is richer and we’ve had 70 years of peace. Isn't that what really matters?
