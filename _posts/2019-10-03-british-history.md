@@ -10,7 +10,7 @@ I went to school in England, from primary school all the way to higher education
 
 This is a particularly topical problem, because like any other country, Britain’s national identity is deeply informed by its history. And now we find Britain in an unholy political mess and in the act of committing an epic act of self-harm because of it.
 
-This text is a highly subjective  of what I initially learned about British history and the British world-view and how that was revised (corrected?). It was revised because I settled down in Germany and began to read more about history.
+This text is a highly subjective look at what I learned about British history and the British world-view and how that was revised (corrected?). It was revised because I settled down in Germany and began to read more about history.
 
 By the way,  I don’t pretend to be a historian so you will not find finely-balanced arguments here. This is a rant, after all.
 
