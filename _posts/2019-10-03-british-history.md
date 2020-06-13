@@ -55,7 +55,7 @@ There is no doubt that Britain was good and that Nazi Germany was evil. But Brit
 
 We’re talking about the USSR again, and it was definitely evil. Under Stalin the USSR committed some staggering crimes against humanity. To name only one, read about the [Ukrainian Genocide](https://en.wikipedia.org/wiki/Holodomor).
 
-To say that Europe was liberated in 1945 is naive. Yes, Europe was liberated from the Nazis but immediately after half of the continent was occupied by an equally terrifying totalitarian state and became communist (to get an inkling of how awful the communist occupation was, go and see the 2006 Film “The Lives of Others”). Ask a Pole, a Bulgarian, or a Hungarian whether the second world war had a happy end and you’ll get a clear no.
+To say that Europe was liberated in 1945 is naive. Yes, Europe was liberated from the Nazis but immediately after half of the continent was occupied by an equally terrifying totalitarian state and became communist (to get an inkling of how awful the communist occupation was, go and see the 2006 Film “The Lives of Others”). Ask a Pole, a Bulgarian, or a Hungarian whether the second world war had a happy end and you’ll get a clear answer: no.
 
 ## Britain’s Colonial History
 Looking back on my English schooling it boggles my mind that I was taught NOTHING about Britain’s colonial History. Zero. Nada. Not a piffle.
@@ -67,7 +67,7 @@ I left school not knowing that the country of Pakistan came into existence as a 
 
 Many parties share the blame for this debacle, but a good case can be made for laying most of it on Imperial Britain’s doorstep.
 
-Another massive gap in my historical knowledge concerns the handover of Hong Kong to the Chinese in 1997. It was all over the news when I was still in school. But had school furnished me with the background for what I was seeing on TV? Thats a big fat nope. It was Wikipedia that filled in the gaps: China ceded Hong Kong to Britain in 1841 as a result of the First Opium War which pitched Imperial Britain again China. In a nutshell Britain destabilised China by smuggling opium into the county on a massive scale, and used military force when China tried to put a stop to it. Charming!
+Another massive gap in my historical knowledge concerns the handover of Hong Kong to the Chinese in 1997. It was all over the news when I was still in school. But had school furnished me with the background for what I was seeing on TV? Thats a big fat nope. It was Wikipedia that filled in the gaps: China was forced to give Hong Kong to Britain in 1841 as a result of the First Opium War which China lost. In a nutshell Britain destabilised China by smuggling opium into the county on a massive scale, and used military force when China tried to put a stop to it. Charming!
 
 I’m not judging Britain for her actions. Im asking why was I not taught the history that matters?
 
@@ -89,11 +89,11 @@ The remembrance poppy is a perfect metaphor for Britains problems with its own h
 
 
 ## Heroism and war
-Another jarring anachronism is the fact that war and heroism are so intertwined in anglo-saxon culture. The recent 75th Anniversary of D-Day are a good example of this. The US and UK media coverage leaned heavily on the hero angle. The narrative usually goes something like this: young soldiers risked and willingly gave their lives for the cause of freedom in Europe and are heroes because of it. Let’s call this the “hero narrative”.
+Another jarring anachronism is the fact that war and heroism are so intertwined in anglo-saxon culture. The recent 75th Anniversary of D-Day is a good example of this. The US and UK media coverage leaned heavily on the hero angle. The narrative usually goes something like this: young soldiers risked and willingly gave their lives for the cause of freedom in Europe and are heroes because of it. Let’s call this the “hero narrative”.
 
 I propose an alternative narrative: D-Day involved one bunch of poor bastards, young kids swept up in political circumstances utterly beyond their control, killing another bunch of poor bastards. Let’s call this the “horror narrative”.
 
-What if our aim is to do everything we can to reduce the likelihood of future war? Surely that is our aim? I firmly believe that a narrative of horror reduces the chance of war, whilst a narrative of heroism does the opposite. I’ll concede that once you have a war, talk of heroism may possibly have some utility, but before we get to having a war, lets try everything -- everything!-- to prevent it.
+What if our aim is to do everything we can to reduce the likelihood of war? Surely that is our aim? I firmly believe that a narrative of horror reduces the chance of war, whilst a narrative of heroism does the opposite. I’ll concede that once you have a war, talk of heroism may possibly have some utility, but before we get to having a war, lets try everything -- everything!-- to prevent it.
 
 Heroism in war is not something to aspire to. Heroism means people died. In war that may be necessary, but it shouldn't be celebrated. I’m not saying that we should forget, quite the opposite! What I’m saying is don't celebrate the deaths of human beings. I really think it is that simple. And for God's sake, stop putting up statues.
 
@@ -105,15 +105,14 @@ Should you be proud of your country’s history? Should the British, the French,
 
 How about being proud of the fact that you were born on the 9th March? That you were born at noon? That you were born in a leap year? It doesn’t make sense to be proud of those things,  because you had no part in them.
 
-Be proud if you were are part of a struggle. Be proud if you experience persecution, inequality, discrimination. Be even more proud if you take a stand to fix these problems. But don’t be proud of the particular bit of rock that you were born on, because you had nothing to do with it.
+Be proud if you are part of a struggle. Be proud if you experience persecution, inequality, discrimination. Be even more proud if you take a stand to fix these problems. But don’t be proud of the particular bit of rock that you were born on, because you had nothing to do with it.
 
 But what if I want to be proud of my country, because I feel a strong sense of national identity?
 
 OK, fine. But then own your country’s history. Own all of it. Don’t hold aloft the gold nuggets whilst pushing a mound of poo under the carpet. Don’t hold aloft the gold nuggets and not even be aware that you’re standing in a mound of poo. Also, take a close look at the gold nuggets and ensure that they are actually not just gold-plated poo.
 
-Britain is part of a continent that is drenched in blood. In fact, it’s the most blood-drenched continent of all.
+Britain is part of a continent that is drenched in blood. In fact, it’s the most blood-drenched continent of all. How can we prevent more bloodshed? Here are some ideas:
 
-How can we prevent more bloodshed? Here are some ideas:
 * Examine and tell the truth, however uncomfortable it may be.
 * Immerse yourself in the horror of war, not the glory.
 * Bind countries together with economic treaties.
