@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Creating an online scoreboard with Python Flask and SQLite
+description: The simplest online scoreboard app in the world
 ---
 
 I recently wanted to learn something new and decided to make a webapp using Python Flask. Webapps are often under-appreciated next to their native cousins, especially when some kind of user collaboration is required. Not only are webapps an order of magnitude easier to implement, their usability can actually be superior to native apps in certain situations: collaboration paired with no-registration onboarding is an unbeatable combination. I think this has been wonderfully demonstrated by [Kittysplit.com](https://kittysplit.com), which I made with a bunch of friends.
