@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to embed an online scoreboard using an iframe
+canonical_url: 'https://keepthescore.co/blog/posts/embedded-online-scoreboard/'
 ---
 
 This is a post demonstrating how to embed a scoreboard or leaderboard using an iframe for [Keepthescore.co](https://keepthescore.co). What's quite nice is that it will update automatically without the page reloading.
