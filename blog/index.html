@@ -7,12 +7,10 @@ layout: default
 <div class="container">
   <h3>This is my blog</h3>
   <p>I enjoy writing about all kinds of stuff, so please don't expect any kind of common theme here.</p>
-  <hr>
-  <br>
-  <br>
+  <hr mt-5>
   {% for post in site.posts %}
 
-    <article class="post">
+    <article class="post mb-5">
 
       <h4 class="text-muted">{{ post.date | date: "%B %e, %Y" }}</h4>
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
