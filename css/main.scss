@@ -11,13 +11,14 @@ body {
 	background: none;
 }
 
-img {
-  max-width: 100%;
+p, li {
+	color: #656565;
 }
 
 h1, h2, h3 {
 	// color: grey;
 	font-family: 'Josefin Sans', serif;
+	color: black;
 }
 
 .nav-wrapper {
@@ -37,6 +38,9 @@ h1, h2, h3 {
  font-family: 'Josefin Sans', serif;
 }
 
+img {
+  max-width: 100%;
+}
 
 /* For the Android Wallpapers */
 .thumbnail>img, .thumbnail a>img {
