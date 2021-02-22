@@ -20,6 +20,11 @@ h1, h2, h3 {
 	font-family: 'Josefin Sans', serif;
 }
 
+.nav-wrapper {
+	background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+
 .navbar-brand {
 	color: white;
 	font-size: 30px;
@@ -57,7 +62,6 @@ html {
     bottom: 0;
     width: 100%;
     border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
     background-color: #eee;
 }
 
