@@ -33,7 +33,7 @@ highlighter: rouge
 permalink: /blog/:title/
 
 # The release of Jekyll Now that you're using
-version: v4.0.0
+version: v4.2.0
 
 # Use the following plug-ins
 plugins:
@@ -42,3 +42,6 @@ plugins:
 
 # Exclude these files from your production _site
 exclude: []
+
+include:
+  - node_modules
