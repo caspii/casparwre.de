@@ -1,18 +1,35 @@
 Code for casparwre.de
 ============
-# Installing Jekyll on Mac OSX
-`brew install ruby`
-`gem install github-pages --no-rdoc --no-ri`
+
+The website is generated with [Jeykll](https://jekyllrb.com/).
+
+## Setup
+
+### 1. Install Jekyll
+On Mac OSX
+```
+brew install ruby
+gem install github-pages --no-rdoc --no-ri
+```
+
+On Ubuntu
+```sudo apt-get install ruby ruby-dev make gcc nodejs
+sudo gem install jekyll --no-rdoc --no-ri
+sudo gem install github-pages --no-rdoc --no-ri
+```
+
+###  2. Install yarn
+
+See here: https://classic.yarnpkg.com/en/docs/install
+
+### 3. Install packages
+
+Run `yarn install`
 
 
-# Installing Jekyll on Ubuntu
-`sudo apt-get install ruby ruby-dev make gcc nodejs`
-`sudo gem install jekyll --no-rdoc --no-ri`
-`sudo gem install github-pages --no-rdoc --no-ri`
-
-# Updating packages
+#### Updating jekyll
 `gem update jekyll`
 
-and
+## Generating the site
 
-`npm update`
+Run jekyll with `jekyll serve` in the root directory and follow instructions.
