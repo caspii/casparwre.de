@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "bootstrap-social": "^5.1.1",
-    "bootswatch": "^4.3.1",
+    "bootswatch": "^4.6.0",
     "font-awesome": "^4.7.0"
   },
   "engines": {
