@@ -28,3 +28,8 @@ fuckadblock@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/fuckadblock/-/fuckadblock-3.2.1.tgz#17fa3237a5e15c86613406b911e608191a3e62e2"
   integrity sha1-F/oyN6XhXIZhNAa5EeYIGRo+YuI=
+
+password-generator@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/password-generator/-/password-generator-2.3.2.tgz#9626f778d64d26f7c2f73b64389407e28f62eecd"
+  integrity sha512-kJWUrdveSAqHCeWJWnv5vNc89hFHM5au+pvKja5+xCTxlRF3zQaecJlR6hSoOotAJtQ3otQq4/Q4iWc/TxsXhA==

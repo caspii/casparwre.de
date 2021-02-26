@@ -3,7 +3,8 @@
     "bootstrap-social": "^5.1.1",
     "bootswatch": "^4.6.0",
     "font-awesome": "^4.7.0",
-    "fuckadblock": "^3.2.1"
+    "fuckadblock": "^3.2.1",
+    "password-generator": "^2.3.2"
   },
   "engines": {
     "yarn": ">= 1.0.0"
