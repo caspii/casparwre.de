@@ -3,18 +3,18 @@ layout: default
 title: Adblock detector
 description: Online detector for adblocking
 custom_js:
-- fuckadblock.js
+- node_modules/fuckadblock/fuckadblock.js
 ---
 
 <div class="container">
-        <h1>Am I using an Adblocker?</h1>
-        <p>Is my adblocker currently enabled and working?</p>
+  <h1>Am I using an Adblocker?</h1>
+  <p>Is my adblocker currently enabled and working?</p>
   <div class="row">
     <div class="col-lg-12" id="adblock-yes">
-    <i class="fa fa-check-square-o"></i> Yes, you currently have an enabled ad blocker
+      <i class="fa fa-check-square-o"></i> Yes, you currently have an enabled ad blocker
     </div>
     <div class="col-lg-12" id="adblock-no">
-    <i class="fa fa-times-circle"></i> No, you do not have an adblocker or it is disabled
+      <i class="fa fa-times-circle"></i> No, you do not have an adblocker or it is disabled
     </div>
 
   </div>
@@ -26,31 +26,48 @@ custom_js:
   <br>
   <p class="text-muted">Created using <a href="http://fuckadblock.sitexw.fr/">FuckAdBlock </a></p>
   <br>
-  {% include disqus.html disqus_identifier=page.disqus_identifier %}
 
-  </div> <!-- /container -->
+</div> <!-- /container -->
 
-  <br>
+<br>
 
 
-    <script>
-        $(function() {
-          console.log("Hello world!")
-          $('#adblock-yes').hide();
-          $('#adblock-no').hide();
-          // Function called if AdBlock is not detected
-          function adBlockNotDetected() {
-            $('#adblock-no').show();
-          }
-          // Function called if AdBlock is detected
-          function adBlockDetected() {
-            $('#adblock-yes').show();
-          }
-          if(typeof fuckAdBlock === 'undefined') {
-            adBlockDetected();
-          } else {
-            fuckAdBlock.onDetected(adBlockDetected);
-            fuckAdBlock.onNotDetected(adBlockNotDetected);
-          }
-          });
-    </script>
+<script>
+  $(function() {
+    console.log("Hello world!")
+    $('#adblock-yes').hide();
+    $('#adblock-no').hide();
+    // Function called if AdBlock is not detected
+    function adBlockNotDetected() {
+      console.log("AdBlock not detected")
+      $('#adblock-no').show();
+    }
+    // Function called if AdBlock is detected
+    function adBlockDetected() {
+      console.log("AdBlock detected")
+      $('#adblock-yes').show();
+    }
+    if(typeof fuckAdBlock !== 'undefined' || typeof FuckAdBlock !== 'undefined') {
+      // If this is the case, it means that something tries to usurp are identity
+      // So, considering that it is a detection
+      adBlockDetected();
+    } else {
+      // Otherwise, you import the script FuckAdBlock
+      var importFAB = document.createElement('script');
+      importFAB.onload = function() {
+        // If all goes well, we configure FuckAdBlock
+        fuckAdBlock.onDetected(adBlockDetected)
+        fuckAdBlock.onNotDetected(adBlockNotDetected);
+      };
+      importFAB.onerror = function() {
+        // If the script does not load (blocked, integrity error, ...)
+        // Then a detection is triggered
+        adBlockDetected();
+      };
+      importFAB.integrity = 'sha256-xjwKUY/NgkPjZZBOtOxRYtK20GaqTwUCf7WYCJ1z69w=';
+      importFAB.crossOrigin = 'anonymous';
+      importFAB.src = 'https://cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js';
+      document.head.appendChild(importFAB);
+    }
+  });
+</script>
