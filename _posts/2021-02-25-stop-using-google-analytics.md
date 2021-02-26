@@ -72,9 +72,9 @@ Google is harvesting data across all of its products, so why pick on Google Anal
 
 > Google Analytics is the most popular website stats tool. More than 53% of all sites on the web track their visitors using Google Analytics. 84% of sites that do use a known analytics script use Google Analytics. It’s the most popular third-party request on the web. It accounts for 0.64% of all network requests.” -- [Plausible.io blog](https://plausible.io/blog/remove-google-analytics#its-owned-by-google-the-largest-ad-tech-company-in-the-world)
 
-When I first began to develop websites, it was a no-brainer to add Google Analytics to anything I created. It’s free! It’s good! It’s what everyone uses!
+When I first began to develop websites, it was a no-brainer to add Google Analytics to anything I created.: "It’s free! It’s good! It’s what everyone uses!"
 
-But actually it’s not that good really:
+Actually it’s not that good really:
 
 * It’s a bloated script that affects your site speed
 * It’s overkill for the majority of site owners
@@ -86,7 +86,12 @@ There are more reasons. You can read the full list [here](https://plausible.io/b
 
 Has Google ever revealed what it does with data from Analytics internally? Nope. But we don’t even need to speculate. It seems pretty obvious to me that they’re using it to guzzle up even more data and to crap out ever more gold ingots.
 
-So are there alternatives? Sure, there’s a bunch and some cost money. I think it’s money worth spending. For instance, there’s [Plausible.io](https://plausible.io) and there’s [Fathom](https://usefathom.com/ref/1VCHR3) (which I use on this blog) and a whole load of self-hosted solutions.
+So are there alternatives? Sure, there’s a bunch and some cost money. I think it’s money worth spending. For instance, there’s: 
+
+* [Plausible.io](https://plausible.io)
+* [Matomo](https://matomo.org)  
+* [Fathom](https://usefathom.com/ref/1VCHR3) (which I use on this blog)
+
 
 I believe it is a moral imperative for web developers to think about the “free” tools they are using to provide their products. In the case of Google Analytics, the tool is only very superficially free. We are all paying the hidden costs. 
 
