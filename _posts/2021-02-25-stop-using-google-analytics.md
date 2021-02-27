@@ -86,12 +86,12 @@ There are more reasons. You can read the full list [here](https://plausible.io/b
 
 Has Google ever revealed what it does with data from Analytics internally? Nope. But we don’t even need to speculate. It seems pretty obvious to me that they’re using it to guzzle up even more data and to crap out ever more gold ingots.
 
-So are there alternatives? Sure, there’s a bunch and some cost money. I think it’s money worth spending. For instance, there’s: 
+## Alternatives to Google Analytics
+So are there alternatives? Sure, there’s a bunch and some cost money. I think it’s money worth spending.
 
-* [Plausible.io](https://plausible.io)
-* [Matomo](https://matomo.org)  
-* [Fathom](https://usefathom.com/ref/1VCHR3) (which I use on this blog)
+[Here is a comprehensive and curated list](https://github.com/onurakpolat/awesome-analytics) of analytics tools, including privacy focussed analytics.
 
+I use Fathom Analytics for this blog and am switching all of my products to it. To see the analytics for this blog [click here](https://app.usefathom.com/share/folzoonq/casparwre.de) (note that is an affiliate link -- I will earn some money if you signup, you will get 10 USD off).
 
 I believe it is a moral imperative for web developers to think about the “free” tools they are using to provide their products. In the case of Google Analytics, the tool is only very superficially free. We are all paying the hidden costs. 
 
