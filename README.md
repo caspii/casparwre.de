@@ -33,3 +33,7 @@ Run `yarn install`
 ## Generating the site
 
 Run jekyll with `jekyll serve` in the root directory and follow instructions.
+
+## Resize Images from command line
+ `sips -Z 1024 money-tree.jpg` 
+ -Z Ensures aspect ratio is kept. 1024 is maximum resolution. 
