@@ -7,8 +7,6 @@ image: /images/shipwreck.jpg
 
 !['The wreck of a tech stack'](/images/shipwreck.jpg){:class="img-responsive"}
 
-
-
 Once upon a time there was a young man who lived on an island where life was simple and austere. The young man dreamed of a different life, a life on the mainland, where there were shining cities, culture, exotic ideas and adventure. He spent most of his waking hours making plans about how to get to the mainland.
 
 Many young men before him had cultivated the same dream. Many had set off on the journey across the ocean which took many months. A few had made it, sending back stories of how fantastic their new life was and how little they missed the island.
