@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'A parable about tech stacks'
+title: 'A parable about startups and tech stacks'
 description: A short story about a young man who wants to fulfill his dreams
 image: /images/shipwreck.jpg
 ---
