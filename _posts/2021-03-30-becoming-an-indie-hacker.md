@@ -54,18 +54,18 @@ My ~~garden~~ product has slowly been accumulating users ever since I put it onl
 <canvas id="scoreboards" width="300" height="200"></canvas>
 <br>
 
-In 2020 I took two months off work and added some basic monetization and then my hobby was making 400 EUR per month.  This was the point where I thought it would be a good bet to invest some serious time into . The fact that the product is (still) pretty rudimentary yet users are prepared to pay is an indication that the mythical product-market fit is close.
+In 2020 I took two months off work and [added some basic monetization](https://keepthescore.co/blog/posts/monetizing-keepthescore/). I regarded it as an experiment which turned out be successful: my hobby was suddenly making 400 EUR per month.  This was the point where I thought it would be a good bet to invest more time into it. The fact that the product is (still) pretty rudimentary yet users are prepared to pay is an indication that the mythical product-market fit is close.
 
 I find it extremely exciting to be building something and to have real users at the same time. It means I can directly talk to my customers and sometimes even integrate their feedback on the same day. It means that there is a very tight feedback loop which I find highly motivating. It is something that I have missed when working in larger teams or bigger companies: sometimes the feedback loop takes months or even years.
 
 In my old job I was a product owner. But in my new job I’ll have a multitude of roles which I'm very excited about:
  * Frontend and backend Developer (coding)
  * Product manager (deciding what gets coded)
- * UX / UI designer (deciding hot it works and looks)
- * SEO dude (ensuring search engines can find it)
- * Customer support dude (manning the helpdesk)
+ * UX / UI designer (deciding how it works and looks)
+ * SEO person (ensuring search engines can find it)
+ * Customer support person (helping users with their questions)
  * DevOps dude (where will the code live and run)
- * Marketer and advocate for the product (writing copy etc.)
+ * Marketer and advocate for the product (writing copy, blog articles etc.)
 
 Will keepthescore.co be my only product? I’m not sure yet. I will prototype and validate some other ideas in the next 12 months, so that I don’t have all my eggs in one basket. But more on that another time.
 
