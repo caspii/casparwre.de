@@ -9,7 +9,7 @@ The website is generated with [Jeykll](https://jekyllrb.com/).
 On Mac OSX
 ```
 brew install ruby
-gem install github-pages --no-rdoc --no-ri
+gem install github-pages
 ```
 
 On Ubuntu
