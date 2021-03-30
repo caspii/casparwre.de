@@ -34,7 +34,7 @@ I am convinced that more and more of these indie companies are going to be creat
 Some examples of this are: 
 
  * a decade ago, you would have required a whole team working many weeks to enable payment via credit card for an online business. These days it can be done in a couple of days using [Stripe](https://stripe.com/).
- * In the "olden days" of the internet, you needed to buy a server to send emails. You then needed to hire someone to run that server, to update its software, ensure the hard-disk didn't fill up. Today you pay a company like [Sendgrid](https://sendgrid.com/) to do it all for you.
+ * In the "olden days" of the internet, you needed to buy a server to send emails. You  needed to hire someone to run that server, to update its software, setup a spam filter, ensure the hard-disk didn't fill up and do a bunch of more stuff. Today you pay a company like [Sendgrid](https://sendgrid.com/) to do it all for you.
  * A more general example of this is the rise of "the cloud". Before the cloud, every online business was in the business of running and maintaining servers. If the business was expecting a large influx of users, it would have to plan ahead and buy new servers. It would have to install software on those servers, provide them with power and hook them up to the network. All of that work was done by expensive humans. These days, servers are virtual and are run in gigantic data centers. Creating a new server can be done with a click. The work is done by robots.
 
 Today, it is possible for one person to build an online business at scale, servings hundreds of millions of customers. A few years ago that would have been impossible.
