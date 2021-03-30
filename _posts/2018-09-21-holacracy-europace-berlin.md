@@ -5,10 +5,6 @@ title: Why you should work for my employer
 
 I want to tell you about my current employer (a Berlin-based company) and why it’s very unusual as well as being an excellent place to work.
 
-<div class='float-right p-3' markdown="1">
-![Europace and Holacracy](/images/2018-09-europace_aliens.jpg)
-</div>
-
 I’ve been there for around 1.5 years. These opinions are my own and provided of my own volition: I’m not being paid to write this, I was not told to write this, nor is there a gun pointing at my head. Also, I’m writing from the perspective of someone who’s spent their career in the (Berlin) startup world.
 
 Let’s begin.
@@ -72,10 +68,6 @@ You should only work overtime at any company if
 Startups tend to ignore this too often. Recently a developer told me that during an interview at a well-known Berlin fintech they were told: “You’ll be paid for 40 hours work a week, but we expect you to work 60 hours”. He did not go and work for them.
 
 At my company people work 8 hrs a day and then go home to their family. Most employees have kids. There is never a problem if you have to change your schedule on account of family issues, planned or unplanned. Parental leave is welcomed.
-
-<div class='float-right p-3' markdown="1">
-![Europace and Empathy](/images/2018-09-europace_empathy.jpg)
-</div>
 
 ## What about tech? Processes? Tools?
 The company has some ancient tech and some very fancy tech, with everything in between.
