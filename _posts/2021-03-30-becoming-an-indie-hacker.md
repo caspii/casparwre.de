@@ -72,7 +72,7 @@ One of my many favorite quotes goes like this:
 
 > “We have two lives, and the second begins when we realize we only have one” – Confucius.
 
-My second life began on the 16th March, 2020 when my mother unexpectedly died. It caused me to reassess what I cared about and what I didn’t care about. I realised that I spent a lot of time on things I didn’t really care about. 
+My second life began on the 16th March, 2020 when my mother unexpectedly died. My father had died of cancer three years earlier. It caused me to radically reassess what I cared about and what I didn’t care about. I realised that I spent a lot of time on things I didn’t really care about.  
 
 I decided to shovel that time across to things I did care about. I decided to not put off big things for later … because later I could be dead. I decided to spend more time with my family and kids. Because my kids are young and I am the sun in their solar system and this time is never ever coming back. 
 
