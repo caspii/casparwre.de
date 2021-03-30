@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I'm quitting my job to build an online business
+title: Why I'm quitting my job to build an online business
 description: Why I want to start a small online business
 image: /images/nebelmeer.jpg
 custom_js:
