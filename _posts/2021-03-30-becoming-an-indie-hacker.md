@@ -37,7 +37,7 @@ Some examples of this are:
  * In the "olden days" of the internet, you needed to buy a server to send emails. You  needed to hire someone to run that server, to update its software, setup a spam filter, ensure the hard-disk didn't fill up and do a bunch of more stuff. Today you pay a company like [Sendgrid](https://sendgrid.com/) to do it all for you.
  * A more general example of this is the rise of "the cloud". Before the cloud, every online business was in the business of running and maintaining servers. If the business was expecting a large influx of users, it would have to plan ahead and buy new servers. It would have to install software on those servers, provide them with power and hook them up to the network. All of that work was done by expensive humans. These days, servers are virtual and are run in gigantic data centers. Creating a new server can be done with a click. The work is done by robots.
 
-Today, it is possible for one person to build an online business at scale, servings hundreds of millions of customers. A few years ago that would have been impossible.
+Today, it is possible for one person to build an online business at scale, serving hundreds of millions of customers. A few years ago that would have been impossible.
 
 This trend will only accelerate. I would speculate that every large software business that is over 20 years old is at risk that it will be replaced by a smaller and cheaper competitor. This is a race to the bottom, meaning that many of these companies will eventually be replaced by a team of one person!
 
