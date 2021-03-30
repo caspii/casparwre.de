@@ -9,9 +9,7 @@ custom_js:
 
 !['Nebelmeer'](/images/nebelmeer.jpg){:class="img-responsive"}
 
-I’m quitting a [good job](/blog/holacracy-europace-berlin/) to go it alone: I want to build an online product that can generate revenue. Hopefully it will become a sustainable business. 
-
-In this article I’m going to dig into the reasons why, what my goals are and the business itself.
+I’m quitting a [good job](/blog/holacracy-europace-berlin/) to go it alone: I want to build an online product that can generate revenue. Hopefully it will become a sustainable business.
 
 ## Why am I doing this?
 
