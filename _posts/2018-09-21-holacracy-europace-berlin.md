@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why you should work for my employer
+description: Europace is a tech company using Holacracy in Berlin.
 ---
 
 I want to tell you about my current employer (a Berlin-based company) and why it’s very unusual as well as being an excellent place to work.
@@ -41,9 +42,6 @@ New employees at my company have a mountain to climb when it comes to acquiring 
 * There are employees with deep domain knowledge that are willing to teach (these people are often missing in a startup)
 * There is easy access to courses, training, and  conferences.
 * There is a culture of trust
-
-I began learning on day 1 and am sure I’ll still be learning 5 years from now.
-Are you still learning?
 
 ## It’s a grown up business
 The company has found its business model and is doing pretty well. What this means is that:
