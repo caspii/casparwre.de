@@ -45,9 +45,9 @@ But back to me and my business. I want to build a software that runs on a centra
 
 ## So what is the product?
 
-For the next 12 months I’m going to concentrate on an online scoreboard called [keepthescore.co](https://keepthescore.co/). I originally built it 4 years ago as a toy project and have been improving it ever since. Up to now it was a hobby project that I tended like others may tend a garden. There's a great blog post [exploring this metaphor](https://herman.bearblog.dev/my-product-is-my-garden/).
+For the next 12 months I’m going to concentrate on an online scoreboard called [keepthescore.co](https://keepthescore.co/). I originally built it 4 years ago as a toy project and have been improving it ever since. Up to now it was a hobby project that I tended like others may tend a garden. There's a great blog post exploring [this metaphor here](https://herman.bearblog.dev/my-product-is-my-garden/).
 
-My ~~garden~~ product has slowly been accumulating users ever since I put it online. Here is a graph of the scoreboards created per month since I put the product online.
+My ~~garden~~ product has slowly been accumulating users ever since I created it. Here is a graph of the scoreboards created per month since I put the product online. I have done zero marketing, all growth has been totally organic.
 
 <canvas id="scoreboards" width="300" height="200"></canvas>
 <br>
