@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
   <title>Lorem Ipsum Generator</title>
 </head>
 
@@ -96,5 +96,22 @@
   });
 
   addPara();
+
+  let height;
+
+  const sendPostMessage = () => {
+    if (height !== document.getElementById('container').offsetHeight) {
+      height = document.getElementById('container').offsetHeight;
+      window.parent.postMessage({
+        frameHeight: height
+      }, '*');
+      console.log(height);
+    }
+  }
+
+  window.onload = () => sendPostMessage();
+  window.onresize = () => sendPostMessage();
+  document.getElementById('add-para').onclick = () => sendPostMessage();
+  document.getElementById('remove-para').onclick = () => sendPostMessage();
 
 </script>
