@@ -15,8 +15,8 @@ This is a post demonstrating how to embed a scoreboard or leaderboard using an i
 
 Here's what an embedded scoreboard looks like:
 
-<iframe id="iframe-3SdSIAy3s_s1r" src="http://keepthescore.co/embed/3SdSIAy3s_s1r" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
+<iframe id="iframe-3SdSIAy3s_s1r" src="https://keepthescore.co/embed/3SdSIAy3s_s1r" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
 
 Here's what a leaderboard looks like. It also has some custom colours, just because.
 
-<iframe id="iframe-yodpwvaeapr" src="http://keepthescore.co/embed/yodpwvaeapr" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
+<iframe id="iframe-yodpwvaeapr" src="https://keepthescore.co/embed/yodpwvaeapr" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
