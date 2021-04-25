@@ -6,33 +6,17 @@ canonical_url: 'https://keepthescore.co/blog/posts/embedded-online-scoreboard/'
 
 This is a post demonstrating how to embed a scoreboard or leaderboard using an iframe for [Keepthescore.co](https://keepthescore.co). What's quite nice is that it will update automatically without the page reloading.
 
-First of all you need to go over to [Keepthescore.co](https://keepthescore.co) and create your scoreboard. You can do this without registering or providing an email address. Pretty cool, no?. Then grab the URL using the "Publish" button.
-
-Now add the following (example) code to your page:
-
-```html
-<iframe height="440px" width="100%"
- scrolling="no"
- src="https://keepthescore.co/board/3SdSIAy3s_s1r/"
- style="border:none;">
-</iframe>
-```
+1. First of all you need to go over to [Keepthescore.co](https://keepthescore.co) and create your scoreboard. You can do this without registering or providing an email address. Pretty cool, no?
+2. Click the "Share" button at the top of your scoreboard.
+3. Click the copy button next to the embed code.
+4. Paste the code into your page (e.g. Wordpress, Wix, Square, etc.)
+5. That's it!
 
 
 Here's what an embedded scoreboard looks like:
 
-<iframe height="420px" width="100%"
- scrolling="no"
-src="https://keepthescore.co/board/3SdSIAy3s_s1r/"
-style="border:none;">
-</iframe>
+<iframe id="iframe-3SdSIAy3s_s1r" src="http://keepthescore.co/embed/3SdSIAy3s_s1r" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
 
-And here's an embedded leaderboard:
+Here's what a leaderboard looks like. It also has some custom colours, just because.
 
-<iframe height="300px" width="100%"
- scrolling="no"
-src="https://keepthescore.co/view/3SdSIAy3s_s1r/"
-style="border:none;">
-</iframe>
-
-If you have feedback then <a href="mailto:caspar.wrede@gmail.com">write me a mail</a>.
+<iframe id="iframe-yodpwvaeapr" src="http://keepthescore.co/embed/yodpwvaeapr" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
