@@ -21,6 +21,3 @@ Here's what a leaderboard looks like. It also has some custom colours, just beca
 
 <iframe id="iframe-yodpwvaeapr" src="https://keepthescore.co/embed/yodpwvaeapr/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
 
-Further test
-
-<iframe id="iframe-fnphzoapfer" src="https://keepthescore.co/embed/fnphzoapfer/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
