@@ -34,7 +34,6 @@ version: v4.2.0
 
 # Use the following plug-ins
 plugins:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-seo-tag
 
 # Exclude these files from your production _site
