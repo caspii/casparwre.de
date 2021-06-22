@@ -1,15 +1,7 @@
-#
-# This file contains configuration flags to customize your site
-#
-
 # Name of your site (displayed in the header)
 name: Caspar von Wrede
 #
-# Flags below are optional
-#
-
-# Your disqus shortname, entering this will enable commenting on posts
-disqus: caspii
+# Flags below are optional#
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
