@@ -2,6 +2,8 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+@import url(emacs.css);
+
 body {
 	font-size: 140%;
 	margin-bottom: 100px;
@@ -18,8 +20,17 @@ p, li {
 }
 
 h1, h2, h3 {
-	// color: grey;
-	font-family: 'Josefin Sans', serif;
+  // color: grey;
+  font-family: 'Josefin Sans', serif;
+}
+
+h2, h3{
+  padding-top: 40px;
+}
+
+.highlight {
+  font-size: 80%;
+  padding: 5px;
 }
 
 blockquote {
