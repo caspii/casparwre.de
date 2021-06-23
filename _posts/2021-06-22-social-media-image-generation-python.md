@@ -134,6 +134,6 @@ On my app, I used the following Jinja2 code to produce the correct link to my de
 
 The really pleasant thing about this microservice is that neither performance nor reliability are that important. Performance-wise, the generated social media images are requested asyncronously, so it doesn't matter (too much) if the response is slow. Reliability-wise, if the service goes down no critical part of my app is affected. I can live with no social media image on links for a few hours or even days.
 
-As far as the price goes, Google Cloud Run is much cheaper than the DigitalOcean Apps platform. Although I don't have the data yet, I predict a container with 2GB ram running for 1 month will cost around 5 USD. That's frankly amazing.
+As far as the price goes, Google Cloud Run is much cheaper than the DigitalOcean Apps platform. Although I don't have the data yet, I predict a container with 4 GB ram running for 1 month will cost around 5 USD. That's frankly amazing.
 
 Anyway, that’s all for now 👋. Follow me [on Twitter](https://twitter.com/wrede) to keep updated.
