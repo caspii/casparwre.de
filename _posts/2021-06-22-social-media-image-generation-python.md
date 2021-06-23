@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Python Flask and Docker to generate social media images for any website
+title: Using Python and Docker to generate social images for any website
 description: How to turbo-charge your social media presence with Python, Docker and Google Cloud Platform
 image: /images/automatic.jpg
 
