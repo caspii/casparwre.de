@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Using Python Flask to generate social media images for any website
+title: Using Python Flask and Docker to generate social media images for any website
 description: How to turbo-charge your social media presence with Python, Docker and Google Cloud Platform
-image: /images/seo-backlinks.png
+image: /images/automatic.jpg
 
 ---
 
-In today's attention economy you need to stand out when you post your content on social media: that means having some kind of image as part of the package. This is easy if you're sharing a blog post with photos (or other images) because you can setup your system to use one of these photos. But what if you're sharing content that doesn't come with a pre-made image baked in?
+In today's attention economy you need to stand out when you post your content on social media: that means having some kind of image as part of the package. This is easy if you're sharing a blog post with photos (or other images) because you can setup your system to use one of these photos. But what if you're sharing content that doesn't come with a pre-made image?
 
-This is a problem I was facing. I'm building an [online scoreboard and leaderboard app](https://keethescore.co) whose content regularly gets shared on Twitter, Facebook and elswhere. However, these leaderboards do not come with images: they are HTML and CSS. How to do I ensure they always have an image to use on social media?
+This is a problem I was facing. I'm building an [online scoreboard and leaderboard app](https://keethescore.co) whose content regularly gets shared on Twitter, Facebook and elswhere. However, these leaderboards do not come with images: they are HTML and CSS. How to do I ensure they always have an image to use on social media without resorting to something generic?
 
 ## Summary
 
-In this post I'll dig into the problem of social media images a little more. Why do you need them and how do they work.
+In this post I'll dig into the topic of social media images a little more. Why do you need them and how do they work.
 
-Then I'll present the solution I built: a few lines of Python code (using the Flask framework), running inside a Docker container, on Google Cloud Run, which is a container service.
+Then I'll present the solution I built: a few lines of Python code (using the Flask framework), running inside a Docker container (on Google Cloud Run,  a container service).
 
 The whole thing is capable of generating a social media preview image for **any** given webpage/URL and is pretty much a "set and forget" solution.
 
@@ -44,7 +44,9 @@ In both cases, the automated systems at Twitter will have crawled the link once 
 
 For this to work, you need to add the appropriate metadata to the HTML of your content. This is all part of something called "open graph" metdadata and you can read all about it [here on css-tricks.com](https://css-tricks.com/essential-meta-tags-social-media/). Today we are concerned with the images, which are also the hardest part. The HTML code that I added for my blog post above is this:
 
-`<meta property="og:image" content="https://casparwre.de/images/nebelmeer.jpg" />`
+```html 
+<meta property="og:image" content="https://casparwre.de/images/nebelmeer.jpg" />
+```
 
 The nice thing is that this will also work for Facebook, iMessage, Slack, Telegram, WhatsApp and probably for most places where you're posting links that are visible to other people. In all of these places the content will be crawled, the metadata extracted and then used to make the post iteself look nicer ✨. Isn't that something that we all want?
 
@@ -52,7 +54,7 @@ The nice thing is that this will also work for Facebook, iMessage, Slack, Telegr
 
 As I mentioned above, if your content is mainly blog posts, then the chances are high that you already have an image per blog post -- which you can  use as a social media image.
 
-In the case of my app, [Keepthescore.co](https://keepthescore.co), these images don't exist, so I decided I wanted to generate them on demand. Basically I decided to use a screenshot of the particular scoreboard as the social media image. 
+In the case of my app, [Keepthescore.co](https://keepthescore.co), these images don't exist, so I decided I wanted to generate them on demand.  I decided to basically use a screenshot of the particular scoreboard as the social media image. 
 
 Now it is absolutely correct that there are already a vast number of screenshot APIs and services out there and I could have used any one to solve my problem instantly.
 
@@ -76,7 +78,7 @@ The first thing I tried was to add a route to my Python Flask application for re
 
 This actually worked great ... until it didn't.
 
-My app began to have downtimes in the middle of the night (when else?) because some actor was fetching their social media images in batches. This resulted in the app becoming very busy cooking up all these beautiful images and not having time for regular boring requests. The result was timeouts for my users. Now this was obviously not acceptable and with a heavy heart I changed the route to deliver a static image instead.
+My app began to have downtimes in the middle of the night (when else?) because some actor was fetching their social media images in batches. This resulted in the app becoming very busy cooking up all these beautiful images and not having time for regular boring requests. The result was timeouts for my users. Now this was obviously not acceptable and with a heavy heart I changed the route to deliver a generic static image instead.
 
 I began to think about a better solution.
 
@@ -88,31 +90,45 @@ After some very rudimentary testing it turned out that Google Cloud Run was the 
 
 Also, because I've currently got my tent in the Python camp, I wanted to go with Python. However, if you research this topic it seems that Pupeteer is the way to go for most people (which is Javacript / Node.js I believe).
 
-So, the hard part was not generating the image. The actual Flask code to generate the image itself is only 10 lines:
+So, the hard part was not generating the image. The actual Flask code to generate the image itself is only 11 lines:
 
 ```python
-@app.route('/<token>.png')
-def preview_image(token):
-    """
-    Returns an image (PNG) of the given scoreboard, so that it can be shown 
-    on social media as a preview
-    """
+app = Flask(__name__)
+browser = Browser('firefox', headless=True)
 
-    url = f'https://keepthescore.co/board/{token}/'
+@app.route('/image/<path:encoded_url>.png')
+def generate_image(encoded_url):
+    """
+    Returns an image (PNG) of a URL. The URL is encoded in the path of the image being requested.
+    """
+    url_to_fetch = urllib.parse.unquote_plus(encoded_url)
+    app.logger.debug(f'Generating preview for {url_to_fetch}')
     browser.driver.set_window_size(1200, 630)
-    browser.visit(url)
-    app.logger.info(f'Opengraph preview image: visiting {url}')
-    temp_dir = '/tmp/'
-    path = f'{temp_dir}{token}'
-    screenshot_path = browser.screenshot(path)
-    return send_file(screenshot_path, mimetype='image/png')
+    browser.visit(url_to_fetch)
+    screenshot_path = '/tmp/'
+    screenshot = browser.screenshot(screenshot_path)
+    return send_file(screenshot, mimetype='image/png')
 ```
 
 What turned out to be the hard part was creating a Docker image with Python and a working headless browser. But after a lot of futzing and hand-wringing I finally managed to get  it working and also learned a lot about Docker. It turns out that using the headless version of Firefox seems to be faster than using Chrome.
 
-I have put all my code into this repo for your enjoyment. You can take it and deploy it to Google Cloud Run (or wherever else you can run containers) and be up and running in minutes.
+I have put all my code into [this repo](https://github.com/caspii/social-media-image-service) for your enjoyment. You can take it and deploy it to Google Cloud Run (or wherever else you can run containers) and be up and running in minutes.
 
 Note that you have to supply the domain for which you'll be generating the images in an ENV varible. This is to prevent the service being used for mischief, seeing as it has no authentication.
+
+On my app, I used the following Jinja2 code to produce the correct link to my deployed microservice:
+
+{% highlight jinja %} {% raw %}
+{% set encoded_path = request.base_url[:-1] | urlencode %} 
+{% set image_url = '<MICROSERVICE URL>/image/' + encoded_path + '.png'%}
+<meta property="og:image" content="{{ image_url }}" />
+{% endraw %}
+{% endhighlight %}
+
+2 things to note here:
+
+* Jinja2 comes with a builtin `urlencode` filter! Don't believe the top Google result (which claims something else)
+* I have to remove the trailing '/' from ````request.base_url````  otherwise the resulting filename would end with ```/.png``` which won't work
 
 ## Performance, reliability, price
 
