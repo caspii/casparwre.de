@@ -8,7 +8,7 @@ image: /images/automatic.jpg
 
 In today's attention economy you need to stand out when you post your content on social media: that means having some kind of image as part of the package. This is easy if you're sharing a blog post with photos (or other images) because you can setup your system to use one of these photos. But what if you're sharing content that doesn't come with a pre-made image?
 
-This is a problem I was facing. I'm building an [online scoreboard and leaderboard app](https://keethescore.co) whose content regularly gets shared on Twitter, Facebook and elswhere. However, these leaderboards do not come with images: they are HTML and CSS. How to do I ensure they always have an image to use on social media without resorting to something generic?
+This is a problem I was facing. I'm building an [online scoreboard and leaderboard app](https://keethescore.co) whose content regularly gets shared on Twitter, Facebook and elsewhere. However, these scoreboards do not come with images: they are HTML and CSS. How could I ensure they always have an image to use on social media without resorting to something generic?
 
 ## Summary
 
@@ -42,13 +42,13 @@ In both cases, the automated systems at Twitter will have crawled the link once 
 
 ## What is an Open Graph Image?
 
-For this to work, you need to add the appropriate metadata to the HTML of your content. This is all part of something called "open graph" metdadata and you can read all about it [here on css-tricks.com](https://css-tricks.com/essential-meta-tags-social-media/). Today we are concerned with the images, which are also the hardest part. The HTML code that I added for my blog post above is this:
+For this to work, you need to add the appropriate metadata to the HTML of your content. This is all part of something called "open graph" metadata and you can read all about it [here on css-tricks.com](https://css-tricks.com/essential-meta-tags-social-media/). Today we are concerned with the images, which are also the hardest part. The HTML code that I added for my blog post above is this:
 
 ```html 
 <meta property="og:image" content="https://casparwre.de/images/nebelmeer.jpg" />
 ```
 
-The nice thing is that this will also work for Facebook, iMessage, Slack, Telegram, WhatsApp and probably for most places where you're posting links that are visible to other people. In all of these places the content will be crawled, the metadata extracted and then used to make the post iteself look nicer ✨. Isn't that something that we all want?
+The nice thing is that this will also work for Facebook, iMessage, Slack, Telegram, WhatsApp and probably for most places where you're posting links that are visible to other people. In all of these places the content will be crawled, the metadata extracted and then used to make the post itself look nicer ✨. Isn't that something that we all want?
 
 ## Autogenerating social media images
 
@@ -58,7 +58,7 @@ In the case of my app, [Keepthescore.co](https://keepthescore.co), these images 
 
 Now it is absolutely correct that there are already a vast number of screenshot APIs and services out there and I could have used any one to solve my problem instantly.
 
-However, like any  ~~self-deluded~~ self-respecting developer out there, I simulataneously believe in "buy it, don't build it"  and was also sure that I could build a really small and quick solution myself. 
+However, like any  ~~self-deluded~~ self-respecting developer out there, I simultaneously believe in "buy it, don't build it"  and was also sure that I could build a really small and quick solution myself. 
 
 Well, it wasn't quick (surprise!) but it was small. And it works. Now, when you post a link to a scoreboard it looks like this. 
 
@@ -114,7 +114,7 @@ What turned out to be the hard part was creating a Docker image with Python and 
 
 I have put all my code into [this repo](https://github.com/caspii/social-media-image-service) for your enjoyment. You can take it and deploy it to Google Cloud Run (or wherever else you can run containers) and be up and running in minutes.
 
-Note that you have to supply the domain for which you'll be generating the images in an ENV varible. This is to prevent the service being used for mischief, seeing as it has no authentication.
+Note that you have to supply the domain for which you'll be generating the images in an ENV variable. This is to prevent the service being used for mischief, seeing as it has no authentication.
 
 On my app, I used the following Jinja2 code to produce the correct link to my deployed microservice:
 
@@ -132,7 +132,7 @@ On my app, I used the following Jinja2 code to produce the correct link to my de
 
 ## Performance, reliability, price
 
-The really pleasant thing about this microservice is that neither performance nor reliability are that important. Performance-wise, the generated social media images are requested asyncronously, so it doesn't matter (too much) if the response is slow. Reliability-wise, if the service goes down no critical part of my app is affected. I can live with no social media image on links for a few hours or even days.
+The really pleasant thing about this microservice is that neither performance nor reliability are that important. Performance-wise, the generated social media images are requested asynchronously, so it doesn't matter (too much) if the response is slow. Reliability-wise, if the service goes down no critical part of my app is affected. I can live with no social media image on links for a few hours or even days.
 
 As far as the price goes, Google Cloud Run is much cheaper than the DigitalOcean Apps platform. Although I don't have the data yet, I predict a container with 4 GB ram running for 1 month will cost around 5 USD. That's frankly amazing.
 
