@@ -21,3 +21,7 @@ Here's what a leaderboard looks like. It also has some custom colours, just beca
 
 <iframe id="iframe-yodpwvaeapr" src="https://keepthescore.co/embed/yodpwvaeapr/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
 
+
+Fresh out of the oven are team leaderboards. This is what they look like:
+
+<iframe id="iframe-gwplrzxiiyr" src="https://keepthescore.co/embed/gwplrzxiiyr/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
