@@ -2,7 +2,7 @@
 layout: post
 title: Why you should launch your product without a login
 description: No login -- an awesome product-development hack
-image: /images/automatic.jpg
+image: /images/balloons.jpg
 
 ---
 
