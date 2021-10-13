@@ -58,6 +58,10 @@ The [Indie Hackers Growth Bites](https://www.indiehackers.com/growth-bites) news
 
 > By allowing people to use your product before signing up, you can reduce friction substantially and make it easier for them to experience the product's value. And the more time they spend, the more invested they'll be in the product. This is particularly true when they're building something (e.g. graphics, landing pages, etc.), thanks to the [IKEA effect](https://en.wikipedia.org/wiki/IKEA_effect). And all of this can result in higher conversions.
 
+Since publishing this post, someone pointed out that Paul Graham, veteran investor and founder of Y-Combinator, recently tweeted about this topic too:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Underappreciated competitive advantage: letting people do x without creating an account.</p>&mdash; Paul Graham (@paulg) <a href="https://twitter.com/paulg/status/1261976515408990208?ref_src=twsrc%5Etfw">May 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 For Keepthescore.co it takes a new user literally less than 10 seconds to get from the landing page to being inside the product. I am absolutely convinced that this has contributed to the success of the product.
 
 Also, by following this principle you will be getting onto the extremely trendy "product-led-growth" bandwagon.
