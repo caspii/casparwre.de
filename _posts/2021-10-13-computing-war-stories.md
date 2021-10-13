@@ -2,7 +2,7 @@
 layout: post
 title: An expensive mistake &mdash; a short CTO war story 
 description: How to waste money as a CTO
-image: /images/balloons.jpg
+image: /images/facepalm.jpg
 ---
 
 This story was recounted to me many years ago by the CTO of a startup. He himself was responsible for this error which cost the company tens of thousands of USD.
