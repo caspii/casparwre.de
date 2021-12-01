@@ -2,7 +2,7 @@
 layout: post
 title: Leverage browser caching in Google App Engine
 ---
-I'm working on a project that allows friends to work out who owes cash to whom after a joint event: it's called [Kittysplit](http://kittysplit.com)  and is built in Java / Google App Engine.
+I'm working on a project that allows friends to work out who owes cash to whom after a joint event.  and is built in Java / Google App Engine.
 
 Running the site through Google's wonderful page speed insights [tool](https://developers.google.com/speed/pagespeed/insights) resulted in this recommendation: "Leverage browser caching".
 

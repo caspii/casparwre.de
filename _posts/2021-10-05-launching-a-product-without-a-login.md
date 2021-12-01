@@ -42,7 +42,7 @@ To make things easier, the unique link
 is stored in the browser cookies and then shown locally, so that you can find your scoreboard later. It's not a perfect solution (I often get support mails
 asking me to retrieve "lost" scoreboards) but it is **good enough**.
 
-When you launch something completely new, remember that you're trying to learn something. In the lingo of [The Lean Startup](http://theleanstartup.com), you are validating your value hypothesis:
+When you launch something completely new, remember that you're trying to learn something. In the lingo of [The Lean Startup](https://theleanstartup.com), you are validating your value hypothesis:
 
 > The _value hypothesis_ tests whether a product or service really delivers value to customers once they start using it.
 

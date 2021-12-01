@@ -10,7 +10,7 @@ All the cool kids are using z-shell instead of bash these days. I won't go into 
 * zsh has much better tab completion behavior than bash
 * it makes working with git much more pleasant and productive
 
-Here's what you need to do to install zsh, install [Oh-My-Zsh](http://ohmyz.sh/) (a prepackaged bunch of themes and addons) and get the fonts working on Ubuntu 16.04.
+Here's what you need to do to install zsh, install [Oh-My-Zsh](https://ohmyz.sh/) (a prepackaged bunch of themes and addons) and get the fonts working on Ubuntu 16.04.
 
 ## 1. Install prerequisite packages
 
