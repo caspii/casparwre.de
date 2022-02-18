@@ -41,16 +41,16 @@ I strongly believe that anyone learning to code with the intention of building a
 
 Server-side rendering is "the old way" of doing things. It  involves the server making every page in your webapp up front and then sending it over the Internet to the browser ready-baked. The equivalent would be ordering a meal and having it delivered ready-made to your door.
 
-The other way is the new, hip way and makes use of Javascript frameworks. It’s called client-side rendering and involves the server sending just data and a bunch of Javascript which then self-assembles in the browser. The equivalent would be ordering a meal-kit and doing the cooking yourself.
+The other way is the new, hip way and makes use of Javascript frameworks. It’s called _client-side rendering_ and involves the server sending data and a bunch of Javascript which then self-assembles in the browser. The equivalent would be ordering a meal-kit and doing the cooking yourself.
 
 Going the old way, which is what I’m advocating, is the quickest way of starting from zero and shipping a usable product. (Disclaimer: this will not be true if you are already a proficient coder). 
 
 There are other important advantages:
 
-* You will give you  a really solid understanding of web principles, including the HTTP request-response cycle, the interaction between HTML and CSS, and submitting forms and form validation
+* You will get a really solid understanding of web principles, including the HTTP request-response cycle, the interaction between HTML and CSS, and submitting forms and form validation
 * It’s much simpler to get your UX right if everything is based on links and whole page loads.
 * SEO will work more or less out of the box
-A* ll the existing server-side rendered frameworks are battle-tested, mature and come with large existing libraries of plugins
+* All the existing server-side rendered frameworks are battle-tested, mature and come with large existing libraries of plugins
 
 If you choose to go the new hip way then you will get a less solid understanding of fundamental web principles. 
 
@@ -81,9 +81,7 @@ It was completely server-side rendered with minimal Javascript in a few places. 
 These days my app has an API and does use a Javascript framework (Vue.js). The point is, version 1 was good enough to get started with.
 
 ## Using a CSS framework
-You should definitely use a CSS framework.
-
-I used [Bootstrap](https://getbootstrap.com). Sometimes you will hear arguments that all sites using Bootstrap look the same. This is frankly moronic. No end user has ever said this and no SaaS has failed because they used Bootstrap.
+You should definitely use a CSS framework. I used [Bootstrap](https://getbootstrap.com). Sometimes you will hear arguments that all sites using Bootstrap look the same. This is frankly moronic. No end user has ever said this and no SaaS has failed because they used Bootstrap.
 
 Another CSS framework that has been gaining a lot of traction recently is [Tailwind CSS](https://tailwindcss.com). I have no experience with it and hence no opinion.
 
