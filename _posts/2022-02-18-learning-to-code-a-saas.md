@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Strongly opinionated advice on learning to code a SaaS Product 
+title: Learning to code a SaaS? Don't use a Javascript framework 
 description: A bunch of learnings I'm sharing about how I built my SaaS product
 image: /images/rocket_launch.jpg
 ---
@@ -9,7 +9,7 @@ This post is aimed at people who want to learn to code &mdash; with the explicit
 
 !['Rocket launch'](/images/rocket_launch.jpg){:class="img-responsive"}
 
-I’ve spent the last 5 years building a [software product](https://keepthescore.co/) and want to share my learnings. The tl;dr version is: go old-school whenever you can. Don’t listen to the siren-calls of shiny new technology. Instead, aim to learn the technical fundamentals whilst shipping a product as soon as possible. This is absolutely possible.
+I’ve spent the last 5 years building a [software product](https://keepthescore.co/) and want to share my learnings. The tl;dr version is: go old-school whenever you can. Don’t listen to the siren-calls of shiny new technology. Instead, aim to learn the technical fundamentals whilst shipping a product as soon as possible. This is absolutely do-able.
 
 ## What is a SaaS product?
 
