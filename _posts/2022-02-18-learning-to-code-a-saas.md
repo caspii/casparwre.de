@@ -110,7 +110,7 @@ There are also solutions like Firebase, which bundle all your tech needs in one 
 * After an initial honeymoon period you will probably run into edge cases and complexity down the road, because one-size-fits all will only work for a limited time. This happened to me.
 * What you learn will be very focussed on one platform. This may be fine for you. Buyer beware.
  
-## Other misc. Recommendations
+## Other misc. recommendations
 * You need to learn how to use Git and GitHub (or alternatives). This is non-negotiable.
 * Don’t even think about using Kubernetes 
 * You don’t need serverless 
