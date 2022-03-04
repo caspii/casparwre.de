@@ -29,7 +29,7 @@ In my new role I’ve gotten comfortable with leaving stuff unfinished. This doe
 
 Here’s an example: I wanted to get my user login finished in a week. Halfway through I realised that having a user login also requires a password reset flow, which means sending transactional mails. Well, I didn’t have transactional mails (and still don’t). How did I solve this? I left out the password reset flow. 
 
-Of course my users forget their passwords, but when they do, they write me a support email. I built myself a super simple password reset function and manually reset the passwords for these users. As a bonus, it means I am directly in touch with people and will sometimes get value feedback.
+Of course my users forget their passwords, but when they do, they write me a support email. I built myself a super simple password reset function and manually reset the passwords for these users. As a bonus, it means I am directly in touch with people and will sometimes get valuable feedback.
 
 I do about 2-3 manual password resets every week and guess what: it’s absolutely fine. In aggregate I’ve still saved a vast chunk of time which I have invested elsewhere. One day I will build the password reset function, just not yet.
 
