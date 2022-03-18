@@ -19,8 +19,8 @@ anything more about that topic.
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4e1BndTE6Lg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Getting facts into Russia  is probably going to help in some way. So I've been idly wondering why
-Google, Apple and Microsoft, as gatekeepers of the major operating system, are not using their power to spread
-the truth. They could show an information banner baked into the OS. For Russian censors it would be a major headache to 
+Google, Apple and Microsoft, as gatekeepers of the major operating systems, are not using their power to spread
+the truth. They could show an information banner baked into the OS for example. For Russian censors it would be a major headache to 
 ban a whole operating system.
 
 Maybe the gatekeepers are doing that, maybe there are very good reasons for not doing it. I have no idea. 
