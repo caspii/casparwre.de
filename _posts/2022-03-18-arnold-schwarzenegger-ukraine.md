@@ -8,7 +8,7 @@ image: /images/arnold.jpg
 !['Arnold in Russia'](/images/arnold.jpg){:class="img-responsive"}
 
 Yesterday I watched Arnold Schwarzenegger's video, "A message to the Russian people", and boy, is it good. I think it's
-a masterclass in good communication. He respects his intended Russian audience, builds empathy with some anecdotes and then 
+a masterclass in communication. He respects his intended Russian audience, builds empathy with some anecdotes and then 
 delivers a crisp and simple message. He intersperses it with well-chosen footage of the crisis and makes it crystal clear
 who is to blame. I'm assuming that most Russians know Arnold and are more likely to listen to him than some unfamiliar
 journalist or Western corporation.
