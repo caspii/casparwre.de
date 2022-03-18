@@ -37,7 +37,7 @@ So here we are.
 
 ## How many visits from Russian are there in my product?
 
-My product allows you to make online scoreboards and leaderboards. According to my website analytics, I've had 1.1K 
+[My product](https://keepthescore.co) allows you to make online scoreboards and leaderboards. According to my website analytics, I've had 1.1K 
 visitors from the Russian Federation this year. That's not a huge number, but something to work with at least.
 
 !['Russian Website'](/images/ukraine_1.png){:class="img-responsive"}
