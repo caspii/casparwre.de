@@ -75,7 +75,7 @@ the file, plonked it into an AWS bucket, and linked to that instead.
 
 ## Am I afraid of retaliation?
 
-There's a chance that some Russia hacker collective gets wind of my little ruse and tries to retaliate in some way. Well,
+There's a chance that some Russian hacker collective gets wind of my little ruse and tries to retaliate in some way. Well,
 I have CloudFlare on my product, which would deflect a denial of service attack. Any other attacks could do more damage
 but quite frankly, it's a risk I'm prepared to take. My software does not run a hospital or power grid and it also contains
 very little personal data. So fuck it 🧘.
