@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hiding Arnold Schwarzenegger in my product to spread the truth in Russia 
+title: Hiding Arnold Schwarzenegger in my product to help the Ukraine 
 description: Here's how I made some quick tweaks to show users in Russia the Schwarzenegger video
 image: /images/arnold.jpg
 ---
