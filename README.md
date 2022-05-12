@@ -3,13 +3,13 @@ Code for casparwre.de
 
 The website is generated with [Jeykll](https://jekyllrb.com/).
 
-## Setup
-
 ### 1. Install Jekyll
 On Mac OSX
 ```
-brew install ruby
-gem install github-pages
+brew install chruby ruby-install
+ruby-install ruby-3.1.1
+chruby ruby-3.1.1 
+gem install github-pages jekyll jekyll-seo-tag webrick
 ```
 
 On Ubuntu
