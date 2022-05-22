@@ -9,6 +9,9 @@ custom_js:
 
 !['Nebelmeer'](/images/nebelmeer.jpg){:class="img-responsive"}
 
+THIS IS A DRAFT ARTICLE
+
+
 I'm Caspar. I quit my job last year to build and market my own online product.[ You can read the blog post I wrote about getting started
 here](https://casparwre.de/blog/becoming-an-indie-hacker/).
 
@@ -71,7 +74,7 @@ My best performing post is entitled "[How to create a leaderboard using Google S
 * It is a direct answer to a specific search query ("How do I create a leaderboard using Google Sheets").
 * It contains a link to my product, but only right at the end.
 
-So far, my strategy for producing content seems to be working. Here is how the traffic to the blog has developed 
+So far, my strategy for producing content seems to be working. Here is how the traffic to the blog has developed: 
 
 !['Blog traffic'](/images/blog-traffic.png){:class="img-responsive"}
 
@@ -129,7 +132,7 @@ Dinkydash
 
 ## What do I want to achieve in 2022/23?
 Increase revenue
-Nice-down
+Niche-down
 Understand my aquisition funnels better
 Launch a new project
 What are the lowlights?
