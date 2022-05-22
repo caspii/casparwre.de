@@ -9,13 +9,13 @@ custom_js:
 
 !['Nebelmeer'](/images/nebelmeer.jpg){:class="img-responsive"}
 
-HI, I'm Caspar. I quit my job last year to build and market my own online product. You can read the blog post I wrote about getting started
-here.
+I'm Caspar. I quit my job last year to build and market my own online product.[ You can read the blog post I wrote about getting started
+here](https://casparwre.de/blog/becoming-an-indie-hacker/).
 
 Now it's time for a retrospective, to reveal some numbers, go through some highlights and lowlights, and peer into the future. 
-I'll try and do this every 12 months, for as long as I can.
+I'll try and do this every 12 months.
 
-## Going solo: the good bits
+## Going solo
 
 First off, what does it feel like to go it alone? Am I lonely? Missing the office? Missing colleagues? Afraid?
 
@@ -23,19 +23,12 @@ The answer is: it feels flipping awesome. I already feel that I have been lost t
 * I have not attended a single meeting for over a year
 * I get to choose who my customers are (more on that later)
 * I get to work in an office that is beautiful and over which I have 100% sovereignty.
-* I am constantly investing in a better future for myself (and by extension for my family).
+* I am investing in a compounding better future for myself (and by extension for my family).
 
 Do I miss human contact during the day? Well, I can meet up with friends for lunch. And I do, 
-usually once a week. The other thing is: I'm currently sharing my house with 8 other people. What's even more unusual is that I am the only male and everyone else is female. But let's not digress. Ask me when you meet me. The point is: loneliness is not a problem.
+usually once a week. Also: I'm currently sharing my house with 8 other people. What's even more unusual is that I am the only male and everyone else is female. But let's not digress, ask me more when you meet me. The point is: loneliness is not a problem.
 
 I'm also doing more exercise than ever before and have lost quite a bit of weight.
-
-## Going solo: the bad bits
-
-What are the disadvantages? Motivation is sometimes a problem. I don't always hit my weekly targets. On some days there are so many chores and family interruptions that I feel like I made no progress. But looking back on my employment, interruptions happened all the time. 
-
-Motivation?
-
 
 ## How do I earn money?
 
@@ -53,13 +46,13 @@ It was a goal I achieved: in March 2022 the product was making 1560 USD per mont
 
 Anyway, I intend to bring establish 2 new revenue streams the next 12 months. The first is advertising the other is a subscription model.
 
-**Overall, my goal is to triple my revenue again so by March 2023 I want to be at 4500 USD.** We'll see how that works out...
+**Overall, my goal is to triple my revenue again so by March 2023 I want to be at 4500 USD.**
 
 ### Ads on Keepthescore.co
 
 Advertising has already landed on Keepthescore.co: users have been seeing ads from Google Adsense since February 2022. So far, the returns have been meagre: around 6 USD per day. 
 
-I am hoping to switch to another ad provider but this is proving difficult. There's 2  providers that I am interested in (AdThrive and MediaVine) but both require Google Analytics to be installed on my site. This is annoying, because I announced [with great fanfare that I removed Google Analytics from the site](https://casparwre.de/blog/stop-using-google-analytics/). I have now sheepishly added Google Analytics back to the site, in the hope that one of these 2 ad providers will accept me 😔.
+I am hoping to switch to another ad provider but this is challenging. There's 2  providers that I am interested in (AdThrive and MediaVine) but both require Google Analytics to be installed on my site. This is annoying, because I announced [with great fanfare that I removed Google Analytics from the site](https://casparwre.de/blog/stop-using-google-analytics/). I have now sheepishly added Google Analytics back to the site, in the hope that one of these 2 ad providers will accept me 😔.
 
 ### SEO for Keepthescore.co
 
@@ -67,7 +60,7 @@ The area where I learned a lot over the past 12 months is SEO. SEO (or search en
 
 !['Nebelmeer'](/images/google-search-scoreboard.png){:class="img-responsive"}
 
-The site you see at the next spot (Scorecount) was beating me for a long time. After ignoring this for some time, I eventually got round to taking a closer look at this competitor. It turns out that they were running a massive SEO scam operation. [I wrote a blog post about this which is a good yarn](https://casparwre.de/blog/seo-scam/). After publishing this post, Google punished the site and I am now number 1 🏆. Just to be clear, the main reason I was able to pull this off was a huge amount of luck.
+The site you see in the second spot (Scorecount) used to be in the top spot. After ignoring this for some time, I eventually got round to taking a closer look at this competitor. It turns out that they were running a massive SEO scam operation. [I wrote a blog post about this which is a good yarn](https://casparwre.de/blog/seo-scam/). After publishing this post, Google punished the site and I am now number 1 🏆. Just to be clear, the main reason I was able to pull this off was a huge amount of luck.
 
 Almost all of my SEO efforts are now focussed on producing new and relevant content. The basic thing to get right is to have high-quality content that answers a question that someone will ask on Google. I try and write one of these articles per month and post them onto the Keepthescore.co blog.
 
@@ -82,7 +75,7 @@ So far, my strategy for producing content seems to be working. Here is how the t
 
 !['Blog traffic'](/images/blog-traffic.png){:class="img-responsive"}
 
-So I know that my content is attracting traffic. But do I know that this traffic is converting to paid users? The answer is no -- and it's something I will be working on in the next 12 months.
+By the way: I know that my content is attracting traffic. But do I know that this traffic is converting to paid users? The answer is no -- and it's something I will be working on in the next 12 months.
 
 
 
@@ -93,40 +86,29 @@ Most of my time in the past 12 months has been spent of developing the product. 
 In general I try and have a roadmap of high-level topics I want to tackle per week. My roadmap is heavily informed by what my users ask for. Beyond that, my product development approach is not very scientific, but I tell myself that no one ever failed by building what users ask for.
 
 #### Split testing
-I run some high-level experiments (split tests) which have yielded good insights so far. For instance, I will set up an experiment where 50% of my users (chosen randomly) will see one variant of the product, whilst the other 50% will see another variant. After waiting some time (usually over 4 weeks), I check how the 2 variants have performed compared to each other. The best performing variant is then rolled out to 100% of users. 
+I run some high-level experiments (split tests) which have yielded good insights so far. It usually works like this: I set up an experiment where 50% of my users (chosen randomly) will see one variant of the product, whilst the other 50% will see another variant. After waiting some time (usually over 4 weeks), I check how the 2 variants have performed compared to each other. The best performing variant is then rolled out to 100% of users. 
 
-One of the many good things about running a split test is that you are forced to think about your "success metrics". In other words, what is needle that you are actually trying to move. I have been using three different metrics to determine whether an experiment is a success or not (only one metric is used per experiment):
+One of the many good things about running a split test is that you are forced to think about your "success metrics". In other words, what is the actual needle that you are trying to move? I used three different metrics to determine whether an experiment is a success or not (only one metric is used per experiment):
 * How often is something clicked on. This is easy to measure and a very low-level metric
 * Activation rate for scoreboards or leaderboards. This number reflects what ratio of newly created boards is actively used, as opposed to never being used (which means the creator of the board was just curious or got stuck or confused after creation)
-* Revenue. This is obviuously a high-level metric
+* Revenue.
 
-A successful experiment I did was pricing. For over 4 weeks, users were seeing one of 3 different prices for upgrading a board: $1.99, $3.99 or $5.99. The result was that charging $5.99 did put off some users from upgrading in the first place, but that overall it was the price that resulted in the highest revenue.
+A successful experiment I did was pricing. For over 4 weeks, users were seeing one of 3 different prices for upgrading a board: $1.99, $3.99 or $5.99. The winner was the group with $5.99. Yes, some users were put off from upgrading in the first place, but the higher price still resulted in the highest revenue.
 
 
 #### Product market fit
-_Do I have product market fit?_ That is a question that every founder asks themselves at regular intervals. Despite seeing a general increase in all my metrics, I am still not sure whether I have actually product-market fit yet. The reason for that is that I have been seeing linear and not exponential growth. I recently heard a good podcast (sadly I can't remember which one), which proposed that "real" product market fit is only achieved once you see expontial growth. This resonated with me, and I'm going to continue working towards exponential growth.
+_Do I have product market fit?_ That is a question that every founder asks themselves at regular intervals. Despite seeing a general increase in all my metrics, I am still not sure whether I have actually achieved product-market fit yet. The reason is that I have been seeing linear and not exponential growth. I recently heard a good podcast (sadly I can't remember which one), which proposed that "real" product market fit is only achieved once you see exponential growth. This resonated with me, and I'm going to continue working towards exponential growth.
 
-I think that a major milestone on the way to getting to product-market fit is finding one or more niches within the larger topic of "online leaderboards and scoreboards."
+I think that a major milestone on the way to getting there is finding one or more niches within the larger topic of "online leaderboards and scoreboards." Certainly one of the things that I find extremely interesting is that my product covers so many possible use-cases, however this is also a big challenge. Being very broad and general means that it is hard to really focus on one group of users and their needs. It means that you cannot tailor your messaging to these users.
 
+One of my next strategic tasks will be exploring different niches and aiming for 1 or 2 of them. I have already made tentative steps in this direction:
 
-
-
-
-
-
-
-### Finding the correct niche
-OBS
-Wordpress
-What are my niches?
-What are my channels?
-What are 
-
-
-
+* **Niche 1: live streaming scoreboards** The job-to-be done here is displaying a scoreboard within a live stream using software like OBS. What's really interesting about this niche is that there are several comepitors which means it's a problem worth solving. My product seems to have an SEO advantage and I'm hoping to make some inroads into this space. Read more about [adding scoreboards to a livesteam here](https://keepthescore.co/blog/posts/obs-live-scoreboard/).
+* **Niche 2: Wordpress Plugins** I made a very rudimentaty WordPress plugin to make it easier to insert boards into a WordPress post. Apparently WordPress powers a third of the internet, so I though would be worth a try. You could argue that a WordPress plugin is more of a distribution channel. Touché. [Read the marketing post here](https://keepthescore.co/wordpress-leaderboard/).
+ 
 ## Custom solutions
 
-In 2019 the first person got in touch asking for a bespoke scoreboard, because the standard ones didn't fit their needs. I decided that I would give it a try to see if I could establish a new revenue stream: making custom scoreboards as a kind of niche web-development agency. That first custom scoreboard was quite wonky and almost broke down several times. However, the customer paid and my new revenue stream was established.
+In 2019 the first person got in touch asking for a custom scoreboard. Because the standard ones didn't fit their needs. I decided that I would give it a try to see if I could establish a new revenue stream: making custom scoreboards as a kind of niche web-development agency. That first custom scoreboard was quite wonky and almost broke down several times. However, the customer paid and my new revenue stream was established.
 
 On average I now build one custom scoreboard a month. On top of having an alternative renenue stream it, it's also a good way of discovering new needs and solutions that may be worth turning into a self-serve product.
 
@@ -136,7 +118,7 @@ My most prestigious customer was Guinness World of Records, who needed a digital
 
 I have tried to create a "productised" package for customers wanting a custom solution. [Here is the landing page I made for my services](https://keepthescore.co/custom-scoreboard/), which also includes some examples. 
 
-Overall, it's good to have another revenue stream independent of my main product. The only downside is that when I am working on custom solutions, I am not working on my product. This is the reason why I recently doubled my prices to focus more on my product. It had the desired effect: I've had no new customers at the new price point. Once I'm ready for more custom work, I will lower my prices again.
+Overall, it's good to have another revenue stream independent of my main product. The only downside is that when I am working on custom solutions, I am not working on my product. I recently doubled my prices to focus more on my product. It had the desired effect: I've had no new customers at the new price point. Once I'm ready for more custom work, I will lower my prices again.
 
 
 
@@ -144,45 +126,12 @@ Overall, it's good to have another revenue stream independent of my main product
 ## Other projects
 Dinkydash
 
-# Niching down
-
-
-Adjacent use-cases (e.g. https://keepthescore.co/board/mhucvinyutr/)
-
-
-
-
-
-
-
-
 
 ## What do I want to achieve in 2022/23?
 Increase revenue
 Nice-down
 Understand my aquisition funnels better
 Launch a new project
-
-# Content
-
-Wins
-
-- Email asking to sell for 10k
-- Metallica
-
-- KPI growth
-
-
-Fails
-- Upgrading Postgres
-- New score formats took 2 weeks too long
-
-Whats next?
-Introduce three new projects
-
-
-
-
-
+What are the lowlights?
 
 That’s all for now. Follow me [on Twitter](https://twitter.com/wrede) to keep updated.
