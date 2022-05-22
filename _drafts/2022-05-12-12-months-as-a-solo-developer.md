@@ -51,7 +51,7 @@ People using Keepthescore.co have to pay to get certain extra features. It's a o
 
 It was a goal I achieved: in March 2022 the product was making 1560 USD per month. (However, my celebrations were short-lived, because in the following month my revenue dropped by over 20%. It seems to be a seasonal thing, because traffic dropped too. The thing is, I can never be 100% sure).
 
-Anyway, I intend to bring establish 2 new revenue streamsin the next 12 months. The first is advertising the other is a subscription model.
+Anyway, I intend to bring establish 2 new revenue streams the next 12 months. The first is advertising the other is a subscription model.
 
 **Overall, my goal is to triple my revenue again so by March 2023 I want to be at 4500 USD.** We'll see how that works out...
 
@@ -82,8 +82,40 @@ So far, my strategy for producing content seems to be working. Here is how the t
 
 !['Blog traffic'](/images/blog-traffic.png){:class="img-responsive"}
 
+So I know that my content is attracting traffic. But do I know that this traffic is converting to paid users? The answer is no -- and it's something I will be working on in the next 12 months.
+
+
 
 ### Product development for Keepthescore.co
+
+Most of my time in the past 12 months has been spent of developing the product. It's also the part I enjoy most.
+
+In general I try and have a roadmap of high-level topics I want to tackle per week. My roadmap is heavily informed by what my users ask for. Beyond that, my product development approach is not very scientific, but I tell myself that no one ever failed by building what users ask for.
+
+#### Split testing
+I run some high-level experiments (split tests) which have yielded good insights so far. For instance, I will set up an experiment where 50% of my users (chosen randomly) will see one variant of the product, whilst the other 50% will see another variant. After waiting some time (usually over 4 weeks), I check how the 2 variants have performed compared to each other. The best performing variant is then rolled out to 100% of users. 
+
+One of the many good things about running a split test is that you are forced to think about your "success metrics". In other words, what is needle that you are actually trying to move. I have been using three different metrics to determine whether an experiment is a success or not (only one metric is used per experiment):
+* How often is something clicked on. This is easy to measure and a very low-level metric
+* Activation rate for scoreboards or leaderboards. This number reflects what ratio of newly created boards is actively used, as opposed to never being used (which means the creator of the board was just curious or got stuck or confused after creation)
+* Revenue. This is obviuously a high-level metric
+
+A successful experiment I did was pricing. For over 4 weeks, users were seeing one of 3 different prices for upgrading a board: $1.99, $3.99 or $5.99. The result was that charging $5.99 did put off some users from upgrading in the first place, but that overall it was the price that resulted in the highest revenue.
+
+
+#### Product market fit
+_Do I have product market fit?_ That is a question that every founder asks themselves at regular intervals. Despite seeing a general increase in all my metrics, I am still not sure whether I have actually product-market fit yet. The reason for that is that I have been seeing linear and not exponential growth. I recently heard a good podcast (sadly I can't remember which one), which proposed that "real" product market fit is only achieved once you see expontial growth. This resonated with me, and I'm going to continue working towards exponential growth.
+
+I think that a major milestone on the way to getting to product-market fit is finding one or more niches within the larger topic of "online leaderboards and scoreboards."
+
+
+
+
+
+
+
+
+### Finding the correct niche
 OBS
 Wordpress
 What are my niches?
@@ -125,7 +157,11 @@ Adjacent use-cases (e.g. https://keepthescore.co/board/mhucvinyutr/)
 
 
 
-#
+## What do I want to achieve in 2022/23?
+Increase revenue
+Nice-down
+Understand my aquisition funnels better
+Launch a new project
 
 # Content
 
@@ -145,38 +181,8 @@ Whats next?
 Introduce three new projects
 
 
-Numbers
-B2B Scoreboards
-
 
 
 
 
 That’s all for now. Follow me [on Twitter](https://twitter.com/wrede) to keep updated.
-
-
-
-<script>
-//-----------------
-//-- Graph data
-//-----------------
-var ctx = document.getElementById('scoreboards').getContext('2d');
-var data = {
-    labels: ["2016-09", "2016-10", "2016-11", "2016-12", "2017-01", "2017-02", "2017-03", "2017-04", "2017-05", "2017-06", "2017-07", "2017-08", "2017-09", "2017-10", "2017-11", "2017-12", "2018-01", "2018-02", "2018-03", "2018-04", "2018-05", "2018-06", "2018-07", "2018-08", "2018-09", "2018-10", "2018-11", "2018-12", "2019-01", "2019-02", "2019-03", "2019-04", "2019-05", "2019-06", "2019-07", "2019-08", "2019-09", "2019-10", "2019-11", "2019-12", "2020-01", "2020-02", "2020-03", "2020-04", "2020-05", "2020-06", "2020-07", "2020-08", "2020-09", "2020-10", "2020-11", "2020-12", "2021-01", "2021-02", "2021-03"],
-    datasets: [
-        {
-            label: "Scoreboards created per month",
-            backgroundColor: '#dd4814',
-            borderColor: 'rgba(255, 99, 132, 1)',
-            data: [34, 129, 72, 798, 1543, 1959, 3469, 3317, 3775, 4135, 4199, 4027, 4363, 5534, 6525, 7702, 7104, 7017, 7568, 6623, 6873, 6705, 6585, 6158, 6299, 7986, 9671, 11364, 10796, 8893, 8952, 7280, 7295, 6236, 6437, 6134, 6500, 8005, 8718, 9789, 8939, 8050, 11633, 19168, 18780, 12998, 11681, 12164, 13964, 21519, 20104, 22756, 21074, 22183, 21812]
-        }
-    ]
-};
-var myLineChart = new Chart(ctx, {
-    type: 'bar',
-    data: data,
-    scaleShowLabels: true,
-    barValueSpacing : 2,
-    responsive: true
-});
-</script>
