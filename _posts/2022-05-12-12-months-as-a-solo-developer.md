@@ -3,16 +3,11 @@ layout: post
 title: 12 Months into building my online business
 description: Why I want to start a small online business
 image: /images/nebelmeer.jpg
-custom_js:
-  - node_modules/chart.js/dist/Chart.js
 ---
 
 !['Nebelmeer'](/images/nebelmeer.jpg){:class="img-responsive"}
 
-THIS IS A DRAFT ARTICLE
-
-
-I'm Caspar. I quit my job last year to build and market my own online product.[ You can read the blog post I wrote about getting started
+I'm Caspar. I quit my job last year to build and market my own online product.[ You can read my post on my motivations
 here](https://casparwre.de/blog/becoming-an-indie-hacker/).
 
 Now it's time for a retrospective, to reveal some numbers, go through some highlights and lowlights, and peer into the future. 
@@ -20,32 +15,37 @@ I'll try and do this every 12 months.
 
 ## Going solo
 
-First off, what does it feel like to go it alone? Am I lonely? Missing the office? Missing colleagues? Afraid?
+First off, what does it feel like to go it alone? Am I lonely? Missing colleagues? Afraid?
 
 The answer is: it feels flipping awesome. I already feel that I have been lost to the world of employment forever. I mean, just imagine: 
 * I have not attended a single meeting for over a year
-* I get to choose who my customers are (more on that later)
-* I get to work in an office that is beautiful and over which I have 100% sovereignty.
+* I get to choose who my customers are
+* I get to work in a beautiful office in my home.
 * I am investing in a compounding better future for myself (and by extension for my family).
 
-Do I miss human contact during the day? Well, I can meet up with friends for lunch. And I do, 
-usually once a week. Also: I'm currently sharing my house with 8 other people. What's even more unusual is that I am the only male and everyone else is female. But let's not digress, ask me more when you meet me. The point is: loneliness is not a problem.
+Do I miss human contact during the day? Well, I can meet up with friends for lunch. Also: I'm currently sharing my home
+with 8 other people. What's even more unusual is that I am the only male and everyone else is female. But let's not 
+digress, ask me more when you meet me. The point is: loneliness is not a problem.
 
 I'm also doing more exercise than ever before and have lost quite a bit of weight.
+
+Am I afraid? Possibly. The next 12 months will be crucial in deciding whether I can continue with my new life.
 
 ## How do I earn money?
 
 I earn money in 2 ways:
 
 * Through Keepthescore.co, my online product, and 
-* by building custom solutions.
+* by building custom score-keeping solutions.
 
-Keepthescore.co made X USD in gross revenue in the 12 months, beginning in March 2021, and on top of that I made Y USD by building custom solutions. Let's go into some more detail.
+Keepthescore.co made 9,500 USD in gross revenue in the past 12 months, beginning in March 2021. In the same period, I made 13,500 USD in gross revenue by building custom solutions. Let's go into some more detail.
 
 ### Keepthescore.co revenue
 People using Keepthescore.co have to pay to get certain extra features. It's a one-off payment which currently costs 5.99 USD. In March 2021, when my journey started, this revenue stream was bringing in around 460 USD per month. My goal was to triple this in 12 months.
 
-It was a goal I achieved: in March 2022 the product was making 1560 USD per month. (However, my celebrations were short-lived, because in the following month my revenue dropped by over 20%. It seems to be a seasonal thing, because traffic dropped too. The thing is, I can never be 100% sure).
+It was a goal I achieved: in March 2022 the product was making 1560 USD per month 🎉. 
+
+However, my celebrations were short-lived, because in the following month my revenue dropped by over 20%. It seems to be a seasonal thing, because traffic dropped too. The thing is, I can never be 100% sure.
 
 Anyway, I intend to bring establish 2 new revenue streams the next 12 months. The first is advertising the other is a subscription model.
 
@@ -55,7 +55,7 @@ Anyway, I intend to bring establish 2 new revenue streams the next 12 months. Th
 
 Advertising has already landed on Keepthescore.co: users have been seeing ads from Google Adsense since February 2022. So far, the returns have been meagre: around 6 USD per day. 
 
-I am hoping to switch to another ad provider but this is challenging. There's 2  providers that I am interested in (AdThrive and MediaVine) but both require Google Analytics to be installed on my site. This is annoying, because I announced [with great fanfare that I removed Google Analytics from the site](https://casparwre.de/blog/stop-using-google-analytics/). I have now sheepishly added Google Analytics back to the site, in the hope that one of these 2 ad providers will accept me 😔.
+I am hoping to switch to another more profitable ad provider. There's 2  providers that I am interested in (AdThrive and MediaVine) but both require Google Analytics to be installed on my site. This is annoying, because I announced [with great fanfare that I had removed Google Analytics from the site](https://casparwre.de/blog/stop-using-google-analytics/). I have now sheepishly added Google Analytics back to the site, in the hope that one of these 2 ad providers will accept me 😔.
 
 ### SEO for Keepthescore.co
 
@@ -63,9 +63,9 @@ The area where I learned a lot over the past 12 months is SEO. SEO (or search en
 
 !['Nebelmeer'](/images/google-search-scoreboard.png){:class="img-responsive"}
 
-The site you see in the second spot (Scorecount) used to be in the top spot. After ignoring this for some time, I eventually got round to taking a closer look at this competitor. It turns out that they were running a massive SEO scam operation. [I wrote a blog post about this which is a good yarn](https://casparwre.de/blog/seo-scam/). After publishing this post, Google punished the site and I am now number 1 🏆. Just to be clear, the main reason I was able to pull this off was a huge amount of luck.
+The site you see in the second spot (Score Count) used to be in the top spot. After ignoring this for some time, I eventually got round to taking a closer look at this competitor. It turns out that they were running a massive SEO scam operation. [I wrote a blog post about this which is a good yarn](https://casparwre.de/blog/seo-scam/). After publishing this post, Google punished the site and I am now number 1 🏆. Just to be clear, the main reason I was able to pull this off was luck.
 
-Almost all of my SEO efforts are now focussed on producing new and relevant content. The basic thing to get right is to have high-quality content that answers a question that someone will ask on Google. I try and write one of these articles per month and post them onto the Keepthescore.co blog.
+Almost all of my SEO efforts are now focussed on producing new and relevant content in the form of blog posts. The basic thing to get right is to have high-quality content that answers a question that someone could ask on Google. I try and write one of these posts per month and post them onto the Keepthescore.co blog.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🤝I&#39;ve committed to writing one blog post per week as part of my marketing efforts.<br><br>✍️I always do it on a Thursday and it&#39;s hard.<br><br>⭐️But it&#39;s beginning to pay off. That makes it progressively less hard.<a href="https://twitter.com/hashtag/buildinpublic?src=hash&amp;ref_src=twsrc%5Etfw">#buildinpublic</a> <a href="https://twitter.com/hashtag/SEO?src=hash&amp;ref_src=twsrc%5Etfw">#SEO</a> <a href="https://t.co/vNJEtaxuEH">pic.twitter.com/vNJEtaxuEH</a></p>&mdash; Caspar v. Wrede ✨ (@wrede) <a href="https://twitter.com/wrede/status/1506935233043697667?ref_src=twsrc%5Etfw">March 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -107,7 +107,7 @@ I think that a major milestone on the way to getting there is finding one or mor
 One of my next strategic tasks will be exploring different niches and aiming for 1 or 2 of them. I have already made tentative steps in this direction:
 
 * **Niche 1: live streaming scoreboards** The job-to-be done here is displaying a scoreboard within a live stream using software like OBS. What's really interesting about this niche is that there are several comepitors which means it's a problem worth solving. My product seems to have an SEO advantage and I'm hoping to make some inroads into this space. Read more about [adding scoreboards to a livesteam here](https://keepthescore.co/blog/posts/obs-live-scoreboard/).
-* **Niche 2: Wordpress Plugins** I made a very rudimentaty WordPress plugin to make it easier to insert boards into a WordPress post. Apparently WordPress powers a third of the internet, so I though would be worth a try. You could argue that a WordPress plugin is more of a distribution channel. Touché. [Read the marketing post here](https://keepthescore.co/wordpress-leaderboard/).
+* **Niche 2: Wordpress Plugins** I made a very rudimentaty WordPress plugin to make it easier to insert boards into a WordPress post. Apparently WordPress powers a third of the internet, so I though it would be worth a try. You could argue that a WordPress plugin is more of a distribution channel. Touché. [Read the marketing post here](https://keepthescore.co/wordpress-leaderboard/).
  
 ## Custom solutions
 
