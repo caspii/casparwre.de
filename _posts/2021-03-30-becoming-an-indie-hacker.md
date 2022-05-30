@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why I'm quitting my job to build an online business
-description: Why I want to start a small online business
+description: How and why I got started building Keepthescore.co 
 image: /images/nebelmeer.jpg
 custom_js:
   - node_modules/chart.js/dist/Chart.js

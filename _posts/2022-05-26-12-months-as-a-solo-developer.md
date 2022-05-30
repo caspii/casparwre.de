@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 12 Months into building my online business
-description: Covering revenue, learnings, SEO tactics, goals 
+title: 12 months into building my online business
+description: Covering revenue, learnings, SEO tactics, and goals 
 image: /images/nebelmeer.jpg
 ---
 
