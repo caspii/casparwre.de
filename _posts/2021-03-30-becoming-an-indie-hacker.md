@@ -11,6 +11,8 @@ custom_js:
 
 I’m quitting a [good job](/blog/holacracy-europace-berlin/) to go it alone: I want to build an online product that can generate revenue. Hopefully it will become a sustainable business.
 
+**UPDATE 20.05.2022**: [here's a retrospective of what happened so far](https://casparwre.de/blog/12-months-as-a-solo-developer/).
+
 ## Why am I doing this?
 
 I am doing this because I want to have freedom. Creative freedom, financial freedom and the ability to work on my own schedule. 
