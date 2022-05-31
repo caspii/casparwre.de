@@ -37,7 +37,7 @@ I earn money in 2 ways:
 * Through Keepthescore.co, my online product, and 
 * by building custom score-keeping solutions.
 
-Keepthescore.co made 9,500 USD in gross revenue from March 2021 to March 2022. In the same period, I made 13,500 USD in gross revenue by building custom solutions. Let's go into some more detail.
+Keepthescore.co made 9,500 USD in gross revenue from March 2021 to March 2022. In the same period, I made 13,500 USD in gross revenue by building custom solutions. Just to be clear, this is not enough and at the moment I'm still [default dead](http://www.paulgraham.com/aord.html).
 
 ### 2.1 Keepthescore.co revenue
 People using Keepthescore.co have to pay to get  extra features. It's a one-off payment which currently costs 5.99 USD. In March 2021, when my journey started, this revenue stream was bringing in around 460 USD per month. My goal was to triple this in 12 months.
@@ -146,6 +146,6 @@ So here's the goals I'm setting myself for the next 12 months:
 * Fully launch at least 1 other product.
 * Make my core-product even better.
 
-The most important goal here is revenue. If I fail here, I will have to accept that my new life is wonderful but unsustainable. I don't have to wait too long to find out.
+The most important goal here is revenue. If I fail here, if I remain [default dead](http://www.paulgraham.com/aord.html), I will have to accept that my new life is wonderful but unsustainable. I don't have to wait too long to find out.
 
 That’s all for now. Follow me [on Twitter](https://twitter.com/wrede) to keep updated.
