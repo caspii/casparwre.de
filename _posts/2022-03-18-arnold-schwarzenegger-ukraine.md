@@ -35,6 +35,9 @@ And then I thought, "why not do that AND write a post about it?".
 
 So here we are.
 
+## Is Arnold Schwarzenegger Russian?
+Of course not. He was born in (German-speaking) Austria and has since become an America citizen.
+
 ## How many visits from Russian are there in my product?
 
 [My product](https://keepthescore.co) allows you to make online scoreboards and leaderboards. According to my website analytics, I've had 1.1K 
