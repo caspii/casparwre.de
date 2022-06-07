@@ -122,7 +122,7 @@ I think that a major milestone on the way to getting there is finding one or mor
 One of my next strategic tasks will be exploring different niches and aiming for 1 or 2 of them. I have already made tentative steps in this direction:
 
 * **Niche 1: livestreaming scoreboards** The job-to-be done here is displaying a scoreboard within a live stream using software like OBS. What's super interesting about this niche is that there are several competitors which means it's a problem worth solving. My product seems to have an SEO advantage, and I'm hoping to make some inroads into this space. Read more about [adding scoreboards to a livesteam here](https://keepthescore.co/blog/posts/obs-live-scoreboard/).
-* **Niche 2: WordPress Plugins** I made a very rudimentaty WordPress plugin to make it easier to insert boards into a WordPress post. Apparently WordPress powers a third of the internet, so I thought it would be worth a try. You could argue that a WordPress plugin is more of a distribution channel. Touché. [Read the marketing post here](https://keepthescore.co/wordpress-leaderboard/).
+* **Niche 2: WordPress Plugins** I made a very rudimentary WordPress plugin to make it easier to insert boards into a WordPress post. Apparently WordPress powers a third of the internet, so I thought it would be worth a try. You could argue that a WordPress plugin is more of a distribution channel. Touché. [Read the marketing post here](https://keepthescore.co/wordpress-leaderboard/).
  
 
 
