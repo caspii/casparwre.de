@@ -11,17 +11,17 @@ I am a one-man show building my own software product. It currently has 11,000 re
 
 ## But first, what is a SaaS product?
 
-SaaS stands for _software as a service_. A SaaS product is a web-based software product that people pay to use. Examples of a small SaaS product would be a paid email provider, or a tool to help you schedule your social media posts. Large SaaS products are Salesforce or the Google suite of office products (Google Docs, Google Sheets and so on).
+SaaS stands for _software as a service_. A SaaS product is a web-based software product that people pay to use. An example of a small SaaS product would be a tool to help you schedule your social media posts. Large SaaS products are Salesforce or the Google suite of office products (Google Docs, Google Sheets and so on).
 
 The product I'm building allows you to create scoreboards and leaderboards and share them via a link. I started building it as a toy project 5 years ago and since then it has been transformed into a fully fledged business.  You can see a dashboard with all my public metrics [here](https://keepthescore.co/open/). 
 
 ## Why did I initially choose Python?
 
-When I first started the project it was not my intention to build a business. Instead, I wanted to build a minimalistic app to learn full-stack development.
+When I first started the project it was not my intention to build a business. Instead, I wanted to build a small webapp to learn full-stack development.
 
- I settled on Python as the language. I had been dabbling in Python for some time already and used it to do small  tasks, such as renaming files in bulk or scraping some data off a website.
+ I settled on Python as the language. I had been dabbling in Python for some time already and used it to do small tasks, such as renaming files in bulk or scraping some data off a website.
 
-This initial exposure gave me a feel for the language, and I absolutely liked what I felt. People often talk about Python being extremely beginner-friendly, and they are right. But as I learned more about the language I found it to be very intermediate-friendly too.
+This initial exposure gave me a feel for the language, and it felt good. People often talk about Python being extremely beginner-friendly, and they are right. But as I learned more about the language I found it to be very intermediate-friendly too.
 
 In general, Python is very good at hiding its advanced features until you need them. Here's an example for Java, which is absolutely not good at hiding its "advanced" features:
 
@@ -39,15 +39,15 @@ In Python Hello World is:
 print("Hello world")
 ```
 
-Python has a very gentle learning curve, that extends beyond the beginner phase. All the more complex stuff come later. For instance, I used Python for many years before I even knew, let alone used, dunder methods (e.g. `__init__`). Now I'm at an intermediate level, I am still learning new stuff, but I also feel confident in what I know. With JavaScript, it's a different story: despite no longer being a JavaScript noob, I often feel that there are dark and ineffable secrets that are eluding me, and that someday, this will cause my code to collapse. Not so with Python.
+Python has a very gentle learning curve, that extends beyond the beginner phase. For instance, I used Python for many years before I even knew, let alone used, dunder methods (e.g. `__init__`). Now I'm at an intermediate level, I am still learning new stuff, but I also feel confident in what I know. With JavaScript, it's a different story: despite no longer being a JavaScript noob, I often feel that there are dark and ineffable secrets that are eluding me, and that someday, this will cause my code to collapse. Not so with Python.
 
-Back when I made the decision to build my full-stack project in Python, the language was already well into it's ascendancy in the world of machine-learning and data-science. Committing to a language that is used in a wide range of scenarios was not a hard decision.
+Back when I made the decision to build my project in Python, the language was already well into it's ascendancy in the world of machine-learning and data-science. Committing to a language that is used in a wide range of scenarios was not a hard decision.
 
 The next fundamental decision I had to take was which "web-framework" to use.
 
 ## What is a web-framework?
 
-A web-framework is a ready-made module or library that allows your code to become a part of the Internet. Being part of the internet means you need to adhere to various rules (protocols) and react in pre-defined ways when something or somebody asks your programme for information.
+A web-framework is a ready-made module or library that allows your code to become available on the Internet. Being part of the internet means you need to adhere to various rules and react in pre-defined ways when something or somebody asks your programme for information. A web-framework takes most of this work off you.
 
 There are a large number of Python web-frameworks, including Flask, Django, and FastAPI. Django is probably the most grown-up of the lot, and is used by heavyweights such as Spotify, Instagram and Pinterest.
 
@@ -66,7 +66,7 @@ A disadvantage of micro frameworks is that you will have to manage a lot of depe
 
 Another advantage of Python  Flask is that it uses good old server-side rendering. This  has many (often forgotten) advantages. The main ones, in my view,  are that your app has much less complexity and is considerably more robust. The disadvantage is that some parts of the application may not feel as slick as an app using a fancy Javascript framework like Angular or Vue.
 
-The first version of my product was almost entirely server-side rendered with minimal Javascript. You can see a fully working version of this release [here](https://v1.keepthescore.co/) (I've preserved it in ~~amber~~ Docker). I eventually relented and added a bit of Vue here and there. This was not a big deal due to the modularity of Flask.
+The first version of my product was almost entirely server-side rendered with minimal Javascript. You can see a fully working version of this release [here](https://v1.keepthescore.co/) (I've preserved it in ~~amber~~ Docker). I eventually relented and quite a bit more JavaScript (Vue.js) to the product. This was not a big deal due to the modularity of Flask.
 
 One more advantage of server side rendering is that SEO works out of the box, which is vital for my product.
 
