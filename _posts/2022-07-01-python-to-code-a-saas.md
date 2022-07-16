@@ -70,7 +70,7 @@ The first version of my product was almost entirely server-side rendered with mi
 
 One more advantage of server side rendering is that SEO works out of the box, which is vital for my product.
 
-The final thing to note is that there are projects like [HTMX](https://htmx.org/) and [Alpine.js](https://alpinejs.dev/) which can give your app a modern and reactive feel, whilst avoiding adding huge gobs of JavaScript to your app. These solutions are seeing some traction and are actually leading to a renaissance of sorts for server-side frameworks like Flask, Django, Ruby on Rails, and others.
+The final thing to note is that there are projects like [HTMX](https://htmx.org/) and [Alpine.js](https://alpinejs.dev/) which can give your app a modern and reactive feel, whilst avoiding adding huge gobs of JavaScript. These solutions are seeing some traction and are actually leading to a renaissance of sorts for server-side frameworks like Flask, Django, Ruby on Rails, and others.
 
 ## Scaling with Python
 So far my product has had no major issues with scaling. Actually, scaling is not the problem that it once was. Unless you are building an application that has "planet-scale" requirements (free advice: you are not building an app like this), and you haven't fallen down the microservice rabbit hole, scaling should be relatively easy.
