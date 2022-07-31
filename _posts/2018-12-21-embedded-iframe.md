@@ -25,3 +25,7 @@ Here's what a leaderboard looks like. It also has some custom colours, just beca
 Fresh out of the oven are team leaderboards. This is what they look like:
 
 <iframe id="iframe-gwplrzxiiyr" src="https://keepthescore.co/embed/gwplrzxiiyr/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
+
+Here is a version using the current sports scoreboard:
+
+<iframe src="https://keepthescore.co/s/szptkltrklr/" style="width:100%;height:900px;border:none;"></iframe>
