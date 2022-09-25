@@ -5,9 +5,10 @@
 @import url(emacs.css);
 
 body {
-	font-size: 120%;
+	font-size: 1.4rem;
 	margin-bottom: 100px;
     font-family: 'Open Sans';
+    background-color: #f6f6f6;
 }
 
 .jumbotron {
@@ -45,7 +46,7 @@ blockquote {
 }
 
 .nav-wrapper {
-	background-color: #f5f5f5;
+	background-color: #eeeeee;
   border-bottom: 1px solid #ddd;
 }
 
