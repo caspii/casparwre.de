@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Deployment and infrastructure for a bootstrapped webapp with 150k monthly users
-description: How I deploy my webapp using blue-green deployment and absolutely no rocket-science
+title: Deployment and infrastructure for a bootstrapped webapp with 150k monthly visits
+description: How I deploy my webapp using blue-green deployment and zero rocket-science
 image: /images/rocket_launch.jpg
 ---
 
 ![Deploying an app](/images/deployment.png)
 
-I am a one-man show building my own software product. Some quick facts about my app:
+I am a one-man show building a web-based software product. Some quick facts about my app:
 
 * 150k visitors per month
 * 15k registered users
@@ -26,7 +26,7 @@ This is a technical post looking at the infrastructure that runs my app with a f
 * No containers 
 * Absolutely no Kubernetes
 
-By the way, I am a strong advocate of using "boring technology". I am also the only developer of the app, which makes many things simpler.
+I am a strong advocate of using "boring technology". I am also the only developer of the app, which makes many things simpler.
 
 ## The application infrastructure
 
@@ -47,9 +47,9 @@ Before I switched, my deployments worked as follows:
  * There was one app server running on DigitalOcean, plus the hosted Postgres database.
  * To deploy, I used a script that SSHed into that server and did a `git pull`
  
- This was fine to begin with however there were several issues:
+ This was fine to begin with, however there were several issues:
  
-1. My setup compiles and minifies CSS and Javascript on the server.  This resulted in up to 10 seconds for the server respond after a deployment. Some users also ran into `Bad Gateway` errors 💥.
+1. My setup compiles and minifies CSS and Javascript on the server.  This resulted in up to 10 seconds for the server to respond after a deployment. Some users ran into `Bad Gateway` errors 💥.
 2. A bug in production could be fixed by checking out the previous commit. However, this invariably took too long and always involved frenzied googling of the correct git commands.
 3. There was no way of testing the production setup, other than in production.
  
@@ -65,7 +65,7 @@ Here's how I would explain blue-green deployment:
 
 One of the 2 servers is serving production traffic (the live server), the other is idle. When a new release is ready, it gets deployed to the idle server. Here it can be tested and issues fixed. Remember, the idle server is still accessing the production database, so the application can be tested with real data.
 
-Once you're satisfied that you're ready, you switch traffic from the live server to the idle server. If any problems occur, you can simply switch back to the previously live server within seconds, effectively doing a roll-back.
+Once you're satisfied that you're ready, you switch traffic from the live server to the idle server. If any problems occur, you can simply switch back within seconds, effectively doing a roll-back.
 
 Simple, no?
   
@@ -86,9 +86,9 @@ The deployment script can use this information to always automatically deploy to
 # set TARGET to the other server 
 CURRENT=$(curl -s https://keepthescore.co/hostname)
 if [ "$CURRENT" = "blue-production" ]; then
-  TARGET="green-production"
+  TARGET="green.keepthescore.co"
 else 
-  TARGET="blue-production"
+  TARGET="blue.keepthescore.co"
 
 echo "Current deployment is " $CURRENT
 echo "Deploying to " $TARGET
@@ -98,7 +98,7 @@ ssh -q root@$TARGET "git pull"
 echo "Deploy to " $TARGET " complete"
 ```
 
-Once I've run the script I can test the deployment on my development machine by simply pointing my browser to `blue.keepthescore.co` or `green.keepthescore.co`. Once I'm sure that everything's working I route traffic to the newly deployed idle server using DigitalOceans's web interface. (I could do this via script too, but haven't got round to it yet). 
+After I've run the script I can test the deployment on my laptop by simply pointing my browser to `blue.keepthescore.co` or `green.keepthescore.co`. Once I'm sure that everything's working I route traffic to the newly deployed idle server using DigitalOceans's web interface. (I could do this via script too, but haven't got round to it yet). 
 
 Result: My users get routed to the newly deployed software without noticing (hopefully). 
 
@@ -114,7 +114,7 @@ There is only one database instance, so you might think this could be a problem.
 
 > Databases can often be a challenge with this technique, particularly when you need to change the schema to support a new version of the software. The trick is to separate the deployment of schema changes from application upgrades. So first apply a database refactoring to change the schema to support both the new and old version of the application, deploy that, check everything is working fine so you have a rollback point, then deploy the new version of the application. (And when the upgrade has bedded down remove the database support for the old version.)"
 
-I've been using this method so far, and it's worked fine. In fact, I have never done an automated schema migration of my database. It's worked great so far, so why do it differently?
+I've been using this method so far. In fact, I have never done an automated schema migration of my database. It's worked great so far, so why do it differently?
 
 ## That's all
 
