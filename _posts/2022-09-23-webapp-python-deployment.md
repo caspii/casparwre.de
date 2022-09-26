@@ -108,6 +108,8 @@ Voilá! ✨
 
 I have no CI/CD pipeline. I do have a bunch of integration tests, but I run them manually. I will eventually get round to setting up some kind of automated testing, but so far there's been no need.
 
+Just to be clear: when I run my integration tests, they happen on my laptop and use a test instance of the database. It's only when I do manual high-level testing on the idle staging server that the production database is used.
+
 ## What about the database?
 
 There is only one database instance, so you might think this could be a problem. Martin Fowler, who wrote a [great article about blue-green deployments](https://martinfowler.com/bliki/BlueGreenDeployment.html) says the following:
