@@ -2,7 +2,7 @@
 layout: post
 title: Deployment and infrastructure for a bootstrapped webapp with 150k monthly visits
 description: How I deploy my webapp using blue-green deployment and zero rocket-science
-image: /images/rocket_launch.jpg
+image: /images/deployment.png
 ---
 
 ![Deploying an app](/images/deployment.png)
