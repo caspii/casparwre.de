@@ -2,10 +2,11 @@
 layout: post
 title: I deleted the production database by accident 💥
 description: This is pure disaster porn. It's the story of how I drank some wine and then managed to delete the production database. Thankfully there was a backup.
+image: /images/disaster.jpg
 ---
 
 
-Today at around 10:45pm CET, after a couple of glasses of red wine, I deleted the production database by accident 😨. Over 300.00 scoreboards and their associated data were vaporised in an instant. By the way, I'm a one-man show, building a software product for a living. My product is Keepthescore.co, an online scoreboard and leaderboard tool.
+Today at around 10:45pm CET, after a couple of glasses of red wine, I deleted the production database for my online product ([Keepthescore.co](https://keepthescore.co/)) by accident 😨. Over 300.00 scoreboards and their associated data were vaporised in an instant. By the way, I'm a one-man show, building a software product for a living. My product is Keepthescore.co, an online scoreboard and leaderboard tool.
 
 Thankfully my database is a managed database from DigitalOcean, which means that DigitalOcean automatically do backups once a day. After 5 minutes of blind panic, I took the website into maintenance mode and worked on restoring a backup. At around 11:15pm CET, 30 minutes after the disaster, I went back online, however 7 hours of scoreboard data was gone forever 😵. 
 
@@ -56,7 +57,8 @@ Thankfully nobody's job is at risk due to this disaster. I am not going to fire 
 Also, this webapp is just a side-project (Update: [this is no longer true](https://casparwre.de/blog/becoming-an-indie-hacker/).) It's not the software that's running a power-plant. Nonetheless, I have many users, some of them paying customers, and I try our very best to make them happy. Today I let those users down and that hurts. 
 
 The wonderful irony is that not 4 days earlier I tweeted a _hilarious_ meme about deleting your production database:
-{{< tweet user="keep_the_score" id="1315552102299598851" >}}
+
+<blockquote class="twitter-tweet"><p lang="zxx" dir="ltr"><a href="https://t.co/mOlFqWal08">pic.twitter.com/mOlFqWal08</a></p>&mdash; Keepthescore.co (@keep_the_score) <a href="https://twitter.com/keep_the_score/status/1315552102299598851?ref_src=twsrc%5Etfw">October 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 Again, I am very sorry. Good night. 
