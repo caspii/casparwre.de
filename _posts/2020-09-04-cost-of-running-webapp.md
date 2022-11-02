@@ -20,19 +20,16 @@ The database is a hosted Postgres instance also on DigitalOcean.
 
 Note: the servers are oversized for the load we're currently seeing. The reason for that is that we tried to solve a production issue by increasing the server specs. It didn't solve the problem, and now we can't down-size the servers without re-provisioning them 🤷‍♀️.
 
-<hr>
 
 ### Code repo on GitHub
 **Costs per month: $0**
 
 This is free. Thanks GitHub!
-<hr>
 
 ### Amazon Web Services
 **Costs per month: $60**
 
 We use a reporting tool called [Metabase](https://www.metabase.com/) to generate insights and reports from the database. The tool itself is opensource and free, but hosting it is fairly expensive. Currently it runs on an EC2 instance. There are definitely some savings that could be realised here.
-<hr>
 
 ### Google Cloud
 **Costs per month: $1.32**
@@ -40,13 +37,11 @@ We use a reporting tool called [Metabase](https://www.metabase.com/) to generate
 We use Firebase for the [realtime basketball scoreboard](https://keepthescore.co/basketball-scoreboard/). We also use the Google Sheets API for some custom scoreboards. Overall it must be said that the Google Cloud APIs are great value for money (so far).
 
 We have plans to move away from DigitalOcean and onto Google Cloud infrastructure in the next year.
-<hr>
 
 ### DNS hosting
 **Costs per month: $5**
 
 Our domain is registered with [DNSimple.com](https://dnsimple.com/).
-<hr>
 
 ### Disqus
 **Costs per month: $10**
@@ -54,7 +49,6 @@ Our domain is registered with [DNSimple.com](https://dnsimple.com/).
 Scoreboards and this blog have the option of allowing a discussion on the same page -- this used to use the [Disqus](https://disqus.com/) service. Disqus has a free tier but they began showing ads so we were forced to move to the paid tier. 
 
 We have since moved to [Hyvor Talk](https://talk.hyvor.com/) which is cheaper, has no ads, and respects your privacy. 
-<hr> 
 
 ## Is it worth it? Is there revenue?
 
