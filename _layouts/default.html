@@ -8,15 +8,14 @@
     <!-- meta robots -->
     {% if page.metatags %} <meta name="robots" content="{{page.metatags}}">{% endif %}
 
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
-          href="{{ site.baseurl }}/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="/node_modules/bootswatch/dist/flatly/bootstrap.min.css">
     <link rel="stylesheet" href="/node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Open+Sans:wght@400;700&display=swap"
-          rel="stylesheet">
+<!--    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Open+Sans:wght@400;700&display=swap"-->
+<!--          rel="stylesheet">-->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -61,6 +60,8 @@
           {% include footer.html %}
         </footer>
     </div>
-    {% include analytics.html %}
+      <!-- Fathom - beautiful, simple website analytics -->
+      <script src="https://cdn.usefathom.com/script.js" data-site="FOLZOONQ" defer></script>
+      <!-- / Fathom -->
   </body>
 </html>
