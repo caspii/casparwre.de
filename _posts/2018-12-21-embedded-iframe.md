@@ -11,7 +11,7 @@ This is a post demonstrating how to embed a scoreboard or leaderboard using an i
 4. Paste the code into your page (e.g. Wordpress, Wix, Square, etc.)
 5. That's it!
 
-Check this out for the full documentation: [how to embed widgets](https://keepthescore.co/scoreboard-widgets/).
+Check this out for the full documentation: [how to embed widgets](https://keepthescore.co/blog/posts/embedded-online-leaderboard/).
 
 Here's what an embedded scoreboard looks like:
 
