@@ -20,7 +20,7 @@ We use the information we collect to operate and improve the App, to personalize
 
 We may share the information we collect with third parties for the purposes described in this Policy. These third parties may include:
 
-* Advertisers and Advertising Networks: We use AdMob to show you advertisements within the App. AdMob may use the information we collect, including your advertising ID, to personalize the advertisements that are shown to you.
+* Advertisers and Advertising Networks: We use AdMob to show you advertisements within the App. AdMob may use the information we collect, including your advertising ID, to personalize the advertisements that are shown to you. See the [Google Privacy Policy](https://policies.google.com/privacy?hl=en&gl=US).
 * Service Providers: We may share your information with third-party service providers who help us operate and improve the App. These service providers may include Google Analytics and Firebase. See [Google Play Services](https://www.google.com/policies/privacy/) and [Firebase Analytics](https://firebase.google.com/policies/analytics).
 * Legal Disclosures: We may disclose your information if required to do so by law or if we believe that such action is necessary to comply with legal process, to protect the rights and safety of our users or the public, or to enforce our policies.
 
