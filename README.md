@@ -26,12 +26,6 @@ See here: https://classic.yarnpkg.com/en/docs/install
 
 Run `yarn install`
 
-
-## Resize Images from command line
- `sips -Z 1024 money-tree.jpg` 
- -Z Ensures aspect ratio is kept. 1024 is maximum resolution. 
-
-
 ### Updating jekyll
 `gem update jekyll`
 
