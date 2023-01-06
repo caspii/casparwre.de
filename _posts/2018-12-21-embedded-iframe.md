@@ -28,4 +28,12 @@ Fresh out of the oven are team leaderboards. This is what they look like:
 
 Here is a version using the current sports scoreboard:
 
-<iframe src="https://keepthescore.co/s/szptkltrklr/" style="width:100%;height:900px;border:none;"></iframe>
+## Embedded soccer scoreboard
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<iframe src="https://keepthescore.co/embed-sport/tceppwlurvr/" style="width:100%;border:none;height:600px"></iframe>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<iframe src="http://localhost:5000/embed-sport/fbqxmndohrr/" style="width:100%;border:none;height:600px"></iframe>
