@@ -13,6 +13,7 @@ I am a one-man show building a web-based software product. Some quick facts abou
 * 15k registered users
 * 3k US$ revenue per month
 * 70 requests per second at peak-time
+* The app is KeepTheScore.com, an [online scoreboard app](https://keepthescore.co/)
 
 This is a technical post looking at the infrastructure that runs my app with a focus on how I deploy it.
 
