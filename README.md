@@ -3,6 +3,15 @@ Code for casparwre.de
 
 The website is generated with [Jeykll](https://jekyllrb.com/).
 
+
+## Generating the site
+
+Run jekyll with `jekyll serve` in the root directory and follow instructions.
+
+## Resize Images from command line
+ `sips -Z 1024 money-tree.jpg` 
+ -Z Ensures aspect ratio is kept. 1024 is maximum resolution. 
+
 ### 1. Install Jekyll
 On Mac OSX
 ```
@@ -29,10 +38,3 @@ Run `yarn install`
 ### Updating jekyll
 `gem update jekyll`
 
-## Generating the site
-
-Run jekyll with `jekyll serve` in the root directory and follow instructions.
-
-## Resize Images from command line
- `sips -Z 1024 money-tree.jpg` 
- -Z Ensures aspect ratio is kept. 1024 is maximum resolution. 
