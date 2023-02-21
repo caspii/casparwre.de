@@ -15,16 +15,16 @@ Check this out for the full documentation: [how to embed widgets](https://keepth
 
 Here's what an embedded scoreboard looks like:
 
-<iframe id="iframe-3SdSIAy3s_s1r" src="https://keepthescore.co/embed/3SdSIAy3s_s1r/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
+<iframe id="iframe-3SdSIAy3s_s1r" src="https://blue.keepthescore.co/embed/3SdSIAy3s_s1r/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
 
 Here's what a leaderboard looks like. It also has some custom colours, just because.
 
-<iframe id="iframe-yodpwvaeapr" src="https://keepthescore.co/embed/yodpwvaeapr/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
+<iframe id="iframe-yodpwvaeapr" src="https://blue.keepthescore.co/embed/yodpwvaeapr/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
 
 
 Fresh out of the oven are team leaderboards. This is what they look like:
 
-<iframe id="iframe-gwplrzxiiyr" src="https://keepthescore.co/embed/gwplrzxiiyr/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
+<iframe id="iframe-gwplrzxiiyr" src="https://blue.keepthescore.co/embed/gwplrzxiiyr/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
 
 Here is a version using the current sports scoreboard:
 
@@ -32,8 +32,6 @@ Here is a version using the current sports scoreboard:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<iframe src="https://keepthescore.co/embed-sport/tceppwlurvr/" style="width:100%;border:none;height:600px"></iframe>
+<iframe src="https://blue.keepthescore.co/embed-sport/tceppwlurvr/" style="width:100%;border:none;height:600px"></iframe>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-<iframe src="http://localhost:5000/embed-sport/fbqxmndohrr/" style="width:100%;border:none;height:600px"></iframe>
