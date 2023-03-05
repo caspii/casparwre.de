@@ -7,28 +7,27 @@ image: /images/lonely-robot.jpg
 
 ![A lonely robot](/images/lonely-robot.jpg)
 
-I am the sole developer of a [webapp](https://keepthescore.com) that has around 5,000 USD monthly revenue.
+I am the sole developer of a [webapp](https://keepthescore.com) that has around 5,000 USD in monthly revenue.
 
 Yesterday I was thinking about what would happen to it if I died suddenly. I really should have some kind of succession plan. 
 But instead of diving into that, I began to wonder how long the app would keep running for if it was left completely to 
 itself, with no further human support.
 
-What makes this question interesting is that, in theory, my app runs as a completely self-sufficient system: 
+It's interesting because my app runs as a completely self-sufficient system. 
 
 1. The app makes monthly revenue which automatically gets deposited into a bank account.
 2. The app is hosted on a cloud provider (DigitalOcean) and the monthly bill is automatically paid from that bank account. 
 3. The same is true for the domain name registrar.
-4. A bunch of other stuff is also paid for automatically, but none of that is critical to the app remaining online. This includes monitoring and logging tools, analytics, the mail provider and so on.
 
-The app will remain up indefinitely as long as 
+In theory, the app will remain online indefinitely as long as 
 
-- The database, the domain and the cloud service continue to function.
-- the monthly revenue is greater than the monthly costs.
+- the database, the domain and the cloud service continue to function.
+- The monthly revenue is greater than the monthly costs.
 
 In practice of course, it will go offline eventually. What are the scenarios that could cause this?
 
 ## "Acts of God" or infrastructure failure
-This would be things that are outside the scope of the app. The less spectacular the failure, the more likely it is to happen.
+This would be events that are outside the scope of the app. The more spectacular the failure, the less likely it is to happen.
 
 Spectacular failures include: a meteor striking the infrastructure, a nuclear war, a solar flare, a super-volcano eruption, a zombie apocalypse, ~~a global pandemic~~, or a global economic collapse. All of these are unlikely to happen.
 
