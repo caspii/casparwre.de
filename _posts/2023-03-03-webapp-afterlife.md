@@ -28,20 +28,20 @@ The app will remain up indefinitely as long as
 In practice of course, it will go offline eventually. What are the scenarios that could cause this?
 
 ## "Acts of God" or infrastructure failure
-This would be things that are outside the scope of the app. The less specactular the failure, the more likley it is to happen.
+This would be things that are outside the scope of the app. The less spectacular the failure, the more likely it is to happen.
 
-Spectacular failures include: a meteor striking the infrastructure, a nuclear war, a solar flare, a supervolcano eruption, a zombie apocalypse, ~~a global pandemic~~, or a global economic collapse. All of these are unlikely to happen.
+Spectacular failures include: a meteor striking the infrastructure, a nuclear war, a solar flare, a super-volcano eruption, a zombie apocalypse, ~~a global pandemic~~, or a global economic collapse. All of these are unlikely to happen.
 
-Less specactular would be the cloud provider going bankrupt, or the domain name registrar going out of business. More probable but still unlikely.
+Less spectacular would be the cloud provider going bankrupt, or the domain name registrar going out of business. More probable but still unlikely.
 
 Most likely in this department would be the cloud provider having an outage or the database getting stuck after an automatic update.
 
 ## App-level technical failure
 This would be a failure of the app itself due to a bug or lack of maintenance. I would not make the claim that my app is bug-free, but I am pretty confident that it's free of bugs that could cause it to go offline. 
 
-The app runs on a virtual Linux server, and these can famoulsy run for years without any kind of human intervention. 
+The app runs on a virtual Linux server, and these can famously run for years without any kind of human intervention. 
 
-The likliest scenario in this department would be the database or the harddisk simply filling up. This would cause the app to go offline, but it would take a long time. Probably years.
+The likeliest scenario in this department would be the database or the harddisk simply filling up. This would cause the app to go offline, but it would take a long time. Probably years.
 
 ## Product failure
 
@@ -52,10 +52,10 @@ The app (or the server it's running on) could be breached by an attacker. Actual
 
 More dangerous would be an external attack such as a denial of service attack. This involves flooding the app with traffic until it buckles and fails. I'm not quite sure whether the app could recover by itself after the attack was over. It depends.
 
-## Bank account failure
-Obviously the bank account is a single and critical point of failure. As soon as it stops working, the app's days are numbered. I would estimate that the cloud provider and the domain name registrar would stop providing services within three months of not being paid.
+## Payment failure
+Obviously the bank account and the attached credit card is a single and critical point of failure. As soon as it stops working, the app's days are numbered. I would estimate that the cloud provider and the domain name registrar would stop providing services within three months of not being paid.
 
-This is acutally the most likely scenario. Eventually the bank would get wind of the fact that I am no longer around and would freeze the account.
+This is actually the most likely scenario. Eventually the bank would get wind of the fact that I am no longer around and would freeze the account.
 
 ## Conclusion
 
