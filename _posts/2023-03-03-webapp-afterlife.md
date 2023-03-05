@@ -7,7 +7,7 @@ image: /images/lonely-robot.jpg
 
 ![A lonely robot](/images/lonely-robot.jpg)
 
-I am the sole developer of a webapp that has around 5,000 USD monthly revenue.
+I am the sole developer of a [webapp](https://keepthescore.com) that has around 5,000 USD monthly revenue.
 
 Yesterday I was thinking about what would happen to it if I died suddenly. I really should have some kind of succession plan. 
 But instead of diving into that, I began to wonder how long the app would keep running for if it was left completely to 
