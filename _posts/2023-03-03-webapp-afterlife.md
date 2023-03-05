@@ -50,15 +50,15 @@ The app could stop generating enough revenue to cover the monthly costs. With no
 ## Security breach or malicious attack
 The app (or the server it's running on) could be breached by an attacker. Actually, this would probably not cause the app to go offline, because it is not in the attacker's interest. The attacker would probably use the app to send spam, or to mine cryptocurrency, or to host malware, whilst ensuring that it remains online.
 
-More dangerous would be an external attack such as a denial of service attack. This involves flooding the app with traffic until it buckles and fails. I'm not quite sure whether the app could recover by itself after the attack was over. It depends.
+More dangerous would be an external attack such as a denial of service attack. This involves flooding the app with traffic until it buckles and fails. I've never tried it, so I have no idea if the app could recover by itself. Possibly.
 
 ## Payment failure
-Obviously the bank account and the attached credit card is a single and critical point of failure. As soon as it stops working, the app's days are numbered. I would estimate that the cloud provider and the domain name registrar would stop providing services within three months of not being paid.
+Obviously the bank account and the attached credit card is a single and critical point of failure. As soon as payment stops, the app's days are numbered. I would estimate that the cloud provider and the domain name registrar would stop providing services within three months of not being paid.
 
-This is actually the most likely scenario. Eventually the bank would get wind of the fact that I am no longer around and would freeze the account.
+This is actually the most likely scenario. Eventually the bank would get wind of the fact that I am no longer around and would freeze the account. Or the credit card expires.
 
 ## Conclusion
 
-Overall, I think the app would continue to function for at least six months. If the bank account remains active I could imagine it continuing to run for 1-2 years and with a bit of luck, maybe even 5 years. The thing is, one way or another, I will never find out!
+Overall, I estimate the app would continue to function for a minimum of six months. If the credit card remains active I could imagine it continuing to run for 1-2 years and with a bit of luck, maybe even 5 years. The thing is, one way or another, I will never find out!
 
 Do you have a succession plan for your webapp?
