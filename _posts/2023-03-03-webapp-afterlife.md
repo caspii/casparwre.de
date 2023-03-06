@@ -61,3 +61,5 @@ This is actually the most likely scenario. Eventually the bank would get wind of
 Overall, I estimate the app would continue to function for a minimum of six months. If the credit card remains active I could imagine it continuing to run for 1-2 years and with a bit of luck, maybe even 5 years. The thing is, one way or another, I will never find out!
 
 Do you have a succession plan for your webapp?
+
+PS. To see if I survive, [follow me on Twitter](https://twitter.com/wrede).
