@@ -11,13 +11,13 @@ Here's what an embedded scoreboard looks like:
 
 <iframe id="iframe-cxxxxlrqykthr" src="https://keepthescore.co/embed/cxxxxlrqykthr/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight"))    {document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight +40}px`}}</script>
 
-[//]: # ADMIN CODE (https://keepthescore.co/board/qpfltlvftrkxe/)
+[//]: # (ADMIN LINK https://keepthescore.co/board/qpfltlvftrkxe/)
 
 ## How to add your own widget
 
 1. First of all you need to go over to [Keepthescore.co](https://keepthescore.co/fundraising-thermometer/) and create your thermometer. You can do this without registering or providing an email address. Pretty cool, no?
-2. Click the "PUBLISH" button at the top of your scoreboard.
-3. Click the "Embed on a Website Panel" and then "COPY TO CLIPBOARD"
+2. Click the "PUBLISH" button at the top of your board.
+3. Click the "Embed on a Website" Panel and then "COPY TO CLIPBOARD"
 4. Paste the code into your page (e.g. Wordpress, Wix, Square, etc.)
 5. That's it!
 
