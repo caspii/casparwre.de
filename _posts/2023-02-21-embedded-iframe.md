@@ -15,21 +15,21 @@ This is a post demonstrating how to embed a leaderboard widget from [Keepthescor
 Check this out for the full documentation: [how to embed widgets](https://keepthescore.co/blog/posts/embedded-online-leaderboard/).
 
 
-Here's what the leaderboard widget looks like. This one has some custom colours:
+Here's what the leaderboard widget looks like. 
 
 [//]: # (ADMIN LINK https://keepthescore.co/board/utvrmmtlfre/)
 
-<iframe id="iframe-yodpwvaeapr" src="https://blue.keepthescore.co/embed/yodpwvaeapr/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
+<iframe id="iframe-yodpwvaeapr" src="https://keepthescore.co/embed/yodpwvaeapr/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
 
-Here's what an embedded leaderboard looks like:
+Here's another leaderboard looks with a different theme and a different layout:
 
 [//]: # (ADMIN LINK: https://keepthescore.co/board/9XEPKFWPKdspe/)
 
-<iframe id="iframe-3SdSIAy3s_s1r" src="https://blue.keepthescore.co/embed/3SdSIAy3s_s1r/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
+<iframe id="iframe-3SdSIAy3s_s1r" src="https://keepthescore.co/embed/3SdSIAy3s_s1r/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
 
 
 Another type of supported leaderboard is the so-called team leaderboard. This is what they look like:
 
 [//]: # (ADMIN LINK: https://keepthescore.co/board/zchijqngjqe/)
 
-<iframe id="iframe-gwplrzxiiyr" src="https://blue.keepthescore.co/embed/gwplrzxiiyr/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
+<iframe id="iframe-gwplrzxiiyr" src="https://keepthescore.co/embed/gwplrzxiiyr/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
