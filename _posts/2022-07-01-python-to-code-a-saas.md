@@ -13,7 +13,7 @@ I am a one-man show building my own software product. It currently has 11,000 re
 
 SaaS stands for _software as a service_. A SaaS product is a web-based software product that people pay to use. An example of a small SaaS product would be a tool to help you schedule your social media posts. Large SaaS products are Salesforce or the Google suite of office products (Google Docs, Google Sheets and so on).
 
-The product I'm building allows you to create scoreboards and leaderboards and share them via a link. I started building it as a toy project 5 years ago and since then it has been transformed into a fully fledged business.  You can see a dashboard with all my public metrics [here](https://keepthescore.co/open/). 
+The product I'm building allows you to create scoreboards and leaderboards and share them via a link. I started building it as a toy project 5 years ago and since then it has been transformed into a fully fledged business.  You can see a dashboard with all my public metrics [here](https://keepthescore.com/open/). 
 
 ## Why did I initially choose Python?
 
@@ -66,7 +66,7 @@ A disadvantage of micro frameworks is that you will have to manage a lot of depe
 
 Another advantage of Python  Flask is that it uses good old server-side rendering. This  has many (often forgotten) advantages. The main ones, in my view,  are that your app has much less complexity and is considerably more robust. The disadvantage is that some parts of the application may not feel as slick as an app using a fancy Javascript framework like Angular or Vue.
 
-The first version of my product was almost entirely server-side rendered with minimal Javascript. You can see a fully working version of this release [here](https://v1.keepthescore.co/) (I've preserved it in ~~amber~~ Docker). I eventually relented and quite a bit more JavaScript (Vue.js) to the product. This was not a big deal due to the modularity of Flask.
+The first version of my product was almost entirely server-side rendered with minimal Javascript. You can see a fully working version of this release [here](https://v1.keepthescore.com/) (I've preserved it in ~~amber~~ Docker). I eventually relented and quite a bit more JavaScript (Vue.js) to the product. This was not a big deal due to the modularity of Flask.
 
 One more advantage of server side rendering is that SEO works out of the box, which is vital for my product.
 

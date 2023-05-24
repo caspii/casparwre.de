@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why I'm quitting my job to build an online business
-description: How and why I got started building Keepthescore.co 
+description: How and why I got started building keepthescore.com 
 image: /images/nebelmeer.jpg
 custom_js:
   - node_modules/chart.js/dist/Chart.js
@@ -47,7 +47,7 @@ But back to me and my business. I want to build a software that runs on a centra
 
 ## So what is the product?
 
-For the next 12 months I’m going to concentrate on an online scoreboard called [keepthescore.co](https://keepthescore.co/). I originally built it 4 years ago as a toy project and have been improving it ever since. Up to now it was a hobby project that I tended like others may tend a garden. There's a great blog post exploring [this metaphor here](https://herman.bearblog.dev/my-product-is-my-garden/).
+For the next 12 months I’m going to concentrate on an online scoreboard called [keepthescore.com](https://keepthescore.com/). I originally built it 4 years ago as a toy project and have been improving it ever since. Up to now it was a hobby project that I tended like others may tend a garden. There's a great blog post exploring [this metaphor here](https://herman.bearblog.dev/my-product-is-my-garden/).
 
 My ~~garden~~ product has slowly been accumulating users ever since I created it. Here is a graph of the scoreboards created per month since I put the product online. I have done zero marketing, all growth has been totally organic.
 
@@ -67,7 +67,7 @@ In my old job I was a product owner. But in my new job I’ll have a multitude o
  * DevOps dude (where will the code live and run)
  * Marketer and advocate for the product (writing copy, blog articles etc.)
 
-Will keepthescore.co be my only product? I’m not sure yet. I will prototype and validate some other ideas in the next 12 months, so that I don’t have all my eggs in one basket. But more on that another time.
+Will keepthescore.com be my only product? I’m not sure yet. I will prototype and validate some other ideas in the next 12 months, so that I don’t have all my eggs in one basket. But more on that another time.
 
 ## Why now?
 One of my many favorite quotes goes like this:

@@ -9,7 +9,7 @@ This post is aimed at people who want to learn to code &mdash; with the explicit
 
 !['Rocket launch'](/images/rocket_launch.jpg){:class="img-responsive"}
 
-I’ve spent the last 5 years building a [software product](https://keepthescore.co/) and want to share my learnings. The tl;dr version is: go old-school whenever you can. Don’t listen to the siren-calls of shiny new technology. Instead, aim to learn the technical fundamentals whilst shipping a product as soon as possible. This is absolutely do-able.
+I’ve spent the last 5 years building a [software product](https://keepthescore.com/) and want to share my learnings. The tl;dr version is: go old-school whenever you can. Don’t listen to the siren-calls of shiny new technology. Instead, aim to learn the technical fundamentals whilst shipping a product as soon as possible. This is absolutely do-able.
 
 ## What is a SaaS product?
 
@@ -76,7 +76,7 @@ When I launched my app, the homepage looked like this:
 
 !['Version1 of Keepthescore'](/images/version1.png){:class="img-responsive"}
 
-It was completely server-side rendered with minimal Javascript in a few places. Despite being very rudimentary people started using it. I started getting feedback which I could iterate on. You can have a look at a working version of what was launched [here](https://v1.keepthescore.co). 
+It was completely server-side rendered with minimal Javascript in a few places. Despite being very rudimentary people started using it. I started getting feedback which I could iterate on. You can have a look at a working version of what was launched [here](https://v1.keepthescore.com). 
 
 These days my app has an API and does use a Javascript framework (Vue.js). The point is, version 1 was good enough to get started with.
 

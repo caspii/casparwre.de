@@ -20,4 +20,4 @@ This means you need to download no software at all and it runs on every computer
 which is basically all of them. Another huge advantage is that you can share your scoreboard
 remotely with other people: simply send them a link.
 
-Click here to try it for yourself, it's totally free: [online basketball scoreboard](https://keepthescore.co/basketball-scoreboard).
+Click here to try it for yourself, it's totally free: [online basketball scoreboard](https://keepthescore.com/basketball-scoreboard).

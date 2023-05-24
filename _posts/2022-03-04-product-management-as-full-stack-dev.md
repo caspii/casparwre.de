@@ -7,7 +7,7 @@ image: /images/bridge.jpg
 
 !['A nice bridge'](/images/bridge.jpg){:class="img-responsive"}
 
-I spent most of my career as a product manager / product owner. In 2021 I “crossed the aisle”, so to speak, and became a full-stack developer. Well, actually I decided to build, run and grow my [own software product](https://keepthescore.co). This means that on top of being a developer, I am still a product manager, as well as doing customer support and a lot of other things. But I would say that I am now _mainly_ a full-stack developer.
+I spent most of my career as a product manager / product owner. In 2021 I “crossed the aisle”, so to speak, and became a full-stack developer. Well, actually I decided to build, run and grow my [own software product](https://keepthescore.com). This means that on top of being a developer, I am still a product manager, as well as doing customer support and a lot of other things. But I would say that I am now _mainly_ a full-stack developer.
 
 Here are 8 things that I have learned that would have helped me in my old role.
 

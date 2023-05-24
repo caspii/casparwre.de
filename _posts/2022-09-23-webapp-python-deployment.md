@@ -13,7 +13,7 @@ I am a one-man show building a web-based software product. Some quick facts abou
 * 15k registered users
 * 3k US$ revenue per month
 * 70 requests per second at peak-time
-* The app is KeepTheScore.com, an [online scoreboard app](https://keepthescore.co/)
+* The app is KeepTheScore.com, an [online scoreboard app](https://keepthescore.com/)
 
 This is a technical post looking at the infrastructure that runs my app with a focus on how I deploy it.
 
@@ -74,9 +74,9 @@ Simple, no?
 
 I've already mentioned my 2 application servers. But the magic  thing that makes it all possible is a  [floating IP address from DigitalOcean](https://www.digitalocean.com/docs/networking/floating-ips/). 
 
-This is a publicly-accessible static IP addresses that you can assign to a server and instantly remap between other servers in the same datacenter. My app domain (keepthescore.co) resolves to this static IP address. Internally, however, the IP is pointing to either the green or the blue server.
+This is a publicly-accessible static IP addresses that you can assign to a server and instantly remap between other servers in the same datacenter. My app domain (keepthescore.com) resolves to this static IP address. Internally, however, the IP is pointing to either the green or the blue server.
 
-Both of my servers expose their hostname via a publicly accessible route: [https://keepthescore.co/hostname/](https://keepthescore.co/hostname/). Give it a try by clicking on the link! 
+Both of my servers expose their hostname via a publicly accessible route: [https://keepthescore.com/hostname/](https://keepthescore.com/hostname/). Give it a try by clicking on the link! 
 
 So now it's possible for a human or a machine (using `curl`) to discover which the current live server is (blue or green).
 
@@ -85,11 +85,11 @@ The deployment script can use this information to always automatically deploy to
 ```bash
 # Get the current production server and 
 # set TARGET to the other server 
-CURRENT=$(curl -s https://keepthescore.co/hostname)
+CURRENT=$(curl -s https://keepthescore.com/hostname)
 if [ "$CURRENT" = "blue-production" ]; then
-  TARGET="green.keepthescore.co"
+  TARGET="green.keepthescore.com"
 else 
-  TARGET="blue.keepthescore.co"
+  TARGET="blue.keepthescore.com"
 
 echo "Current deployment is " $CURRENT
 echo "Deploying to " $TARGET
@@ -99,7 +99,7 @@ ssh -q root@$TARGET "git pull"
 echo "Deploy to " $TARGET " complete"
 ```
 
-After I've run the script I can test the deployment on my laptop by simply pointing my browser to `blue.keepthescore.co` or `green.keepthescore.co`. Once I'm sure that everything's working I route traffic to the newly deployed idle server using DigitalOceans's web interface. (I could do this via script too, but haven't got round to it yet). 
+After I've run the script I can test the deployment on my laptop by simply pointing my browser to `blue.keepthescore.com` or `green.keepthescore.com`. Once I'm sure that everything's working I route traffic to the newly deployed idle server using DigitalOceans's web interface. (I could do this via script too, but haven't got round to it yet). 
 
 Result: My users get routed to the newly deployed software without noticing (hopefully). 
 

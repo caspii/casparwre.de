@@ -10,7 +10,7 @@ I recently wanted to learn something new and decided to make a webapp using Pyth
 
 So I searched around for an idea and hit upon making a scoreboard for keeping track of scores in a group. A scan of the Google Play Store showed that there are at least 20 apps trying to solve the problem. Some are [pretty](https://play.google.com/store/apps/details?id=com.nolanlawson.keepscore) [good](https://play.google.com/store/apps/details?id=com.publicobject.rounds), most are not. All of them have the same problem: it's very hard to share a scoreboard with someone else and -- you've guessed it -- collaborate.
 
-So here's what I made: [Keethescore.co: a webapp for keeping score](https://keepthescore.co). Let me know what you think.
+So here's what I made: [Keethescore.co: a webapp for keeping score](https://keepthescore.com). Let me know what you think.
 
 ## Using SQLite and Flask
 

@@ -5,7 +5,7 @@ description: What are the monthly costs of running a webapp on DigitOcean? I dig
 image: /images/isometric-app-flow.jpg
 ---
 
-How much does running a webapp in production actually cost? Maybe more than you think. [Keepthescore.co](https://keepthescore.co/) is a Python flask application running on DigitalOcean and Firebase. It currently has around 55k unique visitors per month, per day it's around 3.4k. (In terms of page views, this is around 700k per month, 25k per day.)
+How much does running a webapp in production actually cost? Maybe more than you think. [keepthescore.com](https://keepthescore.com/) is a Python flask application running on DigitalOcean and Firebase. It currently has around 55k unique visitors per month, per day it's around 3.4k. (In terms of page views, this is around 700k per month, 25k per day.)
 
 ![App flow and costs](/images/isometric-app-flow.jpg)
 
@@ -34,7 +34,7 @@ We use a reporting tool called [Metabase](https://www.metabase.com/) to generate
 ### Google Cloud
 **Costs per month: $1.32**
 
-We use Firebase for the [realtime basketball scoreboard](https://keepthescore.co/basketball-scoreboard/). We also use the Google Sheets API for some custom scoreboards. Overall it must be said that the Google Cloud APIs are great value for money (so far).
+We use Firebase for the [realtime basketball scoreboard](https://keepthescore.com/basketball-scoreboard/). We also use the Google Sheets API for some custom scoreboards. Overall it must be said that the Google Cloud APIs are great value for money (so far).
 
 We have plans to move away from DigitalOcean and onto Google Cloud infrastructure in the next year.
 

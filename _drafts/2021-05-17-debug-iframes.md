@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TEST FOR EMBEDDED IFRAME
-canonical_url: 'https://keepthescore.co/blog/posts/embedded-online-scoreboard/'
+canonical_url: 'https://keepthescore.com/blog/posts/embedded-online-scoreboard/'
 ---
 
 This is a draft article which should not be publised. It's only good for testing iframe embeds locally.

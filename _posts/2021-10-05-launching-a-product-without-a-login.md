@@ -9,7 +9,7 @@ image: /images/balloons.jpg
 !['Balloons'](/images/balloons.jpg){:class="img-responsive"}
 
 I've launched 2 successful web products (and several unsuccessful ones) that did not have a login. The product that 
-I'm currently working on ([Keepthescore.co](https://keepthescore.co)) has over 50k pageviews per day, monthly revenue of 2000 USD and has been online 
+I'm currently working on ([keepthescore.com](https://keepthescore.com)) has over 50k pageviews per day, monthly revenue of 2000 USD and has been online 
 for 4 years -- and I've only just added a user login.
 
 So what are the advantages of launching without a login? 
@@ -29,13 +29,13 @@ Let's dig into these reasons.
 
 ## No login => simpler code => quicker launch
 When I learned to code, it was whilst building the frontend for [Kittysplit.com](https://kittysplit.com/) as a side-project. A few years later, 
-I was still very much a beginner when I began work on [Keepthescore.co](https://keepthescore.co). Again, it was a side-project. I am convinced that if either of those products had
+I was still very much a beginner when I began work on [keepthescore.com](https://keepthescore.com). Again, it was a side-project. I am convinced that if either of those products had
 required a login I would never have built them. (Keepthescore has since [become my full-time job](/blog/becoming-an-indie-hacker/)).
 
 Adding a login means you need to know about sessions, password hashing and other stuff which is very 
 intimidating to a noob.  It is likely to tip her into the "hmmm, this seems more trouble than it's worth" camp.
 
-So how does a product without a login even work? In the case of Keepthescore.co, when you create a new scoreboard you are 
+So how does a product without a login even work? In the case of keepthescore.com, when you create a new scoreboard you are 
 given a unique and secret link. You can access and edit your board with the link. 
 
 To make things easier, the unique link
@@ -62,7 +62,7 @@ Since publishing this post, someone pointed out that Paul Graham, veteran invest
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Underappreciated competitive advantage: letting people do x without creating an account.</p>&mdash; Paul Graham (@paulg) <a href="https://twitter.com/paulg/status/1261976515408990208?ref_src=twsrc%5Etfw">May 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-For Keepthescore.co it takes a new user literally less than 10 seconds to get from the landing page to being inside the product. I am absolutely convinced that this has contributed to the success of the product.
+For keepthescore.com it takes a new user literally less than 10 seconds to get from the landing page to being inside the product. I am absolutely convinced that this has contributed to the success of the product.
 
 Also, by following this principle you will be getting onto the extremely trendy "product-led-growth" bandwagon.
 

@@ -34,13 +34,13 @@ Am I afraid? Possibly. The next 12 months will be crucial in deciding whether I 
 
 I earn money in 2 ways:
 
-* Through Keepthescore.co, my online product, and 
+* Through keepthescore.com, my online product, and 
 * by building custom score-keeping solutions.
 
-Keepthescore.co made 9,500 USD in gross revenue from March 2021 to March 2022. In the same period, I made 13,500 USD in gross revenue by building custom solutions. Just to be clear, this is not enough and at the moment I'm still [default dead](http://www.paulgraham.com/aord.html).
+keepthescore.com made 9,500 USD in gross revenue from March 2021 to March 2022. In the same period, I made 13,500 USD in gross revenue by building custom solutions. Just to be clear, this is not enough and at the moment I'm still [default dead](http://www.paulgraham.com/aord.html).
 
-### 2.1 Keepthescore.co revenue
-People using Keepthescore.co have to pay to get  extra features. It's a one-off payment which currently costs 5.99 USD. In March 2021, when my journey started, this revenue stream was bringing in around 460 USD per month. My goal was to triple this in 12 months.
+### 2.1 keepthescore.com revenue
+People using keepthescore.com have to pay to get  extra features. It's a one-off payment which currently costs 5.99 USD. In March 2021, when my journey started, this revenue stream was bringing in around 460 USD per month. My goal was to triple this in 12 months.
 
 It was a goal I achieved: in March 2022 the product was making 1,560 USD per month 🎉. 
 
@@ -50,11 +50,11 @@ Anyway, I intend to establish 2 new revenue streams in the next 12 months. The f
 
 **Overall, my goal is to triple my revenue again: by March 2023 I want to be at 4,500 USD per month.**
 
-By the way, I've made my revenue and some other metrics available on a [public dashboard](https://keepthescore.co/open/).
+By the way, I've made my revenue and some other metrics available on a [public dashboard](https://keepthescore.com/open/).
 
-### 2.2  Ads on Keepthescore.co
+### 2.2  Ads on keepthescore.com
 
-Advertising has already landed on Keepthescore.co: users have been seeing ads from Google Adsense since February 2022. So far, the returns have been meagre: around 6 USD per day. 
+Advertising has already landed on keepthescore.com: users have been seeing ads from Google Adsense since February 2022. So far, the returns have been meagre: around 6 USD per day. 
 
 I'm hoping to switch to another more profitable ad provider. There's 2  providers that I am interested in (AdThrive and MediaVine) but both require Google Analytics to be installed on my site. This is annoying, because I announced [with great fanfare that I had removed Google Analytics from the site](https://casparwre.de/blog/stop-using-google-analytics/). I have now sheepishly added Google Analytics back to the site, in the hope that one of these 2 ad providers will accept me 😔.
 
@@ -68,11 +68,11 @@ My most prestigious customer was Guinness World of Records, who needed a digital
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">True story: I made a scoreboard for the Guinness World of Records and now my name is in the Guinness Book of Records 🥳<br><br>(Under acknowledgements, but still....) <a href="https://t.co/itNgnUDq55">pic.twitter.com/itNgnUDq55</a></p>&mdash; Caspar v. Wrede ✨ (@wrede) <a href="https://twitter.com/wrede/status/1485550627761668101?ref_src=twsrc%5Etfw">January 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I have tried to create a "productised" package for customers wanting a custom solution. [Here is the landing page I made for my services](https://keepthescore.co/custom-scoreboard/), which also includes some examples. 
+I have tried to create a "productised" package for customers wanting a custom solution. [Here is the landing page I made for my services](https://keepthescore.com/custom-scoreboard/), which also includes some examples. 
 
 Overall, it's good to have another revenue stream independent of my main product. The only downside is that when I am working on custom solutions, I am not working on my product. I recently doubled my prices to focus more on my product. It had the desired effect: I've had no new customers at the new price point. Once I'm ready for more custom work, I will lower my prices again.
 
-## 3. SEO for Keepthescore.co
+## 3. SEO for keepthescore.com
 
 An area where I learned a lot over the past 12 months is SEO. SEO (or search engine optimisation) is the name for all work that will move your site closer to the top of the search engine results page for particular search terms. Below you can see that my product is on the top spot when searching for `online scoreboard`.
 
@@ -80,11 +80,11 @@ An area where I learned a lot over the past 12 months is SEO. SEO (or search eng
 
 The site you see in the second spot (Score Count) used to be in the top spot. After ignoring this for some time, I eventually got round to taking a closer look at this competitor. It turns out that they were running a massive SEO scam operation. [I wrote a blog post about this which is a good yarn](https://casparwre.de/blog/seo-scam/). After publishing this post, Google punished the site, and I am now number 1 🏆.
 
-Almost all of my SEO efforts are focussed on producing new and relevant content in the form of blog posts. The basic thing to get right is to have high-quality content that answers a question that someone could ask on Google. I try and write one of these posts per week and post them onto the Keepthescore.co blog.
+Almost all of my SEO efforts are focussed on producing new and relevant content in the form of blog posts. The basic thing to get right is to have high-quality content that answers a question that someone could ask on Google. I try and write one of these posts per week and post them onto the keepthescore.com blog.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🤝I&#39;ve committed to writing one blog post per week as part of my marketing efforts.<br><br>✍️I always do it on a Thursday and it&#39;s hard.<br><br>⭐️But it&#39;s beginning to pay off. That makes it progressively less hard.<a href="https://twitter.com/hashtag/buildinpublic?src=hash&amp;ref_src=twsrc%5Etfw">#buildinpublic</a> <a href="https://twitter.com/hashtag/SEO?src=hash&amp;ref_src=twsrc%5Etfw">#SEO</a> <a href="https://t.co/vNJEtaxuEH">pic.twitter.com/vNJEtaxuEH</a></p>&mdash; Caspar v. Wrede ✨ (@wrede) <a href="https://twitter.com/wrede/status/1506935233043697667?ref_src=twsrc%5Etfw">March 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-My best performing post is entitled "[How to create a leaderboard using Google Sheets](https://keepthescore.co/blog/posts/create-google-sheets-leaderboard/)" and is a good example of the type of content I am trying to create:
+My best performing post is entitled "[How to create a leaderboard using Google Sheets](https://keepthescore.com/blog/posts/create-google-sheets-leaderboard/)" and is a good example of the type of content I am trying to create:
 * It aims to be high quality. No waffle. Short sentences.
 * It is a direct answer to a specific search query ("How do I create a leaderboard using Google Sheets").
 * It contains a link to my product, but only right at the end.
@@ -97,7 +97,7 @@ By the way: I know that my content is attracting traffic. But do I know that thi
 
 
 
-## 4. Product development for Keepthescore.co
+## 4. Product development for keepthescore.com
 
 Most of my time in the past 12 months has been spent developing and improving the product. It's also the part I enjoy most.
 
@@ -121,8 +121,8 @@ I think that a major milestone on the way to getting there is finding one or mor
 
 One of my next strategic tasks will be exploring different niches and aiming for 1 or 2 of them. I have already made tentative steps in this direction:
 
-* **Niche 1: livestreaming scoreboards** The job-to-be done here is displaying a scoreboard within a live stream using software like OBS. What's super interesting about this niche is that there are several competitors which means it's a problem worth solving. My product seems to have an SEO advantage, and I'm hoping to make some inroads into this space. Read more about [adding scoreboards to a livesteam here](https://keepthescore.co/blog/posts/obs-live-scoreboard/).
-* **Niche 2: WordPress Plugins** I made a very rudimentary WordPress plugin to make it easier to insert boards into a WordPress post. Apparently WordPress powers a third of the internet, so I thought it would be worth a try. You could argue that a WordPress plugin is more of a distribution channel. Touché. [Read the marketing post here](https://keepthescore.co/wordpress-leaderboard/).
+* **Niche 1: livestreaming scoreboards** The job-to-be done here is displaying a scoreboard within a live stream using software like OBS. What's super interesting about this niche is that there are several competitors which means it's a problem worth solving. My product seems to have an SEO advantage, and I'm hoping to make some inroads into this space. Read more about [adding scoreboards to a livesteam here](https://keepthescore.com/blog/posts/obs-live-scoreboard/).
+* **Niche 2: WordPress Plugins** I made a very rudimentary WordPress plugin to make it easier to insert boards into a WordPress post. Apparently WordPress powers a third of the internet, so I thought it would be worth a try. You could argue that a WordPress plugin is more of a distribution channel. Touché. [Read the marketing post here](https://keepthescore.com/wordpress-leaderboard/).
  
 
 
@@ -141,7 +141,7 @@ Here are three projects that I want to invest time in. Even creating some conten
 
 ## 6. What do I want to achieve in 2022/23?
 So here's the goals I'm setting myself for the next 12 months:
-* Increase Keepthescore.co revenue by 300%. An important part of this goal will be adding subscription payments.
+* Increase keepthescore.com revenue by 300%. An important part of this goal will be adding subscription payments.
 * Niche-down -- find some niches and focus on them. I can then tailor my acquisition channels to these customers.
 * Fully launch at least 1 other product.
 * Make my core-product even better.
