@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Unix 101 Course
+description: A short UNIX / Linux course for beginners
 ---
 
 This is a course I gave privately to some friends. You can still do the

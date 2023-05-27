@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Frau Wirtin (Das Wirtshaus an der Lahn)
+description: Alle Frau Wirtin Verse auf einer Seite zusammen getragen!
 lang: de
 ---
 ### Das Wirtshaus an der Lahn in Lahnstein

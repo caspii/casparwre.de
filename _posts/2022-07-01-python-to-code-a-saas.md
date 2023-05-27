@@ -87,7 +87,7 @@ For the record, my Python app is hosted on DigitalOcean. My database is hosted t
 
 Thanks for reading my article and please share your reasons for using Python below. 
 
-By the way, you can [follow my journey on Twitter](https://twitter.com/wrede).
+By the way, you can [follow my journey on Twitter](https://twitter.com/wrede). I also offer [one-on-one Python coaching](/python-berlin/), get in touch if you are interested.
 
 Photo by <a href="https://unsplash.com/@spacex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">SpaceX</a> on <a href="https://unsplash.com/s/photos/rocket?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   

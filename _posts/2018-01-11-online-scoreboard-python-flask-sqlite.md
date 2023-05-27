@@ -19,3 +19,5 @@ My learnings so far are that Flask is truly awesome for building small projects.
 It's much easier to handle SQLite than MySQL or Postgres, simply because your database is just a single file. That makes it very convenient to debug, for instance: you just copy the production database to your local machine and off you go. It also makes administration an absolute breeze, because basically there is no administration.
 
 My experiences got me wondering: why is Wordpress (and others) so often paired up with MySQL? From what I can see, most small to medium Wordpress instances would be perfectly served with SQLite. Why have the hassle, security implications and administration overhead of MySQL? That's a question I can't answer.
+
+I also offer [one-on-one Python coaching](/python-berlin/), get in touch if you are interested.
