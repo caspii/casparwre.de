@@ -47,7 +47,7 @@ The next fundamental decision I had to take was which "web-framework" to use.
 
 ## What is a web-framework?
 
-A web-framework is a ready-made module or library that allows your code to become available on the Internet. Being part of the internet means you need to adhere to various rules and react in pre-defined ways when something or somebody asks your programme for information. A web-framework takes most of this work off you.
+A web-framework is a ready-made module or library that allows your code to become available on the Internet. Being part of the internet means you need to adhere to various rules and react in pre-defined ways when something or somebody asks your app for information. A web-framework takes most of this work off you.
 
 There are a large number of Python web-frameworks, including Flask, Django, and FastAPI. Django is probably the most grown-up of the lot, and is used by heavyweights such as Spotify, Instagram and Pinterest.
 
