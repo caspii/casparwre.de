@@ -25,7 +25,7 @@ So that’s what I’m going to try and do: build my own business. I’m also go
 
 There’s a good book about this topic: _Company of One: Why Staying Small is the Next Big Thing_ by Paul Jarvis. He says: "You're not a machine, so why would you run your business like one?" 
 
-The success of my business will not be measured by its profit margin, the number of employees, the size of the series A investment round or the market share. It’s going to be measured by how much freedom it gives me.
+The success of my business will not be measured by its profit margin, the number of employees, the amount of VC money I've raised or the market share. It’s going to be measured by how much freedom it gives me.
 
 ## What type of business will I build?
 
