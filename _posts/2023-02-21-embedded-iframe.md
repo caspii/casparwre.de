@@ -12,7 +12,7 @@ This is a post demonstrating how to embed a leaderboard widget from [keepthescor
 5. That's it!
 
 
-Check this out for the full documentation: [how to embed widgets](https://keepthescore.com/blog/posts/embedded-online-leaderboard/).
+Check this out for the full documentation: [how to embed widgets](https://keepthescore.com/docs/website-widget/).
 
 
 Here's what the leaderboard widget looks like. 
