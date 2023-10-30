@@ -9,6 +9,8 @@ Here's what the leaderboard widget looks like.
 
 [//]: # (ADMIN LINK https://keepthescore.com/board/utvrmmtlfre/)
 
+<iframe id="iframe-yodpwvaeapr" src="https://keepthescore.com/embed/yodpwvaeapr/" style="width:100%;height:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
+
 ## How does it work?
 1. 
 2. First of all you need to go over to [keepthescore.com](https://keepthescore.com) and create your leaderboard. 
@@ -21,8 +23,6 @@ Here's what the leaderboard widget looks like.
 Check this out for the full documentation: [how to embed widgets](https://keepthescore.com/docs/website-widget/).
 
 ## More examples
-
-<iframe id="iframe-yodpwvaeapr" src="https://keepthescore.com/embed/yodpwvaeapr/" style="width:100%;height:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
 
 Here's another leaderboard looks with a different theme and a different layout:
 
