@@ -72,7 +72,7 @@ The first version of my product was almost entirely server-side rendered with mi
 
 One more advantage of server side rendering is that SEO works out of the box, which is vital for my product.
 
-The final thing to note is that there are projects like [HTMX](https://htmx.org/) and [Alpine.js](https://alpinejs.dev/) which can give your app a modern and reactive feel, whilst avoiding adding huge gobs of JavaScript. These solutions are seeing some traction and are actually leading to a renaissance of sorts for server-side frameworks like Flask, Django, Ruby on Rails, and others.
+The final thing to note is that there are projects like [HTMX](https://htmx.org/) and [Alpine.js](https://alpinejs.dev/) which can give your app a modern and reactive feel, whilst avoiding adding huge blobs of JavaScript. These solutions are seeing some traction and are actually leading to a renaissance of sorts for server-side frameworks like Flask, Django, Ruby on Rails, and others.
 
 ## Scaling with Python
 So far my product has had no major issues with scaling. Actually, scaling is not the problem that it once was. Unless you are building an application that has "planet-scale" requirements (free advice: you are not building an app like this), and you haven't fallen down the microservice rabbit hole, scaling should be relatively easy.
@@ -89,7 +89,7 @@ For the record, my Python app is hosted on DigitalOcean. My database is hosted t
 
 Thanks for reading my article and please share your reasons for using Python below. 
 
-By the way, you can [follow my journey on Twitter](https://twitter.com/wrede). I also offer [one-on-one Python coaching](/python-berlin/), get in touch if you are interested.
+By the way, you can [follow my journey on LinkedIn](https://www.linkedin.com/in/casparwrede/). I'm now longer on Twitter since it has turned into flaming dumster fire.
 
 Photo by <a href="https://unsplash.com/@spacex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">SpaceX</a> on <a href="https://unsplash.com/s/photos/rocket?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
