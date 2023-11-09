@@ -121,7 +121,7 @@ I've been using this method so far. In fact, I have never done an automated sche
 
 ## That's all
 
-Thanks for reading my article! You can follow my journey as a bootstrapped one-man startup [on Twitter](https://twitter.com/wrede). 
+Thanks for reading my article! You can follow my journey as a bootstrapped one-man startup [on LinkedIn](https://www.linkedin.com/in/casparwrede/). 
 
 I also offer [one-on-one Python coaching](/python-berlin/), get in touch if you are interested.
 

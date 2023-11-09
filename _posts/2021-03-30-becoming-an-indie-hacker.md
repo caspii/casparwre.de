@@ -80,7 +80,7 @@ I decided to spend time more wisely. I decided to not put off big things for lat
 
 Anyway, I inherited enough money to fund myself for these 12 months without worrying about paying the bills. I’m investing this money in my bet, in my product, in myself. I think my mother would have approved.
 
-That’s all for now. Follow me [on Twitter](https://twitter.com/wrede) to keep updated.
+That’s all for now. You can [follow my journey on LinkedIn](https://www.linkedin.com/in/casparwrede/) to keep updated.
 
 
 

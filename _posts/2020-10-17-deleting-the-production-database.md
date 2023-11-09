@@ -64,7 +64,7 @@ The wonderful irony is that not 4 days earlier I tweeted a _hilarious_ meme abou
 Again, I am very sorry. Good night. 
 
 PS This generated some [great discussion on Hackernews](https://news.ycombinator.com/item?id=24813795).
-PPS You can [follow my journey on Twitter here](https://twitter.com/wrede).
+PPS You can you can [follow my journey on LinkedIn](https://www.linkedin.com/in/casparwrede/).
 
 
 <span>Photo by <a href="https://nikovirtanen.com/">Niko Virtanen</a> license Creative Commons</span>

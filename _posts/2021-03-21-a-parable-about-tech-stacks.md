@@ -54,7 +54,7 @@ Photo by <a href="https://unsplash.com/@tradd_harter?utm_source=unsplash&utm_med
 </div>
 
 ---
-By the way, I'm building my [own bootstrapped app](https://keepthescore.com/). Follow me [on Twitter](https://twitter.com/wrede) to keep updated.
+By the way, I'm building my [own bootstrapped app](https://keepthescore.com/). You can [follow my journey on LinkedIn](https://www.linkedin.com/in/casparwrede/) to keep updated.
 
 
 

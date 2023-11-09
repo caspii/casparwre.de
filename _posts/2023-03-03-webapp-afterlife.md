@@ -62,4 +62,4 @@ Overall, I estimate the app would continue to function for a minimum of six mont
 
 Do you have a succession plan for your webapp?
 
-PS. To see if I survive, [follow me on Twitter](https://twitter.com/wrede).
+PS. To see if I survive, you can [follow my journey on LinkedIn](https://www.linkedin.com/in/casparwrede/).
