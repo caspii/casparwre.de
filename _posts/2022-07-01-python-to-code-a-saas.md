@@ -68,7 +68,7 @@ A disadvantage of micro frameworks is that you will have to manage a lot of depe
 
 Another advantage of Python  Flask is that it uses good old server-side rendering. This  has many (often forgotten) advantages. The main ones, in my view,  are that your app has much less complexity and is considerably more robust. The disadvantage is that some parts of the application may not feel as slick as an app using a fancy Javascript framework like Angular or Vue.
 
-The first version of my product was almost entirely server-side rendered with minimal Javascript. You can see a fully working version of this release [here](https://v1.keepthescore.com/) (I've preserved it in ~~amber~~ Docker). I eventually relented and quite a bit more JavaScript (Vue.js) to the product. This was not a big deal due to the modularity of Flask.
+The first version of my product was almost entirely server-side rendered with minimal Javascript. You can see a fully working version of this release [here](https://v1.keepthescore.co/) (I've preserved it in ~~amber~~ Docker). I eventually relented and quite a bit more JavaScript (Vue.js) to the product. This was not a big deal due to the modularity of Flask.
 
 One more advantage of server side rendering is that SEO works out of the box, which is vital for my product.
 
