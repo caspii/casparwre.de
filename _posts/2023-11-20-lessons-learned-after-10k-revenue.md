@@ -121,3 +121,5 @@ As an aside, this is an interesting result of having a product that has so many 
 I had many more things to write about, including copycat products, building in public, metrics and tech stacks. I’ll keep those for next time.
 
 Thanks for reading this and In case you are wondering: I am having the time of my life.
+
+> Follow my journey on ~~Twitter~~ [LinkedIn](https://www.linkedin.com/in/casparwrede/).
