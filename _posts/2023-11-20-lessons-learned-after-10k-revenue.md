@@ -93,6 +93,7 @@ Again, let’s start from the other end. Here’s some stuff that won’t move t
 
  - Translating your app. (Don’t do this until you are well beyond 20k monthly revenue).
  - Launching a new design and logo
+ - Adding dark mode
  - Going to conferences
  - Writing clean and elegant code
 
