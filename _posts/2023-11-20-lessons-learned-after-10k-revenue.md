@@ -96,6 +96,7 @@ Again, let’s start from the other end. Here’s some stuff that won’t move t
  - Adding dark mode
  - Going to conferences
  - Writing clean and elegant code
+ - Increasing your social media footprint / followers
 
 As a very general rule-of-thumb: things that are at the start of the user journey (marketing, SEO, landing pages) or things that relate to pricing will have the largest impact. The fun stuff – building features – has far less impact. Sad but true.
 
