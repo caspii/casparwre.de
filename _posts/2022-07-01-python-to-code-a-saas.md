@@ -5,7 +5,7 @@ description: The advantages of using Python when coding your own product from sc
 image: /images/rocket_launch.jpg
 ---
 
-I am a one-man show building my own software product. It currently has 11,000 registered users and revenue of around 1,500 USD per month. In this post I go into the reasons why I chose Python to build it.
+I am a one-man show building my [own software product](https://keepthescore.com). It currently has 11,000 registered users and revenue of around 1,500 USD per month. In this post I go into the reasons why I chose Python to build it.
 
 > UPDATE (November 2023): my product is now making 10,000 USD per month and has 47,000 registered users! 
 
