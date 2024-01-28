@@ -7,6 +7,8 @@ image: /images/isometric-app-flow.jpg
 
 How much does running a webapp in production actually cost? Maybe more than you think. [keepthescore.com](https://keepthescore.com/) is a Python flask application running on DigitalOcean and Firebase. It currently has around 55k unique visitors per month, per day it's around 3.4k. (In terms of page views, this is around 700k per month, 25k per day.)
 
+> I have written a [new post on this topic](/blog/costs-of-running-a-saas/) and updated it for 2024
+
 ![App flow and costs](/images/isometric-app-flow.jpg)
 
 Here's a monthly breakdown with some background information on each cost:
@@ -14,7 +16,7 @@ Here's a monthly breakdown with some background information on each cost:
 ### Servers and database on DigitalOcean
 **Costs per month: $95**
 
-The webapp runs on two identical DigitalOcean servers (4 vCPUs, 8GB RAM, 80GB disk). We use a [blue-green deployment](https://en.wikipedia.org/wiki/Blue-green_deployment), which is a great way of running and hosting a webapp (more on that in a future post) but it does mean that you need 2 identical production servers.
+The webapp runs on two identical DigitalOcean servers (4 vCPUs, 8GB RAM, 80GB disk). We use a [blue-green deployment](/blog/webapp-python-deployment/), which is a great way of running and hosting a webapp but it does mean that you need 2 identical production servers.
 
 The database is a hosted Postgres instance also on DigitalOcean.
 

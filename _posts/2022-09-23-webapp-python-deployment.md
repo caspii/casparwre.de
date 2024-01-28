@@ -31,7 +31,7 @@ I am a strong advocate of using "boring technology". I am also the only develope
 
 ## The application infrastructure
 
-The app is written in Python Flask. It is a CRUD monolith that is deployed as one artefact. I use nginx and gunicorn to serve the app.
+The app is written in Python Flask. I use nginx and gunicorn to serve the app.
 
 The app runs on 2 virtual private servers, one of which is the production server, the other of which is the staging server. During deployment, they switch roles. This is a so-called _blue-green deployment_, more on that later.
 
@@ -107,9 +107,9 @@ Voilá! ✨
 
 ## What about continuous integration / continuous deployment?
 
-I have no CI/CD pipeline. I do have a bunch of integration tests, but I run them manually. I will eventually get round to setting up some kind of automated testing, but so far there's been no need.
+I have no CI/CD pipeline. I do have a bunch of end-to-end tests, but I run them locally. I will eventually get round to setting up some kind of continuous integration testing, but so far there's been no need.
 
-Just to be clear: when I run my integration tests, they happen on my laptop and use a test instance of the database. It's only when I do manual high-level testing on the idle staging server that the production database is used.
+Just to be clear: when I run my end-to-end tests, they happen on my laptop and use a local test instance of the database. It's only when I do manual high-level (or "smoke") testing on the idle staging server that the production database is used.
 
 ## What about the database?
 
@@ -122,7 +122,5 @@ I've been using this method so far. In fact, I have never done an automated sche
 ## That's all
 
 Thanks for reading my article! You can follow my journey as a bootstrapped one-man startup [on LinkedIn](https://www.linkedin.com/in/casparwrede/). 
-
-I also offer [one-on-one Python coaching](/python-berlin/), get in touch if you are interested.
 
 See you in the next post!
