@@ -1,6 +1,6 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
----
+  ---
 
 @import url(emacs.css);
 
@@ -11,11 +11,11 @@
   font-weight: 500;
   src: url('../fonts/josefin-sans-v25-latin-500.eot'); /* IE9 Compat Modes */
   src: local(''),
-       url('../fonts/josefin-sans-v25-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/josefin-sans-v25-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/josefin-sans-v25-latin-500.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/josefin-sans-v25-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/josefin-sans-v25-latin-500.svg#JosefinSans') format('svg'); /* Legacy iOS */
+  url('../fonts/josefin-sans-v25-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/josefin-sans-v25-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/josefin-sans-v25-latin-500.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/josefin-sans-v25-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/josefin-sans-v25-latin-500.svg#JosefinSans') format('svg'); /* Legacy iOS */
 }
 
 /* open-sans-regular - latin */
@@ -25,31 +25,30 @@
   font-weight: 400;
   src: url('../fonts/open-sans-v34-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
-       url('../fonts/open-sans-v34-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/open-sans-v34-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/open-sans-v34-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/open-sans-v34-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+  url('../fonts/open-sans-v34-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/open-sans-v34-latin-regular.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/open-sans-v34-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/open-sans-v34-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
 
 body {
-	font-size: 1.4rem;
-	margin-bottom: 100px;
-    font-family: 'Open Sans';
-    background-color: #f6f6f6;
+  font-size: 1.4rem;
+  margin-bottom: 100px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f6f6f6;
 }
 
 .jumbotron {
-	background: none;
+  background: none;
 }
 
 p, li {
-	color: #656565;
-    line-height: 1.6;
+  color: #656565;
+  line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5 {
-  // color: grey;
   font-family: 'Josefin Sans', serif;
 }
 
@@ -68,26 +67,26 @@ blockquote {
   padding: 1em 1em;
 
   p {
-    color: #030303;
+    color: #6C6C6C;
     font-size: 100%;
   }
 }
 
 .nav-wrapper {
-	background-color: #f5f5f5;
+  background-color: #f5f5f5;
   border-bottom: 1px solid #ddd;
 }
 
 .navbar-brand {
-	color: white;
-	font-size: 30px;
+  color: white;
+  font-size: 30px;
   font-family: 'Josefin Sans', serif;
 }
 
 .navbar-nav {
- color: white;
- font-size: 20px;
- font-family: 'Josefin Sans', serif;
+  color: white;
+  font-size: 20px;
+  font-family: 'Josefin Sans', serif;
 }
 
 img {
@@ -96,7 +95,7 @@ img {
 
 /* For the Android Wallpapers */
 .thumbnail>img, .thumbnail a>img {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 hr {
@@ -114,40 +113,40 @@ html {
 }
 
 .wrapper-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    border-top: 1px solid #ddd;
-    background-color: #eee;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #ddd;
+  background-color: #eee;
 }
 
 footer {
-    background-color: #f5f5f5;
-    padding: 20px;
-    text-align: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
 }
 
 
 
 
 .typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
 }
 @keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
 }
 @-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
 }
 @-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
 }
