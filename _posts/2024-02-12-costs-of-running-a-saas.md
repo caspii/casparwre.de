@@ -15,7 +15,7 @@ Let's look at the operating costs per month. I will include non-tech related cos
 
 This is the stuff without which the app would stop working immediately.
 
-### 2 Servers and a Database on DigitalOcean: 340 USD
+### 2 Servers and a Database on DigitalOcean: $317 /mo
 
 The webapp runs on two identical DigitalOcean servers (4 vCPUs, 8GB RAM, 80GB disk). I use a [blue-green deployment](/blog/webapp-python-deployment/), which is a great way of running and hosting a webapp but it does mean that you need 2 identical production servers.
 
@@ -43,11 +43,33 @@ I use Google Firebase for the [realtime basketball scoreboard](https://keepthesc
 ## Non-critical infrastructure
 TODO
 
+
+---
+
+### Office tools
+
+
+
+## Microsoft Sharepoint 365: $4
+TODO
+
+## Microsoft Office 365: $14
+
+I don't really use office much, but like every else, sometimes I come across files that I need to open.
+
+## iStock images 20 USD
+Grrrr
+
 ---
 ## Analytics and business intelligence
 
+## Ahrefs $193
+
 * Fathom Analytics
-* Metabase
+
+## Metabase $85
+TODO
+
 * Amplitude
 
 
