@@ -63,13 +63,19 @@ I don't really use office much, but like every else, sometimes I come across fil
 Grrrr
 
 ---
+## Software tools
+
+### Midjourney 11.90 USD
+
+
+
 ## Analytics and business intelligence
 
-## Ahrefs $193
+### Ahrefs $193
 
 * Fathom Analytics
 
-## Metabase $85
+### Metabase $85
 TODO
 
 * Amplitude
