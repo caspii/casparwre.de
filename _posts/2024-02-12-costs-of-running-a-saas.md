@@ -27,7 +27,7 @@ By the way: it has been pointed out several times that my setup is oversized. Th
 
 The servers run Ubuntu as the operating system, which is of course free! Ubuntu is also totally great.
 
-### Google Cloud: XX USD
+### Google Cloud: 37 USD
 
 I use Google Firebase for the [realtime basketball scoreboard](https://keepthescore.com/basketball-scoreboard/). Overall it must be said that the Google Cloud APIs are great value for money (so far).
 
@@ -35,7 +35,7 @@ I use Google Firebase for the [realtime basketball scoreboard](https://keepthesc
 
 ### Cloudflare
 
-
+## Amazon Web Sevices 49 USD
 
 
 ---
@@ -48,6 +48,8 @@ TODO
 
 ### Office tools
 
+## Google Workspace $5 
+Emails from a custom domain
 
 
 ## Microsoft Sharepoint 365: $4
