@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "How much does it cost to run a bootstrapped SaaS with $10,000 USD revenue?"
+image: /images/saas_costs.jpg
+custom_js:
+  - node_modules/tocbot/dist/tocbot.js
 ---
 
 ![Operating costs of SAAS](/images/saas_costs.jpg)
@@ -11,7 +14,11 @@ First, a quick bit of background information. My product, [Keepthescore.com](htt
 
 Let's look at the operating costs per month. I will include non-tech related costs (such as an SEO tool subscription), but not the costs of freelancers, which I consider to be investments.
 
-## Critical infrastructure costs
+<div class="js-toc"></div>
+
+
+
+## Critical infrastructure
 
 This is the stuff without which the app would stop working immediately.
 
@@ -23,19 +30,30 @@ The database is a hosted Postgres instance also on DigitalOcean.
 
 By the way: it has been pointed out several times that my setup is oversized. This is true. What is also true is that I don't care enough to optimize it. 
 
-### Ubuntu Linux: 0 USD
+### Ubuntu Linux: $0 
 
 The servers run Ubuntu as the operating system, which is of course free! Ubuntu is also totally great.
 
-### Google Cloud: 37 USD
+### Google Cloud: $37
 
-I use Google Firebase for the [realtime basketball scoreboard](https://keepthescore.com/basketball-scoreboard/). Overall it must be said that the Google Cloud APIs are great value for money (so far).
+I use Google Firebase for the [realtime sport scoreboards](https://keepthescore.com/multi-sport-scoreboard/). 
+Overall it must be said that the Google Cloud APIs are great value for money (so far).
 
-### DNS Hosting
+### DNS Hosting $7.50 /mo
 
-### Cloudflare
+I registered my domain with DNSimple.com.
 
-## Amazon Web Sevices 49 USD
+### Cloudflare $24 /mo
+
+CloudFlare is a behemoth that sits in front of a large number of internet applications. In my case, I am using it for
+
+* Caching
+* SSL encryption
+* Protection from denial of service attacks (not required so far!)
+
+
+
+### Amazon Web Services $49 /mo
 
 
 ---
@@ -43,6 +61,7 @@ I use Google Firebase for the [realtime basketball scoreboard](https://keepthesc
 ## Non-critical infrastructure
 TODO
 
+### SendGrid $19.95
 
 ---
 
@@ -62,7 +81,7 @@ I don't really use office much, but like every else, sometimes I come across fil
 ## iStock images 20 USD
 Grrrr
 
----
+
 ## Software tools
 
 ### Midjourney 11.90 USD
@@ -81,7 +100,18 @@ TODO
 * Amplitude
 
 
+
+
 > Follow my journey on ~~Twitter~~ [LinkedIn](https://www.linkedin.com/in/casparwrede/).
-> 
-> 
-> 
+
+<script>
+
+tocbot.init({
+    tocSelector: '.js-toc',
+    contentSelector: '.entry',
+    headingSelector: 'h1, h2, h3',
+    collapseDepth: 3,
+});
+</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.css">
