@@ -10,7 +10,7 @@ custom_js:
 
 How much does running a webapp in production actually cost? An interesting and related question is: what services does an app like this  use? In this post, I will dive into both questions for the product I'm building. I also provide some explanation for each service.
 
-First, a quick bit of background information. My product, [Keepthescore.com](https://keepthescore.com/), is a Python flask application. In a typical month, it has 250k visitors and 1.3 million pageviews. If you want to read some more about the revenue side and how I got started, [read this](/blog/lessons-learned-after-10k-revenue/).
+First, a quick bit of background information. My product, [Keepthescore.com](https://keepthescore.com/), is built using Python Flask for the backend and Vue for the frontend. In a typical month, it has 250k visitors and 1.3 million pageviews. If you want to discover more about my journey and lessons learned, [read this](/blog/lessons-learned-after-10k-revenue/).
 
 Let's look at the operating costs per month. I will include non-tech related costs (such as an SEO tool subscription), but not the costs of freelancers, which I consider to be investments.
 
@@ -166,7 +166,7 @@ Fathom Analytics is a privacy-friendly version of Google Analytics. It has very 
 
 ### Metabase $85 /mo
 
-Metabase is an open source tool for creating dashboards and queries on data in a database. It is absolutely awesome. I use it to track long-term data in aggregate like revenue and user data.
+Metabase is an open source tool for creating dashboards and querying data in a database. It is absolutely awesome. I use it to track long-term data in aggregate like revenue and user stats.
 
 I used to run the free version on an AWS instance, but the cost was almost the same as the hosted version, and I had the hassle of doing manual upgrades to the software. So I switched to the hosted version.
 
