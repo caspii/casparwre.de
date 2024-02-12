@@ -8,7 +8,7 @@ custom_js:
 
 ![Operating costs of SAAS](/images/saas_costs.jpg)
 
-How much does running a webapp in production actually cost? An interesting and related question is: what services does an app like this  use? In this post, I will dive into both questions for the product I'm building. I also provide some explanation for each service.
+How much does running a webapp in production actually cost? An interesting and related question is: what services does an app like this use? In this post, I will dive into both questions for the product I'm building. I'll also provide some explanation for each service.
 
 First, a quick bit of background information. My product, [Keepthescore.com](https://keepthescore.com/), is built using Python Flask for the backend and Vue for the frontend. In a typical month, it has 250k visitors and 1.3 million pageviews. If you want to discover more about my journey and lessons learned, [read this](/blog/lessons-learned-after-10k-revenue/).
 
@@ -33,8 +33,9 @@ By the way: it has been pointed out several times that my setup is oversized. Th
 
 ### Google Cloud: $37 /mo
 
-I use Google Firebase for the [realtime sport scoreboards](https://keepthescore.com/multi-sport-scoreboard/). 
-Overall it must be said that the Google Cloud APIs are great value for money (so far).
+I use Google Firebase for the [realtime sport scoreboards](https://keepthescore.com/multi-sport-scoreboard/). Firebase is a great product which takes a lot of work out of my hands.
+
+Overall it must be said that the Google Cloud APIs are great value for money.
 
 ### DNSimple $10 /mo
 
@@ -187,7 +188,7 @@ It comes bundled for free with my payment provider, Paddle.com, which is nice.
 
 ## Grand Total and Summary
 
-Adding all of this together results in approximately **$1200** per month.
+Adding all of this together results in approximately **$1300** per month.
 
 Considering my gross monthly revenue of $11 000, this results in a gross margin of just under 90%. This is an average margin for these types of businesses, so I am content. I could invest a lot of time in optimising some of these costs and finding cheaper solutions, but I want to spend my time on product development and acquiring new customers.
 
