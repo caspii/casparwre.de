@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Breaking Down the Costs: Running a Bootstrapped SaaS with $11,000 Monthly Revenue"
+title: "Breaking Down the Costs of a Bootstrapped SaaS with $11,000 Monthly Revenue"
 image: /images/saas_costs.jpg
 custom_js:
   - node_modules/tocbot/dist/tocbot.js
@@ -10,7 +10,7 @@ custom_js:
 
 How much does running a webapp in production actually cost? An interesting and related question is: what services does an app like this use? In this post, I will dive into both questions for the product I'm building. I'll also provide some explanation for each service.
 
-First, a quick bit of background information. My product, [Keepthescore.com](https://keepthescore.com/), is built using Python Flask for the backend and Vue for the frontend. In a typical month, it has 250k visitors and 1.3 million pageviews. If you want to discover more about my journey and lessons learned, [read this](/blog/lessons-learned-after-10k-revenue/).
+First, a quick bit of background information. My product, [Keepthescore.com](https://keepthescore.com/), is built using Python Flask for the backend and Vue for the frontend. In a typical month, it has 250k visitors and 1.3 million pageviews. If you want to discover more about my journey and lessons learned, [read this](https://casparwre.de/blog/lessons-learned-after-10k-revenue/).
 
 Let's look at the operating costs per month. I will include non-tech related costs (such as an SEO tool subscription), but not the costs of freelancers, which I consider to be investments.
 
@@ -23,7 +23,7 @@ This is the stuff without which the app would stop working immediately.
 
 ### DigitalOcean: $317 /mo
 
-The app runs on two DigitalOcean servers (8 vCPUs, 16GB RAM, 320GB disk). I use a [blue-green deployment](/blog/webapp-python-deployment/), which is a great way of running and hosting a webapp but it does mean that you need 2 identical production servers.
+The app runs on two DigitalOcean servers (8 vCPUs, 16GB RAM, 320GB disk). I use a [blue-green deployment](https://casparwre.de/blog/webapp-python-deployment/), which is a great way of running and hosting a webapp but it does mean that you need 2 identical production servers.
 
 The database is a hosted Postgres instance also on DigitalOcean.
 
