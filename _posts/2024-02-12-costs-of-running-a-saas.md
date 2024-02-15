@@ -23,7 +23,7 @@ This is the stuff without which the app would stop working immediately.
 
 ### DigitalOcean: $317 /mo
 
-The app runs on two DigitalOcean servers (8 vCPUs, 16GB RAM, 320GB disk). I use a [blue-green deployment](https://casparwre.de/blog/webapp-python-deployment/), which is a great way of running and hosting a webapp but it does mean that you need 2 identical production servers.
+The app runs on two DigitalOcean servers (8 vCPUs, 16GB RAM, 320GB disk). I use a [blue-green deployment](https://casparwre.de/blog/webapp-python-deployment/), which is a great way of running and hosting a webapp but it does mean that you need two identical production servers.
 
 The database is a hosted Postgres instance also on DigitalOcean.
 
@@ -201,13 +201,13 @@ That's all for now! Thanks for reading and feel free to ask questions below.
  
 ## Addendum 
 
-I posted [this article to Reddit](https://www.reddit.com/r/SaaS/comments/1aoud7z/breaking_down_the_costs_of_a_bootstrapped_saas/), wheere it generated some interesting discussion.
+I posted [this article to Reddit](https://www.reddit.com/r/SaaS/comments/1aoud7z/breaking_down_the_costs_of_a_bootstrapped_saas/), where it generated some interesting discussion.
 
 One thing that became clear in the comments is that some people **really** have a hard time understanding the time-money tradeoff and the significance of opportunity costs. There were loads of suggestions of how I could save $30 here or $100 there by investing hours, days or even weeks of extra work 🤯. 
 
 There was also this great comment which made me so happy that I am saving it to re-read at in dark moments:
 
-> I am a Lead DevOps Engineer, and I approve your setup. There is everything, compute, security, monitoring, hosted database, etc
+> I am a Lead DevOps Engineer, and I approve your setup. There is everything, compute, security, monitoring, hosted database, etc.
 > Digital Ocean is often cheaper than Cloud Provider, and do quite a good job. For a startup it's easier to manage than a Kubernetes Cluster or else. Fly.io or other PaaS could help, but it might take a bit of skills compare to setting up a VM.
 > It seems to be well designed for this stage of a startup, and relying on external apis and services to do the job is often the best advice I give too when having startup projects.
 > I like as well the budget allocated to productivity tools.
