@@ -96,7 +96,9 @@ Sentry is an error tracking service that helps developers monitor and fix crashe
 
 ### Papertrail.com $35 /mo
 
-Papertrail provides cloud-hosted log management, enabling developers to aggregate, manage, and analyze logs from all parts of their application in one place. 
+Papertrail provides cloud-hosted log management, enabling developers to aggregate, manage, and analyze logs from all parts of their application in one place.
+
+The reason for having a log manager like Papertrail, is that sometimes weird behaviour only becomes apparent over time. For instance, 100 scoreboards being created in 1 hour would be normal; 10k scoreboards in 1 hour would mean somebody is running a malicious script. If the latter happens, Papertrail sends me an emai.
 
 I think that the feature-set of Papertrail has not changed in 10 years. But it doesn't need to, it's a fantastic product.
 
@@ -143,7 +145,7 @@ This is the tool I use for sending my monthly newsletters. It's a low-cost versi
 
 I use PyCharm as my IDE for coding. I love it.
 
-### ChatGPT $10 /mo
+### ChatGPT $20 /mo
 
 ChatGPT helps me write blog posts, generate images for use in blog posts (including the one at the top) and for writing code.
 
@@ -195,6 +197,22 @@ Considering my gross monthly revenue of $11 000, this results in a gross margin 
 That's all for now! Thanks for reading and feel free to ask questions below.
 
 > Follow my journey on ~~Twitter~~ [LinkedIn](https://www.linkedin.com/in/casparwrede/).
+ 
+ 
+## Addendum 
+
+I posted [this article to Reddit](https://www.reddit.com/r/SaaS/comments/1aoud7z/breaking_down_the_costs_of_a_bootstrapped_saas/), wheere it generated some interesting discussion.
+
+One thing that became clear in the comments is that some people **really** have a hard time understanding the time-money tradeoff and the significance of opportunity costs. There were loads of suggestions of how I could save $30 here or $100 there by investing hours, days or even weeks of extra work 🤯. 
+
+There was also this great comment which made me so happy that I am saving it to re-read at in dark moments:
+
+> I am a Lead DevOps Engineer, and I approve your setup. There is everything, compute, security, monitoring, hosted database, etc
+> Digital Ocean is often cheaper than Cloud Provider, and do quite a good job. For a startup it's easier to manage than a Kubernetes Cluster or else. Fly.io or other PaaS could help, but it might take a bit of skills compare to setting up a VM.
+> It seems to be well designed for this stage of a startup, and relying on external apis and services to do the job is often the best advice I give too when having startup projects.
+> I like as well the budget allocated to productivity tools.
+
+
 
 <script>
 
