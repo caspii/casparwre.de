@@ -98,7 +98,7 @@ Sentry is an error tracking service that helps developers monitor and fix crashe
 
 Papertrail provides cloud-hosted log management, enabling developers to aggregate, manage, and analyze logs from all parts of their application in one place.
 
-The reason for having a log manager like Papertrail, is that sometimes weird behaviour only becomes apparent over time. For instance, 100 scoreboards being created in 1 hour would be normal; 10k scoreboards in 1 hour would mean somebody is running a malicious script. If the latter happens, Papertrail sends me an emai.
+The reason for having a log manager like Papertrail, is that sometimes weird behaviour only becomes apparent over time. For instance, 100 scoreboards being created in 1 hour would be normal; 10k scoreboards in 1 hour would mean somebody is running a malicious script. If the latter happens, Papertrail sends me an email.
 
 I think that the feature-set of Papertrail has not changed in 10 years. But it doesn't need to, it's a fantastic product.
 
