@@ -25,7 +25,7 @@ Check this out for the full documentation: [how to embed widgets](https://keepth
 ## More examples
 
 Here's an example of a "Universal scoreboard" being embedded
-<iframe src="https://keepthescore.com/scoreboard/fxvtdvmlhhthr/" style="width:100%;height:300px;border:none;"></iframe>
+<iframe src="https://keepthescore.com/scoreboard/fxvtdvmlhhthr/" style="width:100%;height:400px;border:none;"></iframe>
 
 <br>
 
