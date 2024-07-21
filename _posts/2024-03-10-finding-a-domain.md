@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Python to find domains; finding out if a domain is registered
+title: Find free domain names using a Python script
 ---
 I made a Python script to create domain names and then check if they are free. It uses a python `whois` module.
 
