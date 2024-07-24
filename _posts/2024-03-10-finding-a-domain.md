@@ -4,6 +4,8 @@ title: Find free domain names using a Python script
 ---
 I made a Python script to create domain names and then check if they are free. It uses a python `whois` module.
 
+You can [get the code here](https://github.com/caspii/domainfinder).
+
 Here's what you need to do.
 
 ## 1. Checkout the code

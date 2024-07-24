@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deployment and infrastructure for a bootstrapped webapp with 150k monthly visits
+title: Blue-green deployment for a bootstrapped SaaS
 description: How I deploy my webapp using blue-green deployment and zero rocket-science
 image: /images/deployment.png
 ---
@@ -9,11 +9,11 @@ image: /images/deployment.png
 
 I am a one-man show building a web-based software product. Some quick facts about my app:
 
-* 150k visitors per month
-* 15k registered users
-* 3k US$ revenue per month
-* 70 requests per second at peak-time
 * The app is KeepTheScore.com, an [online scoreboard app](https://keepthescore.com/)
+* 350k visitors per month
+* 80k registered users
+* 17k US$ revenue per month
+* 70 requests per second at peak-time
 
 This is a technical post looking at the infrastructure that runs my app with a focus on how I deploy it.
 
