@@ -80,18 +80,14 @@ It is also a strong signal about your product: you can make a sincere claim to b
 
 ## Potential SEO benefits
 
-If you design your product to work without a login, you are also (in theory) making it very easily accessible to the Googlebot. The Googlebot is the web crawler software used by Google, which collects documents from the web to build a searchable index for the Search engine. This can potentially be a double-edged sword, with the Googlebot getting at thinks that it shouldn't know about. Yup, that's happened to me.
+If you design your product to work without a login, you are also (in theory) making it easily accessible to the Googlebot. The Googlebot is the web crawler software used by Google, which collects documents from the web to build a searchable index for the Search engine. This can potentially be a double-edged sword, with the Googlebot getting at things that it shouldn't know about. Yup, that's happened to me.
 
 Another, bigger, benefit is that your users will probably share content much more readily if it is easy to access. To use another home-grown example: a major driver of organic growth for Keepthescore has been people posting their scoreboards to Facebook, Twitter and their blogs. This is a very strong signal for Google and others that your webpage has high relevance.
 
 In summary, not having a login will make your product SEO-friendly "out of the box".
 
 
-Anyway, that’s all for now 👋. Follow me [on Twitter](https://twitter.com/wrede) to see my progress.
+Anyway, that’s all for now 👋. Follow me on ~~Twitter~~ [LinkedIn](https://www.linkedin.com/in/casparwrede/) to see my progress.
 
 ---
-
-See how this post is performing on [Fathom Analytics](https://app.usefathom.com/share/folzoonq/casparwre.de) (affiliate link). 
-
-Photo by <a href="https://unsplash.com/@sadswim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ian dooley</a> on <a href="https://unsplash.com/s/photos/launch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
