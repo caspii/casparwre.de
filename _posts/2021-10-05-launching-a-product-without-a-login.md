@@ -1,16 +1,19 @@
 ---
 layout: post
-title: Why you should launch your product without a login
+title: "Creating a SaaS without a login: a cheat code?"
 description: No login -- an awesome product-development hack
-image: /images/balloons.jpg
+image: /images/2_doors.jpg
 
 ---
 
-!['Balloons'](/images/balloons.jpg){:class="img-responsive"}
+!['Balloons'](/images/2_doors.jpg){:class="img-responsive"}
 
-I've launched 2 successful web products (and several unsuccessful ones) that did not have a login. The product that 
-I'm currently working on ([keepthescore.com](https://keepthescore.com)) has over 50k pageviews per day, monthly revenue of 2000 USD and has been online 
-for 4 years -- and I've only just added a user login.
+I've launched 2 successful web products (and many unsuccessful ones) that did not have a login. The product that 
+I'm currently working on ([keepthescore.com](https://keepthescore.com)) has monthly revenue of 2000 USD and has been online 
+for 4 years -- and **I've only just added a user login**.
+
+> Update (November 2024): The numbers have changed since this post was written. The app now makes 20k USD gross revenue a month.   
+
 
 So what are the advantages of launching without a login? 
 
