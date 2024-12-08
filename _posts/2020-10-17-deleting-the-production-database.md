@@ -34,11 +34,11 @@ def database_model_create():
 ```
 Note that `host` is hardcoded to `localhost`. This means it should **never connect to any machine other than the developer machine**.  Also: **of course** I use different passwords and users for development and production. I'm too tired to figure it out right now.
 
-## UPDATE from 20th May 2022
-
-Now, after 1.5 years, I have some more insight into what happened. Basically, my lack of understanding of the [ORM library I'm using](http://docs.peewee-orm.com/en/latest/) caused the error. 
-
-The code above does indeed open a connection to the **local** database. However, in my code, each class representing a database table gets an instance of a database connection. And this connection was being initialised with the live database. Why? Because I was not setting the correct environment variable before running the above code. For Python Flask, you have to set `export FLASK_ENV=development`to ensure you are running in a development environment. My IDE usually takes care of this, however (and this is the key) if I run a script from the command line, I have to do it manually. 
+> **UPDATE**
+> 
+> I now have some more insight into what happened. Basically, my lack of understanding of the [ORM library I'm using](http://docs.peewee-orm.com/en/latest/) caused the error. 
+>
+> The code above does indeed open a connection to the **local** database. However, in my code, each class representing a database table gets an instance of a database connection. And this connection was being initialised with the live database. Why? Because I was not setting the correct environment variable before running the above code. For Python Flask, you have to set `export FLASK_ENV=development`to ensure you are running in a development environment. My IDE usually takes care of this, however (and this is the key) if I run a script from the command line, I have to do it manually. 
 
 ## What have I learned? Why won't this happen again?
 
@@ -61,10 +61,19 @@ The wonderful irony is that not 4 days earlier I tweeted a _hilarious_ meme abou
 <blockquote class="twitter-tweet"><p lang="zxx" dir="ltr"><a href="https://t.co/mOlFqWal08">pic.twitter.com/mOlFqWal08</a></p>&mdash; keepthescore.com (@keep_the_score) <a href="https://twitter.com/keep_the_score/status/1315552102299598851?ref_src=twsrc%5Etfw">October 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-Again, I am very sorry. Good night. 
+## Epilogue
 
-PS This generated some [great discussion on Hackernews](https://news.ycombinator.com/item?id=24813795).
-PPS You can you can [follow my journey on LinkedIn](https://www.linkedin.com/in/casparwrede/).
+This generated a [controversial and active discussion on Hackernews](https://news.ycombinator.com/item?id=24813795). The top comment is:
+
+> I'm appalled at the way some people here receive an honest postmortem of a human fuck-up. The top 3 comments, as I write this, can be summarized as "no, it's your fault and you're stupid for making the fault".
+This is not good! We don't want to scare people into writing less of these. We want to encourage people to write more of them. An MBA style "due to a human error, we lost a day of your data, we're tremendously sorry, we're doing everything in our power yadayada" isn't going to help anybody.
+> 
+> Yes, there's all kinds of things they could have done to prevent this from happening. Yes, some of the things they did (not) do were clearly mistakes that a seasoned DBA or sysadmin would not make. Possibly they aren't seasoned DBAs or sysadmins. Or they are but they still made a mistake.
+> 
+> This stuff happens. It sucks, but it still does. Get over yourselves and wish these people some luck.
+
+
+You can you can [follow my journey on LinkedIn](https://www.linkedin.com/in/casparwrede/).
 
 
 <span>Photo by <a href="https://nikovirtanen.com/">Niko Virtanen</a> license Creative Commons</span>
