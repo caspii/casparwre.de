@@ -17,7 +17,7 @@ To be precise, any scoreboards created or scores added on the 17th October 2020 
 
 ## What happened?
 
-It's tempting to blame the disaster on the couple of glasses of red wine. However, the function that wiped the database was written whilst sober. It's a function that deletes the local database and creates all the required tables from scratch. This evening, whilst doing some late evening coding, the function connected to the production database and wiped it. Why? This is something I'm still trying to figure out.
+The function that wiped the database was written to delete the local database and create tables from scratch. However, it connected to the production database and wiped it due to a misconfiguration.
 
 Here is the code that caused the disaster:
 ```python
@@ -32,13 +32,7 @@ def database_model_create():
     local_db.create_tables([Game, Player, Round, Score, Order])
     print('Initialized the local database.')
 ```
-Note that `host` is hardcoded to `localhost`. This means it should **never connect to any machine other than the developer machine**.  Also: **of course** I use different passwords and users for development and production. I'm too tired to figure it out right now.
-
-> **UPDATE**
-> 
-> I now have some more insight into what happened. Basically, my lack of understanding of the [ORM library I'm using](http://docs.peewee-orm.com/en/latest/) caused the error. 
->
-> The code above does indeed open a connection to the **local** database. However, in my code, each class representing a database table gets an instance of a database connection. And this connection was being initialised with the live database. Why? Because I was not setting the correct environment variable before running the above code. For Python Flask, you have to set `export FLASK_ENV=development`to ensure you are running in a development environment. My IDE usually takes care of this, however (and this is the key) if I run a script from the command line, I have to do it manually. 
+The `host` is hardcoded to `localhost`, so it should only connect to the developer machine. However, the connection was initialized with the live database due to an incorrect environment variable setting. For Python Flask, you must set `export FLASK_ENV=development` to ensure you are running in a development environment.
 
 ## What have I learned? Why won't this happen again?
 
