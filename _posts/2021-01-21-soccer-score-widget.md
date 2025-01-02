@@ -12,6 +12,6 @@ This is a post demonstrating how to embed a soccer score widget from [keepthesco
 5. That's it!
 
 Here's what an embedded scoreboard looks like:
-<iframe src="https://blue.keepthescore.com/embed-sport/tceppwlurvr/" style="width:100%;border:none;height:600px"></iframe>
+<iframe src="https://keepthescore.com/embed-sport/tceppwlurvr/" style="width:100%;border:none;height:600px"></iframe>
 
 You can now update the widget on Keepthescore.com and it will update automatically on your website.
