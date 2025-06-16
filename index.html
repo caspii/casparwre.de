@@ -2,8 +2,6 @@
 layout: default
 title: Caspar's Website
 description: This is Caspar's personal website where you can find some incomplete and skewed information about him.
-custom_js:
-- https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js
 ---
 
 <div class="container">
@@ -13,16 +11,19 @@ custom_js:
     </div>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
 <script>
-    var typed = new Typed('.typed-text', {
-        strings: [  "Welcome to my websiite.^800",
-            "Welcome to my webste^500",
-            "Welcome to my webiste^300",
-            "Welcome to my ^1000page^800.",
-        ],
-        smartBackspace: true, // Default value
-        typeSpeed: 80,
-        backSpeed: 70
+    document.addEventListener('DOMContentLoaded', function() {
+        var typed = new Typed('.typed-text', {
+            strings: [  "Welcome to my websiite.^800",
+                "Welcome to my webste^500",
+                "Welcome to my webiste^300",
+                "Welcome to my ^1000page^800.",
+            ],
+            smartBackspace: true, // Default value
+            typeSpeed: 80,
+            backSpeed: 70
+        });
     });
 </script>
 
@@ -46,6 +47,8 @@ custom_js:
     <div class="row">
         <div class="col-lg-12">
             <p>I've built many projects over the years, from successful SaaS products to fun experiments. <a href="/projects">Check out my complete projects list</a> to see what's still running and what's been retired.</p>
+            
+            <p>I also support my wife's business: <a href="https://www.vonwrede-relocation.com/">Von Wrede Relocation</a> - a relocation agency helping people move to Berlin.</p>
             
             <h3>Other Resources</h3>
             <ul>
