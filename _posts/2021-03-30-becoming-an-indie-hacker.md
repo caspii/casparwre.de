@@ -4,7 +4,7 @@ title: Why I'm quitting my job to build an online business
 description: How and why I got started building keepthescore.com 
 image: /images/nebelmeer.jpg
 custom_js:
-  - node_modules/chart.js/dist/Chart.js
+  - https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js
 ---
 
 !['Nebelmeer'](/images/nebelmeer.jpg){:class="img-responsive"}

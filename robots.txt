@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /node_modules/
 Disallow: /bower_components/
