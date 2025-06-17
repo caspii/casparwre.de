@@ -9,20 +9,45 @@ layout: default
   <p>I enjoy writing about all kinds of stuff, so please don't expect any kind of common theme here!</p>
   <hr mt-5>
   {% for post in site.posts %}
+    {% assign post_image = post.image %}
+    {% unless post_image %}
+      {% assign images = post.content | split: '<img' %}
+      {% for img in images %}
+        {% if forloop.index > 1 %}
+          {% assign src_start = img | split: 'src="' %}
+          {% if src_start.size > 1 %}
+            {% assign src_url = src_start[1] | split: '"' | first %}
+            {% if src_url contains '/images/' %}
+              {% assign post_image = src_url %}
+              {% break %}
+            {% endif %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endunless %}
 
     <article class="post mb-5 mt-5">
+      <div class="row">
+        {% if post_image %}
+        <div class="col-md-4 mb-3">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <img src="{{ post_image }}" alt="{{ post.title }}" class="img-fluid rounded blog-thumbnail">
+          </a>
+        </div>
+        <div class="col-md-8">
+        {% else %}
+        <div class="col-md-12">
+        {% endif %}
+          <h3 class="mt-0"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+          <h4 class="text-muted mb-3">{{ post.date | date: "%B %e, %Y" }}</h4>
 
-      <h3 class="mt-0"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      <h4 class="text-muted mb-3">{{ post.date | date: "%B %e, %Y" }}</h4>
+          <p class="entry">
+            {{ post.content | truncatewords:100 | strip_html}}
+          </p>
 
-      <p class="entry">
-        {{ post.content | truncatewords:100 | strip_html}}
-      </p>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-      <br>
-      <br>
-
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        </div>
+      </div>
     </article>
     <hr>
   {% endfor %}
