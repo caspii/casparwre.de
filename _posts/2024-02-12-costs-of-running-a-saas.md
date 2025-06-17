@@ -3,7 +3,7 @@ layout: post
 title: "Breaking Down the Costs of a Bootstrapped SaaS with $11,000 Monthly Revenue"
 image: /images/saas_costs.jpg
 custom_js:
-  - node_modules/tocbot/dist/tocbot.js
+  - https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js
 ---
 
 ![Operating costs of SAAS](/images/saas_costs.jpg)
