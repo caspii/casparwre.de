@@ -67,7 +67,6 @@ This is not good! We don't want to scare people into writing less of these. We w
 > This stuff happens. It sucks, but it still does. Get over yourselves and wish these people some luck.
 
 
-You can you can [follow my journey on LinkedIn](https://www.linkedin.com/in/casparwrede/).
 
 
 <span>Photo by <a href="https://nikovirtanen.com/">Niko Virtanen</a> license Creative Commons</span>

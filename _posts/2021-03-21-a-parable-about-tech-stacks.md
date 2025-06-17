@@ -53,8 +53,5 @@ The uncle turned to the boat that was already barely visible. He could see that 
 Photo by <a href="https://unsplash.com/@tradd_harter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tradd Harter</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </div>
 
----
-By the way, I'm building my [own bootstrapped app](https://keepthescore.com/). You can [follow my journey on LinkedIn](https://www.linkedin.com/in/casparwrede/) to keep updated.
-
 
 

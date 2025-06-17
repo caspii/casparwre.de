@@ -196,7 +196,6 @@ Considering my gross monthly revenue of $11 000, this results in a gross margin 
 
 That's all for now! Thanks for reading and feel free to ask questions below.
 
-> Follow my journey on ~~Twitter~~ [LinkedIn](https://www.linkedin.com/in/casparwrede/).
  
  
 ## Addendum 

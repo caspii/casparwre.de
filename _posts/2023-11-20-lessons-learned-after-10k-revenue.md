@@ -124,4 +124,3 @@ I had many more things to write about, including copycat products, building in p
 
 Thanks for reading this and In case you are wondering: I am having the time of my life.
 
-> Follow my journey on ~~Twitter~~ [LinkedIn](https://www.linkedin.com/in/casparwrede/).

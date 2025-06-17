@@ -96,11 +96,6 @@ I use Fathom Analytics for this blog and am switching all of my products to it. 
 I believe it is a moral imperative for web developers to think about the “free” tools they are using to provide their products. In the case of Google Analytics, the tool is only very superficially free. We are all paying the hidden costs. 
 
 If you want to make the world a better place, stop feeding the beast.
-<br>
-<br>
-
----
-By the way, I'm building my [own bootstrapped app](https://keepthescore.com/). You can [follow my journey on LinkedIn](https://www.linkedin.com/in/casparwrede/).
 
 
 

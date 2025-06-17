@@ -87,7 +87,7 @@ Another, bigger, benefit is that your users will probably share content much mor
 In summary, not having a login will make your product SEO-friendly "out of the box".
 
 
-Anyway, that’s all for now 👋. Follow me on ~~Twitter~~ [LinkedIn](https://www.linkedin.com/in/casparwrede/) to see my progress.
+Anyway, that's all for now 👋.
 
 ---
   

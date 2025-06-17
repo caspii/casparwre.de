@@ -121,6 +121,6 @@ I've been using this method so far. In fact, I have never done an automated sche
 
 ## That's all
 
-Thanks for reading my article! You can follow my journey as a bootstrapped one-man startup [on LinkedIn](https://www.linkedin.com/in/casparwrede/). 
+Thanks for reading my article!
 
 See you in the next post!
