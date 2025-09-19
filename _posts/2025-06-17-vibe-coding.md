@@ -7,11 +7,10 @@ image: /images/vibe_coding.jpg
 
 ![Vibe coding](/images/vibe_coding.jpg)
 
-Looking back, we will forget how wild the hype around AI coding was. If you had just been following social media around this topic in 2023, you would
+Looking back, we will forget how wild the hype around AI coding was. If you had only been following social media around this topic in 2023, you would
 have assumed that the current AI tools were already 95% of the way there towards making production-ready code.
 
 That was completely wrong back then and is still mostly wrong in 2025. However, it is starting to get useful.
-
 
 
 ## How it started
@@ -39,8 +38,8 @@ And I am a beginning to experiment with writing projects from scratch using AI.
 > This post is a work in progress. More to come later!
 
 * If it's a big task, ask the AI to make a plan first, then implement in steps. Even better, get the AI to write it down and use the plan as a working document.
-* Get the AI to write tests for every feature you make. Writing tests used to be essential and painful. Now writing tests is essential and easy. You have no excuse.
-* Ensure you have good documentation. If using claude begin with `/init`
+* Get the AI to write tests for every feature before it makes the actual feature. Writing tests used to be essential and painful. Now writing tests is essential and easy. You have no excuse.
+* Ensure you have good documentation. If using Claude begin with `/init`
 * Work in branches, commit frequently (using the AI) and don't be afraid to roll back
 * You will end up in "doom loops": the AI took a wrong turn and fixing it is getting more and more painful. Throw everything away and then start again.
 

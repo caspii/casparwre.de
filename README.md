@@ -6,7 +6,7 @@ The website is generated with [Jeykll](https://jekyllrb.com/).
 
 ## Generating the site
 
-Run jekyll with `jekyll serve` in the root directory and follow instructions.
+Run jekyll with `bundle exec jekyll serve`
 
 ## Resize Images from command line
  `sips -Z 1024 money-tree.jpg` 
@@ -21,11 +21,6 @@ chruby ruby-3.1.1
 gem install github-pages jekyll jekyll-seo-tag webrick
 ```
 
-On Ubuntu
-```sudo apt-get install ruby ruby-dev make gcc nodejs
-sudo gem install jekyll --no-rdoc --no-ri
-sudo gem install github-pages --no-rdoc --no-ri
-```
 
 ###  2. Install yarn
 
