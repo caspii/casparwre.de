@@ -32,6 +32,7 @@
   url('../fonts/open-sans-v34-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
 
+
 body {
   font-size: 1.4rem;
   margin-bottom: 100px;
@@ -161,4 +162,33 @@ footer {
 
 .blog-thumbnail:hover {
   transform: scale(1.05);
+}
+
+/* Make bold text more prominent */
+b, strong {
+  font-weight: 800;
+  color: #1a1a1a;
+  letter-spacing: -0.02em;
+  font-synthesis: style weight;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p b, p strong,
+li b, li strong {
+  font-weight: 800;
+  color: #000;
+  font-size: 1.02em;
+}
+
+/* Additional weight for headers with strong tags */
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
+  font-weight: 800;
+  color: #000;
+}
+
+/* Ensure code blocks with bold text are also prominent */
+code b, code strong,
+pre b, pre strong {
+  font-weight: 800;
 }
