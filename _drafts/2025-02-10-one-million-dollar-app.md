@@ -2,10 +2,12 @@
 layout: post
 title: The app I made is now worth a million dollars
 description: How I deploy my webapp using blue-green deployment and zero rocket-science
-image: /images/deployment.png
+image: /images/the_social_network_2.jpg
 ---
 
 In 2021 I locked myself in a room and began to code an app. It's now worth a million dollars.
+
+![Operating costs of SAAS](/images/the_social_network_2.jpg)
 
 By way of celebration I have submitted to this hard-hitting interview. Because I'm bootstrapped and was alone for the first few years, I am interviewing myself.
 
