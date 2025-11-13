@@ -39,13 +39,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="/">About me</a>
+                <a class="nav-link {% if page.nav == 'about' %}active{% endif %}" href="/">About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/projects">Projects</a>
+                <a class="nav-link {% if page.nav == 'projects' %}active{% endif %}" href="/projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/blog/">Blog</a>
+                <a class="nav-link {% if page.nav == 'blog' %}active{% endif %}" href="/blog/">Blog</a>
               </li>
             </ul>
           </div>
