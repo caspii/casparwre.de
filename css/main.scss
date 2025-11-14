@@ -26,8 +26,10 @@ h1, h2, h3, h4, h5 {
   font-family: 'Space Grotesk', sans-serif;
 }
 
-h2, h3{
-  padding-top: 40px;
+/* Add spacing above headings in blog posts */
+article h2, article h3,
+.entry h2, .entry h3 {
+  margin-top: 2.5rem;
 }
 
 .highlight {
