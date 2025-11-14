@@ -11,10 +11,10 @@ Ever wondered what Flask looks like in production? Here are some insights into a
 
 ## 🚀 How it started
 
-In 2016, I started a Flask tutorial because I had an idea for a simple app. I knew a little bit about HTML and CSS but
+In 2016, I [started a Flask tutorial](https://casparwre.de/blog/online-scoreboard-python-flask-sqlite/) because I had an idea for a simple app. I knew a little bit about HTML and CSS but
 almost nothing about database driven apps. I continued building on this codebase for nine years. Now,
-that same app has hundreds of thousands of registered users, earns thousands
-of revenue per month, and has changed my life forever.
+that same app has hundreds of thousands of registered users, [earns thousands
+of revenue per month](https://casparwre.de/blog/lessons-learned-after-10k-revenue/), and has changed my life forever.
 
 
 Despite its unglamorous beginnings I never rewrote the app from scratch, I just kept on adding to it (and sometimes
@@ -52,12 +52,14 @@ OK, onto the code! Here is a top-level overview:
 * Transactional emails (such as password reset mails) are sent via Sendgrid using the Sendgrid Python package
 * Log files are forwarded to a log aggregator (Papertrail)
 
+The app runs on two DigitalOcean servers (8 vCPUs, 16GB RAM each) using a [blue-green deployment](https://casparwre.de/blog/webapp-python-deployment/) setup. During deployments, traffic switches between servers using a floating IP, allowing zero-downtime releases and instant rollbacks. The Postgres database (4 vCPUs, 8GB RAM) is fully managed by DigitalOcean. Nginx and Gunicorn serve the Flask app.
+
 Here are some notable features or customizations I have added over the years:
 
 ### 🏢 Multi-tenant app
 
 As the app matured, it turned out I was trying to handle too many different use-cases. This was mainly a marketing
-problem, not a technical one. The solution was to split my app into two: the same backend now powers 2 different
+problem, not a technical one. The solution was to [split my app into two](https://casparwre.de/blog/splitting-keepthescore/): the same backend now powers 2 different
 domains, each showing different content.
 
 How is this done? I use a `@app.before_request` to detect which domain the request comes from. Then I store the domain
@@ -74,7 +76,7 @@ For any test, I can then look at some top level metrics, for instance number of 
 
 ### 🔐 Authentication
 
-I put off implementing authentication for my app as long as possible. I think I was afraid of screwing it up. This meant it was possible to use my app for years without signing up. I even added payment despite not having auth!
+I put off implementing authentication for my app as long as possible. I think I was afraid of screwing it up. This meant it was possible to use my app for years without signing up. I even added [payment despite not having auth](https://casparwre.de/blog/launching-a-product-without-a-login/)!
 
 Then I added authentication using `flask-login` and it turned out to be fairly simple. All the FUD (fear, uncertainty, doubt)
 that exists around this topic seems to emanate from companies that want to sell you cloud-based solutions.
@@ -93,9 +95,9 @@ I built my own administration frontend, despite Flask having a ready-made packag
 
 Then I began to add more functionality bit by bit, but only as it became necessary. Now I have a fully-fledged custom-built admin interface.
 
-## 💪 What was hardest thing?
+## 💪 What was the hardest thing?
 
-The hardest issues I faced was setting up Gunicorn and ngnix properly.
+The hardest issues I faced was setting up Gunicorn and nginx properly.
 
 As traffic increased, I would sporadically run into the problem of not enough workers being available. I was able to fix this by finally getting acquainted with: 
 
