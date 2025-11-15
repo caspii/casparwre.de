@@ -1,42 +1,62 @@
 ---
 layout: post
-title: Online leaderboard widgets for your website
+title: Free Leaderboard Maker - Create Live Leaderboard Widgets for Your Website
 ---
 
-This is a post demonstrating how to embed a leaderboard widget from [keepthescore.com](https://keepthescore.com/online-leaderboard-maker/). What's really nice is that it will update automatically without the page reloading.
+Looking to create a leaderboard for your website? This guide shows you how to use a free online leaderboard maker to generate live leaderboard widgets that update automatically without page reloads. Whether you need a scoreboard widget for competitions, rankings, or tracking scores, embedding a leaderboard has never been easier.
 
-Here's what the leaderboard widget looks like. 
+## What is a Live Leaderboard Widget?
 
-[//]: # (ADMIN LINK https://keepthescore.com/board/utvrmmtlfre/)
+A live leaderboard widget is an embeddable website widget that displays real-time rankings, scores, or standings on your web page. Unlike static scoreboards, a live leaderboard updates automatically when scores change, making it perfect for tournaments, competitions, sales teams, gaming events, and more.
 
-<iframe id="iframe-yodpwvaeapr" src="https://keepthescore.com/embed/yodpwvaeapr/" style="width:100%;height:100%;border:none;" scrolling="no"></iframe>
+Here's what a live leaderboard widget looks like in action:
+
+[//]: # (ADMIN LINK https://leaderboarded.com/board/utvrmmtlfre/)
+
+<iframe id="iframe-yodpwvaeapr" src="https://leaderboarded.com/embed/yodpwvaeapr/" style="width:100%;height:100%;border:none;" scrolling="no"></iframe>
 <script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
 
-## How does it work?
+## How to Create a Leaderboard and Embed It on Your Website
 
-1. First of all you need to go over to [keepthescore.com](https://keepthescore.com) and create your leaderboard. 
-2. Click the "PUBLISH" button at the top of your board.
-3. Click the "Embed on a Website" Panel and then "COPY TO CLIPBOARD"
-4. Paste the code into your page (e.g. Wordpress, Wix, Square, etc.)
-5. That's it!
+Creating and embedding a leaderboard widget is straightforward with our free leaderboard generator:
 
+1. Visit [leaderboarded.com](https://leaderboarded.com) - a free online leaderboard maker
+2. Create your leaderboard by adding players, teams, or participants
+3. Customize the design, colors, and layout to match your website
+4. Click the "PUBLISH" button at the top of your board
+5. Select "Embed on a Website" and click "COPY TO CLIPBOARD"
+6. Paste the embed code into your website (works with WordPress, Wix, Squarespace, custom HTML, and more)
 
-Check this out for the full documentation: [how to embed widgets](https://keepthescore.com/docs/website-widget/).
+That's it! Your live leaderboard will now display and update in real-time on your site.
 
-## More examples
+For complete instructions and advanced features, check out the [leaderboard widget documentation](https://leaderboarded.com/docs/website-widget/).
 
+## Live Leaderboard Examples
 
-Here's another leaderboard with a different theme and a different layout:
+### Custom Styled Leaderboard
 
-[//]: # (ADMIN LINK: https://keepthescore.com/board/9XEPKFWPKdspe/)
+This leaderboard generator supports multiple themes and layouts. Here's an example with a different visual style:
 
-<iframe id="iframe-3SdSIAy3s_s1r" src="https://keepthescore.com/embed/3SdSIAy3s_s1r/" style="width:100%;height:100%;border:none;" scrolling="no">
+[//]: # (ADMIN LINK: https://leaderboarded.com/board/9XEPKFWPKdspe/)
+
+<iframe id="iframe-3SdSIAy3s_s1r" src="https://leaderboarded.com/embed/3SdSIAy3s_s1r/" style="width:100%;height:100%;border:none;" scrolling="no">
 </iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
 
+### Team Leaderboard Widget
 
-Another type of supported leaderboard is the so-called team leaderboard. This is what they look like:
+Need to track team rankings instead of individuals? This online leaderboard maker also supports team-based scoreboards:
 
-[//]: # (ADMIN LINK: https://keepthescore.com/board/zchijqngjqe/)
+[//]: # (ADMIN LINK: https://leaderboarded.com/board/zchijqngjqe/)
 
-<iframe id="iframe-gwplrzxiiyr" src="https://keepthescore.com/embed/gwplrzxiiyr/" style="width:100%;height:100%;border:none;" scrolling="no">
+<iframe id="iframe-gwplrzxiiyr" src="https://leaderboarded.com/embed/gwplrzxiiyr/" style="width:100%;height:100%;border:none;" scrolling="no">
 </iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight + 40}px`;}};</script>
+
+## Why Use a Live Leaderboard on Your Website?
+
+- **Real-time updates**: Scores update automatically without requiring page refreshes
+- **Easy to embed**: Simple copy-paste installation on any website platform
+- **Mobile-responsive**: Scoreboard widgets adapt to any screen size
+- **Customizable**: Match your brand with custom colors and themes
+- **Free to use**: Create unlimited leaderboards at no cost
+
+Whether you're running a gaming tournament, tracking sales performance, managing a competition, or displaying any type of rankings, this free leaderboard maker provides everything you need to create and embed a professional live leaderboard widget on your website.
