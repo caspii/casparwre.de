@@ -17,7 +17,7 @@ Sports scoreboards stay at KeepTheScore.com. Everything else moves to **[Leaderb
 ## Some background: what 2025 taught me
 
 Earlier this year, I introduced a bug that broke a crucial part of the user experience and tanked my revenue. It took 
-**5 months** to find and fix — a rough period I'll detail next time. The good news: revenue is growing again. 🥳
+**5 months** to find and fix — a pretty rough period. The good news: revenue is growing again. 🥳
 
 This disaster forced me to face the real problem: I was serving two completely different user groups with one product.
 
@@ -29,14 +29,14 @@ This caused a number of problems:
 
 * Unclear and confused messaging and marketing
 * SEO problems with various landing pages competing for keywords
-* Difficulties finding a pricing model and value metrics that fit both products
+* Difficulties finding a pricing model that fit both products
 * Muddy metrics, unclear user segments, all users smooshed together in one pot
 * It was hard to write clear documentation and FAQs for the product
 
 
 ## The Bad
 
-The risks are real:
+The risks of this move are real:
 
 **1. Revenue impact.** Teachers might not trust a brand-new "Leaderboarded.com" without the thousands of reviews
 KeepTheScore has accumulated.
@@ -65,7 +65,7 @@ But the benefits outweigh the risks:
 A few months ago, before I'd even considered splitting the product, I got lucky. A competitor was shutting down and I managed to acquire their domain — leaderboarded.com — for a reasonable price. This turned out to be perfect timing. The domain already had SEO value since search engines recognized it as being related to leaderboards, giving me a head start rather than starting from scratch.
 
 This entire split — new domain, migrated database, separate authentication, the works — took me about 10 days. That
-would have been impossible a year ago, thanks to AI (of course).
+would have been impossible a year ago, and would have taken months of work. [But now there is AI](/blog/vibe-coding).
 
 I'm using [Claude Code](https://claude.ai/code) every single day now, and it has fundamentally changed how I ship code.
 About 95% of what goes into production is AI-generated — not exaggerating.
