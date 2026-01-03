@@ -2,7 +2,7 @@
 layout: post
 title: "Announcing a new product: Scorejudge.com"
 description: I created a app that allows you to judge competitions and display a leaderboard of the results
-image: competition_judging_hero.jpg
+image: /images/competition_judging_hero.jpg
 ---
 
 
