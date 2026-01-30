@@ -11,26 +11,26 @@ image: /images/preview-deployments.jpg
 
 Preview deployments are often touted as a major selling point of PaaS platforms like Vercel and Netlify — and for good reason. They automatically deploy every pull request to a unique, accessible URL before merging, enabling reviewers to test changes in a production-like environment without local setup.
 
-But here's the thing: with modern AI tools like Claude Code and GitHub Actions, setting up your own preview deployment system is no longer the daunting task it once was. I managed to get a fully working setup in just 4 hours. This guide walks through exactly how to build a robust preview deployment system using GitHub Actions, Docker, and a reverse proxy.
+But here's the thing: with modern AI tools like Claude Code and GitHub Actions, setting up your own preview deployment system is no longer the daunting task it once was. My only manual step was installing the **DigitalOcean command-line tool** (`doctl`) — after that, **Claude Code did almost all of the setup**: writing the GitHub Actions workflows, the deploy and cleanup scripts, the Traefik configuration, and the Dockerfile. I managed to get a fully working setup in just 4 hours. This guide walks through exactly how to build a robust preview deployment system using GitHub Actions, Docker, and a reverse proxy.
 
 ## Core Architecture
 
 ### The Three-Layer Stack
 
 **1. GitHub Actions Workflow**
-The workflow triggers on PR events (open, update, close) and orchestrates the entire deployment pipeline. It builds Docker images, pushes them to a registry, and triggers deployment scripts via SSH.
+The workflow triggers on PR events (open, update, close) and orchestrates the entire deployment pipeline. It builds Docker images, pushes them to the **DigitalOcean Container Registry**, and triggers deployment scripts via SSH. Once deployed, it **posts a comment on the PR** with the preview URLs so reviewers can click straight through.
 
 **2. Containerized Application**
-Each PR runs in its own Docker container with defined resource limits. This ensures isolation between previews and prevents resource exhaustion from runaway processes.
+Each PR runs in its own Docker container with defined resource limits. In my case each container is a multi-service setup: **Supervisor manages Nginx, Gunicorn (3 workers, 2 threads), and Memcached** inside a single container. This mirrors the production stack so the preview is a faithful replica. Resource limits ensure isolation and prevent exhaustion from runaway processes.
 
 **3. Reverse Proxy with SSL**
-A reverse proxy (Traefik, Nginx, or Caddy) handles routing requests to the correct container based on subdomain, while automatically managing SSL certificates via Let's Encrypt.
+A reverse proxy handles routing requests to the correct container based on subdomain, while automatically managing SSL certificates via Let's Encrypt. I use **Traefik** for this because of its excellent Docker integration. In my setup each container gets **3 Traefik routers** — one for each domain the app serves (`keepthescore.com`, `leaderboarded.com`, and `scorejudge.com`) — so reviewers can test all branded entry points.
 
 ## Implementation Steps
 
 ### Step 1: Infrastructure Setup
 
-Provision a dedicated server (4GB RAM minimum recommended) with Docker installed. Create a wildcard DNS record pointing `*.preview.yourdomain.com` to your server's IP address. This enables infinite subdomains without manual DNS configuration.
+Provision a dedicated server with Docker installed. I use a **DigitalOcean droplet in Frankfurt** (4GB RAM, 2 vCPUs, ~$30–40/month). Create a wildcard DNS record pointing `*.preview.yourdomain.com` to your server's IP address. This enables infinite subdomains without manual DNS configuration.
 
 ### Step 2: Reverse Proxy Configuration
 
@@ -60,20 +60,20 @@ Write idempotent deployment scripts that handle:
 - **Container lifecycle**: Stop and remove existing containers before deploying
 - **Environment configuration**: Pass PR-specific environment variables
 - **Resource limits**: Enforce memory and CPU constraints
-- **Health checks**: Verify the deployment is accessible before reporting success
+- **Health checks**: Verify the deployment is accessible before reporting success, including **SSL certificate verification**
 
 ### Step 5: Automated Cleanup
 
 Implement two cleanup mechanisms:
 
 - **Immediate**: Remove containers when PRs are closed
-- **Scheduled**: Clean up orphaned deployments older than X days (prevents resource leaks)
+- **Scheduled**: A **cron job running daily at 2 AM** removes preview containers **older than 7 days** and prunes unused Docker resources (images, volumes, networks)
 
 ## Critical Pitfalls and Solutions
 
 ### Pitfall 1: Production Database Access
 
-**The Issue**: The PR in question connected preview deployments directly to the production database. While this provides realistic testing, it creates significant risks:
+**The Issue**: My preview deployments connect directly to the **production database with full read/write access**. While this provides the most realistic testing possible, it creates significant risks:
 
 - Test data polluting production
 - Accidental data deletion or corruption
@@ -170,15 +170,12 @@ Implement logging and monitoring:
 
 - **Multi-stage builds**: Separate build and runtime stages
 - **Layer caching**: Order Dockerfile commands from least to most frequently changing
-- **Parallel builds**: Use `docker buildx` for parallel stage execution
 - **Registry caching**: Push and pull cache layers from the registry
 
 ### Deployment Speed
 
 - **Pre-pull base images**: Keep common base images on the server
-- **Parallel operations**: Deploy multiple containers simultaneously
 - **Health check optimization**: Use lightweight health endpoints
-- **Connection pooling**: Reuse SSH connections for multiple operations
 
 ## Scaling Considerations
 
