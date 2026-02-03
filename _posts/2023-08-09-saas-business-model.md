@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SaaS: the greatest business model of all"
+description: Why software as a service is an exceptional business model with infinite scalability and recurring revenue potential.
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ubuntu development has stagnated
+description: Analysis of Ubuntu mailing list activity showing a significant decline in developer participation over the years.
 custom_js:
   - https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js
 ---

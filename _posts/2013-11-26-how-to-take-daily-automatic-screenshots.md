@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to take daily automatic screenshots in Ubuntu / Linux using the command line
+description: A tutorial on setting up automatic daily screenshots in Ubuntu using scrot and cron for monitoring or keeping a visual diary.
 ---
 For some reason you may want to automatically take screenshots every day. Maybe you want to spy on someone, maybe you want to keep a visual diary of what you're doing on your computer, maybe you just really really love screenshots.
 

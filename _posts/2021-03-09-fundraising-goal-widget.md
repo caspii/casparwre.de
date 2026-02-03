@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to embed an online fundraising widget
+description: Step-by-step guide to embedding a fundraising thermometer widget on your website that updates automatically.
 ---
 
 This is a post demonstrating how to embed a fundraising widget from [keepthescore.com](https://keepthescore.com) on a web page. 
