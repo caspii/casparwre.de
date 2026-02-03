@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Find free domain names using a Python script
+description: A Python script that generates domain name combinations and checks if they are available using whois lookups.
 ---
 I made a Python script to create domain names and then check if they are free. It uses a python `whois` module.
 
@@ -35,5 +36,5 @@ You'll see the output as each domain is checked and the result in your console. 
 ## Tweak
 If you're feeling adventurous, change the script so that other top level domains are checked, such as .net or .de.
 
-# That's all
+## That's all
 If you have any questions, let me know.

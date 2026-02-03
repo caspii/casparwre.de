@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Breaking Down the Costs of a Bootstrapped SaaS with $11,000 Monthly Revenue"
+description: A detailed breakdown of monthly operating costs for running a Python Flask webapp with 250k visitors and 1.3 million pageviews.
 image: /images/saas_costs.jpg
 custom_js:
   - https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js

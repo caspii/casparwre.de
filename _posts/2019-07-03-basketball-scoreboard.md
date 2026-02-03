@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A new type of basketball scoreboard
+description: An affordable browser-based basketball scoreboard that runs on any computer and can be shared remotely via link.
 ---
 Why are basketball scoreboards so expensive? You can easily pay over 3000 USD for
 a hardware scoreboard! Of course you could download a a basketball

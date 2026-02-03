@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Free Leaderboard Maker - Create Live Leaderboard Widgets for Your Website
+description: Learn how to create and embed live leaderboard widgets on your website that update automatically without page reloads.
 ---
 
 Looking to create a leaderboard for your website? This guide shows you how to use a free online leaderboard maker to generate live leaderboard widgets that update automatically without page reloads. Whether you need a scoreboard widget for competitions, rankings, or tracking scores, embedding a leaderboard has never been easier.

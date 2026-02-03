@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Lessons from bootstrapping my side-project to $10,000 monthly revenue"
+description: Key lessons learned from growing Keepthescore.com from a side project to a solo business generating $10k monthly revenue.
 ---
 
 
