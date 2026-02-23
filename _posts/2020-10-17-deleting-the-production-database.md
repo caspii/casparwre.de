@@ -6,7 +6,7 @@ image: /images/disaster.jpg
 ---
 
 
-Today at around 10:45pm CET, after a couple of glasses of red wine, I deleted the production database for my online product (KeepTheScore.com, an [online scoreboard app](https://keepthescore.com/)) by accident 😨. Over 300.00 scoreboards and their associated data were vaporised in an instant. By the way, I'm a one-man show, building a software product for a living. 
+Today at around 10:45pm CET, after a couple of glasses of red wine, I deleted the production database for my online product ([Leaderboarded.com, an online scoreboard app](https://leaderboarded.com/)) by accident 😨. Over 300.00 scoreboards and their associated data were vaporised in an instant. By the way, I'm a one-man show, building a software product for a living. 
 
 Thankfully my database is a managed database from DigitalOcean, which means they automatically do backups once a day. After 5 minutes of blind panic, I took the website into maintenance mode and worked on restoring a backup. At around 11:15pm CET, 30 minutes after the disaster, I went back online, however 7 hours of scoreboard data was gone forever 😵. 
 
