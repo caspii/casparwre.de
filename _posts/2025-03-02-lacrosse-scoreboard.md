@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A free online lacrosse scoreboard
+title: An online lacrosse scoreboard
 description: A browser-based lacrosse scoreboard that runs on any device — no download required. Perfect for youth leagues, club teams, and streaming overlays.
 ---
 Why are lacrosse scoreboards so hard to find? Physical scoreboards cost thousands of dollars, and most youth leagues and club teams make do with a whiteboard or a phone timer. Of course you can download dedicated scorekeeping software — but those solutions come with their own headaches:
@@ -20,8 +20,5 @@ It supports everything you need for a lacrosse game: goals, quarters, a shot clo
 
 And if you're streaming the game with OBS or Streamlabs, you can use it as a live scoreboard overlay — just copy the browser source URL.
 
-Click here to try it for yourself, it's completely free: [online lacrosse scoreboard](https://keepthescore.com/lacrosse-scoreboard/).
+Click here to try it for yourself: [online lacrosse scoreboard](https://keepthescore.com/lacrosse-scoreboard/).
 
-* * *
-
-Thanks for reading this 100% hand-written post! Follow me on [LinkedIn](https://www.linkedin.com/in/casparwrede/) for more or check out my [projects](/projects/).
