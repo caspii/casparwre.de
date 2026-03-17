@@ -1,10 +1,16 @@
 ---
 layout: post
-title: Free Leaderboard Maker - Create Live Leaderboard Widgets for Your Website
-description: Learn how to create and embed live leaderboard widgets on your website that update automatically without page reloads.
+title: How to Embed a Live Leaderboard Widget on Your Website
+description: Step-by-step guide to embedding a live leaderboard widget on your website using Leaderboarded.com.
+metatags: noindex
 ---
 
-Looking to create a leaderboard for your website? This guide shows you how to use a free online leaderboard maker to generate live leaderboard widgets that update automatically without page reloads. Whether you need a scoreboard widget for competitions, rankings, or tracking scores, embedding a leaderboard has never been easier.
+Looking to embed a leaderboard on your website? This guide walks you through the steps of adding a live, auto-updating leaderboard widget to any web page.
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px; padding: 20px 24px; margin: 20px 0 30px; color: white; font-size: 1.1em;">
+  <strong>Looking for a leaderboard maker?</strong><br>
+  Try <a href="https://leaderboarded.com" style="color: #fff; text-decoration: underline; font-weight: bold;">Leaderboarded.com</a> — a free, dedicated tool for creating and sharing leaderboards.
+</div>
 
 ## What is a Live Leaderboard Widget?
 
@@ -19,9 +25,9 @@ Here's what a live leaderboard widget looks like in action:
 
 ## How to Create a Leaderboard and Embed It on Your Website
 
-Creating and embedding a leaderboard widget is straightforward with our free leaderboard generator:
+Creating and embedding a leaderboard widget is straightforward with [Leaderboarded.com](https://leaderboarded.com):
 
-1. Visit [leaderboarded.com](https://leaderboarded.com) - a free online leaderboard maker
+1. Visit [leaderboarded.com](https://leaderboarded.com)
 2. Create your leaderboard by adding players, teams, or participants
 3. Customize the design, colors, and layout to match your website
 4. Click the "PUBLISH" button at the top of your board
@@ -36,7 +42,7 @@ For complete instructions and advanced features, check out the [leaderboard widg
 
 ### Custom Styled Leaderboard
 
-This leaderboard generator supports multiple themes and layouts. Here's an example with a different visual style:
+[Leaderboarded.com](https://leaderboarded.com) supports multiple themes and layouts. Here's an example with a different visual style:
 
 [//]: # (ADMIN LINK: https://leaderboarded.com/board/9XEPKFWPKdspe/)
 
@@ -45,7 +51,7 @@ This leaderboard generator supports multiple themes and layouts. Here's an examp
 
 ### Team Leaderboard Widget
 
-Need to track team rankings instead of individuals? This online leaderboard maker also supports team-based scoreboards:
+Need to track team rankings instead of individuals? [Leaderboarded.com](https://leaderboarded.com) also supports team-based scoreboards:
 
 [//]: # (ADMIN LINK: https://leaderboarded.com/board/zchijqngjqe/)
 
@@ -60,4 +66,4 @@ Need to track team rankings instead of individuals? This online leaderboard make
 - **Customizable**: Match your brand with custom colors and themes
 - **Free to use**: Create unlimited leaderboards at no cost
 
-Whether you're running a gaming tournament, tracking sales performance, managing a competition, or displaying any type of rankings, this free leaderboard maker provides everything you need to create and embed a professional live leaderboard widget on your website.
+Whether you're running a gaming tournament, tracking sales performance, managing a competition, or displaying any type of rankings, [Leaderboarded.com](https://leaderboarded.com) provides everything you need to embed a live leaderboard widget on your website.
