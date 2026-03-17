@@ -22,3 +22,11 @@ which is basically all of them. Another huge advantage is that you can share you
 remotely with other people: simply send them a link.
 
 Click here to try it for yourself, it's totally free: [online basketball scoreboard](https://keepthescore.com/basketball-scoreboard).
+
+## Organizing a basketball tournament?
+
+These free tools can help you run the event:
+
+- [Tournament Bracket Generator](https://rise.global/tools/tournament-bracket-generator/?utm_source=casparwre.de&utm_medium=referral&utm_campaign=cross_link) — create single-elimination tournament brackets
+- [Random Team Generator](https://rise.global/tools/random-team-generator/?utm_source=casparwre.de&utm_medium=referral&utm_campaign=cross_link) — split players into random, balanced teams for pickup games
+- [Spin the Wheel](https://rise.global/tools/spin-the-wheel/?utm_source=casparwre.de&utm_medium=referral&utm_campaign=cross_link) — pick a random starter, assign positions, or settle disputes

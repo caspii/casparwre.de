@@ -22,3 +22,10 @@ And if you're streaming the game with OBS or Streamlabs, you can use it as a liv
 
 Click here to try it for yourself: [online lacrosse scoreboard](https://keepthescore.com/lacrosse-scoreboard/).
 
+## Running a lacrosse tournament?
+
+If you're organizing a tournament or league, these free tools can help:
+
+- [Tournament Bracket Generator](https://rise.global/tools/tournament-bracket-generator/?utm_source=casparwre.de&utm_medium=referral&utm_campaign=cross_link) — create and manage single-elimination brackets
+- [Random Team Generator](https://rise.global/tools/random-team-generator/?utm_source=casparwre.de&utm_medium=referral&utm_campaign=cross_link) — split players into balanced teams for scrimmages or pickup games
+
