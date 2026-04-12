@@ -38,7 +38,7 @@ It sounds like an awesome business, no?
 
 That (with a few complications here and there) is how SaaS works and why it's so awesome.
 
-It's what I am trying to achieve with [my SaaS business](https://keepthescore.com). In the end, I am trying to build a machine that runs in the cloud and prints money.
+It's what I am trying to achieve with my three SaaS businesses: [KeepTheScore](https://keepthescore.com), [Leaderboarded](https://leaderboarded.com), and [ScoreJudge](https://scorejudge.com). In the end, I am trying to build machines that run in the cloud and print money.
 
 Follow me on my journey to find out if I succeed!
 
