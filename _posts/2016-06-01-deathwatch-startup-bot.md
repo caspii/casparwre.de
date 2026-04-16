@@ -5,7 +5,7 @@ description: A retrospective on Deathwatch, my Twitter bot that monitored the he
 image: /images/deathwatch.jpg
 ---
 
-Back in 2016, I built a Twitter bot called [Deathwatch](https://twitter.com/deathwatch_us). The premise was simple: most startups die quietly. There's no press release, no farewell blog post — they just stop tweeting one day and slowly fade from memory. Deathwatch was my attempt to make that invisible graveyard visible.
+Back in 2016, I built a Twitter bot called Deathwatch. The premise was simple: most startups die quietly. There's no press release, no farewell blog post — they just stop tweeting one day and slowly fade from memory. Deathwatch was my attempt to make that invisible graveyard visible.
 
 ## The idea
 
@@ -62,4 +62,4 @@ Some projects only work in their moment. That's okay.
 
 ---
 
-*Deathwatch is offline. The [Twitter account](https://twitter.com/deathwatch_us) still exists as a historical record.*
+*Deathwatch is offline.*
