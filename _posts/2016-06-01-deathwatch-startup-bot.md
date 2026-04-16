@@ -32,6 +32,8 @@ One example that stuck with me: Floqq, a video-learning marketplace once feature
 
 That was the point of Deathwatch. To make the obvious visible.
 
+![Dead frog](/images/deathwatch-frog.gif){:class="img-responsive"}
+
 ## When it got things wrong
 
 Of course, the bot wasn't perfect. It once declared Ripple Labs — a well-known Bitcoin startup — dead. They'd merely changed Twitter handles. Another time it called the death of gun.io, a hacker talent agency, who responded that they were just "listening."
