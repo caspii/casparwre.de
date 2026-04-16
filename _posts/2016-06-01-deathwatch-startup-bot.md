@@ -36,7 +36,6 @@ That was the point of Deathwatch. To make the obvious visible.
 
 Of course, the bot wasn't perfect. It once declared Ripple Labs — a well-known Bitcoin startup — dead. They'd merely changed Twitter handles. Another time it called the death of gun.io, a hacker talent agency, who responded that they were just "listening."
 
-These false positives were embarrassing but also kind of interesting. They revealed a flaw in the metric: some companies go quiet on purpose. Silence isn't always death.
 
 ## The press
 
