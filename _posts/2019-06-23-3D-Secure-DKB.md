@@ -14,14 +14,14 @@ Was ist überhaupt 3D Secure? Die DKB Webseite sagt: "3D Secure ist ein Service 
 
 Ich werde mich hier nur über das Anmelde-Verfahren für 3D Secure auslassen, die Probleme, die bei der Nutzung entstehen, kann man [anderswo nachlesen](https://de.wikipedia.org/wiki/3-D_Secure#Kritik).
 
-Fangen wir an. Es ist kaum vorstellbar, wie man das Anmelde-Verfahren noch umständlicher oder Kunden-unfreundlicher gestalten könnte. Ich kann es aber probieren: Stell Dir vor, mann müßte nach Schritt 34 (denn so viele Schritte sind es gefühlt) ins Ausland reisen und ein ausgefülltes Formular in einem Briefkasten einwerfen, der am oberen Ende eines gefettetem Telegrafenmasten angebracht ist.
+Fangen wir an. Es ist kaum vorstellbar, wie man das Anmelde-Verfahren noch umständlicher oder kundenunfreundlicher gestalten könnte. Ich kann es aber probieren: Stell Dir vor, man müsste nach Schritt 34 (denn so viele Schritte sind es gefühlt) ins Ausland reisen und ein ausgefülltes Formular in einen Briefkasten einwerfen, der am oberen Ende eines gefetteten Telegrafenmasten angebracht ist.
 
-Ich bin schon 2 mal daran gescheitert, für eine Kreditkarte der DKB das 3D Secure Verfahren bis zu Ende durchzuführen. Der Weg zum Erfolg verlangt, das folgendes in der richtigen Reihenfolge geschehen muss:
-* Einen Brief per post empfangen (1-2 Tage Wartezeit)
-* Installation einer App. Die Android Version hat die sagenhaft schlechte Bewertung von 1.5 im Android Google Play Store hat: meines Wissens ein ungeschlagener Rekord.
-* Einloggen auf einer Webseite
-* Mitteilung einer PIN über den Kontoauszug (2-3 Tage Wartezeit)
+Ich bin schon zweimal daran gescheitert, für eine Kreditkarte der DKB das 3D-Secure-Verfahren bis zum Ende durchzuführen. Der Weg zum Erfolg verlangt, dass Folgendes in der richtigen Reihenfolge geschieht:
+* Einen Brief per Post empfangen (1–2 Tage Wartezeit)
+* Eine App installieren. Die Android-Version hat die sagenhaft schlechte Bewertung von 1,5 im Google Play Store: meines Wissens ein ungeschlagener Rekord.
+* Auf einer Webseite einloggen
+* Eine PIN über den Kontoauszug erhalten (2–3 Tage Wartezeit)
 * ~~Ein Fax versenden~~. Erstaunlicherweise ist es **nicht** notwendig, ein Fax zu versenden. Es lebe der Fortschritt!
 * Mit einem QR-Code herumfuchteln.
 
-Liebe DKB: wenn euch die Sicherheit eurer Kreditkarten über alles wichtig ist, dann verschickt anstatt von Kreditkarte doch einfach Käsescheiben an eure Kunden. Meines Wissens gab es noch nie ein Zahlungsbetrug mit eine Käsescheibe.
+Liebe DKB: Wenn euch die Sicherheit eurer Kreditkarten über alles wichtig ist, dann verschickt anstelle von Kreditkarten doch einfach Käsescheiben an eure Kunden. Meines Wissens gab es noch nie einen Zahlungsbetrug mit einer Käsescheibe.
