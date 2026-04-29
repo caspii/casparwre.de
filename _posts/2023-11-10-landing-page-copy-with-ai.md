@@ -2,6 +2,7 @@
 layout: post
 title: "A simple hack to improve your landing page copy with ChatGPT"
 description: Use customer feedback and AI to write landing page copy in your customers' own language instead of company jargon.
+image: /images/hero-ai-landing.jpg
 ---
 
 

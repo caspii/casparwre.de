@@ -4,6 +4,7 @@ title: Ubuntu development has stagnated
 description: Analysis of Ubuntu mailing list activity showing a significant decline in developer participation over the years.
 custom_js:
   - https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js
+image: /images/hero-ubuntu-stagnated.jpg
 ---
 
 Last year [I ranted](https://blog.kittysplit.com/goodbye-ubuntu/) about the state of Ubuntu and claimed that it had a general smell of decay and abandonment. This time I decided to try and find some concrete evidence to back up my claim and wondered whether mailing list activity would be a good proxy for measuring the health of the project.

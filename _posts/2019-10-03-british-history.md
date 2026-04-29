@@ -3,6 +3,7 @@ layout: page
 title: Britain believes in a fairy-tale version of its history
 description: A critical examination of how British children are taught a naive, incomplete version of their country's history.
 lang: en
+image: /images/hero-british-history.jpg
 ---
 
 This is going to be a rant, so buckle up.

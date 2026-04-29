@@ -2,6 +2,7 @@
 layout: post
 title: Z-shell in Ubuntu 16.04
 description: Step-by-step guide to installing Z-shell and Oh-My-Zsh on Ubuntu 16.04 with Powerline fonts.
+image: /images/hero-zsh-ubuntu.jpg
 ---
 
 !['Beautiful Z-Shell'](/images/2016-05-zsh.png){:class="img-responsive"}

@@ -2,6 +2,7 @@
 layout: post
 title: How I chose my pricing strategy for Keepthescore.com
 description: Lessons on raising prices and adding expansion revenue to a bootstrapped SaaS product, including how to structure pricing tiers.
+image: /images/hero-saas-pricing.jpg
 ---
 
 

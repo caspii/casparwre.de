@@ -2,6 +2,7 @@
 layout: post
 title: A tool to present user stories
 description: Sheets2Slides - a webapp that converts Google Sheets rows into presentation slides for discussing user stories.
+image: /images/hero-sheets-to-slides.jpg
 ---
 
 The legendary computer scientist [Donald E. Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) was in the middle of writing a series of books, when he realised that the typesetting systems of the day weren't to his satisfaction. So he did what any tinkerer in his situation would do, which is <del>epically procrastinate</del> interrupt his writing and make a better system first. Eight years later his mission was complete and he had built the best [typesetting system](https://en.wikipedia.org/wiki/TeX) in the world. He then went back to writing his books.

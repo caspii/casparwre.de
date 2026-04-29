@@ -3,6 +3,7 @@ layout: post
 title: How to Embed a Live Leaderboard Widget on Your Website
 description: Step-by-step guide to embedding a live leaderboard widget on your website using Leaderboarded.com.
 metatags: noindex
+image: /images/hero-embedded-iframe.jpg
 ---
 
 Looking to embed a leaderboard on your website? This guide walks you through the steps of adding a live, auto-updating leaderboard widget to any web page.

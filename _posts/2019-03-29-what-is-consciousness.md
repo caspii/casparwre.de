@@ -2,6 +2,7 @@
 layout: post
 title: A simple theory of consciousness
 description: A theory explaining consciousness as an essential tool for social interaction that evolved from living in complex societies.
+image: /images/hero-consciousness.jpg
 ---
 This is a text I originally [posted on Quora](https://www.quora.com/What-is-consciousness/answer/Caspar-Wrede). If you find it marginally interesting then it has fulfilled its purpose.
 

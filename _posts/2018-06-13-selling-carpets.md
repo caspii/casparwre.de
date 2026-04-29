@@ -2,6 +2,7 @@
 layout: post
 title: Lessons from a carpet salesman
 description: An unforgettable sales experience at a Turkish carpet dealership and the masterful techniques of persuasion used to sell carpets.
+image: /images/hero-carpets.jpg
 ---
 
 !['Carpet selling'](/images/2018-06-carpets.jpeg){:class="img-responsive"}

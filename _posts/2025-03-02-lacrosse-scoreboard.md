@@ -2,6 +2,7 @@
 layout: post
 title: An online lacrosse scoreboard
 description: A browser-based lacrosse scoreboard that runs on any device — no download required. Perfect for youth leagues, club teams, and streaming overlays.
+image: /images/hero-lacrosse-scoreboard.jpg
 ---
 Why are lacrosse scoreboards so hard to find? Physical scoreboards cost thousands of dollars, and most youth leagues and club teams make do with a whiteboard or a phone timer. Of course you can download dedicated scorekeeping software — but those solutions come with their own headaches:
 

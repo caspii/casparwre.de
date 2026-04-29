@@ -3,6 +3,7 @@ layout: post
 title: "Online Rangliste erstellen: Die beste Software für Teams und Wettbewerbe"
 description: Wie du in 2 Minuten eine motivierende Online-Rangliste für Verkaufsteams, Schulen und Firmenwettbewerbe erstellen kannst
 lang: de
+image: /images/hero-online-rangliste.jpg
 ---
 
 Ranglisten motivieren – ob im Verkaufsteam, im Klassenzimmer oder bei Firmenwettbewerben. Aber niemand will langweilige Excel-Tabellen, die keiner ansieht. In diesem Artikel zeige ich dir, wie du in 2 Minuten eine motivierende Online-Rangliste erstellen kannst, die dein Team wirklich nutzen wird.

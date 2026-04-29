@@ -2,6 +2,7 @@
 layout: post
 title: Why you should work for my employer
 description: Europace is a tech company using Holacracy in Berlin.
+image: /images/hero-holacracy.jpg
 ---
 
 I want to tell you about my current employer (a Berlin-based company) and why it’s very unusual as well as being an excellent place to work.

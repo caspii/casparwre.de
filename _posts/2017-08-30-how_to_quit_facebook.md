@@ -2,6 +2,7 @@
 layout: post
 title: How to quit Facebook gracefully
 description: A simple method to quit Facebook by gradually unfollowing people until your feed becomes boring enough to leave.
+image: /images/hero-quit-facebook.jpg
 ---
 
 ## Facebook is really really awful.

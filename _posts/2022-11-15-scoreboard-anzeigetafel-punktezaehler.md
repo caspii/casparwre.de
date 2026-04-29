@@ -3,6 +3,7 @@ layout: post
 title: "Die beste kostenlose Online-Anzeigetafel und Punktezähler"
 description: Kostenlose Online-Scoreboards für Sport und Streaming - perfekt für OBS, Jugendtrainer und Hobby-Streamer
 lang: de
+image: /images/hero-anzeigetafel.jpg
 ---
 
 Ob du Jugendtrainer, Hobby-Streamer oder Veranstalter bist – eine professionelle Spielstandanzeige muss nicht teuer sein. In diesem Artikel zeige ich dir, wie du kostenlos eine Online-Anzeigetafel erstellen kannst, die perfekt für OBS, Streamlabs und Live-Events funktioniert.

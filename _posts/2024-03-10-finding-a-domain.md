@@ -2,6 +2,7 @@
 layout: post
 title: Find free domain names using a Python script
 description: A Python script that generates domain name combinations and checks if they are available using whois lookups.
+image: /images/hero-finding-domain.jpg
 ---
 I made a Python script to create domain names and then check if they are free. It uses a python `whois` module.
 
