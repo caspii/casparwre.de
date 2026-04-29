@@ -3,14 +3,14 @@ layout: default
 title: Online password generator
 description: Generate a high security password in an instant
 custom_js:
-- https://cdnjs.cloudflare.com/ajax/libs/password-generator/2.3.2/password-generator.min.js
+- https://cdn.jsdelivr.net/npm/password-generator@2.3.2/lib/password-generator.min.js
 ---
 
 <!-- Fortune Jumbotron -->
 <div class="container">
 
 
-    <h1>Password Generator <i class="fa fa-key"></i></h1>
+    <h1>Password Generator <i class="bi bi-key"></i></h1>
     <h3>Treat yourself to a sensible password!</h3>
     <p> These suggestions are strong and secure yet easy to remember. The passwords are automatically generated in your browser using <a href="https://github.com/bermi/password-generator">this library</a>.
     A new list of unique suggestions is created each time you load the page (try pressing F5). </p>
@@ -22,16 +22,21 @@ custom_js:
 
   </div>
   <br>
-  {% include disqus.html disqus_identifier=page.disqus_identifier %}
+  {% include comments.html %}
   </div> <!-- /container -->
 
   <script>
-    $(function() {
+    document.addEventListener('DOMContentLoaded', function() {
+      var columns = ['.pw-ideen1', '.pw-ideen2', '.pw-ideen3'].map(function(s) {
+        return document.querySelector(s);
+      });
       for (var i = 0; i < 10; i++) {
-        $(".pw-ideen1").append("<li class='list-group-item'>" + generatePassword(15, false, /\w/)  +"</li>")
-        $(".pw-ideen2").append("<li class='list-group-item'>" + generatePassword(15, false, /\w/)  +"</li>")
-        $(".pw-ideen3").append("<li class='list-group-item'>" + generatePassword(15, false, /\w/)  +"</li>")
-
-        }
+        columns.forEach(function(col) {
+          var li = document.createElement('li');
+          li.className = 'list-group-item';
+          li.textContent = generatePassword(15, false, /\w/);
+          col.appendChild(li);
+        });
+      }
     });
 </script>

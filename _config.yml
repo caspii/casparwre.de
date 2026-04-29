@@ -32,9 +32,6 @@ plugins:
 
 # Exclude these files from your production _site
 exclude:
-  - node_modules
-  - package.json
-  - yarn.lock
   - Gemfile
   - Gemfile.lock
   - README.md

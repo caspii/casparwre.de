@@ -6,6 +6,22 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
 
 
+/* ----- Flatly-inspired theme overrides on Bootstrap 5 ----- */
+:root {
+  --bs-primary: #2c3e50;
+  --bs-primary-rgb: 44, 62, 80;
+  --bs-success: #18bc9c;
+  --bs-success-rgb: 24, 188, 156;
+  --bs-link-color: #18bc9c;
+  --bs-link-color-rgb: 24, 188, 156;
+  --bs-link-hover-color: #128f76;
+  --bs-link-hover-color-rgb: 18, 143, 118;
+}
+
+a { color: #18bc9c; }
+a:hover { color: #128f76; }
+
+
 body {
   font-size: 1.4rem;
   margin-bottom: 100px;
@@ -13,7 +29,8 @@ body {
   background-color: #f6f6f6;
 }
 
-.jumbotron {
+/* Mimic the Bootstrap 4 .jumbotron used previously */
+.jumbotron-replacement {
   background: none;
 }
 
@@ -54,9 +71,15 @@ blockquote {
 }
 
 .navbar-brand {
-  color: white;
+  color: #2c3e50;
   font-size: 30px;
+  font-weight: 700;
   font-family: 'Space Grotesk', sans-serif;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #18bc9c;
 }
 
 .navbar-nav {
@@ -118,7 +141,33 @@ footer {
   text-align: center;
 }
 
+/* ----- Social icon buttons (replaces bootstrap-social) ----- */
+.btn-social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  border-radius: 50%;
+  color: #fff;
+  border: none;
+  margin: 0 4px;
+  font-size: 1.5rem;
+  line-height: 1;
+  transition: filter 0.2s ease, transform 0.2s ease;
+}
 
+.btn-social-icon:hover,
+.btn-social-icon:focus {
+  color: #fff;
+  filter: brightness(1.1);
+  transform: translateY(-2px);
+}
+
+.btn-social-icon.btn-bluesky   { background-color: #1185fe; }
+.btn-social-icon.btn-github    { background-color: #333; }
+.btn-social-icon.btn-linkedin  { background-color: #0077b5; }
 
 
 .typed-cursor{

@@ -1,35 +1,32 @@
 Code for casparwre.de
 ============
 
-The website is generated with [Jeykll](https://jekyllrb.com/).
+The website is generated with [Jekyll](https://jekyllrb.com/) and hosted on GitHub Pages.
 
+## Setup (macOS)
+
+```
+brew install chruby ruby-install
+ruby-install ruby 3.3.10
+chruby ruby-3.3.10
+gem install bundler
+bundle install
+```
+
+The repo's `.ruby-version` pins `ruby-3.3.10`, which `chruby auto.sh` will pick up automatically when you `cd` into the directory.
 
 ## Generating the site
 
-Run jekyll with `bundle exec jekyll serve`
+`bundle exec jekyll serve`
 
-## Resize Images from command line
- `sips -Z 1024 money-tree.jpg` 
- -Z Ensures aspect ratio is kept. 1024 is maximum resolution. 
+## Updating gems
 
-### 1. Install Jekyll
-On Mac OSX
+`bundle update`
+
+## Resizing images from the command line
+
 ```
-brew install chruby ruby-install
-ruby-install ruby-3.1.1
-chruby ruby-3.1.1 
-gem install github-pages jekyll jekyll-seo-tag webrick
+sips -Z 1024 money-tree.jpg
 ```
 
-
-###  2. Install yarn
-
-See here: https://classic.yarnpkg.com/en/docs/install
-
-### 3. Install packages
-
-Run `yarn install`
-
-### Updating jekyll
-`gem update jekyll`
-
+`-Z` keeps aspect ratio. `1024` is the maximum dimension.

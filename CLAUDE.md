@@ -9,39 +9,41 @@ This is a Jekyll-based personal website and blog for Caspar von Wrede (casparwre
 ## Development Commands
 
 ### Setup
-1. Install Jekyll dependencies: `gem install github-pages jekyll jekyll-seo-tag webrick`
-2. Install Node.js dependencies: `yarn install`
+1. Install Ruby 3.3.x via `chruby` + `ruby-install` (the repo's `.ruby-version` pins `ruby-3.3.10`).
+2. Install gems: `bundle install`
 
 ### Development
-- **Start local server**: `jekyll serve`
-- **Build site**: `jekyll build` (outputs to `_site/` directory)
-- **Update Jekyll**: `gem update jekyll`
+- **Start local server**: `bundle exec jekyll serve`
+- **Build site**: `bundle exec jekyll build` (outputs to `_site/`)
+- **Update gems**: `bundle update`
 
 ### Image Processing
-- **Resize images**: `sips -Z 1024 image.jpg` (macOS command, keeps aspect ratio)
+- **Resize images**: `sips -Z 1024 image.jpg` (macOS, keeps aspect ratio)
 
 ## Architecture
 
 ### Jekyll Structure
 - **`_posts/`**: Blog posts in Markdown format (YYYY-MM-DD-title.md)
 - **`_layouts/`**: Page templates (default.html, page.html, post.html)
-- **`_includes/`**: Reusable components (analytics.html, disqus.html, footer.html)
+- **`_includes/`**: Reusable components (analytics.html, footer.html, comments.html — `comments.html` loads Hyvor Talk)
 - **`_drafts/`**: Unpublished blog posts
 - **`_site/`**: Generated static site (do not edit directly)
 
 ### Frontend Assets
-- **Bootstrap 4 + Bootswatch**: UI framework (via node_modules)
-- **Chart.js**: Data visualization on homepage
-- **Typed.js**: Typing animation effects
-- **Font Awesome 4**: Icon library
-- **Tocbot**: Table of contents generation for blog posts
+All third-party assets are loaded from CDNs — there is no Node/Yarn build step.
+- **Bootstrap 5**: UI framework (CSS + JS bundle from jsDelivr)
+- **Bootstrap Icons**: Icon library (replaces Font Awesome and bootstrap-social)
+- **Chart.js**: Data visualization (used in some posts via `custom_js` front-matter)
+- **Typed.js**: Typing animation on the homepage
+- **Tocbot**: Table of contents on selected long-form posts
+
+Per-page scripts can be loaded by listing them under `custom_js:` in a page's front matter; `_layouts/default.html` injects them into `<head>`.
 
 ### Special Pages
-- `/blog/`: Blog listing with pagination
+- `/blog/`: Blog listing
 - `/unix101/`: Unix tutorial series
 - `/passwords/`: Client-side password generator
-- `/python-berlin/`: Python Berlin community page
-- `/android-wallpapers/`: Wallpaper showcase
+- `/projects/`: Project list
 
 ### Deployment
 - Hosted on GitHub Pages (`gh-pages` branch)
@@ -53,9 +55,8 @@ This is a Jekyll-based personal website and blog for Caspar von Wrede (casparwre
 - **`_config.yml`**: Jekyll site configuration
   - Permalink structure: `/blog/:title/`
   - Plugins: jekyll-seo-tag
-  - Includes node_modules directory for asset access
 
-- **`package.json`**: Frontend dependencies only (no build scripts)
+- **`Gemfile`**: Ruby gems — `github-pages`, `webrick`, `faraday-retry`
 
 ## Notes
 
