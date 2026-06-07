@@ -31,3 +31,4 @@ These free tools can help you run the event:
 - [Tournament Bracket Generator](https://rise.global/tools/tournament-bracket-generator/?utm_source=casparwre.de&utm_medium=referral&utm_campaign=cross_link) — create single-elimination tournament brackets
 - [Random Team Generator](https://rise.global/tools/random-team-generator/?utm_source=casparwre.de&utm_medium=referral&utm_campaign=cross_link) — split players into random, balanced teams for pickup games
 - [Spin the Wheel](https://rise.global/tools/spin-the-wheel/?utm_source=casparwre.de&utm_medium=referral&utm_campaign=cross_link) — pick a random starter, assign positions, or settle disputes
+- [Online Score Keeper](https://leaderboarded.com/online-score-sheet-maker/?utm_source=casparwre.de&utm_medium=referral&utm_campaign=cross_link) — keep score live across rounds and track tournament standings
