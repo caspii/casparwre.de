@@ -41,8 +41,6 @@ Per-page scripts can be loaded by listing them under `custom_js:` in a page's fr
 
 ### Special Pages
 - `/blog/`: Blog listing
-- `/unix101/`: Unix tutorial series
-- `/passwords/`: Client-side password generator
 - `/projects/`: Project list
 
 ### Deployment
