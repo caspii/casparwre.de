@@ -8,7 +8,7 @@ image: /images/automatic.jpg
 
 In today's attention economy you need to stand out when you post your content on social media: that means having some kind of image as part of the package. This is easy if you're sharing a blog post with photos (or other images) because you can setup your system to use one of these photos. But what if you're sharing content that doesn't come with a pre-made image?
 
-This is a problem I was facing. I'm building an [online scoreboard and leaderboard app](https://keethescore.co) whose content regularly gets shared on Twitter, Facebook and elsewhere. However, these scoreboards do not come with images: they are HTML and CSS. How could I ensure they always have an image to use on social media without resorting to something generic?
+This is a problem I was facing. I'm building an [online scoreboard app](https://keepthescore.com) whose content regularly gets shared on Twitter, Facebook and elsewhere. However, these scoreboards do not come with images: they are HTML and CSS. How could I ensure they always have an image to use on social media without resorting to something generic?
 
 ## Summary
 
