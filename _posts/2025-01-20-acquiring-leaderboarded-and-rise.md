@@ -31,7 +31,7 @@ If I don't end up splitting, I haven't lost much. The domain wasn't expensive. T
 
 ## The second one: Rise.global
 
-Rise.global is another former leaderboard tool that shut down around the same time. Similar story: real customers, real history, a domain sitting unused.
+[Rise.global](https://rise.global) is another former leaderboard tool that shut down around the same time. Similar story: real customers, real history, a domain sitting unused.
 
 I have a vaguer plan for this one — probably a tournament bracket maker, with live scoreboards, streaming overlays, and custom themes. The bracket use case never quite fit KeepTheScore because brackets are structurally different from running-score leaderboards. Rise.global feels like the natural place for it. Same logic as before: built-in topical authority, brand recall among former users.
 
