@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Setting Up Preview Deployments for GitHub Pull Requests
-description: Preview deployments are a major selling point of PaaS platforms, but with AI tools like Claude Code and GitHub Actions, you can build your own in just 4 hours. Here's how.
+title: "Build Your Own Preview Deployments for GitHub Pull Requests (Without Vercel or Netlify)"
+description: "Preview deployments are a major selling point of Vercel and Netlify — but with GitHub Actions, Docker and Traefik you can build your own in about 4 hours. Here's how."
 image: /images/preview-deployments.jpg
 ---
 

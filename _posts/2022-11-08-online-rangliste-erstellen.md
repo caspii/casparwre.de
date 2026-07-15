@@ -10,6 +10,8 @@ Ranglisten motivieren – ob im Verkaufsteam, im Klassenzimmer oder bei Firmenwe
 
 ![Leaderboarded Online-Rangliste](/images/leaderboarded-hero.png){:class="img-responsive"}
 
+> **Was ist eine Online-Rangliste?** Eine Online-Rangliste (englisch: *Leaderboard*) ist eine digitale Bestenliste, die Teilnehmer nach Punkten sortiert und sich in Echtzeit aktualisiert. Du kannst eine solche Rangliste in wenigen Minuten im Browser erstellen, per Link teilen und auf jedem Bildschirm anzeigen – ganz ohne Excel.
+
 ## Warum Online-Ranglisten statt Excel-Tabellen?
 
 Excel-Tabellen haben ein Problem: Sie sind langweilig, statisch und niemand schaut sie sich wirklich an. Eine moderne Online-Rangliste dagegen:
@@ -155,6 +157,20 @@ Ranglisten sollen motivieren, nicht demotivieren. Achte darauf, dass auch untere
 ## Alternative für Sport-Scoreboards
 
 Wenn du keine Business-Ranglisten brauchst, sondern eher **Scoreboards für Sportveranstaltungen, Streaming oder Live-Events**, dann ist [Keepthescore.com](https://keepthescore.com/de/) die bessere Wahl. Dort findest du fertige Scoreboards für Basketball, Fußball, Tennis und mehr.
+
+## Häufige Fragen zum Erstellen einer Online-Rangliste
+
+**Wie kann ich eine Online-Rangliste erstellen?**
+Gehe zu [Leaderboarded](https://leaderboarded.com/de/), lege eine neue Rangliste an, füge Teilnehmer hinzu und vergib Punkte. In unter 2 Minuten ist deine Rangliste online und teilbar – ganz ohne Installation.
+
+**Kann ich kostenlos eine Rangliste erstellen?**
+Ja. Die kostenlose Version reicht für die meisten Anwendungsfälle: Ranglisten anlegen, Teilnehmer hinzufügen und Echtzeit-Updates. Premium-Funktionen wie eigenes Branding oder API-Zugang sind optional.
+
+**Welche Software ist am besten, um eine Rangliste zu erstellen?**
+Für Business, Bildung und Wettbewerbe ist Leaderboarded die beste Wahl. Für Sport-Scoreboards (Fußball, Basketball und Co.) eignet sich die [Online-Anzeigetafel von Keepthescore](/blog/scoreboard-anzeigetafel-punktezaehler/) besser.
+
+**Rangliste erstellen ohne Excel – geht das?**
+Genau dafür sind Online-Ranglisten gemacht. Statt statischer Excel-Tabellen bekommst du eine visuelle, sich selbst aktualisierende Bestenliste, die auf TV, Handy und im Web funktioniert.
 
 ## Fazit: Ranglisten, die wirklich motivieren
 

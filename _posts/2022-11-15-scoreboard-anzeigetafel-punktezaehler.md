@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Die beste kostenlose Online-Anzeigetafel und Punktezähler"
-description: Kostenlose Online-Scoreboards für Sport und Streaming - perfekt für OBS, Jugendtrainer und Hobby-Streamer
+description: "Kostenlose Online-Anzeigetafel für den Spielstand: per Handy im WLAN steuern, auf TV & Beamer anzeigen und in OBS streamen. Der Online-Punktezähler für Sport & Events."
 lang: de
 image: /images/hero-anzeigetafel.jpg
 ---
@@ -20,6 +20,16 @@ Traditionelle Anzeigetafeln kosten schnell mehrere tausend Euro. Moderne Online-
 - ✅ Echtzeit-Updates für alle Zuschauer
 - ✅ Perfekt für Streaming-Software wie OBS
 - ✅ Vom Smartphone steuerbar
+
+## Spielstand per Handy im WLAN steuern und auf dem TV anzeigen
+
+Das Praktische an einer Online-Spielstandanzeige: Du **steuerst den Spielstand bequem per Handy** und zeigst die Anzeigetafel gleichzeitig auf einem großen Bildschirm. Beide Geräte sind über dasselbe WLAN (oder Mobilfunk) verbunden und aktualisieren sich in Echtzeit.
+
+- **Auf dem TV anzeigen:** Öffne den öffentlichen Link auf einem SmartTV, Amazon Fire TV, Beamer oder Laptop und schalte in den Vollbildmodus.
+- **Per Handy steuern:** Öffne den Admin-Link auf deinem Smartphone und tippe die Punkte ein – der Spielstand erscheint sofort auf dem TV.
+- **Kein Kabel, keine Installation:** Alles läuft über den Browser und die WLAN-Verbindung.
+
+So wird jedes Tablet oder Smartphone zur Fernbedienung für deine Anzeigetafel – ein vollwertiger Punktezähler online, ganz ohne teure Hardware.
 
 ## Für wen eignet sich eine Online-Spielstandanzeige?
 
@@ -105,7 +115,7 @@ Für gelegentliche Nutzung reicht die kostenlose Version definitiv aus.
 
 ## Alternativen für andere Zwecke
 
-Wenn du keine Sportscoreboards brauchst, sondern eher **Ranglisten für Teams, Wettbewerbe oder Klassenzimmer**, dann schau dir [Leaderboarded.com](https://leaderboarded.com/de/) an. Dort kannst du motivierende Ranglisten für Verkaufswettbewerbe, Schulen oder Firmenchallenges erstellen.
+Wenn du keine Sportscoreboards brauchst, sondern eher **Ranglisten für Teams, Wettbewerbe oder Klassenzimmer**, dann schau dir [Leaderboarded.com](https://leaderboarded.com/de/) an. In meiner Anleitung zeige ich Schritt für Schritt, wie du [eine Online-Rangliste erstellen](/blog/online-rangliste-erstellen/) kannst – für Verkaufswettbewerbe, Schulen oder Firmenchallenges.
 
 ## Fazit: Kostenlose Online-Anzeigetafeln sind die Zukunft
 
