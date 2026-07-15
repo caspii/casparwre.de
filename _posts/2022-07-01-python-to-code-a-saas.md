@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Why I chose Python to build my  SaaS
-description: The advantages of using Python when coding your own product from scratch
+title: "How to Build a SaaS With Python: A Solo Founder's Guide"
+description: "Why I chose Python and Flask to build my SaaS from scratch — the language, the web framework, server-side rendering, and how it scales to $10k/mo."
 image: /images/rocket_launch.jpg
 ---
 
