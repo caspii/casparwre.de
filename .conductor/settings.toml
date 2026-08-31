@@ -1,0 +1,23 @@
+"$schema" = "https://conductor.build/schemas/settings.repo.schema.json"
+
+[scripts]
+# Gemfile.lock is committed, so this is a no-op once the gems are cached.
+setup = "bundle install"
+
+# Each workspace builds into its own gitignored _site/ and uses its own
+# CONDUCTOR_PORT, so several previews can run side by side.
+run_mode = "concurrent"
+
+# Live preview. Serves on the workspace's assigned port and reloads the
+# browser on save. LiveReload gets CONDUCTOR_PORT+1 to avoid collisions
+# between workspaces. Falls back to 4000/4001 outside Conductor.
+[scripts.run.serve]
+command = "bundle exec jekyll serve --drafts --host 127.0.0.1 --port ${CONDUCTOR_PORT:-4000} --livereload --livereload-port $(( ${CONDUCTOR_PORT:-4000} + 1 ))"
+default = true
+icon = "play"
+
+# Production build check: catches Liquid and front-matter errors that
+# `serve` tolerates, without starting a server.
+[scripts.run.build]
+command = "JEKYLL_ENV=production PAGES_REPO_NWO=caspii/casparwre.de bundle exec jekyll build --trace"
+icon = "hammer"
