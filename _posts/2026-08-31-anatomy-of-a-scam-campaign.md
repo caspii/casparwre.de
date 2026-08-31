@@ -7,10 +7,8 @@ custom_js:
   - /js/scam-charts.js
 ---
 
-![A pencil sketch of a paper luggage tag reading zip1.io/jip. Scissors have just cut the string on one side, while a hand ties a fresh string to the same tag on the other.](/images/zip1-scam-hero.jpg)
 
-I run a link shortener as a side project. I forked a project
-on GitHub, rebranded it, and shipped it. It has a few thousand people using it a day, and about 75,000 links sitting
+I run a link shortener as a side project. It has a few thousand people using it a day, and about 75,000 links sitting
 in the database. Once a week I go through them looking for the ones that are
 up to no good. 
 
@@ -39,7 +37,9 @@ looking for cheap domains, brand names in odd places, other URL-shorteners, and 
 login pages or other phishing attacks.
 
 Claude Code runs the sweep, does the analysis, and proposes what to block. I decide
-what actually gets deleted from the production database. Each scan usually results in the blacklist mentioned above being expanded. 
+what actually gets deleted from the production database. Each scan usually results in the blacklist mentioned above being expanded.
+
+Also worth saying here: I don't do this just to be a good online citizen. If I didn't do this, Google would eventually mark me as a bad actor and stop sending me search traffic.
 
 ## The bad link arrives
 
@@ -64,12 +64,9 @@ the Facebook app, which is what the click data said real visitors were.
 | A server in a data centre | A redirect to yahoo.com |
 | An Android phone, from Facebook | 42,748 bytes of machinery |
 
-One address, three answers, depending on what you used to access it. That is
-forty-four times more content for the phone than for my laptop. This is called
-cloaking. Anyone who investigates casually sees Google and concludes there is nothing
-there.
+One address, three answers, depending on what you used to access it. 
 
-The 42,748 bytes were more interesting. The code was deliberately scrambled, but
+The 42,748 bytes were interesting. The code was deliberately scrambled, but
 once untangled, the page:
 
 - looked for the fingerprints that testing tools like Selenium and Puppeteer
@@ -99,6 +96,11 @@ many times, across a great many accounts.
 
 <div class="viz" data-fig="geography"></div>
 
+The people doing the clicking were overwhelmingly in Latin America. Mexico,
+Colombia and Venezuela alone accounted for 40% of all clicks, and seven of the
+top nine countries are Spanish-speaking. Whatever the page said, it said it in
+Spanish.
+
 Whoever created the links was somewhere else entirely: one address in the
 Asia-Pacific region, then a Pakistani one. They almost certainly do not speak
 Spanish.
@@ -111,49 +113,36 @@ Delivering people is the entire job.
 
 ## What I tried first, and why it failed
 
-I assumed the valuable thing was the destination, so I blocked it.
+I assumed the important thing was the destination, so I deleted the slugs and added the destination domain to the blacklist.
 
 Four hours later they were back with the same three slugs, pointing at two new
-domains I had never seen. Both did nothing except forward straight to
-`hai8g.com`. Same destination, same code, same tracking. They had simply added a
+domains. Both did nothing except forward straight to
+`hai8g.com`. They had simply added a
 step in the middle.
 
 <div class="viz" data-fig="timeline"></div>
 
 They had not lost anything they cared about. A destination is replaceable. What
-they could not replace were the slugs.
-
-Their Facebook posts said `zip1.io/jip`. Those posts were already out there,
-already circulating, already being clicked. The slug was the asset. The
-destination was interchangeable, and deleting the links had actually helped them,
-because it freed the slugs. They re-registered the same three within two minutes.
-One of them had zero clicks. It was a spare, registered in advance in case one
-got taken.
-
-That also told me what they were using my site *for*. Facebook blocks domains it
-knows are bad. A fresh `zip1.io` link has no history and hides whatever sits
-behind it. My domain's clean reputation was the product, and I was laundering it
-for them for free.
+they could not replace were the slugs because these wre already in flight: whatever they were spreading on Facebook had the link baked in: `zip1.io/jip`. Those posts were already out there,
+already circulating. The slug was not replaceable, but 
+destination was interchangeable.
 
 ## The fix: reserving slugs
 
-The fix was not a better scanner. It was to stop giving the slugs back.
+The fix was to stop allowing new links to be shortened using the old slugs.
 
 When I remove an abusive link now, its slug is reserved rather than released.
 Anyone trying to claim it gets the ordinary "alias already exists" message,
-deliberately identical to a normal collision. A distinctive error would tell an
-operator exactly which of their slugs had been burned.
+deliberately identical to a normal collision.
 
-One detail mattered more than it looks. The first version reserved each slug
-*after* deleting the link, leaving a fraction of a second where it was free.
-Having watched someone re-register inside two minutes, I was not willing to
-assume nobody was watching. It reserves first now.
-
-`zip1.io/jip` returns "not found" and always will. That particular Facebook
-audience now points at a dead end that cannot be revived.
+`zip1.io/jip` returns "not found", and it will keep doing that. The Facebook
+posts are still out there, but they lead nowhere (my 404 page, to be precise). Even 24 hours later, they are still sending traffic my way.
 
 ## The project
 
-The site is [Zip1.io](https://zip1.io), and I run the whole thing with AI: Claude does
-the code, the infrastructure, and most of the security work. I make the
-judgement calls.
+The site is [Zip1.io](https://zip1.io). I forked it from a [project
+on GitHub](https://github.com/spoo-me/spoo), rebranded it, and shipped it, all done with Claude Code. Claude
+ also setup the infrastructure on DigitalOcean, and does most of the security work. I make the
+judgement calls. 
+
+The project makes no money (and costs me 27 USD a month to run).
