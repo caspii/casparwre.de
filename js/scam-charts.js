@@ -35,9 +35,6 @@
     '.viz-bar{height:19px;border-radius:0 5px 5px 0;min-width:2px}',
     '.viz-val{font-size:.98rem;color:var(--ink);font-variant-numeric:tabular-nums}',
     '.viz-note{font-size:.94rem;color:var(--ink3);margin-top:1rem;line-height:1.55}',
-    '.viz-hero{font-family:"Space Grotesk",system-ui,sans-serif;font-size:3.1rem;',
-      'font-weight:700;color:var(--ink);line-height:1;margin:.3rem 0 .15rem}',
-    '.viz-herol{font-size:1.02rem;color:var(--ink2);margin-bottom:1.2rem}',
     '.viz details{margin-top:1rem;font-size:.94rem}',
     '.viz summary{cursor:pointer;color:var(--ink3)}',
     '.viz table{border-collapse:collapse;margin-top:.6rem;font-size:.94rem}',
@@ -60,10 +57,8 @@
 
   var FIGS = {
     facebook: {
-      title: 'Four in five clicks came from a Facebook-owned client',
-      sub: '89,826 clicks across three slugs, 29–30 August 2026. The in-app browser is the one ' +
-           'embedded in the Facebook app. FacebookBot is Facebook’s own crawler, which fetches a ' +
-           'link every time somebody posts it.',
+      title: 'Clicks by client',
+      sub: '89,826 clicks across three slugs, 29–30 August 2026.',
       legend: [['Facebook-owned client', 'orange'], ['Everything else', 'blue']],
       note: 'Covers 99.8% of clicks (89,637 of 89,826).',
       head: 'Client',
@@ -73,19 +68,8 @@
              ['Firefox', 112, 0], ['Samsung Internet', 111, 0], ['Edge', 108, 0],
              ['Chrome Mobile WebView', 67, 0], ['Mobile Safari', 2, 0], ['Edge Mobile', 1, 0]]
     },
-    cloaking: {
-      title: 'The same address answered me and its victims differently',
-      sub: 'One URL, fetched twice, seconds apart. The only thing I changed was the browser I ' +
-           'claimed to be. The small answer sends you to google.com and nothing else.',
-      hero: ['44×', 'more content served to a phone than to my laptop'],
-      head: 'Client',
-      unit: ' B',
-      rows: [['Ordinary desktop browser', 963, 0], ['Android phone, from Facebook', 42748, 1]]
-    },
     geography: {
-      title: 'The victims were in Latin America. The operator was not.',
-      sub: 'The two accounts that created the slugs connected from the Asia-Pacific region and then ' +
-           'from Pakistan. None of the traffic did.',
+      title: 'Clicks by country',
       note: 'Top nine countries only, about 72% of clicks. The remaining tail was still in the ' +
             'database when it was deleted, and is not recoverable.',
       head: 'Country',
@@ -126,20 +110,16 @@
       });
       node.appendChild(lg);
     }
-    if (cfg.hero) {
-      node.appendChild(el('div', 'viz-hero', cfg.hero[0]));
-      node.appendChild(el('div', 'viz-herol', cfg.hero[1]));
-    }
   }
 
   function tail(node, cfg) {
     if (cfg.note) node.appendChild(el('div', 'viz-note', cfg.note));
     var rows = cfg.rows.map(function (r) {
-      return '<tr><td>' + r[0] + '</td><td>' + fmt(r[1]) + (cfg.unit || '') + '</td></tr>';
+      return '<tr><td>' + r[0] + '</td><td>' + fmt(r[1]) + '</td></tr>';
     }).join('');
     node.appendChild(el('details', null,
       '<summary>Table view</summary><table><thead><tr><th>' + cfg.head +
-      '</th><th>' + (cfg.unit ? 'Bytes' : 'Clicks') + '</th></tr></thead><tbody>' +
+      '</th><th>Clicks</th></tr></thead><tbody>' +
       rows + '</tbody></table>'));
   }
 
@@ -149,7 +129,7 @@
     cfg.rows.forEach(function (r) {
       var row = el('div', 'viz-row');
       row.tabIndex = 0;
-      row.dataset.tip = r[0] + ': ' + fmt(r[1]) + (cfg.unit || '') +
+      row.dataset.tip = r[0] + ': ' + fmt(r[1]) +
         (cfg.pct ? ' · ' + (r[1] / TOTAL * 100).toFixed(1) + '%' : '');
       row.appendChild(el('div', 'viz-lab', r[0]));
       var track = el('div', 'viz-track');
@@ -158,7 +138,7 @@
       bar.style.background = 'var(--' + (r[2] ? 'orange' : 'blue') + ')';
       track.appendChild(bar);
       row.appendChild(track);
-      row.appendChild(el('div', 'viz-val', fmt(r[1]) + (cfg.unit || '')));
+      row.appendChild(el('div', 'viz-val', fmt(r[1])));
       node.appendChild(row);
     });
     tail(node, cfg);

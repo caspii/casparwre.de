@@ -9,20 +9,23 @@ custom_js:
 
 ![A pencil sketch of a paper luggage tag reading zip1.io/jip. Scissors have just cut the string on one side, while a hand ties a fresh string to the same tag on the other.](/images/zip1-scam-hero.jpg)
 
-[Zip1.io](https://zip1.io) is a URL shortener. You paste in a long link and it
-hands back a short one, like `zip1.io/jip`. The part after the slash is called
-the **slug**, and you can pick your own.
+Last week's abuse sweep turned up a single destination that had taken **89,826
+clicks in 48 hours**, more than everything else on my URL shortener combined.
 
-I forked it from an MIT-licensed Flask project on GitHub, rebranded it, and
-shipped it. A few thousand people a day use it. It
-is a side project, and I run the whole
-thing with AI. Claude does the code, the infrastructure, and most of the
-security work. I make the judgement calls.
+I deleted the links from the database. Two minutes later, they were back.
 
-Last week's monthly abuse sweep turned up a destination that had taken **89,826
-clicks in 48 hours**, more than everything else on the platform combined.
+What followed was three rounds of me deleting and the operator re-registering,
+until I worked out I had been defending the wrong thing entirely. Sitting on the
+shortener meant I got to watch the whole operation from underneath: how it hid,
+who runs this kind of thing, and what it was actually worth.
 
-I deleted the links from the database. Two minutes later, they were back. What followed was a back and forth (not going to say whack-a-mole) as I attempted and eventually succeeded in stopping this scam. The nice thing is that, as a link shortener, I got to see quite a few interesting details of the operation. 
+First, what you need to know about the site. [Zip1.io](https://zip1.io) is a URL
+shortener. You paste in a long link and it hands back a short one, like
+`zip1.io/jip`. The part after the slash is called the **slug**, and you can pick
+your own. I forked it from an MIT-licensed Flask project on GitHub, rebranded it,
+and shipped it. A few thousand people a day use it. It is a side project, and I
+run the whole thing with AI. Claude does the code, the infrastructure, and most
+of the security work. I make the judgement calls.
 
 
 
@@ -45,7 +48,7 @@ what actually gets deleted from the production database. Each scan usually resul
 ## The bad link arrives
 
 The destination was `hai8g.com/4/11395320`, an ordinary
-dot com address with a numeric path. There was nothing about it to recognise. 
+dot com address with a numeric path. There was nothing about it to recognise as harmful. 
 
 What gave it away was volume: three slugs, all pointing to the same destination and drawing thousands of clicks. I only saw
 it because I sorted the database by clicks instead of by suspicion, which I had
@@ -59,15 +62,22 @@ and it is the only view that catches something with no visible tells.
 I fetched the destination from my laptop and got 963 bytes of HTML whose only
 instruction was: send this visitor to google.com. Harmless. 
 
-Then I fetched it again, this time pretending to be an Android phone opening the
-link inside the Facebook app, which is what the click data said real visitors
-were.
+So I fetched it twice more. Once from a rented server in a data centre, which is
+where an automated scanner would be coming from, and got a redirect to
+yahoo.com. Then once pretending to be an Android phone opening the link inside
+the Facebook app, which is what the click data said real visitors were.
 
-<div class="viz" data-fig="cloaking"></div>
+| What I fetched it with | What came back |
+| --- | --- |
+| An ordinary desktop browser | 963 bytes, redirecting to google.com |
+| A server in a data centre | A redirect to yahoo.com |
+| An Android phone, from Facebook | 42,748 bytes of machinery |
 
-One address, three answers, depending on what you used to acces it. This is called cloaking, and the clean destinations are not a fallback.
-They are the disguise. Anyone who investigates casually sees Google and concludes
-there is nothing there.
+One address, three answers, depending on what you used to access it. That is
+forty-four times more content for the phone than for my laptop. This is called
+cloaking, and the clean destinations are not a fallback. They are the disguise.
+Anyone who investigates casually sees Google and concludes there is nothing
+there.
 
 The 42,748 bytes were more interesting. The code was deliberately scrambled, but
 once untangled, the page:
@@ -84,33 +94,6 @@ once untangled, the page:
 That last detail is my favourite. It does not show an error. It congratulates you
 and quietly bins you, so you never learn you were caught.
 
-It also worked on me. I never reached the final page: the network kept deciding I
-was not a real visitor and sending me to Yahoo instead. So I can tell you what
-the machinery is, and not what the last screen says. The templated fields in the
-code, for a logo, a headline, a button and some terms text, look most like a
-prompt asking for permission to send notifications. That is an inference, not
-something I confirmed.
-
-## Who runs an operation like this
-
-My first assumption was that all this machinery was aimed at people like me. It
-mostly is not.
-
-This is an affiliate operation with four layers. An **advertiser** wants app
-installs. An **ad network** sells a single link that decides what to show based
-on the visitor's country and device. An **affiliate**, the contractor I was
-actually fighting, finds traffic for that link however they can. And a **traffic
-source** supplies the people, here Facebook.
-
-The affiliate is paid per valid action, and bot traffic ruins their numbers. So
-the automation-detection is not paranoia about researchers, it is quality
-control. They are protecting their invoice. The cloaking does double duty: it
-defeats investigation, but its main job is keeping Facebook's own scanners from
-flagging the link.
-
-Every one of those URLs carries the number `11395320`, which is the affiliate's
-account identifier. It is how the network knows whom to pay. The operation signs
-its own name in every request.
 
 ## How the links reached people
 
@@ -131,9 +114,10 @@ Asia-Pacific region, then a Pakistani one. They almost certainly do not speak
 Spanish.
 
 That gap is not a coincidence. Buried in the page code were fields for a logo, a
-headline, a button label and terms text, which the ad network fills in per
-country. Localisation is the network's job, so the affiliate never needs to know
-what the final page says. Delivering people is the entire job.
+headline, a button label and terms text, all filled in per country by the
+advertising network behind the link. Localisation is the network's job, so
+whoever bought this traffic never needs to know what the final page says.
+Delivering people is the entire job.
 
 ## What I tried first, and why it failed
 
@@ -177,6 +161,27 @@ assume nobody was watching. It reserves first now.
 
 `zip1.io/jip` returns "not found" and always will. That particular Facebook
 audience now points at a dead end that cannot be revived.
+
+## Who runs an operation like this
+
+The bot-detection in that page looked, at first, like it was aimed at people
+like me. It mostly was not.
+
+This is an affiliate operation with four layers. An **advertiser** wants app
+installs. An **ad network** sells a single link that decides what to show based
+on the visitor's country and device. An **affiliate**, the contractor I was
+actually fighting, finds traffic for that link however they can. And a **traffic
+source** supplies the people, here Facebook.
+
+The affiliate is paid per valid action, and bot traffic ruins their numbers. So
+the automation-detection is not paranoia about researchers, it is quality
+control. They are protecting their invoice. The cloaking does double duty: it
+defeats investigation, but its main job is keeping Facebook's own scanners from
+flagging the link.
+
+Every one of those URLs carries the number `11395320`, which is the affiliate's
+account identifier. It is how the network knows whom to pay. The operation signs
+its own name in every request.
 
 ## What it was all worth
 

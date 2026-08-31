@@ -232,3 +232,34 @@ code b, code strong,
 pre b, pre strong {
   font-weight: 800;
 }
+
+/* Markdown tables. Kramdown emits a bare <table> with no classes, and nothing
+   else in the site styled one, so cells ran together. Scoped to post content
+   so the chart tables injected by /js/scam-charts.js keep their own styling. */
+.post-content table,
+article table {
+  border-collapse: collapse;
+  margin: 2rem 0;
+  width: 100%;
+  font-size: .95rem;
+}
+
+.post-content table th,
+article table th {
+  text-align: left;
+  font-weight: 700;
+  padding: .5rem 1.4rem .5rem 0;
+  border-bottom: 2px solid #d9d7d2;
+}
+
+.post-content table td,
+article table td {
+  padding: .55rem 1.4rem .55rem 0;
+  border-bottom: 1px solid #eceae5;
+  vertical-align: top;
+}
+
+.post-content table tr:last-child td,
+article table tr:last-child td {
+  border-bottom: none;
+}
