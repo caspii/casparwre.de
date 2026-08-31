@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Anatomy of a scam campaign, from the point of view of a link shortener"
-description: "An affiliate ad operation pushed 89,826 clicks through Zip1.io in 48 hours. What it looked like from inside the shortener: how it hid, who runs this kind of thing, and what it was actually worth."
+description: "A scam ad operation pushed 89,826 clicks through Zip1.io in 48 hours. What it looked like from inside the shortener: how the links hid what they were doing, and why deleting them only helped the operator."
 image: /images/zip1-scam-hero.jpg
 custom_js:
   - /js/scam-charts.js
@@ -9,53 +9,44 @@ custom_js:
 
 ![A pencil sketch of a paper luggage tag reading zip1.io/jip. Scissors have just cut the string on one side, while a hand ties a fresh string to the same tag on the other.](/images/zip1-scam-hero.jpg)
 
-Last week's abuse sweep turned up a single destination that had taken **89,826
-clicks in 48 hours**, more than everything else on my URL shortener combined.
+I run a link shortener as a side project. I forked a project
+on GitHub, rebranded it, and shipped it. It has a few thousand people using it a day, and about 75,000 links sitting
+in the database. Once a week I go through them looking for the ones that are
+up to no good. 
+
+Last week's sweep turned up one destination that had taken **89,826 clicks in 48
+hours**. More than everything else on the site combined.
 
 I deleted the links from the database. Two minutes later, they were back.
 
-What followed was three rounds of me deleting and the operator re-registering,
-until I worked out I had been defending the wrong thing entirely. Sitting on the
-shortener meant I got to watch the whole operation from underneath: how it hid,
-who runs this kind of thing, and what it was actually worth.
+What followed was three rounds of me deleting and the operator re-registering (and I will not use the phrase "whack-a-mole"). Running the shortener meant I got to watch the
+whole operation from underneath: how the links hid what they were doing, what was sending me the links and where they were going.
 
-First, what you need to know about the site. [Zip1.io](https://zip1.io) is a URL
-shortener. You paste in a long link and it hands back a short one, like
-`zip1.io/jip`. The part after the slash is called the **slug**, and you can pick
-your own. I forked it from an MIT-licensed Flask project on GitHub, rebranded it,
-and shipped it. A few thousand people a day use it. It is a side project, and I
-run the whole thing with AI. Claude does the code, the infrastructure, and most
-of the security work. I make the judgement calls.
+One piece of vocabulary, and then the story. The part of a short link after the
+slash is called the **slug**, and you get to pick your own, so mine look like
+`zip1.io/jip`. Remember the slug. It turns out to be the whole story. 
 
 
 
 ## How I run the abuse sweep
 
-Most of the abuse is caught when you try and initially shorten a link. There is a blacklist for links that are submitted, including a call to the Google Safe Browsing API. 
+Most of the abuse is caught when you try and initially shorten a link. Links that are submitted are first checked against a blacklist and are then checked against the Google Safe Browsing API. 
 
 However, bad URLs sometimes get through and need to be found later, after they are already live. This is what the abuse scan is for.  
 
-I routinely run an "abuse" skill to sweep the database for suspicious URLs. It lives as a runbook in the repository, and I start it by typing
-`/abuse-scan` into Claude Code. 
-
 The scan is read-only. It scores all 75,000 links in the database
-looking for cheap domains, brand names in odd places, and paths that sound like
+looking for cheap domains, brand names in odd places, other URL-shorteners, and paths that sound like
 login pages or other phishing attacks.
 
-Claude runs the sweep, does the analysis, and proposes what to block. I decide
+Claude Code runs the sweep, does the analysis, and proposes what to block. I decide
 what actually gets deleted from the production database. Each scan usually results in the blacklist mentioned above being expanded. 
 
 ## The bad link arrives
 
 The destination was `hai8g.com/4/11395320`, an ordinary
-dot com address with a numeric path. There was nothing about it to recognise as harmful. 
+dot com address with a numeric path. There was nothing suspicious about the link itself.
 
-What gave it away was volume: three slugs, all pointing to the same destination and drawing thousands of clicks. I only saw
-it because I sorted the database by clicks instead of by suspicion, which I had
-never thought to do. 
-
-Sorting by clicks is now a permanent step in the runbook. It costs one query,
-and it is the only view that catches something with no visible tells.
+What gave it away was volume: three slugs, all pointing to the same destination and drawing thousands of clicks. 
 
 ## What the link actually did
 
@@ -75,8 +66,7 @@ the Facebook app, which is what the click data said real visitors were.
 
 One address, three answers, depending on what you used to access it. That is
 forty-four times more content for the phone than for my laptop. This is called
-cloaking, and the clean destinations are not a fallback. They are the disguise.
-Anyone who investigates casually sees Google and concludes there is nothing
+cloaking. Anyone who investigates casually sees Google and concludes there is nothing
 there.
 
 The 42,748 bytes were more interesting. The code was deliberately scrambled, but
@@ -162,43 +152,8 @@ assume nobody was watching. It reserves first now.
 `zip1.io/jip` returns "not found" and always will. That particular Facebook
 audience now points at a dead end that cannot be revived.
 
-## Who runs an operation like this
+## The project
 
-The bot-detection in that page looked, at first, like it was aimed at people
-like me. It mostly was not.
-
-This is an affiliate operation with four layers. An **advertiser** wants app
-installs. An **ad network** sells a single link that decides what to show based
-on the visitor's country and device. An **affiliate**, the contractor I was
-actually fighting, finds traffic for that link however they can. And a **traffic
-source** supplies the people, here Facebook.
-
-The affiliate is paid per valid action, and bot traffic ruins their numbers. So
-the automation-detection is not paranoia about researchers, it is quality
-control. They are protecting their invoice. The cloaking does double duty: it
-defeats investigation, but its main job is keeping Facebook's own scanners from
-flagging the link.
-
-Every one of those URLs carries the number `11395320`, which is the affiliate's
-account identifier. It is how the network knows whom to pay. The operation signs
-its own name in every request.
-
-## What it was all worth
-
-Very little, which is the part that surprised me most.
-
-Latin American mobile traffic is among the cheapest there is. A push notification
-subscription pays fractions of a cent, and only a small share of clicks convert
-at all. My rough estimate is that the whole burst grossed somewhere in the tens
-to low hundreds of dollars, though the real ranges are wide. The recurring value
-is the prize: once a phone accepts notifications, ads can be pushed to it
-indefinitely. The click is the acquisition cost. The subscriber list is the
-asset.
-
-Those economics explain every strange thing I watched. When a click is worth a
-fraction of a cent, volume is the only strategy, two minutes to recover a slug
-with an existing audience is obviously worth spending, and nothing sophisticated
-is ever aimed at any individual victim, because no individual victim is worth it.
-
-I was not up against a hacker. I was up against a small business, and one of its
-input costs was my domain's good name.
+The site is [Zip1.io](https://zip1.io), and I run the whole thing with AI: Claude does
+the code, the infrastructure, and most of the security work. I make the
+judgement calls.
