@@ -8,9 +8,9 @@ custom_js:
 ---
 
 
-I run a link shortener as a side project. It has a few thousand people using it a day, and about 75,000 links sitting
+I run a link shortener as a side project. A few thousand people use it a day, and about 75,000 links sit
 in the database. Once a week I go through them looking for the ones that are
-up to no good. 
+up to no good.
 
 Last week's sweep turned up one destination that had taken **89,826 clicks in 48
 hours**. More than everything else on the site combined.
@@ -20,15 +20,15 @@ I deleted the links from the database. Two minutes later, they were back.
 What followed was three rounds of me deleting and the operator re-registering. Running a link shortener meant I got to watch the
 whole operation from underneath: how the links hid what they were doing, what was sending me the links and where they were going.
 
-Before we get into it: the part of a short link after the
+But before we get into it: the part of a short link after the
 slash is called the **slug**, and you get to pick your own, so mine look like
-`zip1.io/jip`. Remember the slug 🐌- 
+`zip1.io/jip`. The slug is `jip`. Remember the slug 🐌. 
 
 
 
 ## How I run the abuse sweep
 
-Most of the bad links are caught when you try and initially shorten a link. Submitted links are first checked against a **blacklist** and  then checked against the Google Safe Browsing API. 
+Most of the bad links are caught when you initially shorten a link. Submitted links are first checked against a **blacklist** and  then checked against the Google Safe Browsing API. 
 
 However, bad URLs sometimes get through and need to be found later, after they are already live. This is what the abuse scan is for.  
 
@@ -37,9 +37,9 @@ looking for cheap domains, brand names in odd places, other URL-shorteners, and 
 login pages or other phishing attacks.
 
 Claude Code runs the sweep, does the analysis, and proposes what to block. I decide
-what actually gets deleted from the production database. Each scan usually results in the blacklist mentioned above being expanded.
+what actually gets deleted from the production database. Each scan usually results in the above-mentioned blacklist being expanded.
 
-Also worth saying here: I don't do this just to be a good online citizen. If I didn't do this, Google would eventually mark me as a bad actor and stop sending me search traffic.
+Side note: I don't do this just to be a good online citizen. If I didn't do this, Google would eventually mark me as a bad actor and stop sending me search traffic.
 
 ## The bad link arrives
 
@@ -72,14 +72,28 @@ once untangled, the page:
 - looked for the fingerprints that testing tools like Selenium and Puppeteer
   leave behind
 - checked whether an ad blocker was running
-- sampled the visitor's mouse movements, eighty positions at a time, to confirm
-  a human hand was moving them
+- sampled the visitor's movements across the screen, eighty positions at a time,
+  to confirm a real hand was behind them
 - fingerprinted the graphics hardware, screen size, battery and time zone
 - and if any of that failed, played a success animation and then silently did
   nothing
 
 That last detail is my favourite. It does not show an error. It congratulates you
 and quietly bins you, so you never learn you were caught.
+
+I looked up the domain itself too, expecting something disposable. It isn't.
+Ahrefs gives `hai8g.com` a Domain Rating of 50, which is a measure of link
+strength out of 100. This blog scores 43. `zip1.io` scores 24.
+
+That comes from 371,000 inbound links across 575 sites, and the sites are all
+pirate streaming and free music downloads: Nigerian MP3 archives, Arabic anime,
+half a dozen movie mirrors, one called `tvparapobres.online`. TV for poor
+people. The links aren't really links. They're the same ad tag sitting on every
+page of every one of those sites.
+
+So it isn't a throwaway domain, it's infrastructure, and my shortener was a
+sideline for whoever was renting it. Malwarebytes blocks it as riskware. Nothing
+blocks `zip1.io`, which is the whole reason I was worth using.
 
 
 ## How the links reached people
@@ -92,7 +106,7 @@ it. FacebookBot is Facebook's own crawler, which fetches a link every time
 somebody posts it. Five thousand crawler visits means the link was posted a great
 many times, across a great many accounts.
 
-## Where the operator was
+## Who clicked, and who sent them
 
 <div class="viz" data-fig="geography"></div>
 
