@@ -17,18 +17,18 @@ hours**. More than everything else on the site combined.
 
 I deleted the links from the database. Two minutes later, they were back.
 
-What followed was three rounds of me deleting and the operator re-registering (and I will not use the phrase "whack-a-mole"). Running the shortener meant I got to watch the
+What followed was three rounds of me deleting and the operator re-registering. Running a link shortener meant I got to watch the
 whole operation from underneath: how the links hid what they were doing, what was sending me the links and where they were going.
 
-One piece of vocabulary, and then the story. The part of a short link after the
+Before we get into it: the part of a short link after the
 slash is called the **slug**, and you get to pick your own, so mine look like
-`zip1.io/jip`. Remember the slug. It turns out to be the whole story. 
+`zip1.io/jip`. Remember the slug 🐌- 
 
 
 
 ## How I run the abuse sweep
 
-Most of the abuse is caught when you try and initially shorten a link. Links that are submitted are first checked against a blacklist and are then checked against the Google Safe Browsing API. 
+Most of the bad links are caught when you try and initially shorten a link. Submitted links are first checked against a **blacklist** and  then checked against the Google Safe Browsing API. 
 
 However, bad URLs sometimes get through and need to be found later, after they are already live. This is what the abuse scan is for.  
 
@@ -86,7 +86,7 @@ and quietly bins you, so you never learn you were caught.
 
 <div class="viz" data-fig="facebook"></div>
 
-Four in five clicks came from a Facebook-owned client. The in-app browser is the
+Four in five clicks came from a Facebook-owned client: the in-app browser is the
 one embedded in the Facebook app, so someone tapped a link without ever leaving
 it. FacebookBot is Facebook's own crawler, which fetches a link every time
 somebody posts it. Five thousand crawler visits means the link was posted a great
@@ -111,7 +111,7 @@ advertising network behind the link. Localisation is the network's job, so
 whoever bought this traffic never needs to know what the final page says.
 Delivering people is the entire job.
 
-## What I tried first, and why it failed
+## 3 rounds of fix and purge
 
 I assumed the important thing was the destination, so I deleted the slugs and added the destination domain to the blacklist.
 
@@ -122,12 +122,7 @@ step in the middle.
 
 <div class="viz" data-fig="timeline"></div>
 
-They had not lost anything they cared about. A destination is replaceable. What
-they could not replace were the slugs because these wre already in flight: whatever they were spreading on Facebook had the link baked in: `zip1.io/jip`. Those posts were already out there,
-already circulating. The slug was not replaceable, but 
-destination was interchangeable.
-
-## The fix: reserving slugs
+As mentioned, my product allows you to specify which slug you want for your link. So they recreated their shortened link with the old slug. Whatever they were spreading on Facebook had the slug baked in: `zip1.io/jip` so it was essential that it kept working.
 
 The fix was to stop allowing new links to be shortened using the old slugs.
 
@@ -136,7 +131,7 @@ Anyone trying to claim it gets the ordinary "alias already exists" message,
 deliberately identical to a normal collision.
 
 `zip1.io/jip` returns "not found", and it will keep doing that. The Facebook
-posts are still out there, but they lead nowhere (my 404 page, to be precise). Even 24 hours later, they are still sending traffic my way.
+posts are still out there, but they lead nowhere (or my 404 page, to be precise). Even 24 hours later, they are still sending traffic my way.
 
 ## The project
 
