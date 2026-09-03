@@ -4,7 +4,7 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for post in site.posts %}
-    {% if post.metatags == "noindex" %}{% continue %}{% endif %}
+    {% if post.metatags contains "noindex" %}{% continue %}{% endif %}
     <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
       {% if post.lastmod == null %}
@@ -17,13 +17,21 @@ layout: null
     </url>
   {% endfor %}
   {% for page in site.pages %}
-    {% if page.sitemap != null and page.sitemap != empty %}
-      <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
-        <lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
-        <changefreq>{{ page.sitemap.changefreq }}</changefreq>
-        <priority>{{ page.sitemap.priority }}</priority>
-       </url>
-    {% endif %}
+    {%- comment -%}
+      Pages are included by default. Only HTML pages get pretty permalinks ending
+      in "/", so that test filters out feed.xml, the stylesheets, sitemap.xml and
+      redirects.json. Set "sitemap: false" in front matter to opt a page out.
+    {%- endcomment -%}
+    {%- assign page_url_end = page.url | slice: -1 -%}
+    {%- if page_url_end != "/" %}{% continue %}{% endif -%}
+    {%- if page.url == "/404/" %}{% continue %}{% endif -%}
+    {%- if page.sitemap == false or page.redirect %}{% continue %}{% endif -%}
+    {%- if page.metatags contains "noindex" %}{% continue %}{% endif %}
+    <url>
+      <loc>{{ site.url }}{{ page.url }}</loc>
+      {% if page.lastmod %}<lastmod>{{ page.lastmod | date_to_xmlschema }}</lastmod>
+      {% endif %}<changefreq>monthly</changefreq>
+      <priority>{% if page.url == "/" %}1.0{% else %}0.8{% endif %}</priority>
+    </url>
   {% endfor %}
 </urlset>

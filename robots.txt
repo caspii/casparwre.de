@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /bower_components/
+
+Sitemap: https://casparwre.de/sitemap.xml

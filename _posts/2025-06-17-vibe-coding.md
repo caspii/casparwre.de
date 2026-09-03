@@ -49,8 +49,7 @@ Here is a list of things I am working on right now as side-projects, all of them
 * [Costcam.app](https://costcam.app/): Instant price estimates from photos
 * [Zip1.io](https://zip1.io/): a URL shortener for developers
 * [Scorejudge.com](https://scorejudge.com): A tool to make competition judging easy.
-* [Scorejudge.com](https://scorejudge.com): A tool to make competition judging easy.
-* [QRPage.co](QRPage.co): A mini-site builder with integrated QR code.
+* [QRPage.co](https://qrpage.co/): A mini-site builder with integrated QR code.
 
 
 
