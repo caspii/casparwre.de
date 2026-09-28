@@ -11,13 +11,13 @@ I just shipped my first programmatic SEO play on [Leaderboarded.com](https://lea
 
 ## What I built
 
-Five pages, all live under [leaderboarded.com/rankings/github/](https://leaderboarded.com/rankings/github/):
+Five pages, all live under leaderboarded.com/rankings/github/:
 
-1. [Top Rust Crates](https://leaderboarded.com/rankings/github/top-rust-crates/)
-2. [Top Go Libraries](https://leaderboarded.com/rankings/github/top-go-libraries/)
-3. [Top Python ML Libraries](https://leaderboarded.com/rankings/github/top-python-ml-libraries/) — Hugging Face transformers, PyTorch, scikit-learn and the rest of the ML ecosystem
-4. [Top React UI Libraries](https://leaderboarded.com/rankings/github/top-react-ui-libraries/)
-5. [Top TypeScript Dev Tools](https://leaderboarded.com/rankings/github/top-typescript-dev-tools/)
+1. Top Rust Crates
+2. Top Go Libraries
+3. Top Python ML Libraries — Hugging Face transformers, PyTorch, scikit-learn and the rest of the ML ecosystem
+4. Top React UI Libraries
+5. Top TypeScript Dev Tools
 
 Each page has 50 entries, a freshness date, and a "Move" column that fills in from week 2 onward.
 
