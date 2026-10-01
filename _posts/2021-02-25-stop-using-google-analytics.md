@@ -1,12 +1,14 @@
 ---
 layout: post
 title: 'Google Analytics: Stop feeding the beast'
-description: Google Analytics is only very superficially free. You should not be using it. Here\'s why.
-tags: [test, test2]
+description: "Google Analytics is only very superficially free. Why I removed it, what it really costs your users, and the privacy-friendly alternatives I use instead."
+last_modified_at: 2026-10-01
 image: /images/google-godzilla.jpg
 ---
 
 !['The Google Beast'](/images/google-godzilla.jpg){:class="img-responsive"}
+
+_Updated October 2026: I refreshed the numbers and added [what has changed since 2021](#what-has-changed-since-2021). The short version: the beast got bigger._
 
 ## The beast that is Google
 There was a time when Google was a small, quirky company with a single product so awesome that it blew away the competition. That time is long gone.
@@ -41,11 +43,11 @@ _[Google Ads Timeline compiled by Search Engine Land](https://searchengineland.c
 This is not the evolution you expect to see for a company that loves its users. This is what you expect from a mega-corp that wants ever more profits.
 
 ## Google is spectacularly, awesomely, frighteningly successful as an advertising platform
-Many of Google’s products have an absolutely staggering market share. Google has nine products with more than one billion users each. Google Chrome is the most popular web browser with a market share of 64%. Google’s Android is the most popular operating system on mobile devices with a market share of 72%. Google’s products are being used by most internet connected humans on earth. 
+Many of Google’s products have an absolutely staggering market share. Google has several products with more than two billion users each, including Search, YouTube, Android, Chrome and Gmail. Google Chrome is the most popular web browser with a market share of [around 69%](https://gs.statcounter.com/browser-market-share). Google’s Android is the most popular operating system on mobile devices with a market share of [around 69%](https://gs.statcounter.com/os-market-share/mobile/worldwide). Google’s products are being used by most internet connected humans on earth. 
 
-Combine this with the fact that Google has a monopoly on online advertising. Ok, actually that’s not true. It has a duopoly along  with Facebook. Facebook is guilty of most of the things I mention in this post, and is probably worse, but I’m saving my venom for Facebook for another day.
+Combine this with the fact that Google has a monopoly on online advertising. Ok, that’s not quite true. It shares the market with Meta (Facebook) and, increasingly, Amazon. But in 2025 a US court did rule that Google [illegally monopolised key parts of the ad-tech market](https://www.axios.com/2026/09/02/google-ad-tech-antitrust-remedies). Facebook is guilty of most of the things I mention in this post, and is probably worse, but I’m saving my venom for Facebook for another day.
 
-The result of all this is that Google's revenue is eye-wateringly massive: around 180 billion USD in 2020, which is around the GDP of New Zealand. Now consider that only four years ago, Google's revenue was 90 billion USD, which means that the revenue doubled in 4 years. Wow!
+The result of all this is that Google's revenue is eye-wateringly massive. When I first wrote this post, it was around 180 billion USD (2020), roughly the GDP of New Zealand. In 2025 it was [over 400 billion USD](https://www.sec.gov/Archives/edgar/data/0001652044/000130817926000344/goog014907-ars.pdf), roughly the GDP of Denmark. The revenue more than doubled in 5 years. Wow!
 
 This mountain of gold ingots used to flow to newspapers and magazines -- but no more. The result has been the decimation of local news and the magazine industry. It is true that  news organizations have been terrible at innovation in the past three decades and now they have been steam-rollered as a result. Why is this bad? Read on.
 
@@ -70,9 +72,9 @@ There are many other nuanced and large problems created by Google’s size and p
 ## So what about Google Analytics?
 Google is harvesting data across all of its products, so why pick on Google Analytics? Because for most of the products, if you choose to use them, it’s your data that is harvested. It’s different for Analytics. You as a web developer are making a choice that affects all of your users.
 
-> Google Analytics is the most popular website stats tool. More than 53% of all sites on the web track their visitors using Google Analytics. 84% of sites that do use a known analytics script use Google Analytics. It’s the most popular third-party request on the web. It accounts for 0.64% of all network requests.” -- [Plausible.io blog](https://plausible.io/blog/remove-google-analytics#its-owned-by-google-the-largest-ad-tech-company-in-the-world)
+Google Analytics is still by far the most popular website stats tool. According to [W3Techs](https://w3techs.com/technologies/details/ta-googleanalytics), around 47% of all websites track their visitors with Google Analytics. Among sites that use a known analytics tool, it's around 83%.
 
-When I first began to develop websites, it was a no-brainer to add Google Analytics to anything I created.: "It’s free! It’s good! It’s what everyone uses!"
+When I first began to develop websites, it was a no-brainer to add Google Analytics to anything I created: "It’s free! It’s good! It’s what everyone uses!"
 
 Actually it’s not that good really:
 
@@ -80,7 +82,7 @@ Actually it’s not that good really:
 * It’s overkill for the majority of site owners
 * It’s a privacy liability and requires an extensive privacy policy
 * It worsens the user experience due to the necessity of annoying prompts.
-* It’s blocked by many browsers (e.g. Firefox) so the data is not very accurate.
+* It’s blocked by ad blockers and privacy-focused browsers (e.g. Brave), so the data is not very accurate.
 
 There are more reasons. You can read the full list [here](https://plausible.io/blog/remove-google-analytics#its-owned-by-google-the-largest-ad-tech-company-in-the-world).
 
@@ -89,13 +91,22 @@ Has Google ever revealed what it does with data from Analytics internally? Nope.
 ## Alternatives to Google Analytics
 So are there alternatives? Sure, there’s a bunch and some cost money. I think it’s money worth spending.
 
-[Here is a comprehensive and curated list](https://github.com/onurakpolat/awesome-analytics) of analytics tools, including privacy focussed analytics.
+[Here is a comprehensive and curated list](https://github.com/oxnr/awesome-analytics) of analytics tools, including privacy focussed analytics.
 
-I use Fathom Analytics for this blog and am switching all of my products to it. To see the analytics for this blog [click here](https://app.usefathom.com/share/folzoonq/casparwre.de) (note that is an affiliate link -- I will earn some money if you signup, you will get 10 USD off).
+I use [Fathom Analytics](https://usefathom.com) for this blog and for [keepthescore.com](https://keepthescore.com). It's not free: I currently pay around 74 USD per month ([here's what my whole stack costs](/blog/costs-of-running-a-saas/)). The analytics for this blog are public, [you can see them here](https://app.usefathom.com/share/folzoonq/casparwre.de). Other good privacy-friendly options are [Plausible](https://plausible.io) and [Umami](https://umami.is), which you can also host yourself for free.
 
 I believe it is a moral imperative for web developers to think about the “free” tools they are using to provide their products. In the case of Google Analytics, the tool is only very superficially free. We are all paying the hidden costs. 
 
 If you want to make the world a better place, stop feeding the beast.
+
+## What has changed since 2021
+
+A few things have happened since I first wrote this post:
+
+* **Google killed the old Google Analytics.** "Universal Analytics" stopped collecting data in July 2023. Everyone had to move to Google Analytics 4, which is harder to use. Old data was deleted in 2024. So much for "it's free and easy".
+* **European regulators ruled it illegal (for a while).** In 2022, data protection authorities in Austria, France and Italy ruled that some uses of Google Analytics broke EU privacy law, because data was sent to the US. A new EU-US data agreement in July 2023 made it legal again, for now.
+* **US courts ruled Google is a monopolist. Twice.** In 2024 a judge found that Google illegally monopolised search. In 2025 another judge found the same for parts of the ad-tech market. In both cases the judges decided _not_ to break up Google ([search](https://www.cnbc.com/2025/09/02/google-antitrust-search-ruling.html), [ad tech](https://www.adexchanger.com/antitrust/google-wont-have-to-break-up-its-ad-tech-business-judge-brinkema-rules/)). Google must instead follow some rules for six years.
+* **I fed the beast myself.** In 2022 I [sheepishly added Google Analytics back](/blog/12-months-as-a-solo-developer/) to keepthescore.com, because some ad networks require it. Lesson learned: when money is on the line, principles get tested. keepthescore.com now runs on Fathom.
 
 
 
