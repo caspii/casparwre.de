@@ -2,264 +2,450 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+/* Code highlighting: emacs for light mode, monokai (scoped) for dark mode. */
 @import url(emacs.css);
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import url(monokai-dark.css);
+
+/* Fonts are loaded with <link> tags in _layouts/default.html:
+   Inter for headings and UI, Source Serif 4 for long-form reading. */
 
 
-/* ----- Flatly-inspired theme overrides on Bootstrap 5 ----- */
-:root {
-  --bs-primary: #2c3e50;
-  --bs-primary-rgb: 44, 62, 80;
-  --bs-success: #18bc9c;
-  --bs-success-rgb: 24, 188, 156;
-  --bs-link-color: #18bc9c;
-  --bs-link-color-rgb: 24, 188, 156;
-  --bs-link-hover-color: #128f76;
-  --bs-link-hover-color-rgb: 18, 143, 118;
+/* ----- Theme tokens ----- */
+:root,
+[data-bs-theme=light] {
+  --site-bg: #fcfbf9;
+  --site-text: #1f2328;
+  --site-muted: #656d76;
+  --site-rule: #e6e3de;
+  --site-surface: #f3f1ed;
+  --site-accent: #0f7a66;
+  --site-accent-rgb: 15, 122, 102;
+  --site-accent-hover: #0b5d4e;
+  --site-accent-hover-rgb: 11, 93, 78;
+
+  --site-font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --site-font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+
+  --bs-body-font-family: var(--site-font-sans);
+  --bs-body-bg: var(--site-bg);
+  --bs-body-color: var(--site-text);
+  --bs-emphasis-color: var(--site-text);
+  --bs-heading-color: var(--site-text);
+  --bs-secondary-color: var(--site-muted);
+  --bs-border-color: var(--site-rule);
+  --bs-link-color: var(--site-accent);
+  --bs-link-color-rgb: var(--site-accent-rgb);
+  --bs-link-hover-color: var(--site-accent-hover);
+  --bs-link-hover-color-rgb: var(--site-accent-hover-rgb);
 }
 
-a { color: #18bc9c; }
-a:hover { color: #128f76; }
+[data-bs-theme=dark] {
+  --site-bg: #16181c;
+  --site-text: #e6e6e3;
+  --site-muted: #9aa0a8;
+  --site-rule: #2c3036;
+  --site-surface: #1f2227;
+  --site-accent: #3dd6b5;
+  --site-accent-rgb: 61, 214, 181;
+  --site-accent-hover: #7ae6cd;
+  --site-accent-hover-rgb: 122, 230, 205;
+
+  --bs-body-bg: var(--site-bg);
+  --bs-body-color: var(--site-text);
+  --bs-emphasis-color: var(--site-text);
+  --bs-heading-color: var(--site-text);
+  --bs-secondary-color: var(--site-muted);
+  --bs-border-color: var(--site-rule);
+  --bs-link-color: var(--site-accent);
+  --bs-link-color-rgb: var(--site-accent-rgb);
+  --bs-link-hover-color: var(--site-accent-hover);
+  --bs-link-hover-color-rgb: var(--site-accent-hover-rgb);
+}
 
 
+/* ----- Base ----- */
+
+/* Keeps the footer at the bottom of short pages without absolute positioning. */
 body {
-  font-size: 1.4rem;
-  margin-bottom: 100px;
-  font-family: 'DM Sans', sans-serif;
-  background-color: #f6f6f6;
-}
-
-/* Mimic the Bootstrap 4 .jumbotron used previously */
-.jumbotron-replacement {
-  background: none;
-}
-
-p, li {
-  color: #656565;
-  line-height: 1.6;
-}
-
-h1, h2, h3, h4, h5 {
-  font-family: 'Space Grotesk', sans-serif;
-}
-
-/* Add spacing above headings in blog posts */
-article h2, article h3,
-.entry h2, .entry h3 {
-  margin-top: 2.5rem;
-}
-
-.highlight {
-  font-size: 80%;
-  padding: 5px;
-}
-
-blockquote {
-  border-left: .4em solid #18bc9c;
-  background-color: #BFF1E7;
-  padding: 1em 1em;
-
-  p {
-    color: #6C6C6C;
-    font-size: 100%;
-  }
-}
-
-.nav-wrapper {
-  background-color: #f5f5f5;
-  border-bottom: 1px solid #ddd;
-}
-
-.navbar-brand {
-  color: #2c3e50;
-  font-size: 30px;
-  font-weight: 700;
-  font-family: 'Space Grotesk', sans-serif;
-}
-
-.navbar-brand:hover,
-.navbar-brand:focus {
-  color: #18bc9c;
-}
-
-.navbar-nav {
-  color: white;
-  font-size: 20px;
-  font-family: 'Space Grotesk', sans-serif;
-}
-
-.navbar-nav .nav-link {
-  transition: all 0.3s ease;
-  border-bottom: 3px solid transparent;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #18bc9c !important;
-  border-bottom: 3px solid #18bc9c;
-}
-
-.navbar-nav .nav-link.active {
-  font-weight: 700;
-  color: #18bc9c !important;
-  border-bottom: 3px solid #18bc9c;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* For the Android Wallpapers */
-.thumbnail>img, .thumbnail a>img {
-  margin-top: 30px;
-}
-
-hr {
-  border: 0;
-  height: 1px;
-  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-.wrapper-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  border-top: 1px solid #ddd;
-  background-color: #eee;
-}
-
-footer {
-  background-color: #f5f5f5;
-  padding: 20px;
-  text-align: center;
-}
-
-/* ----- Social icon buttons (replaces bootstrap-social) ----- */
-.btn-social-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 56px;
-  height: 56px;
-  padding: 0;
-  border-radius: 50%;
-  color: #fff;
-  border: none;
-  margin: 0 4px;
-  font-size: 1.5rem;
-  line-height: 1;
-  transition: filter 0.2s ease, transform 0.2s ease;
-}
-
-.btn-social-icon:hover,
-.btn-social-icon:focus {
-  color: #fff;
-  filter: brightness(1.1);
-  transform: translateY(-2px);
-}
-
-.btn-social-icon.btn-bluesky   { background-color: #1185fe; }
-.btn-social-icon.btn-github    { background-color: #333; }
-.btn-social-icon.btn-linkedin  { background-color: #0077b5; }
-
-
-.typed-cursor{
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite;
-}
-@keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
-}
-@-moz-keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
-}
-
-/* Blog thumbnail styling */
-.blog-thumbnail {
-  object-fit: cover;
-  height: 200px;
-  width: 100%;
-  transition: transform 0.3s ease;
-}
-
-.blog-thumbnail:hover {
-  transform: scale(1.05);
-}
-
-/* Make bold text more prominent */
-b, strong {
-  font-weight: 800;
-  color: #1a1a1a;
-  letter-spacing: -0.02em;
-  font-synthesis: style weight;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-p b, p strong,
-li b, li strong {
-  font-weight: 800;
-  color: #000;
-  font-size: 1.02em;
+a {
+  color: var(--site-accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
-/* Additional weight for headers with strong tags */
-h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
-  font-weight: 800;
-  color: #000;
+a:hover {
+  color: var(--site-accent-hover);
 }
 
-/* Ensure code blocks with bold text are also prominent */
-code b, code strong,
-pre b, pre strong {
-  font-weight: 800;
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--site-font-sans);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
 }
 
-/* Markdown tables. Kramdown emits a bare <table> with no classes, and nothing
-   else in the site styled one, so cells ran together. Scoped to post content
-   so the chart tables injected by /js/scam-charts.js keep their own styling. */
+b, strong {
+  font-weight: 600;
+  color: var(--bs-emphasis-color);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--site-rule);
+  opacity: 1;
+  margin: 3rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* ----- Layout widths ----- */
+
+/* Long-form text: about 70 characters per line. */
+.container-prose {
+  max-width: 720px;
+}
+
+/* Navbar, blog listing, homepage. */
+.container-wide {
+  max-width: 1040px;
+}
+
+
+/* ----- Header ----- */
+.site-header {
+  margin-bottom: 3.5rem;
+}
+
+.site-header .navbar {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.navbar-brand {
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--site-text);
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: var(--site-accent);
+}
+
+.site-header .nav-link {
+  font-size: .95rem;
+  font-weight: 500;
+  color: var(--site-muted);
+}
+
+.site-header .nav-link:hover,
+.site-header .nav-link:focus {
+  color: var(--site-text);
+}
+
+.site-header .nav-link.active {
+  color: var(--site-text);
+  font-weight: 600;
+}
+
+/* Line the last link up with the right edge of the content. */
+@media (min-width: 576px) {
+  .site-header .nav-item:last-child .nav-link {
+    padding-right: 0;
+  }
+}
+
+
+/* ----- Long-form text (posts, pages, homepage) ----- */
+.entry,
+.prose {
+  font-family: var(--site-font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+@media (min-width: 768px) {
+  .entry,
+  .prose {
+    font-size: 1.1875rem;
+  }
+}
+
+.entry p,
+.entry ul,
+.entry ol,
+.prose p {
+  margin-bottom: 1.2em;
+}
+
+.entry li {
+  margin-bottom: .4em;
+}
+
+.entry h2,
+.entry h3,
+.entry h4 {
+  margin-top: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+.entry h2 { font-size: 1.6rem; }
+.entry h3 { font-size: 1.3rem; }
+.entry h4 { font-size: 1.1rem; }
+
+.entry img {
+  display: block;
+  margin: 2rem auto;
+  border-radius: 8px;
+}
+
+.entry blockquote {
+  margin: 2rem 0;
+  padding: .1rem 0 .1rem 1.25rem;
+  border-left: 3px solid var(--site-accent);
+  color: var(--site-muted);
+}
+
+.entry blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* Inline code */
+.entry :not(pre) > code {
+  font-size: .85em;
+  padding: .15em .35em;
+  border-radius: 4px;
+  background: var(--site-surface);
+  color: var(--site-text);
+}
+
+/* Code blocks */
+.highlight {
+  font-size: .85rem;
+  line-height: 1.55;
+  border-radius: 8px;
+  margin-bottom: 1.6rem;
+}
+
+.highlight pre {
+  padding: 1rem 1.15rem;
+  margin: 0;
+}
+
+/* Markdown tables. Kramdown emits a bare <table> with no classes, so cells
+   ran together. Scoped to post content so the chart tables injected by
+   /js/scam-charts.js keep their own styling. */
 .post-content table,
 article table {
   border-collapse: collapse;
   margin: 2rem 0;
   width: 100%;
-  font-size: .95rem;
+  font-family: var(--site-font-sans);
+  font-size: .9rem;
 }
 
 .post-content table th,
 article table th {
   text-align: left;
-  font-weight: 700;
-  padding: .5rem 1.4rem .5rem 0;
-  border-bottom: 2px solid #d9d7d2;
+  font-weight: 600;
+  padding: .5rem 1.2rem .5rem 0;
+  border-bottom: 2px solid var(--site-rule);
 }
 
 .post-content table td,
 article table td {
-  padding: .55rem 1.4rem .55rem 0;
-  border-bottom: 1px solid #eceae5;
+  padding: .55rem 1.2rem .55rem 0;
+  border-bottom: 1px solid var(--site-rule);
   vertical-align: top;
 }
 
 .post-content table tr:last-child td,
 article table tr:last-child td {
   border-bottom: none;
+}
+
+
+/* Table of contents generated by Tocbot on selected long posts. */
+.entry .js-toc {
+  font-family: var(--site-font-sans);
+  font-size: .95rem;
+  line-height: 1.5;
+  background: var(--site-surface);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem .5rem;
+  margin-bottom: 2.5rem;
+}
+
+.entry .js-toc ol {
+  padding-left: 1.25rem;
+  margin-bottom: .75rem;
+}
+
+.entry .js-toc li {
+  margin-bottom: .25rem;
+}
+
+.entry .js-toc a {
+  text-decoration: none;
+}
+
+
+/* ----- Post header and footer ----- */
+.post-header {
+  margin-bottom: 2.5rem;
+}
+
+.post-title {
+  font-size: clamp(2rem, 4.5vw, 2.75rem);
+  letter-spacing: -0.03em;
+  line-height: 1.12;
+  margin-bottom: .75rem;
+}
+
+.post-meta {
+  font-size: .9rem;
+  color: var(--site-muted);
+  margin-bottom: 0;
+}
+
+.post-signoff {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--site-rule);
+  font-size: 1rem;
+  color: var(--site-muted);
+}
+
+.post-back {
+  display: inline-block;
+  margin: 1rem 0 3rem;
+  font-size: .95rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+
+/* ----- Blog listing ----- */
+.post-list-item h2 {
+  font-size: 1.4rem;
+  margin-bottom: .35rem;
+}
+
+.post-list-item h2 a {
+  color: var(--site-text);
+  text-decoration: none;
+}
+
+.post-list-item h2 a:hover {
+  color: var(--site-accent);
+}
+
+.post-list-item .post-meta {
+  margin-bottom: .75rem;
+}
+
+.post-excerpt {
+  font-family: var(--site-font-serif);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--site-muted);
+  margin-bottom: .5rem;
+}
+
+.read-more {
+  font-size: .95rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.blog-thumbnail {
+  object-fit: cover;
+  height: 180px;
+  width: 100%;
+  border-radius: 8px;
+  transition: opacity 0.2s ease;
+}
+
+.blog-thumbnail:hover {
+  opacity: .85;
+}
+
+
+/* ----- Footer ----- */
+.site-footer {
+  margin-top: auto;
+  padding: 2.5rem 0 3rem;
+  border-top: 1px solid var(--site-rule);
+  text-align: center;
+}
+
+.btn-social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid var(--site-rule);
+  margin: 0 4px;
+  font-size: 1.1rem;
+  line-height: 1;
+  color: var(--site-muted);
+  background: transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-social-icon:hover,
+.btn-social-icon:focus {
+  color: var(--site-text);
+  border-color: var(--site-muted);
+}
+
+/* The footer sits below the main content, which needs space above it. */
+main {
+  padding-bottom: 4rem;
+}
+
+
+/* ----- Homepage ----- */
+.typed-cursor {
+  opacity: 1;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+/* ----- Android wallpapers page ----- */
+.thumbnail > img,
+.thumbnail a > img {
+  margin-top: 30px;
+}
+
+
+/* ----- Charts injected by /js/scam-charts.js, recoloured for dark mode ----- */
+[data-bs-theme=dark] .viz {
+  --surface: #1f2227;
+  --track: #2a2e34;
+  --grid: #33373e;
+  --ink: #e6e6e3;
+  --ink2: #b4b8be;
+  --ink3: #8a9099;
 }
