@@ -8,7 +8,7 @@
  * Colours are the two-hue categorical pair validated for contrast and for
  * colour-vision deficiency: blue #2a78d6, orange #eb6834. Identity is never
  * carried by colour alone; every figure has a legend or direct labels, plus a
- * table view. The site has no dark mode, so neither do these.
+ * table view. Dark-mode colours are overridden in css/main.scss.
  */
 (function () {
   'use strict';
@@ -16,11 +16,11 @@
   var TOTAL = 89826;
 
   var CSS = [
-    '.viz{margin:3.2rem 0;padding:1.6rem 0 1.4rem;font-family:"DM Sans",system-ui,sans-serif;',
+    '.viz{margin:3.2rem 0;padding:1.6rem 0 1.4rem;font-family:"Inter",system-ui,sans-serif;',
       '--surface:#fcfcfb;--track:#f0efec;--grid:#e6e4df;',
       '--ink:#1a1a19;--ink2:#52514e;--ink3:#83817b;',
       '--blue:#2a78d6;--orange:#eb6834}',
-    '.viz-t{font-family:"Space Grotesk",system-ui,sans-serif;font-size:1.26rem;',
+    '.viz-t{font-family:"Inter",system-ui,sans-serif;font-size:1.26rem;',
       'font-weight:600;color:var(--ink);margin-bottom:.45rem;line-height:1.3}',
     '.viz-s{font-size:1.03rem;color:var(--ink2);margin-bottom:1.2rem;line-height:1.55}',
     '.viz-legend{display:flex;gap:1.5rem;flex-wrap:wrap;margin-bottom:1.1rem;',
@@ -43,13 +43,13 @@
     '.viz .spine{stroke:var(--grid);stroke-width:2}',
     '.viz .tick{stroke:var(--grid);stroke-width:1.5}',
     '.viz .tm{font:600 14.5px ui-monospace,Menlo,monospace;fill:var(--ink3)}',
-    '.viz .lb{font-size:16.2px;fill:var(--ink);font-family:"DM Sans",system-ui,sans-serif}',
+    '.viz .lb{font-size:16.2px;fill:var(--ink);font-family:"Inter",system-ui,sans-serif}',
     '.viz .lb .m{font-family:ui-monospace,Menlo,monospace;font-size:15px;fill:var(--ink2)}',
     '.viz .gapbox{fill:var(--track)}',
     '.viz .gapline{stroke:var(--grid);stroke-width:1.5;stroke-dasharray:2 3}',
-    '.viz .gap{font:600 14.5px "DM Sans",system-ui;fill:var(--ink2)}',
+    '.viz .gap{font:600 14.5px "Inter",system-ui;fill:var(--ink2)}',
     '#viz-tip{position:fixed;pointer-events:none;opacity:0;transition:opacity .1s;',
-      'background:#1a1a19;color:#fff;font:500 12px "DM Sans",system-ui;padding:5px 9px;',
+      'background:#1a1a19;color:#fff;font:500 12px "Inter",system-ui;padding:5px 9px;',
       'border-radius:6px;z-index:999;white-space:nowrap}',
     '@media(max-width:560px){.viz-lab{font-size:.85rem}.viz-row{gap:.5rem;',
       'grid-template-columns:minmax(80px,42%) 1fr auto}.viz{padding:1rem 0}}'

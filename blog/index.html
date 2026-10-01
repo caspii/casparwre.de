@@ -7,10 +7,12 @@ description: Articles about software development, bootstrapping, indie hacking, 
 
 
 
-<div class="container">
-  <h1>This is my blog</h1>
-  <p>I enjoy writing about all kinds of stuff, so please don't expect any kind of common theme here!</p>
-  <hr mt-5>
+<div class="container container-wide">
+  <header class="post-header">
+    <h1 class="post-title">This is my blog</h1>
+    <p class="post-meta">I enjoy writing about all kinds of stuff, so please don't expect any kind of common theme here!</p>
+  </header>
+  <hr>
   {% for post in site.posts %}
     {% assign post_image = post.image %}
     {% unless post_image %}
@@ -29,7 +31,7 @@ description: Articles about software development, bootstrapping, indie hacking, 
       {% endfor %}
     {% endunless %}
 
-    <article class="post mb-5 mt-5">
+    <article class="post-list-item my-5">
       <div class="row">
         {% if post_image %}
         <div class="col-md-4 mb-3">
@@ -41,14 +43,14 @@ description: Articles about software development, bootstrapping, indie hacking, 
         {% else %}
         <div class="col-md-12">
         {% endif %}
-          <h3 class="mt-0"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-          <h4 class="text-muted mb-3">{{ post.date | date: "%B %e, %Y" }}</h4>
+          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+          <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
 
-          <p class="entry">
-            {{ post.content | truncatewords:100 | strip_html}}
+          <p class="post-excerpt">
+            {{ post.content | strip_html | truncatewords: 60 }}
           </p>
 
-          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more →</a>
         </div>
       </div>
     </article>

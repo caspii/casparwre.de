@@ -3,29 +3,27 @@ layout: default
 nav: blog
 ---
 
-<article class="container">
-  <h1>{{ page.title }}</h1>
-  <h4 class="text-muted">{{ page.date | date: "%B %e, %Y" }}</h4>
-  <br>
-  <br>
+{% assign word_count = content | strip_html | number_of_words %}
+{% assign reading_minutes = word_count | divided_by: 230 | at_least: 1 %}
+
+<article class="container container-prose">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      · {{ reading_minutes }} min read
+    </p>
+  </header>
 
   <div class="entry">
     {{ content }}
-
-    <hr>
-
-    <p>Thanks for reading this 100% hand-written post! Follow me on <a href="https://www.linkedin.com/in/casparwrede/">LinkedIn</a>
-      for more or check out my <a href="/projects/">projects</a>.
-    </p>
   </div>
 
+  <p class="post-signoff">Thanks for reading this 100% hand-written post! Follow me on <a href="https://www.linkedin.com/in/casparwrede/">LinkedIn</a>
+    for more or check out my <a href="/projects/">projects</a>.
+  </p>
 
-  <div class="post-footer">
-    <p class="text-center">
-      <a href="/blog/" class="btn btn-outline-primary btn-sm">← Back to Blog</a>
-    </p>
-  </div>
+  <a href="/blog/" class="post-back">← All posts</a>
 
-  <br>
   {% include comments.html %}
 </article>
