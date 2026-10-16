@@ -77,10 +77,6 @@ The high DRs come from footer badges, not from people deciding the directory was
 
 So most of these directories are worthless. The impressive numbers are made of other people's badges, and there's almost nobody behind them.
 
-## What I actually did
-
-> **TODO:** Caspar — fill this in before publishing. Did you pay any of them (PeerPush, LaunchNest, PostYourStartup, LaunchBuff, Shorebyte Lab), and what happened?
-
 ## Conclusion
 
 Writing the code was never the hard part. The hard part is having a reason for the thing to exist. AI only solved the easy part.
