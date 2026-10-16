@@ -1,23 +1,31 @@
 ---
 layout: post
 title: "The Launch Directory Copy-Paste Economy"
-description: "I paid BetaList $39 to list QRpage. Within hours, five other launch directories emailed the same pitch. Ahrefs gives them strong Domain Ratings and almost no traffic."
+description: "I paid BetaList $39 to list QRpage. Within hours, five other launch directories emailed the same pitch. I did not see that coming. Ahrefs gives them strong Domain Ratings and almost no traffic."
 published: false
 ---
 
-I paid BetaList $39 to list [QRpage](https://qrpage.co/). Within hours, five other launch directories emailed me. Every one of them said they had seen me on BetaList.
+I paid BetaList $39 to list [QRpage](https://qrpage.co/). The listing went live on 16 October 2026.
+
+Within hours, five other launch directories emailed me.
+
+Five. I want that number to land, because it still sounds made up when I say it quickly. The listing had been up for hours. I had bought one. What arrived was a small pile of strangers, each of them opening with the same news: they had seen me on BetaList.
+
+Wait, what?
 
 ## Why BetaList
 
-I picked BetaList because I knew it from back in the day. In 2016 I submitted an app called Hello Budget, and they rejected it. I remembered the name anyway. When I wanted somewhere to list QRpage, I went back to it.
+I picked BetaList because I knew it from back in the day. I had used it in the past. When I wanted somewhere to list QRpage, it was the name I still remembered.
 
-The $39 was the Lite plan. The listing went live on 16 October 2026.
+The $39 was the Lite plan. I paid it, the listing went up, and I assumed the next thing would be slow. A few visits. The ordinary drip.
 
 ## Five emails
 
-They came from PeerPush, LaunchNest, PostYourStartup, LaunchBuff, and Shorebyte Lab.
+Hours later the drip was PeerPush, LaunchNest, PostYourStartup, LaunchBuff, and Shorebyte Lab.
 
 I am not linking to any of them.
+
+The first email is a funny coincidence. Somebody runs a directory, they glance at BetaList, they write to you. Fine. The second one I read twice, because the sentence was the same sentence. By the third I had stopped wondering whether a person had liked QRpage. By the fifth I was staring at the inbox thinking: these are not readers. Something is watching BetaList, and the moment a product goes live, it sends mail.
 
 PostYourStartup:
 
@@ -37,33 +45,37 @@ LaunchNest sent a nudge:
 
 > Still sitting on an unlaunched product?
 
-It had just gone live on BetaList. That is why they were writing. I haggled. They sent a code for 35% off their $19 plan.
+It had just gone live. That was the entire reason they had my name. I haggled. They sent a code for 35% off their $19 plan.
 
-Haggling is not the interesting part. Afterwards I asked a real question. Are you making money?
+Then I asked a real question. Are you making money?
 
 The reply was AI-written. It dodged. Then it asked whether QRpage makes money.
 
-I had asked a launch directory whether it was a business. It asked my product the same thing. The discount code was still sitting in the thread above.
+I had asked a launch directory whether it was a business. An AI asked my product the same thing, with the discount code still sitting in the thread. That was when it clicked. The outreach is not a person who found a product and got excited. The outreach is a machine selling a listing to whoever just appeared on someone else's listing.
 
-## The same product, five times
+## A loop that sells to itself
 
 They are near-identical. Same pitch. Same two prices, $19 and $39. A free listing only if you add their badge.
 
-The badge is the free plan. You put their logo on your site, and the link is typically sitewide, so it sits on every page. The free links are often nofollow.
+Once the emails are in a row, the product is obvious, and the product is the loop.
 
-Shorebyte Lab's homepage is a word-for-word copy of another directory, SaaSCity. SaaSCity's own site warns about "misleading clones". The copy emailed me anyway.
+AI has made a launch directory an easy thing to build. It has not made it a good idea, or an original one. So people build the directory they just saw. The new one has no crowd of its own. It watches a place that does. BetaList, in my case. A product goes live. Within hours, the pitch goes out: let us list you too.
 
-AI has let anyone build a product. It has not given anyone an original idea, and it has not given anyone a good one. People copy each other instead. A directory copies a directory, then the copy sends the same kind of email I had just received from the others.
+The pitch is aimed at a builder. Nobody in those emails was looking for a product. They wanted the person who had just been listed. The customer of a launch directory, on this evidence, is another founder.
 
-These five wrote because they had seen QRpage on BetaList. The offer was to list it again, for $19, or $39, or for free if I added the badge. One of them did not write its own homepage. It pasted SaaSCity's.
+Say yes to the free plan and you pay in a badge. You put their logo on your site. The link is typically sitewide, so it sits on every page, and the free ones are often nofollow. Do that across a lot of founders and the directory's backlink profile swells: about 1,000 to 2,000 referring domains, but 128,000 backlinks, up to over a million. That is what sitewide badge links look like. Domain Rating climbs. Rankings do not. The founders are the fuel. Their badges pump a number the directory can wave at the next founder.
 
-I find that sad. The building is no longer the scarce part. A reason for the thing to exist still is, and copying does not produce one. It produces another email, from someone who saw the listing and would like to sell you a second one.
+Then a clone copies the directory. Shorebyte Lab's homepage is a word-for-word copy of another directory, SaaSCity. SaaSCity's own site warns about "misleading clones". The clone emailed me anyway, hours after BetaList, with the same request as the others.
+
+Directories scraping launch platforms. AI writing the outreach that sells the next listing. Badges donated by founders so the directory looks real. Clones copying a directory that already warns you about clones. The loop does not exist to help anyone find a product. It exists to sell builders to each other.
+
+I find that sad. AI let everyone build. It did not give anyone an original idea, or a good one. People copy each other instead, and what they copy is a way to send each other invoices.
 
 ## What Ahrefs says
 
-I looked the five up in [Ahrefs](https://ahrefs.com/) in October 2026. A pitch is cheap. A number is less so.
+I looked the five up in [Ahrefs](https://ahrefs.com/) in October 2026. If any of this were for users, search would show it. A directory people actually visit has visitors.
 
-Domain Rating is Ahrefs' score, from 0 to 100, for how strong a site's backlinks look. It measures links, not visitors. Organic traffic is the visitors, the people who arrived from search. If a directory is any good at being found, some of that number should be above zero.
+Domain Rating is Ahrefs' score, from 0 to 100, for how strong a site's backlinks look. It measures links, not people. Organic traffic is the people.
 
 | Directory | Domain Rating | Organic traffic |
 | --- | --- | --- |
@@ -73,15 +85,11 @@ Domain Rating is Ahrefs' score, from 0 to 100, for how strong a site's backlinks
 | LaunchBuff | 74 | ~183 visits/month |
 | Shorebyte Lab | 0 | 0 |
 
-PeerPush, LaunchNest, and PostYourStartup sit in the low 70s and have no organic traffic at all. LaunchBuff is the one with any: about 183 visits a month, beside a Domain Rating of 74. Shorebyte Lab, the word-for-word copy, has a Domain Rating of 0 and no traffic.
+PeerPush, LaunchNest, and PostYourStartup sit in the low 70s and have no organic traffic at all. LaunchBuff is the success story in the set: about 183 visits a month, next to a Domain Rating of 74. Shorebyte Lab, the word-for-word copy, has a Domain Rating of 0 and no traffic.
 
-The high scores are not a mystery once you separate two words that tools put next to each other.
+A referring domain is one website that links to you. A backlink is one link. A mention in an article is one of each. A badge in a footer is one referring domain and a backlink for every page on the site. The pattern under those high scores is the footer, not a crowd of readers deciding the directory was worth a link.
 
-A referring domain is one website that links to you. A backlink is one link. Mention a site in an article and you have handed it one referring domain and one backlink. Paste its badge into your footer and you have handed it one referring domain and a backlink for every page you publish.
-
-The pattern here is the footer. About 1,000 to 2,000 referring domains, but 128,000 backlinks, up to over a million. The same link, on every page, across a thousand or two sites. That is what sitewide badge links look like. Domain Rating climbs because the links are being counted. Rankings do not. A badge came with the free listing, and those free links are often nofollow.
-
-Most of these launch directories are worthless. The Domain Rating says the links are strong. Search has almost nobody to send.
+Most of these launch directories are worthless. The number is a costume made of other people's badges. There is almost nobody on the other side of it.
 
 ## What I actually did
 
