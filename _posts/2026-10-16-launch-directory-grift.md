@@ -2,7 +2,6 @@
 layout: post
 title: "Launch Directories Are a Grift That Sells Nothing to People Who Have Nothing"
 description: "I paid BetaList $39 to list my side project. Within hours, five copycat launch directories emailed me to sell me more listings. Ahrefs says most of them have Domain Ratings in the 70s and basically zero visitors."
-published: false
 ---
 
 I paid BetaList $39 to list my new side project. Within hours, five other launch directories had emailed me to ask for more money. Congratulations to me, I had been discovered.
