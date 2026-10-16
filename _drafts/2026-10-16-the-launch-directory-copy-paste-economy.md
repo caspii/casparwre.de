@@ -1,17 +1,17 @@
 ---
 layout: post
 title: "The Launch Directory Copy-Paste Economy"
-description: "I paid BetaList $39 to list QRpage. Within hours, five other launch directories emailed me with the same pitch. Ahrefs says they have strong Domain Ratings and almost no traffic."
+description: "I paid BetaList $39 to list my new side project. Within hours, five other launch directories emailed me with the same pitch. Ahrefs says they have strong Domain Ratings and almost no traffic."
 published: false
 ---
 
-I paid BetaList $39 to list [QRpage](https://qrpage.co/). The listing went live on 16 October 2026.
+I paid BetaList $39 to list my new side project. The listing went live on 16 October 2026.
 
 Within hours, five other launch directories had emailed me.
 
 ## Why BetaList
 
-I remembered BetaList from back in the day, so when I wanted somewhere to list QRpage, it was the obvious choice. I paid for the $39 Lite plan and expected a slow trickle of visitors. Instead I got email.
+I was after a quick way to boost the search ranking of [QRpage](https://qrpage.co/), my QR code side project. A launch directory listing gets you a backlink, and I remembered BetaList from back in the day, so it was the obvious choice. I paid for the $39 Lite plan and expected a slow trickle of visitors. Instead I got email.
 
 ## Five emails
 
