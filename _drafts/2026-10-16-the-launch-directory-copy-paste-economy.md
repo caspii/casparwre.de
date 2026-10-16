@@ -5,7 +5,7 @@ description: "I paid BetaList $39 to list my new side project. Within hours, fiv
 published: false
 ---
 
-I paid BetaList $39 to list my new side project. Within hours, five other launch directories had emailed me to ask for more money.
+I paid BetaList $39 to list my new side project. Within hours, five other launch directories had emailed me to ask for more money. Congratulations to me, I had been discovered.
 
 ## Why BetaList
 
@@ -19,7 +19,7 @@ PeerPush, LaunchNest, PostYourStartup, LaunchBuff and Shorebyte Lab. I'm not lin
 
 > Hey, I saw your startup on BetaList. Turning physical things into scannable websites is a smart move.
 
-That was PostYourStartup. The flattery lasted exactly one sentence. Then came the offer: a free listing in exchange for a backlink.
+That was PostYourStartup. The flattery lasted exactly one sentence. Then came the offer: a free listing in exchange for a backlink. Nothing says "we love your product" like asking for something in the second paragraph.
 
 > I saw [my side project] on Betalist and believe it would work well on PeerPush.
 
@@ -27,19 +27,17 @@ Sure you do.
 
 > Still sitting on an unlaunched product?
 
-That was LaunchNest. My side project had launched that day. It's the only reason they had my email address.
-
-I haggled with LaunchNest and got 35% off their $19 plan. Then I asked if they were actually making any money. The reply was obviously written by AI. It ignored my question and asked whether my side project makes money 🙄.
+That was LaunchNest. My side project had launched that day. It's the only reason they had my email address. Great research, guys.
 
 ## Founders selling to founders
 
 All five are basically the same site. Same pitch, same two prices ($19 and $39), and a free listing if you put their badge on your site.
 
-AI has made launch directories trivial to build, so people build them. A new directory has no audience, so it watches a site that does, like BetaList, and emails every founder who shows up there. Nobody visiting these sites is looking for products. The founder is the customer.
+AI has made launch directories trivial to build, so people build them. A new directory has no audience, so it watches a site that does, like BetaList, and emails every founder who shows up there. Nobody visiting these sites is looking for products, because nobody is visiting these sites. The founder is the customer.
 
 The badge is the clever bit. It goes in your footer, which means it links back from every single page of your site. Get enough founders to do this and you end up with 1,000 to 2,000 referring domains and somewhere between 128,000 and a million backlinks. Your Domain Rating shoots up, and you wave that number at the next founder.
 
-Then someone clones you. Shorebyte Lab's homepage is a word-for-word copy of a directory called SaaSCity, whose own site warns about "misleading clones". The clone emailed me anyway. At least it's consistent.
+Then someone clones you. Shorebyte Lab's homepage is a word-for-word copy of a directory called SaaSCity, whose own site warns about "misleading clones". The clone emailed me anyway. Points for confidence.
 
 ## What Ahrefs says
 
@@ -53,9 +51,9 @@ I looked all five up in [Ahrefs](https://ahrefs.com/). Domain Rating (DR) measur
 | LaunchBuff | 74 | ~183 visits/month |
 | Shorebyte Lab | 0 | 0 |
 
-Impressive ratings, practically no visitors. LaunchBuff is the runaway success here, with about six visitors a day. Shorebyte Lab couldn't even manage a fake number.
+Impressive ratings, practically no visitors. LaunchBuff is the runaway success here, with about six visitors a day. Some of them might even be humans. Shorebyte Lab couldn't even manage a fake number.
 
-These directories are worth nothing. You'd be paying $19 to put your product in front of nobody.
+These directories are worth nothing. You'd be paying $19 to put your product in front of nobody, which you can also do for free by not launching it.
 
 ## Conclusion
 
