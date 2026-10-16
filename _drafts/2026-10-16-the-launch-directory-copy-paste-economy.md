@@ -5,63 +5,45 @@ description: "I paid BetaList $39 to list my new side project. Within hours, fiv
 published: false
 ---
 
-I paid BetaList $39 to list my new side project. The listing went live on 16 October 2026.
-
-Within hours, five other launch directories had emailed me.
+I paid BetaList $39 to list my new side project. Within hours, five other launch directories had emailed me to ask for money.
 
 ## Why BetaList
 
-I was after a quick way to boost the search ranking of [QRpage](https://qrpage.co/), my QR code side project. A launch directory listing gets you a backlink, and I remembered BetaList from back in the day, so it was the obvious choice. I paid for the $39 Lite plan and expected a slow trickle of visitors. Instead I got email.
+I wanted a quick way to boost the search ranking of [QRpage](https://qrpage.co/), my QR code side project. A launch directory gets you a backlink, and I remembered BetaList from back in the day. So I bought the $39 Lite plan and waited for a trickle of visitors.
+
+What I got was email.
 
 ## Five emails
 
-They came from PeerPush, LaunchNest, PostYourStartup, LaunchBuff and Shorebyte Lab. I'm not linking to any of them.
-
-One email would have been a coincidence. By the third it was obvious that nobody had actually looked at QRpage. Something is watching BetaList, and as soon as a product goes live, it sends out mail.
-
-PostYourStartup:
+PeerPush, LaunchNest, PostYourStartup, LaunchBuff and Shorebyte Lab. I'm not linking to any of them.
 
 > Hey, I saw your startup on BetaList. Turning physical things into scannable websites is a smart move.
 
-The compliment was followed by the offer: a free listing in exchange for a backlink.
-
-Shorebyte Lab's subject line:
-
-> can I list QRpage?
-
-PeerPush:
+That was PostYourStartup. The flattery lasted one sentence, then came the offer: a free listing in exchange for a backlink.
 
 > I saw QRpage on Betalist and believe it would work well on PeerPush.
 
-LaunchNest:
+Sure you do.
 
 > Still sitting on an unlaunched product?
 
-QRpage had launched that same day. That's the only reason they had my email address.
+That one was LaunchNest. QRpage had launched that morning, which is the only reason they had my email address.
 
-I haggled with LaunchNest and got a code for 35% off their $19 plan. Then I asked them a straight question: are you making money?
+I haggled with LaunchNest and got 35% off their $19 plan. Then I asked if they were actually making any money. The reply was obviously written by AI. It ignored the question and asked whether QRpage makes money 🙄.
 
-The reply was clearly written by AI. It dodged the question and then asked whether QRpage makes money 🙄.
+## Founders selling to founders
 
-## A loop that sells to itself
+All five are basically the same site. Same pitch, same two prices ($19 and $39), and a free listing if you put their badge on your site.
 
-All five are pretty much identical. Same pitch, same two prices ($19 and $39), and a free listing if you put their badge on your site.
+AI has made launch directories trivial to build. So people build one. It has no audience, so it scrapes a site that does, like BetaList, and emails every founder who shows up there. Nobody is looking for products. The customer is the founder.
 
-Here's what I think is going on. AI has made it easy to build a launch directory. It hasn't made it a good idea. So people build a copy of the directory they just saw. The new directory has no audience of its own, so it watches one that does (BetaList, in my case) and emails everyone who shows up there.
+The badge is the clever bit. It goes in your footer, so it links back from every single page of your site. Get enough founders to do this and you end up with 1,000 to 2,000 referring domains and somewhere between 128,000 and a million backlinks. Your Domain Rating shoots up, and you show that number to the next founder.
 
-So the customer of a launch directory isn't someone looking for products. It's other founders.
-
-If you take the free plan, you pay with a badge. The badge link usually goes in your footer, so it appears on every page of your site (and the free ones are often nofollow). Get enough founders to do this and the directory ends up with 1,000 to 2,000 referring domains but anywhere from 128,000 to over a million backlinks. That's what sitewide badge links look like. The Domain Rating goes up, which the directory can then show off to the next founder.
-
-Then someone clones the directory. Shorebyte Lab's homepage is a word-for-word copy of another directory called SaaSCity. SaaSCity's own site warns about "misleading clones". The clone emailed me anyway.
-
-I find this a bit sad. AI lets anyone build anything, but it doesn't give you a reason to build it. So people copy each other, and what they end up copying is a machine for selling to other builders.
+Then someone clones you. Shorebyte Lab's homepage is a word-for-word copy of a directory called SaaSCity, whose own site warns about "misleading clones". The clone emailed me anyway.
 
 ## What Ahrefs says
 
-In October 2026 I looked up all five in [Ahrefs](https://ahrefs.com/). If real people used these directories, it would show up in the search traffic.
-
-Quick explainer: Domain Rating (DR) is Ahrefs' score from 0 to 100 for how strong a site's backlinks are. It measures links, not people. Organic traffic is the people.
+I looked all five up in [Ahrefs](https://ahrefs.com/). Domain Rating (DR) measures backlinks. Organic traffic measures actual humans.
 
 | Directory | Domain Rating | Organic traffic |
 | --- | --- | --- |
@@ -71,14 +53,12 @@ Quick explainer: Domain Rating (DR) is Ahrefs' score from 0 to 100 for how stron
 | LaunchBuff | 74 | ~183 visits/month |
 | Shorebyte Lab | 0 | 0 |
 
-Three of them have a DR in the 70s and zero organic traffic. LaunchBuff is the success story with about 183 visits a month. Shorebyte Lab, the copy, has nothing at all.
+Impressive ratings, zero visitors. LaunchBuff is the runaway success here, with about six visitors a day. Shorebyte Lab couldn't even manage a fake number.
 
-The high DRs come from footer badges, not from people deciding the directory was worth linking to. A mention in an article gives you one referring domain and one backlink. A badge in a footer gives you one referring domain and a backlink for every page on the site.
-
-So most of these directories are worthless. The impressive numbers are made of other people's badges, and there's almost nobody behind them.
+These directories are worth exactly nothing. You'd be paying $19 to put your product in front of nobody.
 
 ## Conclusion
 
-Writing the code was never the hard part. The hard part is having a reason for the thing to exist. AI only solved the easy part.
+AI made building things easy. It didn't give anyone a reason to build them, so people copy each other and sell the copies to other builders.
 
 PS: If you've built a launch directory, please don't email me.
