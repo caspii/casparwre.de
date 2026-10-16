@@ -9,7 +9,7 @@ I paid BetaList $39 to list my new side project. Within hours, five other launch
 
 ## Why BetaList
 
-I wanted a quick way to boost the search ranking of [QRpage](https://qrpage.co/), my QR code side project. A launch directory gets you a backlink, and I remembered BetaList from back in the day. So I bought the $39 Lite plan and waited for a trickle of visitors.
+I wanted a quick way to boost the search ranking of my new side project, [QRpage](https://qrpage.co/). A launch directory gets you a backlink, and I remembered BetaList from back in the day. So I bought the $39 Lite plan and waited for a trickle of visitors.
 
 What I got was email.
 
@@ -21,15 +21,15 @@ PeerPush, LaunchNest, PostYourStartup, LaunchBuff and Shorebyte Lab. I'm not lin
 
 That was PostYourStartup. The flattery lasted one sentence, then came the offer: a free listing in exchange for a backlink.
 
-> I saw QRpage on Betalist and believe it would work well on PeerPush.
+> I saw [my side project] on Betalist and believe it would work well on PeerPush.
 
 Sure you do.
 
 > Still sitting on an unlaunched product?
 
-That one was LaunchNest. QRpage had launched that morning, which is the only reason they had my email address.
+That one was LaunchNest. My side project had launched that day, which is the only reason they had my email address.
 
-I haggled with LaunchNest and got 35% off their $19 plan. Then I asked if they were actually making any money. The reply was obviously written by AI. It ignored the question and asked whether QRpage makes money 🙄.
+I haggled with LaunchNest and got 35% off their $19 plan. Then I asked if they were actually making any money. The reply was obviously written by AI. It ignored the question and asked whether my side project makes money 🙄.
 
 ## Founders selling to founders
 
