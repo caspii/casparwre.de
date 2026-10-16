@@ -19,7 +19,7 @@ PeerPush, LaunchNest, PostYourStartup, LaunchBuff and Shorebyte Lab. I'm not lin
 
 > Hey, I saw your startup on BetaList. Turning physical things into scannable websites is a smart move.
 
-That was PostYourStartup. The flattery lasted exactly one sentence. Then came the offer: a free listing in exchange for a backlink. Nothing says "we love your product" like asking for something in the second paragraph.
+That was PostYourStartup. The flattery lasted exactly one sentence. Then came the offer: a free listing in exchange for a backlink. Nothing says "we love your product" like asking for something in the next breath.
 
 > I saw [my side project] on Betalist and believe it would work well on PeerPush.
 
@@ -51,7 +51,7 @@ I looked all five up in [Ahrefs](https://ahrefs.com/). Domain Rating (DR) measur
 | LaunchBuff | 74 | ~183 visits/month |
 | Shorebyte Lab | 0 | 0 |
 
-Impressive ratings, practically no visitors. LaunchBuff is the runaway success here, with about six visitors a day. Some of them might even be humans. Shorebyte Lab couldn't even manage a fake number.
+Impressive ratings, practically no visitors. LaunchBuff is the runaway success here, with about six visitors a day. Some of them might be humans. Shorebyte Lab couldn't even manage a fake number.
 
 These directories are worth nothing. You'd be paying $19 to put your product in front of nobody, which you can also do for free by not launching it.
 
