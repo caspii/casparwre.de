@@ -15,16 +15,16 @@ I wanted a quick way to boost the search ranking of my new side project, [QRpage
 
 What I got was email.
 
-## Five emails
+## Eight emails
 
-1. PeerPush
-2. LaunchNest
-3. PostYourStartup
-4. LaunchBuff
+1. PeerPush.com
+2. LaunchNest.io
+3. PostYourStartup.co
+4. LaunchBuff.com
 5. Shorebyte Lab
-6. Verified Tools (the next morning)
-7. Buildlist (the next morning)
-8. Launchstag (the next morning)
+6. VerifiedTools.info (the next morning)
+7. Buildlist.io (the next morning)
+8. Launchstag.com (the next morning)
 
 I'm not linking to any of them. They've had enough free backlinks.
 
@@ -42,7 +42,7 @@ That was LaunchNest. My side project had launched that day. It's the only reason
 
 ## Founders selling to founders
 
-All five are basically the same site. Same pitch, same two prices ($19 and $39), and a free listing if you put their badge on your site.
+All eight are basically the same site. Same pitch, same two prices ($19 and $39), and a free listing if you put their badge on your site.
 
 AI has made launch directories trivial to build, so people build them. A new directory has no audience, so it watches a site that does, like BetaList, and emails every founder who shows up there. Nobody visiting these sites is looking for products, because nobody is visiting these sites. The founder is the customer.
 
@@ -56,14 +56,14 @@ I looked them up in [Ahrefs](https://ahrefs.com/). Domain Rating (DR) measures b
 
 | Directory | Domain Rating | Organic traffic |
 | --- | --- | --- |
-| PeerPush | 72 | 0 |
-| LaunchNest | 70 | 0 |
-| PostYourStartup | 73 | 0 |
-| LaunchBuff | 74 | ~183 visits/month |
+| PeerPush.com | 72 | 0 |
+| LaunchNest.io | 70 | 0 |
+| PostYourStartup.co | 73 | 0 |
+| LaunchBuff.com | 74 | ~183 visits/month |
 | Shorebyte Lab | 0 | 0 |
-| Verified Tools | 55 | ~63 visits/month |
-| Buildlist | 63 | ~48 visits/month |
-| Launchstag | 70 | ~79 visits/month |
+| VerifiedTools.info | 55 | ~63 visits/month |
+| Buildlist.io | 63 | ~48 visits/month |
+| Launchstag.com | 70 | ~79 visits/month |
 
 Impressive ratings, practically no visitors. LaunchBuff is the runaway success here, with about six visitors a day. Some of them might be humans. Shorebyte Lab couldn't even manage a fake number.
 
