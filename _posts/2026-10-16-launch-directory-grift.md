@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Launch Directories Are a Grift That Sells Nothing to People Who Have Nothing"
-description: "I paid BetaList $39 to list my side project. Within hours, five copycat launch directories emailed me to sell me more listings. Ahrefs says most of them have Domain Ratings in the 70s and basically zero visitors."
+description: "I paid BetaList $39 to list my side project. Within a day, eight copycat launch directories emailed me to sell me more listings. Ahrefs says most of them have Domain Ratings in the 70s and basically zero visitors."
 image: /images/launch-directory-grift.jpg
 ---
 
 ![Identical robots holding $19 signs with DR 72 badges next to a photocopier printing another one](/images/launch-directory-grift.jpg)
 
-I paid BetaList $39 to list my new side project. Within hours, five other launch directories had emailed me to ask for more money. Congratulations to me, I had been discovered.
+I paid BetaList $39 to list my new side project. Within hours, five other launch directories had emailed me to ask for more money. By the next morning it was eight. Congratulations to me, I had been discovered.
 
 ## Why BetaList
 
@@ -46,7 +46,9 @@ All eight are basically the same site. Same pitch, same two prices ($19 and $39)
 
 AI has made launch directories trivial to build, so people build them. A new directory has no audience, so it watches a site that does, like BetaList, and emails every founder who shows up there. Nobody visiting these sites is looking for products, because nobody is visiting these sites. The founder is the customer.
 
-The badge is the clever bit. It goes in your footer, which means it links back from every single page of your site. Get enough founders to do this and you end up with 1,000 to 2,000 referring domains and somewhere between 128,000 and a million backlinks. Your Domain Rating shoots up, and you wave that number at the next founder.
+The badge is how they grow their domain rank. It goes in your footer, which means it links back from every single page of your site. Get enough founders to do this and you end up with 1,000 to 2,000 referring domains and somewhere between 128,000 and a million backlinks. Your Domain Rating shoots up, and you wave that number at the next founder.
+
+There is now even a tool for managing all these badges. Badgeroll.com charges $10 a month to keep your directory badges in one place, with "DR tracking" thrown in. Ahrefs gives Badgeroll itself a Domain Rating of 5.
 
 Then someone clones you. Shorebyte Lab's homepage is a word-for-word copy of a directory called SaaSCity, whose own site warns about "misleading clones". The clone emailed me anyway. Points for confidence.
 
