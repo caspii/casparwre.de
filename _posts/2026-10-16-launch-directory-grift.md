@@ -17,7 +17,17 @@ What I got was email.
 
 ## Five emails
 
-PeerPush, LaunchNest, PostYourStartup, LaunchBuff and Shorebyte Lab. I'm not linking to any of them. They've had enough free backlinks.
+1. PeerPush
+2. LaunchNest
+3. PostYourStartup
+4. LaunchBuff
+5. Shorebyte Lab
+6. Verified Tools (the next morning)
+7. Buildlist (the next morning)
+8. Launchstag (the next morning)
+9. InsightScout (the next morning)
+
+I'm not linking to any of them. They've had enough free backlinks.
 
 > Hey, I saw your startup on BetaList. Turning physical things into scannable websites is a smart move.
 
@@ -43,7 +53,7 @@ Then someone clones you. Shorebyte Lab's homepage is a word-for-word copy of a d
 
 ## What Ahrefs says
 
-I looked all five up in [Ahrefs](https://ahrefs.com/). Domain Rating (DR) measures backlinks. Organic traffic measures actual humans.
+I looked them up in [Ahrefs](https://ahrefs.com/). Domain Rating (DR) measures backlinks. Organic traffic measures actual humans.
 
 | Directory | Domain Rating | Organic traffic |
 | --- | --- | --- |
@@ -52,6 +62,9 @@ I looked all five up in [Ahrefs](https://ahrefs.com/). Domain Rating (DR) measur
 | PostYourStartup | 73 | 0 |
 | LaunchBuff | 74 | ~183 visits/month |
 | Shorebyte Lab | 0 | 0 |
+| Verified Tools | 55 | ~63 visits/month |
+| Buildlist | 63 | ~48 visits/month |
+| Launchstag | 70 | ~79 visits/month |
 
 Impressive ratings, practically no visitors. LaunchBuff is the runaway success here, with about six visitors a day. Some of them might be humans. Shorebyte Lab couldn't even manage a fake number.
 
