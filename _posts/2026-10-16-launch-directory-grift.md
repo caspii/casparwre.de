@@ -15,7 +15,7 @@ I wanted a quick way to boost the search ranking of my new side project, [QRpage
 
 What I got was email.
 
-## Five emails
+## Eight emails
 
 1. PeerPush
 2. LaunchNest
