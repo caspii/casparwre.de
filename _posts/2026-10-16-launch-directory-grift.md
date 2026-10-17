@@ -25,7 +25,6 @@ What I got was email.
 6. Verified Tools (the next morning)
 7. Buildlist (the next morning)
 8. Launchstag (the next morning)
-9. InsightScout (the next morning)
 
 I'm not linking to any of them. They've had enough free backlinks.
 
