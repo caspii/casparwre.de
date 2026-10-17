@@ -48,6 +48,8 @@ AI has made launch directories trivial to build, so people build them. A new dir
 
 The badge is how they grow their domain rank. It goes in your footer, which means it links back from every single page of your site. Get enough founders to do this and you end up with 1,000 to 2,000 referring domains and somewhere between 128,000 and a million backlinks. Your Domain Rating shoots up, and you wave that number at the next founder.
 
+There is now even a tool for managing all these badges. Badgeroll.com charges $10 a month to keep your directory badges in one place, with "DR tracking" thrown in. Ahrefs gives Badgeroll itself a Domain Rating of 5.
+
 Then someone clones you. Shorebyte Lab's homepage is a word-for-word copy of a directory called SaaSCity, whose own site warns about "misleading clones". The clone emailed me anyway. Points for confidence.
 
 ## What Ahrefs says
