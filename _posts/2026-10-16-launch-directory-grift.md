@@ -62,3 +62,16 @@ These directories are worth nothing. You'd be paying $19 to put your product in 
 AI made building things easy. It didn't give anyone a reason to build them. So people copy each other and sell the copies to other builders, who are hoping someone, somewhere, will finally look at their product.
 
 PS: If you've built a launch directory, please don't email me.
+
+## Update, the day after
+
+I thought five was the end of it. It wasn't. The next morning, four more arrived at the QRpage inbox, all within a few hours:
+
+- **Verified Tools**: "Found Qrpage on BetaList." Free listing on a "DR 55" site. Ahrefs says DR 55, about 63 organic visits a month.
+- **Buildlist**: "Saw the betalist launch, congrats." Subject line: "who ChatGPT recommends instead of QRpage". Now it's about getting into ChatGPT instead of Google, same pitch. DR 63, about 48 visits a month.
+- **Launchstag**: "We spotted QRpage" and "reserved a spot" for it, with a "permanent backlink" from a "DR 70" site. DR 70 checks out. Organic traffic: about 79 visits a month.
+- **InsightScout**: not a directory this time, a tool that promises to find people on Reddit, Hacker News and X who are "asking for a product like QRpage". Which is to say, it wants to sell me the thing these emails are doing to me.
+
+And that's not counting the comment on this post offering to run their lead-finding tool on QRpage for free.
+
+That's nine in total now. Same pitch, same DR brag, same nothing behind it.
